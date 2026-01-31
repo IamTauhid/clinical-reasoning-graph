@@ -1,0 +1,1594 @@
+{
+  "metadata": {
+    "checkpoint": 25,
+    "total": 250,
+    "successful": 25,
+    "failed": 0
+  },
+  "results": [
+    {
+      "pmid": "16100194",
+      "global_index": 250,
+      "question": "Are physicians aware of the side effects of angiotensin-converting enzyme inhibitors?",
+      "contexts": [
+        "Angiotensin-converting enzyme inhibitors (ACE-I) are considered safe, but they are associated with characteristic side effects, namely cough and angioedema, usually requiring discontinuation. We perceived that referrals for these side effects have become more and more frequent; therefore, we evaluated the degree of knowledge on the safety of ACE-I in different medical categories.",
+        "A questionnaire (13 questions) on side effects of ACE-I was posted to physicians.",
+        "Everyday clinical practice.",
+        "Cardiologists, allergists, and general practitioners (GPs) from the National Healthcare System.",
+        "Three hundred twelve physicians were contacted, and 154 returned questionnaires that could be analyzed. Of the 154 physicians (mean age, 45 years) 48 were cardiologists, 52 were GPs, and 54 were allergists. The percentage of correct answers was low: 31.9% for cardiologists, 40% for GPs, and 33% for allergists. Thus, GPs provided a significantly higher percentage of correct answers with respect to the remaining categories (p = 0.05). The lower rate of correct answers (0 to 15.9%) concerned the time of onset of cough and the action to take. Cardiologists seemed to be less aware of the fact that angiotensin receptor blockers (sartans) can cross-react with ACE-I."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Allergy and Immunology",
+        "Angiotensin-Converting Enzyme Inhibitors",
+        "Cardiology",
+        "Family Practice",
+        "Health Knowledge, Attitudes, Practice",
+        "Humans",
+        "Middle Aged",
+        "Practice Patterns, Physicians'",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Surveys and Questionnaires",
+          "Health Knowledge, Attitudes, Practice",
+          "Practice Patterns, Physicians",
+          "Angiotensin-Converting Enzyme Inhibitors"
+        ],
+        [
+          "Angiotensin-Converting Enzyme Inhibitors",
+          "Cough",
+          "Health Knowledge, Attitudes, Practice",
+          "Cardiology"
+        ],
+        [
+          "Angiotensin-Converting Enzyme Inhibitors",
+          "Angiotensin Receptor Blockers",
+          "Cross-Reaction",
+          "Allergy and Immunology"
+        ],
+        [
+          "Cardiology",
+          "Family Practice",
+          "Health Knowledge, Attitudes, Practice",
+          "Surveys and Questionnaires"
+        ],
+        [
+          "Angiotensin-Converting Enzyme Inhibitors",
+          "Angioedema",
+          "Practice Patterns, Physicians",
+          "Middle Aged"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:37.723Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16147837",
+      "global_index": 251,
+      "question": "Is grandmultiparity an independent risk factor for adverse perinatal outcomes?",
+      "contexts": [
+        "To compare maternal and neonatal outcomes among grandmultiparous women to those of multiparous women 30 years or older.",
+        "A database of the vast majority of maternal and newborn hospital discharge records linked to birth/death certificates was queried to obtain information on all multiparous women with a singleton delivery in the state of California from January 1, 1997 through December 31, 1998. Maternal and neonatal pregnancy outcomes of grandmultiparous women were compared to multiparous women who were 30 years or older at the time of their last birth.",
+        "The study population included 25,512 grandmultiparous and 265,060 multiparous women 30 years or older as controls. Grandmultiparous women were predominantly Hispanic (56%). After controlling for potential confounding factors, grandmultiparous women were at significantly higher risk for abruptio placentae (odds ratio OR: 1.3; 95% confidence intervals CI: 1.2-1.5), preterm delivery (OR: 1.3; 95% CI: 1.2-1.4), fetal macrosomia (OR: 1.5; 95% CI: 1.4-1.6), neonatal death (OR: 1.5; 95% CI: 1.3-1.8), postpartum hemorrhage (OR: 1.2; 95% CI: 1.1-1.3) and blood transfusion (OR: 1.5; 95% CI: 1.3-1.8)."
+      ],
+      "mesh_terms": [
+        "Female",
+        "Humans",
+        "Parity",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Pregnancy Outcome",
+        "Retrospective Studies",
+        "Risk Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Risk Factors",
+          "Pregnancy Complications",
+          "Adverse Pregnancy Outcome."
+        ],
+        [
+          "Another path could focus on the study design. Retrospective Studies",
+          "Pregnancy Outcome",
+          "Risk Factors. But need to include more specific terms. Maybe Retrospective Studies",
+          "Parity",
+          "Pregnancy Complications",
+          "Adverse Outcomes."
+        ],
+        [
+          "Considering the control group (multiparous women 30+), maybe Path: Multiparous Women",
+          "Age 30+",
+          "Pregnancy",
+          "Lower Risk of Adverse Outcomes compared to Grandmultiparous. But need to fit within the MESH terms."
+        ],
+        [
+          "Another angle is the specific outcomes like Preterm Delivery. So, Grandmultiparity",
+          "Preterm Delivery",
+          "Neonatal Death",
+          "Adverse Perinatal Outcome."
+        ],
+        [
+          "Maybe include demographic factors. The study mentions Hispanic ethnicity. So, Grandmultiparity",
+          "Ethnicity (Hispanic)",
+          "Risk Factors"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:40.905Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16151770",
+      "global_index": 252,
+      "question": "Memory-provoked rCBF-SPECT as a diagnostic tool in Alzheimer's disease?",
+      "contexts": [
+        "Alzheimer's disease (AD) is a primary degenerative disease that progressively affects all brain functions, with devastating consequences for the patient, the patient's family and society. Rest regional cerebral blood flow (rCBF) could have a strategic role in differentiating between AD patients and normal controls, but its use for this purpose has a low discriminatory capacity. The purpose of this study was to evaluate whether the diagnostic sensitivity of rCBF single-photon emission computed tomography (SPECT) could be increased by using an episodic memory task provocation, i.e. memory-provoked rCBF-SPECT (MP-SPECT).",
+        "Eighteen persons (73.2+/-4.8 years) with mild AD and 18 healthy elderly (69.4+/-3.9 years) were included in the study. The subjects were injected with (99m)Tc-hexamethylpropylene amine oxime (HMPAO) during memory provocation with faces and names, followed by an rCBF-SPECT study. The rCBF (99m)Tc-HMPAO SPECT images were analysed using statistical parametric mapping (SPM2). Peaks with a false discovery rate corrected value of 0.05 were considered significant.",
+        "On MP-SPECT, the AD group showed a significant rCBF reduction in the left parietal cortex in comparison with healthy elderly. At rest, no significant group differences were seen."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Alzheimer Disease",
+        "Brain",
+        "Brain Mapping",
+        "Cerebrovascular Circulation",
+        "Evoked Potentials",
+        "Female",
+        "Humans",
+        "Image Interpretation, Computer-Assisted",
+        "Male",
+        "Memory",
+        "Radiopharmaceuticals",
+        "Reproducibility of Results",
+        "Sensitivity and Specificity",
+        "Technetium Tc 99m Exametazime",
+        "Tomography, Emission-Computed, Single-Photon"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Alzheimer Disease",
+          "Cerebrovascular Circulation",
+          "rCBF-SPECT",
+          "Image Interpretation, Computer-Assisted",
+          "Diagnosis"
+        ],
+        [
+          "Memory",
+          "Evoked Potentials",
+          "(99m)Tc-HMPAO",
+          "Sensitivity and Specificity",
+          "Alzheimer Disease Detection"
+        ],
+        [
+          "Healthy Elderly",
+          "rCBF-SPECT",
+          "Brain Mapping",
+          "Left Parietal Cortex Hypoperfusion",
+          "Alzheimer Disease Differentiation"
+        ],
+        [
+          "Tomography, Emission-Computed, Single-Photon",
+          "Episodic Memory Task",
+          "Brain",
+          "Cerebrovascular Circulation",
+          "Diagnostic Accuracy"
+        ],
+        [
+          "Alzheimer Disease",
+          "Radiopharmaceuticals",
+          "Reproducibility of Results",
+          "Statistical Parametric Mapping",
+          "rCBF Abnormalities"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:44.266Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16155169",
+      "global_index": 253,
+      "question": "Percutaneous ethanol injection for benign cystic thyroid nodules: is aspiration of ethanol-mixed fluid advantageous?",
+      "contexts": [
+        "We evaluated the differences between percutaneous ethanol injection with and without aspiration of ethanol-mixed fluid for treatment of benign cystic thyroid nodules.",
+        "We examined 60 patients with benign cystic thyroid nodules confirmed by fine-needle aspiration biopsy and divided them into 2 groups according to nonaspiration (group A, n = 30) or aspiration (group B, n = 30) of ethanol-mixed fluid after intracystic ethanol injection. We evaluated in both groups the complete disappearance of the cystic portion of the thyroid nodule on follow-up ultrasonography (first follow-up ultrasonography; mean, 4.6 months in group A; mean, 4.4 months in group B) (chi-square test), side effects or complications during and after the procedure (chi-square test), and the total procedure time (Student t test).",
+        "Most patients showed complete disappearance of the cystic portion of the thyroid nodule (group A, n = 29; group B, n = 28), and they revealed no recurrence on follow-up ultrasonography. There was no statistical difference in the success rates between group A and group B (P>.05). Pain, the most common side effect, and other mild side effects or complications occurred in small numbers of patients in each group, but there was no significant difference in side effects or complications between the 2 groups (P>.05), except for intracystic hemorrhage (P<.05) and the complaint of all group B patients due to a double puncture (P<.001). The total procedure time was nearly double in group B than in group A because of the additional procedures, such as complete evacuation of the ethanol-mixed fluid and the 10-minute compression."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Cysts",
+        "Ethanol",
+        "Female",
+        "Humans",
+        "Injections, Intralesional",
+        "Male",
+        "Middle Aged",
+        "Sclerotherapy",
+        "Suction",
+        "Thyroid Nodule",
+        "Treatment Outcome",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "outcome, procedure steps",
+          "complications, effect on recurrence, etc."
+        ],
+        [
+          "might connect the aspiration process to side effects. Aspiration (using Suction)",
+          "Intracystic Hemorrhage (complication)",
+          "Intracystic Hemorrhage",
+          "Side Effect."
+        ],
+        [
+          "could be about procedure time. Aspiration (Suction)",
+          "Total Procedure Time"
+        ],
+        [
+          "might link the method to patient complaints. Aspiration (double puncture)",
+          "Patient Complaints (significant)",
+          "P<0.001. The abstract says all group B patients had complaints from double puncture."
+        ],
+        [
+          "could involve ultrasonography as a follow-up method. Ultrasonography",
+          "Monitoring Recurrence",
+          "No Recurrence. The abstract says no recurrence in both groups."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:47.715Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16195477",
+      "global_index": 254,
+      "question": "Production of chemokines by perivascular adipose tissue: a role in the pathogenesis of atherosclerosis?",
+      "contexts": [
+        "Obesity is associated with an increased risk for cardiovascular disease. Although it is known that white adipose tissue (WAT) produces numerous proinflammatory and proatherogenic cytokines and chemokines, it is unclear whether adipose-derived chemotactic signals affect the chronic inflammation in atherosclerosis.",
+        "Histological examination showed that perivascular WAT (pWAT) is in close proximity to vascular walls, particularly at sites that have a tendency to develop atherosclerosis. In rodents, the amount of pWAT is markedly increased by a high-fat diet. At a functional level, supernatant from subcutaneous and pWAT strongly induced the chemotaxis of peripheral blood leukocytes. The migration of granulocytes and monocytes was mostly mediated by interleukin-8 and monocyte chemoattractant protein-1, respectively, whereas both chemokines contributed to the migration of activated T cells. Moreover, pWAT produces these chemokines, as shown by immunohistochemistry and by explant culture. The accumulation of macrophages and T cells at the interface between pWAT and the adventitia of human atherosclerotic aortas may reflect this prochemotactic activity of pWAT."
+      ],
+      "mesh_terms": [
+        "Adipose Tissue",
+        "Animals",
+        "Aorta",
+        "Atherosclerosis",
+        "Cells, Cultured",
+        "Chemokine CCL2",
+        "Chemotaxis, Leukocyte",
+        "Diet, Atherogenic",
+        "Dietary Fats",
+        "Granulocytes",
+        "Humans",
+        "Interleukin-8",
+        "Monocytes",
+        "Obesity",
+        "Rats",
+        "Rats, Wistar"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Obesity",
+          "pWAT expansion",
+          "Proinflammatory chemokines (like IL-8, CCL2)",
+          "Leukocyte chemotaxis",
+          "Atherosclerosis development. That uses several MESH terms."
+        ],
+        [
+          "High-fat diet",
+          "Increased pWAT",
+          "Release of IL-8 and CCL2",
+          "Recruitment of granulocytes and monocytes",
+          "Atherosclerotic inflammation."
+        ],
+        [
+          "pWAT",
+          "Produces IL-8",
+          "Leukocyte chemotaxis",
+          "T cell migration",
+          "Atherosclerosis progression."
+        ],
+        [
+          "Adipose tissue (pWAT)",
+          "Secretes CCL2",
+          "Monocyte chemotaxis",
+          "Macrophage accumulation in aorta",
+          "Atherosclerosis."
+        ],
+        [
+          "Atherogenic diet",
+          "Obesity",
+          "pWAT expansion",
+          "Chemokine production",
+          "Chronic inflammation in vascular walls",
+          "Atherosclerosis."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:50.886Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16216859",
+      "global_index": 255,
+      "question": "Does a well developed collateral circulation predispose to restenosis after percutaneous coronary intervention?",
+      "contexts": [
+        "To evaluate whether a well developed collateral circulation predisposes to restenosis after percutaneous coronary intervention (PCI).",
+        "Prospective observational study.",
+        "58 patients undergoing elective single vessel PCI in a tertiary referral interventional cardiac unit in the UK.",
+        "Collateral flow index (CFI) was calculated as (Pw-Pv)/(Pa-Pv), where Pa, Pw, and Pv are aortic, coronary wedge, and right atrial pressures during maximum hyperaemia. Collateral supply was considered poor (CFI<0.25) or good (CFI>or = 0.25).",
+        "In-stent restenosis six months after PCI, classified as neointimal volume>or = 25% stent volume on intravascular ultrasound (IVUS), or minimum lumen area<or = 50% stent area on IVUS, or minimum lumen diameter<or = 50% reference vessel diameter on quantitative coronary angiography.",
+        "Patients with good collaterals had more severe coronary stenoses at baseline (90 (11)% v 75 (16)%, p<0.001). Restenosis rates were similar in poor and good collateral groups (35% v 43%, p = 0.76 for diameter restenosis, 27% v 45%, p = 0.34 for area restenosis, and 23% v 24%, p = 0.84 for volumetric restenosis). CFI was not correlated with diameter, area, or volumetric restenosis (r2<0.1 for each). By multivariate analysis, stent diameter, stent length,>10% residual stenosis, and smoking history were predictive of restenosis."
+      ],
+      "mesh_terms": [
+        "Angioplasty, Balloon, Coronary",
+        "Case-Control Studies",
+        "Collateral Circulation",
+        "Coronary Angiography",
+        "Coronary Restenosis",
+        "Coronary Stenosis",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prospective Studies",
+        "Risk Factors",
+        "Stents",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Coronary Restenosis (Negative Correlation)",
+          "Stent Design",
+          "Restenosis Risk. Wait, but the study says CFI wasn't correlated, so maybe that's part of the path."
+        ],
+        [
+          "Baseline Coronary Stenosis Severity",
+          "Restenosis Risk. But how to connect that to restenosis? Maybe using risk factors as a mediator."
+        ],
+        [
+          "Confounding Variable",
+          "Smoking History",
+          "Restenosis Risk. That's another path."
+        ],
+        [
+          "Stent characteristics like diameter and length are mentioned. So Stent Diameter",
+          "Restenosis Prediction",
+          "Coronary Angiography",
+          "Restenosis Diagnosis. But how to link to the collateral question?"
+        ],
+        [
+          "IVUS Assessment",
+          "Restenosis Evaluation",
+          "Pci Outcome. But the question is about predisposition, not evaluation."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:01.341Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16241924",
+      "global_index": 256,
+      "question": "Does parity increase insulin resistance during pregnancy?",
+      "contexts": [
+        "To study the effect of parity on impairment of insulin sensitivity during pregnancy and on the risk of gestational diabetes (GDM).",
+        "We studied the relationship between parity and peripheral insulin sensitivity index (ISI(OGTT)) or GDM in 1880 caucasian women, who underwent a 100-g, 3-h oral glucose tolerance test (OGTT) between the 24th and 28th gestational week and in 75 women who underwent an OGTT in two consecutive pregnancies. A proxy for beta-cell function (basal plasma C peptide/fasting plasma glucose; CP/FPG) was also measured.",
+        "By univariate analysis parity was related to decreased ISI(OGTT) and to increased CP/FPG in those with parity>3 and likewise GDM, diagnosed in 124 women (6.58%), was linearly related to parity (P = 0.0034) and strongly age dependent. The relationships between parity and ISI(OGTT), CP/FPG and GDM were no longer significant after adjustment for age, pregestational body mass index (BMI), and weight gain. GDM was significantly related to age and pregestational weight, while ISI(OGTT) and CP/FPG were inversely related to prepregnancy BMI or weight gain. In comparison with the index pregnancy, the subsequent pregnancy was characterized by an increase in actual and prepregnancy BMI, in 2 h area under curve (AUC) glucose and by a decrease in ISI(OGTT) (P = 0.0001). The longer the time interval between pregnancies and the higher the increment in pregestational BMI or in weight gain during the pregnancy, the greater were the ISI(OGTT) decrease and 2-h AUC glucose increase."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Blood Glucose",
+        "Body Mass Index",
+        "Cross-Sectional Studies",
+        "Diabetes, Gestational",
+        "Female",
+        "Glucose Tolerance Test",
+        "Humans",
+        "Insulin Resistance",
+        "Parity",
+        "Pregnancy",
+        "Pregnancy Trimester, Third",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Weight Gain"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Parity",
+          "BMI"
+        ],
+        [
+          "Parity",
+          "Weight Gain"
+        ],
+        [
+          "Parity",
+          "GDM"
+        ],
+        [
+          "Parity",
+          "Beta-cell Function"
+        ],
+        [
+          "Age",
+          "Parity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:11.121Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16249670",
+      "global_index": 257,
+      "question": "Does the investing layer of the deep cervical fascia exist?",
+      "contexts": [
+        "The placement of the superficial cervical plexus block has been the subject of controversy. Although the investing cervical fascia has been considered as an impenetrable barrier, clinically, the placement of the block deep or superficial to the fascia provides the same effective anesthesia. The underlying mechanism is unclear. The aim of this study was to investigate the three-dimensional organization of connective tissues in the anterior region of the neck.",
+        "Using a combination of dissection, E12 sheet plastination, and confocal microscopy, fascial structures in the anterior cervical triangle were examined in 10 adult human cadavers.",
+        "In the upper cervical region, the fascia of strap muscles in the middle and the fasciae of the submandibular glands on both sides formed a dumbbell-like fascia sheet that had free lateral margins and did not continue with the sternocleidomastoid fascia. In the lower cervical region, no single connective tissue sheet extended directly between the sternocleidomastoid muscles. The fascial structure deep to platysma in the anterior cervical triangle comprised the strap fascia."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Cervical Plexus",
+        "Collagen",
+        "Connective Tissue",
+        "Epoxy Compounds",
+        "Female",
+        "Humans",
+        "Male",
+        "Microscopy, Confocal",
+        "Neck",
+        "Neck Muscles",
+        "Plastic Embedding"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Confocal microscopy",
+          "Connective Tissue",
+          "No investing layer."
+        ],
+        [
+          "Block placement",
+          "Connective Tissue",
+          "No investing layer."
+        ],
+        [
+          "Fascia",
+          "Dumbbell structure",
+          "No continuation with sternocleidomastoid fascia."
+        ],
+        [
+          "Plastic Embedding",
+          "Fascial organization",
+          "No investing layer."
+        ],
+        [
+          "Lower cervical region",
+          "No sheet between muscles",
+          "No investing layer."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:19.538Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16253970",
+      "global_index": 258,
+      "question": "Is controlled ovarian stimulation in intrauterine insemination an acceptable therapy in couples with unexplained non-conception in the perspective of multiple pregnancies?",
+      "contexts": [
+        "Controlled ovarian stimulation (COS) with intrauterine insemination (IUI) is a common treatment in couples with unexplained non-conception. Induction of multifollicular growth is considered to improve pregnancy outcome, but it contains an increased risk of multiple pregnancies and ovarian hyperstimulation syndrome. In this study the impact of the number of follicles (>14 mm) on the ongoing pregnancy rate (PR) and multiple PR was evaluated in the first four treatment cycles.",
+        "A retrospective cohort study was performed in all couples with unexplained non-conception undergoing COS-IUI in the Academic Hospital of Maastricht. The main outcome measure was ongoing PR. Secondary outcomes were ongoing multiple PR, number of follicles of>or=14 mm, and order of treatment cycle.",
+        "Three hundred couples were included. No significant difference was found in ongoing PR between women with one, two, three or four follicles respectively (P=0.54), but in women with two or more follicles 12/73 pregnancies were multiples. Ongoing PR was highest in the first treatment cycle and declined significantly with increasing cycle order (P=0.006), while multiple PR did not change."
+      ],
+      "mesh_terms": [
+        "Cohort Studies",
+        "Female",
+        "Humans",
+        "Insemination, Artificial",
+        "Netherlands",
+        "Ovulation Induction",
+        "Patient Satisfaction",
+        "Pregnancy",
+        "Pregnancy Outcome",
+        "Pregnancy, Multiple",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Treatment approach (COS-IUI)",
+          "Number of follicles",
+          "Ongoing Pregnancy Rate (PR)",
+          "Multiple Pregnancy Risk. This uses concepts from the study's findings."
+        ],
+        [
+          "Study Design (Retrospective Cohort Study)",
+          "Follicle Count",
+          "Multiple Pregnancy Outcome. This uses the study's method and its outcome."
+        ],
+        [
+          "Ovulation Induction (COS)",
+          "Follicle Number Increase",
+          "Ovarian Hyperstimulation Risk"
+        ],
+        [
+          "Ovulation Induction",
+          "Follicle Number",
+          "Multiple Pregnancy",
+          "Study Outcome. That could work."
+        ],
+        [
+          "Another path could involve the treatment cycles: Cycle Order",
+          "Pregnancy Rate Decline",
+          "Patient Satisfaction. Since the study found that ongoing PR declines with cycle order."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:28.174Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16266387",
+      "global_index": 259,
+      "question": "Fast foods - are they a risk factor for asthma?",
+      "contexts": [
+        "Lifestyle changes over the last 30 years are the most likely explanation for the increase in allergic disease over this period.AIM: This study tests the hypothesis that the consumption of fast food is related to the prevalence of asthma and allergy.",
+        "As part of the International Study of Asthma and Allergies in Childhood (ISAAC) a cross-sectional prevalence study of 1321 children (mean age = 11.4 years, range: 10.1-12.5) was conducted in Hastings, New Zealand. Using standard questions we collected data on the prevalence of asthma and asthma symptoms, as well as food frequency data. Skin prick tests were performed to common environmental allergens and exercise-induced bronchial hyperresponsiveness (BHR) was assessed according to a standard protocol. Body mass index (BMI) was calculated as weight/height2 (kg/m2) and classified into overweight and obese according to a standard international definition.",
+        "After adjusting for lifestyle factors, including other diet and BMI variables, compared with children who never ate hamburgers, we found an independent risk of hamburger consumption on having a history of wheeze [consumption less than once a week (OR = 1.44, 95% CI: 1.06-1.96) and 1+ times a week (OR = 1.65, 95% CI: 1.07-2.52)] and on current wheeze [consumption less than once a week (OR = 1.17, 95% CI: 0.80-1.70) and 1+ times a week (OR = 1.81, 95% CI: 1.10-2.98)]. Takeaway consumption 1+ times a week was marginally significantly related to BHR (OR = 2.41, 95% CI: 0.99-5.91). There was no effect on atopy."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Animals",
+        "Asthma",
+        "Beverages",
+        "Bronchial Hyperreactivity",
+        "Cattle",
+        "Child",
+        "Cross-Sectional Studies",
+        "Diet",
+        "Female",
+        "Humans",
+        "Male",
+        "Meat Products",
+        "Prevalence",
+        "Respiratory Sounds",
+        "Risk Factors",
+        "Skin Tests"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "The abstract mentions adjusting for other diet and BMI variables. So Diet",
+          "BMI"
+        ],
+        [
+          "BHR",
+          "Asthma."
+        ],
+        [
+          "Also, the study's population is Child (from ISAAC study), so maybe path involving Child",
+          "Diet (Fast Foods)",
+          "Asthma. But need to include medical concepts from the MESH list."
+        ],
+        [
+          "Risk Factors is a key term. So Fast Foods",
+          "Risk Factors",
+          "Asthma. That's straightforward but maybe too simple. Need to expand with more concepts."
+        ],
+        [
+          "Takeaway consumption is linked to BHR. So Takeaway (a type of fast food)",
+          "BHR",
+          "Asthma. Then BHR could lead to Prevalence of Asthma."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:38.905Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16296668",
+      "global_index": 260,
+      "question": "Can bedside assessment reliably exclude aspiration following acute stroke?",
+      "contexts": [
+        "To investigate the ability of a bedside swallowing assessment to reliably exclude aspiration following acute stroke.",
+        "Consecutive patients admitted within 24 h of stroke onset to two hospitals.",
+        "A prospective study. Where possible, all patients had their ability to swallow assessed on the day of admission by both a doctor and a speech and language therapist using a standardized proforma. A videofluoroscopy examination was conducted within 3 days of admission.",
+        "94 patients underwent videofluoroscopy; 20 (21%) were seen to be aspirating, although this was not detected at the bedside in 10. In 18 (22%) of the patients the speech and language therapist considered the swallow to be unsafe. In the medical assessment, 39 patients (41%) had an unsafe swallow. Bedside assessment by a speech and language therapist gave a sensitivity of 47%, a specificity of 86%, positive predictive value (PPV) of 50% and a negative predictive value (NPV) of 85% for the presence of aspiration. Multiple logistic regression was used to identify the optimum elements of the bedside assessments for predicting the presence of aspiration. A weak voluntary cough and any alteration in conscious level gave a sensitivity of 75%, specificity of 72%, PPV of 41% and NPV of 91% for aspiration."
+      ],
+      "mesh_terms": [
+        "Acute Disease",
+        "Aged",
+        "Aged, 80 and over",
+        "Deglutition Disorders",
+        "Female",
+        "Fluoroscopy",
+        "Geriatric Assessment",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Pneumonia, Aspiration",
+        "Predictive Value of Tests",
+        "Prospective Studies",
+        "Sensitivity and Specificity",
+        "Stroke",
+        "Videotape Recording"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "First path could be about the assessment method leading to some outcome. Maybe Bedside Assessment",
+          "Sensitivity",
+          "Aspiration",
+          "Clinical Reliability? But need to connect concepts from the given list."
+        ],
+        [
+          "Another angle is using the study's findings. Like Bedside Assessment",
+          "Weak Cough",
+          "Aspiration",
+          "Predictive Value of Tests",
+          "Aspiration",
+          "Clinical Utility."
+        ],
+        [
+          "Wait, the example paths in the user message have things like Hypertension",
+          "Endothelial Dysfunction... So maybe using the concepts from the study results."
+        ],
+        [
+          "Another idea: Stroke",
+          "Deglutition Disorders",
+          "Aspiration",
+          "Pneumonia. That connects stroke leading to swallowing issues causing aspiration pneumonia."
+        ],
+        [
+          "Alternatively, considering the predictive factors. Weak Voluntary Cough",
+          "Altered Conscious Level",
+          "Aspiration",
+          "Bedside Assessment. But how to structure this into a path. Maybe Weak Voluntary Cough",
+          "Aspiration",
+          "Predictive Value of Tests",
+          "Bedside Assessment."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:48.545Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16319544",
+      "global_index": 261,
+      "question": "Is high-sensitivity C-reactive protein associated with carotid atherosclerosis in healthy Koreans?",
+      "contexts": [
+        "There is a positive association between chronic inflammation and the risk of cardiovascular disease, but whether there is an association between C-reactive protein (CRP) and carotid atherosclerosis is controversial. We investigated the relationship between high-sensitivity CRP (hsCRP) levels and carotid intima-media thickness (IMT) in healthy Koreans.",
+        "We measured hsCRP levels, the carotid IMT, and conventional cardiovascular risk factors including obesity parameters, blood pressure, lipid profiles, insulin resistance, and smoking habits in 820 volunteers (35-79 years old) in a cross-sectional study.",
+        "Higher hsCRP quartile groups had higher mean IMTs, as compared with the lowest quartile (P<0.001 for the trend across quartiles). However, after adjustment for age, the relationship between hsCRP level and IMT was substantially weaker (P = 0.018). After additional adjustments for conventional cardiovascular risk factors, no significant association was observed (P = 0.548). The unadjusted risk for a high carotid IMT value (>or = 1.0 mm) was also positively related to hsCRP quartile, but this relationship was not significant after adjustment for age and other cardiovascular risk factors."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Biomarkers",
+        "C-Reactive Protein",
+        "Carotid Artery Diseases",
+        "Carotid Artery, Common",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Korea",
+        "Male",
+        "Middle Aged",
+        "Nephelometry and Turbidimetry",
+        "Prevalence",
+        "Reference Values",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Tunica Intima",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "*Study Design",
+          "Association",
+          "Adjustment",
+          "hsCRP",
+          "Carotid IMT",
+          "Risk Factors Adjustment",
+          "No Association."
+        ],
+        [
+          "*Risk Factors",
+          "hsCRP",
+          "IMT",
+          "hsCRP",
+          "Carotid IMT",
+          "Adjustment",
+          "No Association."
+        ],
+        [
+          "*Inflammation Marker",
+          "Chronic Inflammation",
+          "Cardiovascular Risk",
+          "Chronic Inflammation",
+          "Cardiovascular Risk Factors",
+          "Carotid IMT."
+        ],
+        [
+          "*Demographics (Age)",
+          "IMT",
+          "hsCRP",
+          "Carotid IMT",
+          "hsCRP",
+          "Adjusted Association (but maybe not directly). Hmm, need to connect these."
+        ],
+        [
+          "*Ultrasonography",
+          "IMT Measurement",
+          "hsCRP",
+          "Carotid IMT",
+          "hsCRP",
+          "Confounding Risk Factors."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:58.216Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16361634",
+      "global_index": 262,
+      "question": "Women with synchronous primary cancers of the endometrium and ovary: do they have Lynch syndrome?",
+      "contexts": [
+        "Lynch syndrome (hereditary nonpolyposis colorectal cancer; HNPCC) is an autosomal-dominant cancer predisposition syndrome that increases risk for multiple cancers, including colon, endometrial, and ovarian cancer. Revised Bethesda Criteria recommend that patients with two HNPCC-associated cancers undergo molecular evaluation to determine whether they have a mismatch repair (MMR) defect associated with HNPCC. The purpose of our study was to determine the likelihood of MMR defects (MSH2, MSH6, MLH1) in women with synchronous endometrial and ovarian cancer.",
+        "Between 1989 and 2004, 102 women with synchronous endometrial and ovarian cancers were identified; 59 patients had tumor blocks available for analysis. Patients were divided into risk groups based on family history: high (met Amsterdam criteria), medium (personal history or first-degree relative with an HNPCC-associated cancer), and low (all others). Protein expression for MSH2, MSH6, and MLH1 was evaluated by immunohistochemistry. Microsatellite instability and MLH1 promoter methylation analyses were performed on a subset of cases.",
+        "Median age was 50 years. Two patients met Amsterdam criteria for HNPCC. Five additional patients, all medium-risk, had molecular findings consistent with a germline mutation of either MSH2 or MLH1. None of the low-risk patients had molecular results consistent with a germline mutation."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Base Pair Mismatch",
+        "Cohort Studies",
+        "Colorectal Neoplasms, Hereditary Nonpolyposis",
+        "DNA Methylation",
+        "DNA Repair",
+        "Endometrial Neoplasms",
+        "Female",
+        "Gene Expression Profiling",
+        "Humans",
+        "Immunohistochemistry",
+        "Microsatellite Repeats",
+        "Middle Aged",
+        "Neoplasms, Multiple Primary",
+        "Ovarian Neoplasms",
+        "Pedigree",
+        "Risk Factors"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Risk factors",
+          "Hereditary Nonpolyposis",
+          "Immunohistochemistry."
+        ],
+        [
+          "DNA Repair",
+          "Lynch syndrome."
+        ],
+        [
+          "Cohort Studies",
+          "MMR defects."
+        ],
+        [
+          "MLH1",
+          "Lynch Syndrome."
+        ],
+        [
+          "Microsatellite instability is another marker. Microsatellite Repeats",
+          "Microsatellite Instability",
+          "Lynch Syndrome."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:22.663Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16392897",
+      "global_index": 263,
+      "question": "BCRABL transcript detection by quantitative real-time PCR : are correlated results possible from homebrew assays?",
+      "contexts": [
+        "Quantitative real-time PCR has become the predominant molecular technique to monitor BCRABL levels in response to treatment in Ph(+) leukemia patients. However, without some form of standardized methodology between laboratories, the correlation of results is difficult.",
+        "Using TaqMan-based assays, parallel quantitative real-time PCR analysis was performed on 70 clinical specimens at Vanderbilt University Medical Center and Virginia Commonwealth University. While the same positive control cell line (K562) and quality control gene (BCR) were used, the RNA isolation technique, cDNA synthesis, BCR control cell line, and PCR primer and probe sequences were different.",
+        "The detection of BCRABL-positive results spanned a dynamic range from 10(0) to 10(5)/100,000 cells. Forty-three samples were negative at both facilities. A Spearman rank correlation analysis was performed for the 22 BCRABL-positive paired results. The correlation coefficient, r(s), was 0.9435 (p<0.00001), suggesting a strong correlation of the results. One discordant result was obtained for consecutive samples from one patient with a low BCRABL copy number as a result of a minimal RNA yield at one laboratory."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Antineoplastic Agents",
+        "Benzamides",
+        "Bone Marrow",
+        "Bone Marrow Transplantation",
+        "Genes, abl",
+        "Humans",
+        "Imatinib Mesylate",
+        "K562 Cells",
+        "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+        "Leukemia, Myeloid",
+        "Middle Aged",
+        "Molecular Diagnostic Techniques",
+        "Piperazines",
+        "Polymerase Chain Reaction",
+        "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+        "Pyrimidines",
+        "RNA, Messenger",
+        "RNA, Neoplasm",
+        "Sensitivity and Specificity"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Quantitative real-time PCR",
+          "Molecular Diagnostic Techniques",
+          "BCR-ABL Positive Leukemia",
+          "Standardization of Controls (K562 Cells)",
+          "Correlated Results"
+        ],
+        [
+          "Homebrew Assays",
+          "Molecular Diagnostic Techniques",
+          "Standardized Controls (K562 Cells)",
+          "Correlated Results"
+        ],
+        [
+          "RNA Isolation Techniques",
+          "RNA Yield",
+          "BCRABL Transcript Detection",
+          "Correlation of Results",
+          "Discordant Results (Low RNA Yield)"
+        ],
+        [
+          "cDNA Synthesis",
+          "PCR Primer Design",
+          "BCRABL Detection",
+          "Molecular Diagnostic Techniques",
+          "Correlated Results"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:26.520Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16403186",
+      "global_index": 264,
+      "question": "Are the arginine vasopressin V1a receptor microsatellites related to hypersexuality in children with a prepubertal and early adolescent bipolar disorder phenotype?",
+      "contexts": [
+        "To examine family-based transmission of the number of 5' flanking arginine vasopressin V1a receptor (AVPR1A) microsatellites, which include [(GATA)(14)] and complex [(CT)(4)-TT-(CT)(8)-(GT)(24)]repeats, in probands with a prepubertal and early adolescent bipolar disorder phenotype (PEA-BP). Preferential transmission of the number of AVPR1A microsatellite repeats to hypersexual and uninhibited people-seeking probands was hypothesized, based on reports from preclinical work in the literature.",
+        "Probands were 83 participants in an ongoing controlled study of PEA-BP. The PEA-BP phenotype was defined by DSM-IV mania with at least one of the cardinal symptoms of mania (elation and/or grandiosity) to avoid diagnosing mania only by symptoms that overlapped with those for attention-deficit hyperactivity disorder (ADHD). Comprehensive assessment of the probands included separate Washington University in St. Louis Kiddie Schedule for Affective Disorders and Schizophrenia (WASH-U-KSADS) interviews of parents about their children and of children about themselves. Hypersexuality and uninhibited people-seeking were assessed from the corresponding WASH-U-KSADS items. Microsatellite genotyping of the AVPR1A repeats was conducted using fluorescently labeled primers and detected by laser-induced fluorescence. Alleles were determined with the assistance of semi-automated allele-calling software. There were 32 complete, biological trios (28 informative families) for the GATA repeat and 34 complete, biological trios (30 informative families) for the complex repeat. Data were analyzed using case-control and family-based association methods.",
+        "Preferential transmission of AVPR1A GATA or complex repeats was not significant for hypersexuality or uninhibited people-seeking, using the transmission disequilibrium test. Similarly, case-control analyses found no significant associations between hypersexuality or uninhibited people-seeking and the number of AVPR1A GATA or complex repeats. For p<0.05, there was about 80% power to detect odds ratios of 5.0 and 4.0 (in the family-based analyses) and 3.5 and 2.6 (in the case-control analyses), for allele frequencies of 0.1 and 0.5, respectively."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Alleles",
+        "Bipolar Disorder",
+        "Case-Control Studies",
+        "Child",
+        "Female",
+        "Humans",
+        "Linkage Disequilibrium",
+        "Male",
+        "Microsatellite Repeats",
+        "Phenotype",
+        "Psychiatric Status Rating Scales",
+        "Receptors, Vasopressin",
+        "Sexual Dysfunctions, Psychological"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Fourth, the study involved Child and Adolescent populations. So Child",
+          "Bipolar Disorder",
+          "Case-Control Studies",
+          "AVPR1A Repeats",
+          "AVPR1A Repeats",
+          "Hypersexuality"
+        ],
+        [
+          "Microsatellite Repeats",
+          "Hypersexuality",
+          "Bipolar Disorder Phenotype. That connects different concepts."
+        ],
+        [
+          "Hypersexuality Assessment",
+          "AVPR1A Microsatellites"
+        ],
+        [
+          "Bipolar Disorder",
+          "Prepub"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:37.966Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16414216",
+      "global_index": 265,
+      "question": "Are endometrial polyps from pre-menopausal women similar to post-menopausal women?",
+      "contexts": [
+        "Do endometrial polyps from pre- and post-menopausal women have similar immunohistochemical expression of oestrogen and progesterone receptors (ER, PR) and markers of cellular proliferation/apoptosis (Ki67 and Bcl-2).",
+        "Prospective cohort study. Non-parametric statistical analysis was used.",
+        "Polyps recruited from women attending an out-patient hysteroscopy clinic in a UK district general hospital.",
+        "Fourteen pre-menopausal and 16 post-menopausal women who presented with abnormal bleeding with endometrial polyps.",
+        "Immunohistochemical staining was performed on endometrial polyps.",
+        "Significant differences or correlations between hormone receptor expression (oestrogen and progesterone) and cell growth indices (Ki67 and Bcl-2).",
+        "Endometrial polyps from pre- and post-menopausal women had significant differences in their expression of hormone receptors and Ki67. However, polyps from both groups of women had similarly increased levels of Bcl-2, an inhibitor of apoptosis."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Cohort Studies",
+        "Endometrial Neoplasms",
+        "Female",
+        "Humans",
+        "Immunohistochemistry",
+        "Middle Aged",
+        "Polyps",
+        "Postmenopause",
+        "Premenopause",
+        "Prospective Studies",
+        "Receptors, Estrogen",
+        "Receptors, Progesterone"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Study Type",
+          "Hormone Receptors",
+          "Differences. Since it's a prospective cohort study, they looked at ER and PR and found differences."
+        ],
+        [
+          "Menopausal Status",
+          "Cell Proliferation Markers (Ki67)",
+          "Differences. The study found significant differences in Ki67."
+        ],
+        [
+          "Immunohistochemistry",
+          "Apoptosis Markers (Bcl-2)",
+          "Similar Levels. Both groups had similar Bcl-2, which is anti-apoptotic."
+        ],
+        [
+          "Menopausal Transition",
+          "Estrogen Receptors"
+        ],
+        [
+          "Cohort Studies",
+          "Statistical Analysis",
+          "Non-parametric",
+          "Findings. The study design using non-parametric methods leading to the observed differences."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:46.442Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16418930",
+      "global_index": 266,
+      "question": "Landolt C and snellen e acuity: differences in strabismus amblyopia?",
+      "contexts": [
+        "Assessment of visual acuity depends on the optotypes used for measurement. The ability to recognize different optotypes differs even if their critical details appear under the same visual angle. Since optotypes are evaluated on individuals with good visual acuity and without eye disorders, differences in the lower visual acuity range cannot be excluded. In this study, visual acuity measured with the Snellen E was compared to the Landolt C acuity.",
+        "100 patients (age 8 - 90 years, median 60.5 years) with various eye disorders, among them 39 with amblyopia due to strabismus, and 13 healthy volunteers were tested. Charts with the Snellen E and the Landolt C (Precision Vision) which mimic the ETDRS charts were used to assess visual acuity. Three out of 5 optotypes per line had to be correctly identified, while wrong answers were monitored. In the group of patients, the eyes with the lower visual acuity, and the right eyes of the healthy subjects, were evaluated.",
+        "Differences between Landolt C acuity (LR) and Snellen E acuity (SE) were small. The mean decimal values for LR and SE were 0.25 and 0.29 in the entire group and 0.14 and 0.16 for the eyes with strabismus amblyopia. The mean difference between LR and SE was 0.55 lines in the entire group and 0.55 lines for the eyes with strabismus amblyopia, with higher values of SE in both groups. The results of the other groups were similar with only small differences between LR and SE."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Amblyopia",
+        "Cataract",
+        "Child",
+        "Eye Diseases",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Reference Values",
+        "Refractive Errors",
+        "Reproducibility of Results",
+        "Retinal Diseases",
+        "Strabismus",
+        "Vision Tests",
+        "Visual Acuity"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Visual Acuity",
+          "Optotype Differences."
+        ],
+        [
+          "Lower Visual Acuity",
+          "Landolt C vs Snellen E Differences."
+        ],
+        [
+          "Strabismus",
+          "Amblyopia",
+          "Visual Acuity",
+          "Landolt C vs Snellen E"
+        ],
+        [
+          "Visual Acuity Tests",
+          "Landolt C",
+          "Strabismus Amblyopia",
+          "Reference Values",
+          "Differences"
+        ],
+        [
+          "Study Participants (Patients with Strabismus Amblyopia)",
+          "Optotype Recognition Variability",
+          "Reproducibility of Results",
+          "Landolt vs Snellen Differences"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:56.107Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16428354",
+      "global_index": 267,
+      "question": "Does rural or urban residence make a difference to neonatal outcome in premature birth?",
+      "contexts": [
+        "Patients living in rural areas may be at a disadvantage in accessing tertiary health care.AIM: To test the hypothesis that very premature infants born to mothers residing in rural areas have poorer outcomes than those residing in urban areas in the state of New South Wales (NSW) and the Australian Capital Territory (ACT) despite a coordinated referral and transport system.",
+        "\"Rural\" or \"urban\" status was based on the location of maternal residence. Perinatal characteristics, major morbidity and case mix adjusted mortality were compared between 1879 rural and 6775 urban infants<32 weeks gestational age, born in 1992-2002 and admitted to all 10 neonatal intensive care units in NSW and ACT.",
+        "Rural mothers were more likely to be teenaged, indigenous, and to have had a previous premature birth, prolonged ruptured membrane, and antenatal corticosteroid. Urban mothers were more likely to have had assisted conception and a caesarean section. More urban (93% v 83%) infants were born in a tertiary obstetric hospital. Infants of rural residence had a higher mortality (adjusted odds ratio (OR) 1.26, 95% confidence interval (CI) 1.07 to 1.48, p = 0.005). This trend was consistently seen in all subgroups and significantly for the tertiary hospital born population and the 30-31 weeks gestation subgroup. Regional birth data in this gestational age range also showed a higher stillbirth rate among rural infants (OR 1.20, 95% CI 1.09 to 1.32, p<0.001)."
+      ],
+      "mesh_terms": [
+        "Australian Capital Territory",
+        "Epidemiologic Methods",
+        "Female",
+        "Gestational Age",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Premature",
+        "New South Wales",
+        "Pregnancy",
+        "Pregnancy Outcome",
+        "Premature Birth",
+        "Residence Characteristics",
+        "Rural Health",
+        "Stillbirth",
+        "Urban Health"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Residence Characteristics",
+          "Access to Tertiary Care"
+        ],
+        [
+          "Antenatal Corticosteroid",
+          "Gestational Age",
+          "Mortality."
+        ],
+        [
+          "The study also found higher stillbirth rates in rural areas. So Rural Health",
+          "Stillbirth",
+          "Gestational Age. But I need to connect via concepts. Maybe Rural Residence",
+          "Longer Prolonged Membranes",
+          "Stillbirth."
+        ],
+        [
+          "Urban mothers had more caesarean sections. That could be a path: Urban Health",
+          "Cesarean Section",
+          "Pregnancy Outcome"
+        ],
+        [
+          "Also, considering previous premature birth as a factor for rural mothers. So Residence",
+          "Previous Premature Birth",
+          "Gestational Age",
+          "Outcome."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:07.378Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16432652",
+      "global_index": 268,
+      "question": "Transgastric endoscopic splenectomy: is it possible?",
+      "contexts": [
+        "We have previously reported the feasibility of diagnostic and therapeutic peritoneoscopy including liver biopsy, gastrojejunostomy, and tubal ligation by an oral transgastric approach. We present results of per-oral transgastric splenectomy in a porcine model. The goal of this study was to determine the technical feasibility of per-oral transgastric splenectomy using a flexible endoscope.",
+        "We performed acute experiments on 50-kg pigs. All animals were fed liquids for 3 days prior to procedure. The procedures were performed under general anesthesia with endotracheal intubation. The flexible endoscope was passed per orally into the stomach and puncture of the gastric wall was performed with a needle knife. The puncture was extended to create a 1.5-cm incision using a pull-type sphincterotome, and a double-channel endoscope was advanced into the peritoneal cavity. The peritoneal cavity was insufflated with air through the endoscope. The spleen was visualized. The splenic vessels were ligated with endoscopic loops and clips, and then mesentery was dissected using electrocautery.",
+        "Endoscopic splenectomy was performed on six pigs. There were no complications during gastric incision and entrance into the peritoneal cavity. Visualization of the spleen and other intraperitoneal organs was very good. Ligation of the splenic vessels and mobilization of the spleen were achieved using commercially available devices and endoscopic accessories."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Endoscopy",
+        "Models, Animal",
+        "Spleen",
+        "Splenectomy",
+        "Stomach",
+        "Swine"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Another path could involve the procedure steps. For example, Endoscopy",
+          "Stomach (as the access point)",
+          "Spleen (target organ)",
+          "Splenectomy. But maybe adding another step. Like Endoscopy",
+          "Stomach",
+          "Peritoneal Cavity",
+          "Splenectomy. That shows the access route."
+        ],
+        [
+          "Another angle is the method of creating the incision. Needle knife",
+          "Gastric wall puncture",
+          "Endoscopic access",
+          "Gastric Incision",
+          "Peritoneal Access",
+          "Splenectomy."
+        ],
+        [
+          "Then there's the use of devices: Endoscopic loops",
+          "Vascular ligation",
+          "Splenic vessels",
+          "Splenectomy. That shows the tools used in the procedure."
+        ],
+        [
+          "Another path could involve the outcome: No complications",
+          "Technical feasibility",
+          "Successful splenectomy",
+          "Swine model. But maybe restructuring that."
+        ],
+        [
+          "Swine as the animal model used in the study, connected to the procedure. So Swine",
+          "Models, Animal",
+          "Endoscopy",
+          "Splenectomy."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:16.902Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16465002",
+      "global_index": 269,
+      "question": "Dose end-tidal carbon dioxide measurement correlate with arterial carbon dioxide in extremely low birth weight infants in the first week of life?",
+      "contexts": [
+        "To study the correlation and agreement between end-tidal carbon dioxide (EtCO2) and arterial carbon dioxide (PaCO(2)) in ventilated extremely low birth weight (ELBW) infants in the first week of life.",
+        "Retrospective chart review of all ELBW (<1,000 g) infants admitted to a level III NICU from January 2003 to December 2003. Data collected included demographic details and simultaneous EtCO(2) (mainstream capnography) and arterial blood gas values (pH, PaCO(2), PaO(2)).",
+        "The correlation coefficient, degree of bias with 95% confidence interval between the EtCO(2) and PaCO(2).",
+        "There were 754 end-tidal and arterial CO(2) pairs from 31 ELBW infants (21 male and 10 female). The overall EtCO(2) values were significantly lower than PaCO(2) value. In only 89/754(11.8%) pairs, the EtCO(2) was higher than the PaCO(2). The overall bias was 5.6 +/- 6.9 mmHg (95% C.I. 5.11-6.09). The intraclass correlation coefficient was 0.81. Using EtCO2 ranges of 30 to 50 mmHg, the capnographic method was able to identify 84% of instances where PaCO(2) was between 35 (<35 = hypocarbia) and 55 mmHg (>55= hypercapnia)."
+      ],
+      "mesh_terms": [
+        "Blood Gas Analysis",
+        "Capnography",
+        "Carbon Dioxide",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Very Low Birth Weight",
+        "Male",
+        "Respiration, Artificial",
+        "Respiratory Distress Syndrome, Newborn",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Sensitivity and Specificity",
+        "Tidal Volume"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Sensitivity and Specificity",
+          "Respiratory Distress Syndrome, Newborn? Not sure. Maybe not."
+        ],
+        [
+          "The bias (5.6 mmHg) could relate to the Clinical Application. But how? Maybe Retrospective Studies",
+          "Carbon Dioxide Measurement Discrepancy",
+          "Clinical Decision-Making. But need to use existing concepts."
+        ],
+        [
+          "Capnography",
+          "Carbon Dioxide Measurement",
+          "Intraclass Correlation Coefficient",
+          "Clinical Monitoring"
+        ],
+        [
+          "Retrospective Studies",
+          "Infant, Very Low Birth Weight",
+          "Capnography",
+          "Sensitivity and Specificity"
+        ],
+        [
+          "Blood Gas Analysis",
+          "Arterial Carbon Dioxide",
+          "Bias in Measurement",
+          "Clinical Decision-Making"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:27.479Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16498158",
+      "global_index": 270,
+      "question": "Is atropine needed with ketamine sedation?",
+      "contexts": [
+        "To compare atropine with placebo as an adjunct to ketamine sedation in children undergoing minor painful procedures. Outcome measures included hypersalivation, side effect profile, parental/patient satisfaction, and procedural success rate.",
+        "Children aged between 1 and 16 years of age requiring ketamine procedural sedation in a tertiary emergency department were randomised to receive 0.01 mg/kg of atropine or placebo. All received 4 mg/kg of intramuscular ketamine. Tolerance and sedation scores were recorded throughout the procedure. Side effects were recorded from the start of sedation until discharge. Parental and patient satisfaction scores were obtained at discharge and three to five days after the procedure, with the opportunity to report side effects encountered at home.",
+        "A total of 83 patients aged 13 months to 14.5 years (median age 3.4 years) were enrolled over a 16 month period. Hypersalivation occurred in 11.4% of patients given atropine compared with 30.8% given placebo (odds ratio (OR) 0.29, 95% confidence interval (CI) 0.09 to 0.91). A transient rash was observed in 22.7% of the atropine group compared with 5.1% of the placebo group (OR 5.44, 95% CI 1.11 to 26.6). Vomiting during recovery occurred in 9.1% of atropine patients compared with 25.6% of placebo patients (OR 0.29, 95% CI 0.09 to 1.02). There was a trend towards better tolerance in the placebo group. No patient experienced serious side effects."
+      ],
+      "mesh_terms": [
+        "Adjuvants, Anesthesia",
+        "Adolescent",
+        "Anesthetics, Dissociative",
+        "Atropine",
+        "Child",
+        "Child, Preschool",
+        "Double-Blind Method",
+        "Drug Combinations",
+        "Female",
+        "Humans",
+        "Infant",
+        "Injections, Intramuscular",
+        "Ketamine",
+        "Male",
+        "Minor Surgical Procedures",
+        "Pain",
+        "Patient Satisfaction",
+        "Prospective Studies",
+        "Sialorrhea"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Outcome Measures",
+          "Patient Satisfaction?"
+        ],
+        [
+          "Third, thinking about the age group: Child, Preschool, and how ketamine affects them. Maybe Child",
+          "Ketamine",
+          "Sialorrhea",
+          "Atropine. But need to connect concepts properly."
+        ],
+        [
+          "Atropine",
+          "Vomiting Reduction?"
+        ],
+        [
+          "Adjuvants",
+          "Transient Rash?"
+        ],
+        [
+          "Ketamine",
+          "Sialorrhea",
+          "Atropine",
+          "Hypersalivation Reduction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:37.548Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16510651",
+      "global_index": 271,
+      "question": "Birth characteristics and risk of low intellectual performance in early adulthood: are the associations confounded by socioeconomic factors in adolescence or familial effects?",
+      "contexts": [
+        "In this study we investigated whether the association between measures of fetal growth restriction and intellectual performance was mediated by socioeconomic or familial factors.",
+        "This was a population-based cohort study of 357,768 Swedish males born as singletons without congenital malformations between 1973 and 1981. The main outcome measure was intellectual performance at military conscription.",
+        "Compared with men born with appropriate birth weight for gestational age, men born light for gestational age suffered an increased risk of low intellectual performance after adjustment for maternal and socioeconomic factors. The increase in risk of low intellectual performance related to a decrease in birth weight for gestational age was similar between families and within families. Men born short or with a small head circumference for gestational age were also at increased risk of low intellectual performance, both when adjusting for maternal and socioeconomic factors and within families."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Birth Weight",
+        "Family Characteristics",
+        "Female",
+        "Fetal Growth Retardation",
+        "Growth",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Small for Gestational Age",
+        "Intelligence",
+        "Male",
+        "Pregnancy",
+        "Risk Factors",
+        "Socioeconomic Factors",
+        "Sweden"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Intellectual Performance",
+          "Socioeconomic Factors",
+          "Low Birth Weight",
+          "Intellectual Performance",
+          "Socioeconomic Adjustment. Wait, the study adjusted for these factors."
+        ],
+        [
+          "Birth Weight",
+          "Intellectual Performance. Then maybe including another concept like Risk Factors."
+        ],
+        [
+          "The study mentions that even within families, the association persists. So Fetal Growth Retardation",
+          "Family Effects"
+        ],
+        [
+          "Socioeconomic Factors are a key variable here. So Socioeconomic Factors",
+          "Maternal Factors",
+          "Maternal Adjustment",
+          "Intellectual Performance."
+        ],
+        [
+          "Growth Retardation",
+          "Intelligence. Then maybe adding another factor from the study."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:46.058Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16538201",
+      "global_index": 272,
+      "question": "Does use of hydrophilic guidewires significantly improve technical success rates of peripheral PTA?",
+      "contexts": [
+        "To determine whether the use of hydrophilic guidewires has increased the technical success rate of peripheral percutaneous transluminal angioplasty (PTA).MATERIAL/",
+        "We performed 125 procedures and analyzed the technical success rates of PTA using the conventional guidewire first and then if needed, the hydrophilic guidewire for iliac and SFA stenoses or occlusions. Angioplasty was performed on 25 stenosed, 25 occluded iliac arteries and 25 stenosed, 50 occluded femoral arteries. The result was defined as technical success when the lesion was crossed by a guidewire and balloon, then it was dilated with restoration of vessel lumen and less than 30% residual stenosis and the rise in ABI values was at least 0.15 after 24 hours.",
+        "The technical success rate after PTA of stenosed iliac arteries was achieved in 96% (24/25) using conventional wires and 100% using hydrophilic guidewire; in iliac occlusions, the rates were 60% (15/25) and 96%, respectively; in femoral stenosis - 84% (21/25) and 100%; in occlusions in the first group: lesions<10 cm -64% (16/25) and 96%, in the second group: lesions>10 cm -48% (12/25) and 88%. In the iliac group, there was no significant difference in the success of iliac stenosis PTA. However, there were significant changes in the success rates of PTA performed for SFA stenosis and iliac and SFA occlusions."
+      ],
+      "mesh_terms": [
+        "Angioplasty, Balloon",
+        "Arterial Occlusive Diseases",
+        "Constriction, Pathologic",
+        "Femoral Artery",
+        "Humans",
+        "Iliac Artery",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Hydrophilic Guidewires",
+          "Iliac Artery",
+          "Technical Success. Wait, maybe include occlusions here. Path1 could be Angioplasty, Balloon",
+          "Hydrophilic Guidewires",
+          "Iliac Artery",
+          "Technical Success Rate. Hmm, but the example uses MESH terms."
+        ],
+        [
+          "Another angle: Arterial Occlusive Diseases (the condition being treated)",
+          "use of Hydrophilic Guidewires",
+          "better outcomes in terms of Treatment Outcome. That could be a path."
+        ],
+        [
+          "could involve Pathologic Constriction",
+          "Hydrophilic Guidewires"
+        ],
+        [
+          "Arterial Occlusive Diseases",
+          "Hydrophilic Guidewires",
+          "Technical Success."
+        ],
+        [
+          "Hydrophilic Guidewires",
+          "Increased Technical Success. But need to use MESH terms. Maybe Lesion Length",
+          "Hydrophilic Guidewires",
+          "Technical Success Rate."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:56.512Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16564683",
+      "global_index": 273,
+      "question": "Is there any interest to perform ultrasonography in boys with undescended testis?",
+      "contexts": [
+        "To evaluate the accuracy of ultrasonographic examination in boys with an undescended testis.",
+        "All patients who were referred to the paediatric surgeon after detection of an undescended testis were evaluated prospectively between November 2001 and November 2004. Among these 377 patients, 87 were referred with an ultrasonogram previously prescribed by the referring primary physician. The results of the ultrasonogram were compared to the results of the clinical examination of the paediatric surgeon and, in cases of no palpable testis, to the surgical findings.",
+        "Ultrasonography did not detect the retractile testes. Ultrasonography detected 67% of the palpable undescended testes. In cases of no palpable testis, the ultrasonographic examination missed the abdominal testes and sometimes other structures were falsely interpreted as a testis."
+      ],
+      "mesh_terms": [
+        "Child",
+        "Child, Preschool",
+        "Cryptorchidism",
+        "Humans",
+        "Infant",
+        "Male",
+        "Prospective Studies",
+        "Reproducibility of Results",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Ultrasonography",
+          "Clinical Examination"
+        ],
+        [
+          "False Positives",
+          "Reproducibility of Results",
+          "Diagnostic Reliability."
+        ],
+        [
+          "The study was a prospective study. So, using the MESH term Prospective Studies",
+          "Cryptorchidism",
+          "Ultrasonography",
+          "Diagnostic Accuracy. That's another path."
+        ],
+        [
+          "Retractile testes weren't detected by ultrasonography. So Retractile Testes",
+          "Ultrasonography",
+          "Diagnostic Limitation",
+          "Ultrasonography",
+          "Abdominal Testes Missed",
+          "Surgical Exploration."
+        ],
+        [
+          "The first could be about the study's design. Prospective Studies",
+          "Cryptorchidism",
+          "Ultrasonography",
+          "Clinical Evaluation. That's three steps. Or maybe Prospective Studies",
+          "Clinical Evaluation",
+          "Ultrasonography",
+          "Diagnostic Accuracy."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:04.938Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16647887",
+      "global_index": 274,
+      "question": "Are women who are treated for hypothyroidism at risk for pregnancy complications?",
+      "contexts": [
+        "The purpose of this study was to investigate the outcomes that are associated with pregnancy and treated hypothyroidism.",
+        "This was a retrospective cohort study of all women who received prenatal care and were delivered at the University of California, San Francisco, between 1989 and 2001. All patients with hypothyroidism diagnosed before pregnancy or early in pregnancy were identified. Maternal, fetal, and obstetric outcomes were then collected and analyzed for women with hypothyroidism and compared with women without hypothyroidism.",
+        "Among 20,499 deliveries, there were 419 women (2.1%) who were treated for hypothyroidism during the study period. Hypothyroidism was more common among women>or =35 years old, white women, and women without Medicaid insurance. Treated hypothyroidism was not associated with any increase in maternal, fetal, or neonatal complications. In addition, hypothyroidism did not affect mode of delivery."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Distribution",
+        "Cohort Studies",
+        "Female",
+        "Humans",
+        "Hypothyroidism",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Prevalence",
+        "Retrospective Studies",
+        "Risk Assessment"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Hypothyroidism",
+          "Pregnancy",
+          "Pregnancy Complications",
+          "Retrospective Studies",
+          "No Association"
+        ],
+        [
+          "Risk Assessment",
+          "Hypothyroidism",
+          "Maternal Outcomes",
+          "Cohort Studies",
+          "No Increased Risk"
+        ],
+        [
+          "Age Distribution",
+          "Female",
+          "Hypothyroidism",
+          "Pregnancy Complications",
+          "Prevalence Analysis"
+        ],
+        [
+          "Treated Hypothyroidism",
+          "Humans",
+          "Pregnancy",
+          "Fetal Outcomes",
+          "No Adverse Effects"
+        ],
+        [
+          "Medicaid Insurance",
+          "Hypothyroidism",
+          "Risk Assessment",
+          "Pregnancy",
+          "Equitable Outcomes"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:12.575Z",
+      "processed_at": "2026-01-27T19-17-35"
+    }
+  ]
+}

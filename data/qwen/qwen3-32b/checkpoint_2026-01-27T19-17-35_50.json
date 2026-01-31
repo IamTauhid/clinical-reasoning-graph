@@ -1,0 +1,3167 @@
+{
+  "metadata": {
+    "checkpoint": 50,
+    "total": 250,
+    "successful": 50,
+    "failed": 0
+  },
+  "results": [
+    {
+      "pmid": "16100194",
+      "global_index": 250,
+      "question": "Are physicians aware of the side effects of angiotensin-converting enzyme inhibitors?",
+      "contexts": [
+        "Angiotensin-converting enzyme inhibitors (ACE-I) are considered safe, but they are associated with characteristic side effects, namely cough and angioedema, usually requiring discontinuation. We perceived that referrals for these side effects have become more and more frequent; therefore, we evaluated the degree of knowledge on the safety of ACE-I in different medical categories.",
+        "A questionnaire (13 questions) on side effects of ACE-I was posted to physicians.",
+        "Everyday clinical practice.",
+        "Cardiologists, allergists, and general practitioners (GPs) from the National Healthcare System.",
+        "Three hundred twelve physicians were contacted, and 154 returned questionnaires that could be analyzed. Of the 154 physicians (mean age, 45 years) 48 were cardiologists, 52 were GPs, and 54 were allergists. The percentage of correct answers was low: 31.9% for cardiologists, 40% for GPs, and 33% for allergists. Thus, GPs provided a significantly higher percentage of correct answers with respect to the remaining categories (p = 0.05). The lower rate of correct answers (0 to 15.9%) concerned the time of onset of cough and the action to take. Cardiologists seemed to be less aware of the fact that angiotensin receptor blockers (sartans) can cross-react with ACE-I."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Allergy and Immunology",
+        "Angiotensin-Converting Enzyme Inhibitors",
+        "Cardiology",
+        "Family Practice",
+        "Health Knowledge, Attitudes, Practice",
+        "Humans",
+        "Middle Aged",
+        "Practice Patterns, Physicians'",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Surveys and Questionnaires",
+          "Health Knowledge, Attitudes, Practice",
+          "Practice Patterns, Physicians",
+          "Angiotensin-Converting Enzyme Inhibitors"
+        ],
+        [
+          "Angiotensin-Converting Enzyme Inhibitors",
+          "Cough",
+          "Health Knowledge, Attitudes, Practice",
+          "Cardiology"
+        ],
+        [
+          "Angiotensin-Converting Enzyme Inhibitors",
+          "Angiotensin Receptor Blockers",
+          "Cross-Reaction",
+          "Allergy and Immunology"
+        ],
+        [
+          "Cardiology",
+          "Family Practice",
+          "Health Knowledge, Attitudes, Practice",
+          "Surveys and Questionnaires"
+        ],
+        [
+          "Angiotensin-Converting Enzyme Inhibitors",
+          "Angioedema",
+          "Practice Patterns, Physicians",
+          "Middle Aged"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:37.723Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16147837",
+      "global_index": 251,
+      "question": "Is grandmultiparity an independent risk factor for adverse perinatal outcomes?",
+      "contexts": [
+        "To compare maternal and neonatal outcomes among grandmultiparous women to those of multiparous women 30 years or older.",
+        "A database of the vast majority of maternal and newborn hospital discharge records linked to birth/death certificates was queried to obtain information on all multiparous women with a singleton delivery in the state of California from January 1, 1997 through December 31, 1998. Maternal and neonatal pregnancy outcomes of grandmultiparous women were compared to multiparous women who were 30 years or older at the time of their last birth.",
+        "The study population included 25,512 grandmultiparous and 265,060 multiparous women 30 years or older as controls. Grandmultiparous women were predominantly Hispanic (56%). After controlling for potential confounding factors, grandmultiparous women were at significantly higher risk for abruptio placentae (odds ratio OR: 1.3; 95% confidence intervals CI: 1.2-1.5), preterm delivery (OR: 1.3; 95% CI: 1.2-1.4), fetal macrosomia (OR: 1.5; 95% CI: 1.4-1.6), neonatal death (OR: 1.5; 95% CI: 1.3-1.8), postpartum hemorrhage (OR: 1.2; 95% CI: 1.1-1.3) and blood transfusion (OR: 1.5; 95% CI: 1.3-1.8)."
+      ],
+      "mesh_terms": [
+        "Female",
+        "Humans",
+        "Parity",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Pregnancy Outcome",
+        "Retrospective Studies",
+        "Risk Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Risk Factors",
+          "Pregnancy Complications",
+          "Adverse Pregnancy Outcome."
+        ],
+        [
+          "Another path could focus on the study design. Retrospective Studies",
+          "Pregnancy Outcome",
+          "Risk Factors. But need to include more specific terms. Maybe Retrospective Studies",
+          "Parity",
+          "Pregnancy Complications",
+          "Adverse Outcomes."
+        ],
+        [
+          "Considering the control group (multiparous women 30+), maybe Path: Multiparous Women",
+          "Age 30+",
+          "Pregnancy",
+          "Lower Risk of Adverse Outcomes compared to Grandmultiparous. But need to fit within the MESH terms."
+        ],
+        [
+          "Another angle is the specific outcomes like Preterm Delivery. So, Grandmultiparity",
+          "Preterm Delivery",
+          "Neonatal Death",
+          "Adverse Perinatal Outcome."
+        ],
+        [
+          "Maybe include demographic factors. The study mentions Hispanic ethnicity. So, Grandmultiparity",
+          "Ethnicity (Hispanic)",
+          "Risk Factors"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:40.905Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16151770",
+      "global_index": 252,
+      "question": "Memory-provoked rCBF-SPECT as a diagnostic tool in Alzheimer's disease?",
+      "contexts": [
+        "Alzheimer's disease (AD) is a primary degenerative disease that progressively affects all brain functions, with devastating consequences for the patient, the patient's family and society. Rest regional cerebral blood flow (rCBF) could have a strategic role in differentiating between AD patients and normal controls, but its use for this purpose has a low discriminatory capacity. The purpose of this study was to evaluate whether the diagnostic sensitivity of rCBF single-photon emission computed tomography (SPECT) could be increased by using an episodic memory task provocation, i.e. memory-provoked rCBF-SPECT (MP-SPECT).",
+        "Eighteen persons (73.2+/-4.8 years) with mild AD and 18 healthy elderly (69.4+/-3.9 years) were included in the study. The subjects were injected with (99m)Tc-hexamethylpropylene amine oxime (HMPAO) during memory provocation with faces and names, followed by an rCBF-SPECT study. The rCBF (99m)Tc-HMPAO SPECT images were analysed using statistical parametric mapping (SPM2). Peaks with a false discovery rate corrected value of 0.05 were considered significant.",
+        "On MP-SPECT, the AD group showed a significant rCBF reduction in the left parietal cortex in comparison with healthy elderly. At rest, no significant group differences were seen."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Alzheimer Disease",
+        "Brain",
+        "Brain Mapping",
+        "Cerebrovascular Circulation",
+        "Evoked Potentials",
+        "Female",
+        "Humans",
+        "Image Interpretation, Computer-Assisted",
+        "Male",
+        "Memory",
+        "Radiopharmaceuticals",
+        "Reproducibility of Results",
+        "Sensitivity and Specificity",
+        "Technetium Tc 99m Exametazime",
+        "Tomography, Emission-Computed, Single-Photon"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Alzheimer Disease",
+          "Cerebrovascular Circulation",
+          "rCBF-SPECT",
+          "Image Interpretation, Computer-Assisted",
+          "Diagnosis"
+        ],
+        [
+          "Memory",
+          "Evoked Potentials",
+          "(99m)Tc-HMPAO",
+          "Sensitivity and Specificity",
+          "Alzheimer Disease Detection"
+        ],
+        [
+          "Healthy Elderly",
+          "rCBF-SPECT",
+          "Brain Mapping",
+          "Left Parietal Cortex Hypoperfusion",
+          "Alzheimer Disease Differentiation"
+        ],
+        [
+          "Tomography, Emission-Computed, Single-Photon",
+          "Episodic Memory Task",
+          "Brain",
+          "Cerebrovascular Circulation",
+          "Diagnostic Accuracy"
+        ],
+        [
+          "Alzheimer Disease",
+          "Radiopharmaceuticals",
+          "Reproducibility of Results",
+          "Statistical Parametric Mapping",
+          "rCBF Abnormalities"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:44.266Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16155169",
+      "global_index": 253,
+      "question": "Percutaneous ethanol injection for benign cystic thyroid nodules: is aspiration of ethanol-mixed fluid advantageous?",
+      "contexts": [
+        "We evaluated the differences between percutaneous ethanol injection with and without aspiration of ethanol-mixed fluid for treatment of benign cystic thyroid nodules.",
+        "We examined 60 patients with benign cystic thyroid nodules confirmed by fine-needle aspiration biopsy and divided them into 2 groups according to nonaspiration (group A, n = 30) or aspiration (group B, n = 30) of ethanol-mixed fluid after intracystic ethanol injection. We evaluated in both groups the complete disappearance of the cystic portion of the thyroid nodule on follow-up ultrasonography (first follow-up ultrasonography; mean, 4.6 months in group A; mean, 4.4 months in group B) (chi-square test), side effects or complications during and after the procedure (chi-square test), and the total procedure time (Student t test).",
+        "Most patients showed complete disappearance of the cystic portion of the thyroid nodule (group A, n = 29; group B, n = 28), and they revealed no recurrence on follow-up ultrasonography. There was no statistical difference in the success rates between group A and group B (P>.05). Pain, the most common side effect, and other mild side effects or complications occurred in small numbers of patients in each group, but there was no significant difference in side effects or complications between the 2 groups (P>.05), except for intracystic hemorrhage (P<.05) and the complaint of all group B patients due to a double puncture (P<.001). The total procedure time was nearly double in group B than in group A because of the additional procedures, such as complete evacuation of the ethanol-mixed fluid and the 10-minute compression."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Cysts",
+        "Ethanol",
+        "Female",
+        "Humans",
+        "Injections, Intralesional",
+        "Male",
+        "Middle Aged",
+        "Sclerotherapy",
+        "Suction",
+        "Thyroid Nodule",
+        "Treatment Outcome",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "outcome, procedure steps",
+          "complications, effect on recurrence, etc."
+        ],
+        [
+          "might connect the aspiration process to side effects. Aspiration (using Suction)",
+          "Intracystic Hemorrhage (complication)",
+          "Intracystic Hemorrhage",
+          "Side Effect."
+        ],
+        [
+          "could be about procedure time. Aspiration (Suction)",
+          "Total Procedure Time"
+        ],
+        [
+          "might link the method to patient complaints. Aspiration (double puncture)",
+          "Patient Complaints (significant)",
+          "P<0.001. The abstract says all group B patients had complaints from double puncture."
+        ],
+        [
+          "could involve ultrasonography as a follow-up method. Ultrasonography",
+          "Monitoring Recurrence",
+          "No Recurrence. The abstract says no recurrence in both groups."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:47.715Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16195477",
+      "global_index": 254,
+      "question": "Production of chemokines by perivascular adipose tissue: a role in the pathogenesis of atherosclerosis?",
+      "contexts": [
+        "Obesity is associated with an increased risk for cardiovascular disease. Although it is known that white adipose tissue (WAT) produces numerous proinflammatory and proatherogenic cytokines and chemokines, it is unclear whether adipose-derived chemotactic signals affect the chronic inflammation in atherosclerosis.",
+        "Histological examination showed that perivascular WAT (pWAT) is in close proximity to vascular walls, particularly at sites that have a tendency to develop atherosclerosis. In rodents, the amount of pWAT is markedly increased by a high-fat diet. At a functional level, supernatant from subcutaneous and pWAT strongly induced the chemotaxis of peripheral blood leukocytes. The migration of granulocytes and monocytes was mostly mediated by interleukin-8 and monocyte chemoattractant protein-1, respectively, whereas both chemokines contributed to the migration of activated T cells. Moreover, pWAT produces these chemokines, as shown by immunohistochemistry and by explant culture. The accumulation of macrophages and T cells at the interface between pWAT and the adventitia of human atherosclerotic aortas may reflect this prochemotactic activity of pWAT."
+      ],
+      "mesh_terms": [
+        "Adipose Tissue",
+        "Animals",
+        "Aorta",
+        "Atherosclerosis",
+        "Cells, Cultured",
+        "Chemokine CCL2",
+        "Chemotaxis, Leukocyte",
+        "Diet, Atherogenic",
+        "Dietary Fats",
+        "Granulocytes",
+        "Humans",
+        "Interleukin-8",
+        "Monocytes",
+        "Obesity",
+        "Rats",
+        "Rats, Wistar"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Obesity",
+          "pWAT expansion",
+          "Proinflammatory chemokines (like IL-8, CCL2)",
+          "Leukocyte chemotaxis",
+          "Atherosclerosis development. That uses several MESH terms."
+        ],
+        [
+          "High-fat diet",
+          "Increased pWAT",
+          "Release of IL-8 and CCL2",
+          "Recruitment of granulocytes and monocytes",
+          "Atherosclerotic inflammation."
+        ],
+        [
+          "pWAT",
+          "Produces IL-8",
+          "Leukocyte chemotaxis",
+          "T cell migration",
+          "Atherosclerosis progression."
+        ],
+        [
+          "Adipose tissue (pWAT)",
+          "Secretes CCL2",
+          "Monocyte chemotaxis",
+          "Macrophage accumulation in aorta",
+          "Atherosclerosis."
+        ],
+        [
+          "Atherogenic diet",
+          "Obesity",
+          "pWAT expansion",
+          "Chemokine production",
+          "Chronic inflammation in vascular walls",
+          "Atherosclerosis."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:17:50.886Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16216859",
+      "global_index": 255,
+      "question": "Does a well developed collateral circulation predispose to restenosis after percutaneous coronary intervention?",
+      "contexts": [
+        "To evaluate whether a well developed collateral circulation predisposes to restenosis after percutaneous coronary intervention (PCI).",
+        "Prospective observational study.",
+        "58 patients undergoing elective single vessel PCI in a tertiary referral interventional cardiac unit in the UK.",
+        "Collateral flow index (CFI) was calculated as (Pw-Pv)/(Pa-Pv), where Pa, Pw, and Pv are aortic, coronary wedge, and right atrial pressures during maximum hyperaemia. Collateral supply was considered poor (CFI<0.25) or good (CFI>or = 0.25).",
+        "In-stent restenosis six months after PCI, classified as neointimal volume>or = 25% stent volume on intravascular ultrasound (IVUS), or minimum lumen area<or = 50% stent area on IVUS, or minimum lumen diameter<or = 50% reference vessel diameter on quantitative coronary angiography.",
+        "Patients with good collaterals had more severe coronary stenoses at baseline (90 (11)% v 75 (16)%, p<0.001). Restenosis rates were similar in poor and good collateral groups (35% v 43%, p = 0.76 for diameter restenosis, 27% v 45%, p = 0.34 for area restenosis, and 23% v 24%, p = 0.84 for volumetric restenosis). CFI was not correlated with diameter, area, or volumetric restenosis (r2<0.1 for each). By multivariate analysis, stent diameter, stent length,>10% residual stenosis, and smoking history were predictive of restenosis."
+      ],
+      "mesh_terms": [
+        "Angioplasty, Balloon, Coronary",
+        "Case-Control Studies",
+        "Collateral Circulation",
+        "Coronary Angiography",
+        "Coronary Restenosis",
+        "Coronary Stenosis",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prospective Studies",
+        "Risk Factors",
+        "Stents",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Coronary Restenosis (Negative Correlation)",
+          "Stent Design",
+          "Restenosis Risk. Wait, but the study says CFI wasn't correlated, so maybe that's part of the path."
+        ],
+        [
+          "Baseline Coronary Stenosis Severity",
+          "Restenosis Risk. But how to connect that to restenosis? Maybe using risk factors as a mediator."
+        ],
+        [
+          "Confounding Variable",
+          "Smoking History",
+          "Restenosis Risk. That's another path."
+        ],
+        [
+          "Stent characteristics like diameter and length are mentioned. So Stent Diameter",
+          "Restenosis Prediction",
+          "Coronary Angiography",
+          "Restenosis Diagnosis. But how to link to the collateral question?"
+        ],
+        [
+          "IVUS Assessment",
+          "Restenosis Evaluation",
+          "Pci Outcome. But the question is about predisposition, not evaluation."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:01.341Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16241924",
+      "global_index": 256,
+      "question": "Does parity increase insulin resistance during pregnancy?",
+      "contexts": [
+        "To study the effect of parity on impairment of insulin sensitivity during pregnancy and on the risk of gestational diabetes (GDM).",
+        "We studied the relationship between parity and peripheral insulin sensitivity index (ISI(OGTT)) or GDM in 1880 caucasian women, who underwent a 100-g, 3-h oral glucose tolerance test (OGTT) between the 24th and 28th gestational week and in 75 women who underwent an OGTT in two consecutive pregnancies. A proxy for beta-cell function (basal plasma C peptide/fasting plasma glucose; CP/FPG) was also measured.",
+        "By univariate analysis parity was related to decreased ISI(OGTT) and to increased CP/FPG in those with parity>3 and likewise GDM, diagnosed in 124 women (6.58%), was linearly related to parity (P = 0.0034) and strongly age dependent. The relationships between parity and ISI(OGTT), CP/FPG and GDM were no longer significant after adjustment for age, pregestational body mass index (BMI), and weight gain. GDM was significantly related to age and pregestational weight, while ISI(OGTT) and CP/FPG were inversely related to prepregnancy BMI or weight gain. In comparison with the index pregnancy, the subsequent pregnancy was characterized by an increase in actual and prepregnancy BMI, in 2 h area under curve (AUC) glucose and by a decrease in ISI(OGTT) (P = 0.0001). The longer the time interval between pregnancies and the higher the increment in pregestational BMI or in weight gain during the pregnancy, the greater were the ISI(OGTT) decrease and 2-h AUC glucose increase."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Blood Glucose",
+        "Body Mass Index",
+        "Cross-Sectional Studies",
+        "Diabetes, Gestational",
+        "Female",
+        "Glucose Tolerance Test",
+        "Humans",
+        "Insulin Resistance",
+        "Parity",
+        "Pregnancy",
+        "Pregnancy Trimester, Third",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Weight Gain"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Parity",
+          "BMI"
+        ],
+        [
+          "Parity",
+          "Weight Gain"
+        ],
+        [
+          "Parity",
+          "GDM"
+        ],
+        [
+          "Parity",
+          "Beta-cell Function"
+        ],
+        [
+          "Age",
+          "Parity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:11.121Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16249670",
+      "global_index": 257,
+      "question": "Does the investing layer of the deep cervical fascia exist?",
+      "contexts": [
+        "The placement of the superficial cervical plexus block has been the subject of controversy. Although the investing cervical fascia has been considered as an impenetrable barrier, clinically, the placement of the block deep or superficial to the fascia provides the same effective anesthesia. The underlying mechanism is unclear. The aim of this study was to investigate the three-dimensional organization of connective tissues in the anterior region of the neck.",
+        "Using a combination of dissection, E12 sheet plastination, and confocal microscopy, fascial structures in the anterior cervical triangle were examined in 10 adult human cadavers.",
+        "In the upper cervical region, the fascia of strap muscles in the middle and the fasciae of the submandibular glands on both sides formed a dumbbell-like fascia sheet that had free lateral margins and did not continue with the sternocleidomastoid fascia. In the lower cervical region, no single connective tissue sheet extended directly between the sternocleidomastoid muscles. The fascial structure deep to platysma in the anterior cervical triangle comprised the strap fascia."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Cervical Plexus",
+        "Collagen",
+        "Connective Tissue",
+        "Epoxy Compounds",
+        "Female",
+        "Humans",
+        "Male",
+        "Microscopy, Confocal",
+        "Neck",
+        "Neck Muscles",
+        "Plastic Embedding"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Confocal microscopy",
+          "Connective Tissue",
+          "No investing layer."
+        ],
+        [
+          "Block placement",
+          "Connective Tissue",
+          "No investing layer."
+        ],
+        [
+          "Fascia",
+          "Dumbbell structure",
+          "No continuation with sternocleidomastoid fascia."
+        ],
+        [
+          "Plastic Embedding",
+          "Fascial organization",
+          "No investing layer."
+        ],
+        [
+          "Lower cervical region",
+          "No sheet between muscles",
+          "No investing layer."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:19.538Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16253970",
+      "global_index": 258,
+      "question": "Is controlled ovarian stimulation in intrauterine insemination an acceptable therapy in couples with unexplained non-conception in the perspective of multiple pregnancies?",
+      "contexts": [
+        "Controlled ovarian stimulation (COS) with intrauterine insemination (IUI) is a common treatment in couples with unexplained non-conception. Induction of multifollicular growth is considered to improve pregnancy outcome, but it contains an increased risk of multiple pregnancies and ovarian hyperstimulation syndrome. In this study the impact of the number of follicles (>14 mm) on the ongoing pregnancy rate (PR) and multiple PR was evaluated in the first four treatment cycles.",
+        "A retrospective cohort study was performed in all couples with unexplained non-conception undergoing COS-IUI in the Academic Hospital of Maastricht. The main outcome measure was ongoing PR. Secondary outcomes were ongoing multiple PR, number of follicles of>or=14 mm, and order of treatment cycle.",
+        "Three hundred couples were included. No significant difference was found in ongoing PR between women with one, two, three or four follicles respectively (P=0.54), but in women with two or more follicles 12/73 pregnancies were multiples. Ongoing PR was highest in the first treatment cycle and declined significantly with increasing cycle order (P=0.006), while multiple PR did not change."
+      ],
+      "mesh_terms": [
+        "Cohort Studies",
+        "Female",
+        "Humans",
+        "Insemination, Artificial",
+        "Netherlands",
+        "Ovulation Induction",
+        "Patient Satisfaction",
+        "Pregnancy",
+        "Pregnancy Outcome",
+        "Pregnancy, Multiple",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Treatment approach (COS-IUI)",
+          "Number of follicles",
+          "Ongoing Pregnancy Rate (PR)",
+          "Multiple Pregnancy Risk. This uses concepts from the study's findings."
+        ],
+        [
+          "Study Design (Retrospective Cohort Study)",
+          "Follicle Count",
+          "Multiple Pregnancy Outcome. This uses the study's method and its outcome."
+        ],
+        [
+          "Ovulation Induction (COS)",
+          "Follicle Number Increase",
+          "Ovarian Hyperstimulation Risk"
+        ],
+        [
+          "Ovulation Induction",
+          "Follicle Number",
+          "Multiple Pregnancy",
+          "Study Outcome. That could work."
+        ],
+        [
+          "Another path could involve the treatment cycles: Cycle Order",
+          "Pregnancy Rate Decline",
+          "Patient Satisfaction. Since the study found that ongoing PR declines with cycle order."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:28.174Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16266387",
+      "global_index": 259,
+      "question": "Fast foods - are they a risk factor for asthma?",
+      "contexts": [
+        "Lifestyle changes over the last 30 years are the most likely explanation for the increase in allergic disease over this period.AIM: This study tests the hypothesis that the consumption of fast food is related to the prevalence of asthma and allergy.",
+        "As part of the International Study of Asthma and Allergies in Childhood (ISAAC) a cross-sectional prevalence study of 1321 children (mean age = 11.4 years, range: 10.1-12.5) was conducted in Hastings, New Zealand. Using standard questions we collected data on the prevalence of asthma and asthma symptoms, as well as food frequency data. Skin prick tests were performed to common environmental allergens and exercise-induced bronchial hyperresponsiveness (BHR) was assessed according to a standard protocol. Body mass index (BMI) was calculated as weight/height2 (kg/m2) and classified into overweight and obese according to a standard international definition.",
+        "After adjusting for lifestyle factors, including other diet and BMI variables, compared with children who never ate hamburgers, we found an independent risk of hamburger consumption on having a history of wheeze [consumption less than once a week (OR = 1.44, 95% CI: 1.06-1.96) and 1+ times a week (OR = 1.65, 95% CI: 1.07-2.52)] and on current wheeze [consumption less than once a week (OR = 1.17, 95% CI: 0.80-1.70) and 1+ times a week (OR = 1.81, 95% CI: 1.10-2.98)]. Takeaway consumption 1+ times a week was marginally significantly related to BHR (OR = 2.41, 95% CI: 0.99-5.91). There was no effect on atopy."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Animals",
+        "Asthma",
+        "Beverages",
+        "Bronchial Hyperreactivity",
+        "Cattle",
+        "Child",
+        "Cross-Sectional Studies",
+        "Diet",
+        "Female",
+        "Humans",
+        "Male",
+        "Meat Products",
+        "Prevalence",
+        "Respiratory Sounds",
+        "Risk Factors",
+        "Skin Tests"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "The abstract mentions adjusting for other diet and BMI variables. So Diet",
+          "BMI"
+        ],
+        [
+          "BHR",
+          "Asthma."
+        ],
+        [
+          "Also, the study's population is Child (from ISAAC study), so maybe path involving Child",
+          "Diet (Fast Foods)",
+          "Asthma. But need to include medical concepts from the MESH list."
+        ],
+        [
+          "Risk Factors is a key term. So Fast Foods",
+          "Risk Factors",
+          "Asthma. That's straightforward but maybe too simple. Need to expand with more concepts."
+        ],
+        [
+          "Takeaway consumption is linked to BHR. So Takeaway (a type of fast food)",
+          "BHR",
+          "Asthma. Then BHR could lead to Prevalence of Asthma."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:38.905Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16296668",
+      "global_index": 260,
+      "question": "Can bedside assessment reliably exclude aspiration following acute stroke?",
+      "contexts": [
+        "To investigate the ability of a bedside swallowing assessment to reliably exclude aspiration following acute stroke.",
+        "Consecutive patients admitted within 24 h of stroke onset to two hospitals.",
+        "A prospective study. Where possible, all patients had their ability to swallow assessed on the day of admission by both a doctor and a speech and language therapist using a standardized proforma. A videofluoroscopy examination was conducted within 3 days of admission.",
+        "94 patients underwent videofluoroscopy; 20 (21%) were seen to be aspirating, although this was not detected at the bedside in 10. In 18 (22%) of the patients the speech and language therapist considered the swallow to be unsafe. In the medical assessment, 39 patients (41%) had an unsafe swallow. Bedside assessment by a speech and language therapist gave a sensitivity of 47%, a specificity of 86%, positive predictive value (PPV) of 50% and a negative predictive value (NPV) of 85% for the presence of aspiration. Multiple logistic regression was used to identify the optimum elements of the bedside assessments for predicting the presence of aspiration. A weak voluntary cough and any alteration in conscious level gave a sensitivity of 75%, specificity of 72%, PPV of 41% and NPV of 91% for aspiration."
+      ],
+      "mesh_terms": [
+        "Acute Disease",
+        "Aged",
+        "Aged, 80 and over",
+        "Deglutition Disorders",
+        "Female",
+        "Fluoroscopy",
+        "Geriatric Assessment",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Pneumonia, Aspiration",
+        "Predictive Value of Tests",
+        "Prospective Studies",
+        "Sensitivity and Specificity",
+        "Stroke",
+        "Videotape Recording"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "First path could be about the assessment method leading to some outcome. Maybe Bedside Assessment",
+          "Sensitivity",
+          "Aspiration",
+          "Clinical Reliability? But need to connect concepts from the given list."
+        ],
+        [
+          "Another angle is using the study's findings. Like Bedside Assessment",
+          "Weak Cough",
+          "Aspiration",
+          "Predictive Value of Tests",
+          "Aspiration",
+          "Clinical Utility."
+        ],
+        [
+          "Wait, the example paths in the user message have things like Hypertension",
+          "Endothelial Dysfunction... So maybe using the concepts from the study results."
+        ],
+        [
+          "Another idea: Stroke",
+          "Deglutition Disorders",
+          "Aspiration",
+          "Pneumonia. That connects stroke leading to swallowing issues causing aspiration pneumonia."
+        ],
+        [
+          "Alternatively, considering the predictive factors. Weak Voluntary Cough",
+          "Altered Conscious Level",
+          "Aspiration",
+          "Bedside Assessment. But how to structure this into a path. Maybe Weak Voluntary Cough",
+          "Aspiration",
+          "Predictive Value of Tests",
+          "Bedside Assessment."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:48.545Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16319544",
+      "global_index": 261,
+      "question": "Is high-sensitivity C-reactive protein associated with carotid atherosclerosis in healthy Koreans?",
+      "contexts": [
+        "There is a positive association between chronic inflammation and the risk of cardiovascular disease, but whether there is an association between C-reactive protein (CRP) and carotid atherosclerosis is controversial. We investigated the relationship between high-sensitivity CRP (hsCRP) levels and carotid intima-media thickness (IMT) in healthy Koreans.",
+        "We measured hsCRP levels, the carotid IMT, and conventional cardiovascular risk factors including obesity parameters, blood pressure, lipid profiles, insulin resistance, and smoking habits in 820 volunteers (35-79 years old) in a cross-sectional study.",
+        "Higher hsCRP quartile groups had higher mean IMTs, as compared with the lowest quartile (P<0.001 for the trend across quartiles). However, after adjustment for age, the relationship between hsCRP level and IMT was substantially weaker (P = 0.018). After additional adjustments for conventional cardiovascular risk factors, no significant association was observed (P = 0.548). The unadjusted risk for a high carotid IMT value (>or = 1.0 mm) was also positively related to hsCRP quartile, but this relationship was not significant after adjustment for age and other cardiovascular risk factors."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Biomarkers",
+        "C-Reactive Protein",
+        "Carotid Artery Diseases",
+        "Carotid Artery, Common",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Korea",
+        "Male",
+        "Middle Aged",
+        "Nephelometry and Turbidimetry",
+        "Prevalence",
+        "Reference Values",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Tunica Intima",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "*Study Design",
+          "Association",
+          "Adjustment",
+          "hsCRP",
+          "Carotid IMT",
+          "Risk Factors Adjustment",
+          "No Association."
+        ],
+        [
+          "*Risk Factors",
+          "hsCRP",
+          "IMT",
+          "hsCRP",
+          "Carotid IMT",
+          "Adjustment",
+          "No Association."
+        ],
+        [
+          "*Inflammation Marker",
+          "Chronic Inflammation",
+          "Cardiovascular Risk",
+          "Chronic Inflammation",
+          "Cardiovascular Risk Factors",
+          "Carotid IMT."
+        ],
+        [
+          "*Demographics (Age)",
+          "IMT",
+          "hsCRP",
+          "Carotid IMT",
+          "hsCRP",
+          "Adjusted Association (but maybe not directly). Hmm, need to connect these."
+        ],
+        [
+          "*Ultrasonography",
+          "IMT Measurement",
+          "hsCRP",
+          "Carotid IMT",
+          "hsCRP",
+          "Confounding Risk Factors."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:18:58.216Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16361634",
+      "global_index": 262,
+      "question": "Women with synchronous primary cancers of the endometrium and ovary: do they have Lynch syndrome?",
+      "contexts": [
+        "Lynch syndrome (hereditary nonpolyposis colorectal cancer; HNPCC) is an autosomal-dominant cancer predisposition syndrome that increases risk for multiple cancers, including colon, endometrial, and ovarian cancer. Revised Bethesda Criteria recommend that patients with two HNPCC-associated cancers undergo molecular evaluation to determine whether they have a mismatch repair (MMR) defect associated with HNPCC. The purpose of our study was to determine the likelihood of MMR defects (MSH2, MSH6, MLH1) in women with synchronous endometrial and ovarian cancer.",
+        "Between 1989 and 2004, 102 women with synchronous endometrial and ovarian cancers were identified; 59 patients had tumor blocks available for analysis. Patients were divided into risk groups based on family history: high (met Amsterdam criteria), medium (personal history or first-degree relative with an HNPCC-associated cancer), and low (all others). Protein expression for MSH2, MSH6, and MLH1 was evaluated by immunohistochemistry. Microsatellite instability and MLH1 promoter methylation analyses were performed on a subset of cases.",
+        "Median age was 50 years. Two patients met Amsterdam criteria for HNPCC. Five additional patients, all medium-risk, had molecular findings consistent with a germline mutation of either MSH2 or MLH1. None of the low-risk patients had molecular results consistent with a germline mutation."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Base Pair Mismatch",
+        "Cohort Studies",
+        "Colorectal Neoplasms, Hereditary Nonpolyposis",
+        "DNA Methylation",
+        "DNA Repair",
+        "Endometrial Neoplasms",
+        "Female",
+        "Gene Expression Profiling",
+        "Humans",
+        "Immunohistochemistry",
+        "Microsatellite Repeats",
+        "Middle Aged",
+        "Neoplasms, Multiple Primary",
+        "Ovarian Neoplasms",
+        "Pedigree",
+        "Risk Factors"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Risk factors",
+          "Hereditary Nonpolyposis",
+          "Immunohistochemistry."
+        ],
+        [
+          "DNA Repair",
+          "Lynch syndrome."
+        ],
+        [
+          "Cohort Studies",
+          "MMR defects."
+        ],
+        [
+          "MLH1",
+          "Lynch Syndrome."
+        ],
+        [
+          "Microsatellite instability is another marker. Microsatellite Repeats",
+          "Microsatellite Instability",
+          "Lynch Syndrome."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:22.663Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16392897",
+      "global_index": 263,
+      "question": "BCRABL transcript detection by quantitative real-time PCR : are correlated results possible from homebrew assays?",
+      "contexts": [
+        "Quantitative real-time PCR has become the predominant molecular technique to monitor BCRABL levels in response to treatment in Ph(+) leukemia patients. However, without some form of standardized methodology between laboratories, the correlation of results is difficult.",
+        "Using TaqMan-based assays, parallel quantitative real-time PCR analysis was performed on 70 clinical specimens at Vanderbilt University Medical Center and Virginia Commonwealth University. While the same positive control cell line (K562) and quality control gene (BCR) were used, the RNA isolation technique, cDNA synthesis, BCR control cell line, and PCR primer and probe sequences were different.",
+        "The detection of BCRABL-positive results spanned a dynamic range from 10(0) to 10(5)/100,000 cells. Forty-three samples were negative at both facilities. A Spearman rank correlation analysis was performed for the 22 BCRABL-positive paired results. The correlation coefficient, r(s), was 0.9435 (p<0.00001), suggesting a strong correlation of the results. One discordant result was obtained for consecutive samples from one patient with a low BCRABL copy number as a result of a minimal RNA yield at one laboratory."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Antineoplastic Agents",
+        "Benzamides",
+        "Bone Marrow",
+        "Bone Marrow Transplantation",
+        "Genes, abl",
+        "Humans",
+        "Imatinib Mesylate",
+        "K562 Cells",
+        "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+        "Leukemia, Myeloid",
+        "Middle Aged",
+        "Molecular Diagnostic Techniques",
+        "Piperazines",
+        "Polymerase Chain Reaction",
+        "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+        "Pyrimidines",
+        "RNA, Messenger",
+        "RNA, Neoplasm",
+        "Sensitivity and Specificity"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Quantitative real-time PCR",
+          "Molecular Diagnostic Techniques",
+          "BCR-ABL Positive Leukemia",
+          "Standardization of Controls (K562 Cells)",
+          "Correlated Results"
+        ],
+        [
+          "Homebrew Assays",
+          "Molecular Diagnostic Techniques",
+          "Standardized Controls (K562 Cells)",
+          "Correlated Results"
+        ],
+        [
+          "RNA Isolation Techniques",
+          "RNA Yield",
+          "BCRABL Transcript Detection",
+          "Correlation of Results",
+          "Discordant Results (Low RNA Yield)"
+        ],
+        [
+          "cDNA Synthesis",
+          "PCR Primer Design",
+          "BCRABL Detection",
+          "Molecular Diagnostic Techniques",
+          "Correlated Results"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:26.520Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16403186",
+      "global_index": 264,
+      "question": "Are the arginine vasopressin V1a receptor microsatellites related to hypersexuality in children with a prepubertal and early adolescent bipolar disorder phenotype?",
+      "contexts": [
+        "To examine family-based transmission of the number of 5' flanking arginine vasopressin V1a receptor (AVPR1A) microsatellites, which include [(GATA)(14)] and complex [(CT)(4)-TT-(CT)(8)-(GT)(24)]repeats, in probands with a prepubertal and early adolescent bipolar disorder phenotype (PEA-BP). Preferential transmission of the number of AVPR1A microsatellite repeats to hypersexual and uninhibited people-seeking probands was hypothesized, based on reports from preclinical work in the literature.",
+        "Probands were 83 participants in an ongoing controlled study of PEA-BP. The PEA-BP phenotype was defined by DSM-IV mania with at least one of the cardinal symptoms of mania (elation and/or grandiosity) to avoid diagnosing mania only by symptoms that overlapped with those for attention-deficit hyperactivity disorder (ADHD). Comprehensive assessment of the probands included separate Washington University in St. Louis Kiddie Schedule for Affective Disorders and Schizophrenia (WASH-U-KSADS) interviews of parents about their children and of children about themselves. Hypersexuality and uninhibited people-seeking were assessed from the corresponding WASH-U-KSADS items. Microsatellite genotyping of the AVPR1A repeats was conducted using fluorescently labeled primers and detected by laser-induced fluorescence. Alleles were determined with the assistance of semi-automated allele-calling software. There were 32 complete, biological trios (28 informative families) for the GATA repeat and 34 complete, biological trios (30 informative families) for the complex repeat. Data were analyzed using case-control and family-based association methods.",
+        "Preferential transmission of AVPR1A GATA or complex repeats was not significant for hypersexuality or uninhibited people-seeking, using the transmission disequilibrium test. Similarly, case-control analyses found no significant associations between hypersexuality or uninhibited people-seeking and the number of AVPR1A GATA or complex repeats. For p<0.05, there was about 80% power to detect odds ratios of 5.0 and 4.0 (in the family-based analyses) and 3.5 and 2.6 (in the case-control analyses), for allele frequencies of 0.1 and 0.5, respectively."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Alleles",
+        "Bipolar Disorder",
+        "Case-Control Studies",
+        "Child",
+        "Female",
+        "Humans",
+        "Linkage Disequilibrium",
+        "Male",
+        "Microsatellite Repeats",
+        "Phenotype",
+        "Psychiatric Status Rating Scales",
+        "Receptors, Vasopressin",
+        "Sexual Dysfunctions, Psychological"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Fourth, the study involved Child and Adolescent populations. So Child",
+          "Bipolar Disorder",
+          "Case-Control Studies",
+          "AVPR1A Repeats",
+          "AVPR1A Repeats",
+          "Hypersexuality"
+        ],
+        [
+          "Microsatellite Repeats",
+          "Hypersexuality",
+          "Bipolar Disorder Phenotype. That connects different concepts."
+        ],
+        [
+          "Hypersexuality Assessment",
+          "AVPR1A Microsatellites"
+        ],
+        [
+          "Bipolar Disorder",
+          "Prepub"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:37.966Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16414216",
+      "global_index": 265,
+      "question": "Are endometrial polyps from pre-menopausal women similar to post-menopausal women?",
+      "contexts": [
+        "Do endometrial polyps from pre- and post-menopausal women have similar immunohistochemical expression of oestrogen and progesterone receptors (ER, PR) and markers of cellular proliferation/apoptosis (Ki67 and Bcl-2).",
+        "Prospective cohort study. Non-parametric statistical analysis was used.",
+        "Polyps recruited from women attending an out-patient hysteroscopy clinic in a UK district general hospital.",
+        "Fourteen pre-menopausal and 16 post-menopausal women who presented with abnormal bleeding with endometrial polyps.",
+        "Immunohistochemical staining was performed on endometrial polyps.",
+        "Significant differences or correlations between hormone receptor expression (oestrogen and progesterone) and cell growth indices (Ki67 and Bcl-2).",
+        "Endometrial polyps from pre- and post-menopausal women had significant differences in their expression of hormone receptors and Ki67. However, polyps from both groups of women had similarly increased levels of Bcl-2, an inhibitor of apoptosis."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Cohort Studies",
+        "Endometrial Neoplasms",
+        "Female",
+        "Humans",
+        "Immunohistochemistry",
+        "Middle Aged",
+        "Polyps",
+        "Postmenopause",
+        "Premenopause",
+        "Prospective Studies",
+        "Receptors, Estrogen",
+        "Receptors, Progesterone"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Study Type",
+          "Hormone Receptors",
+          "Differences. Since it's a prospective cohort study, they looked at ER and PR and found differences."
+        ],
+        [
+          "Menopausal Status",
+          "Cell Proliferation Markers (Ki67)",
+          "Differences. The study found significant differences in Ki67."
+        ],
+        [
+          "Immunohistochemistry",
+          "Apoptosis Markers (Bcl-2)",
+          "Similar Levels. Both groups had similar Bcl-2, which is anti-apoptotic."
+        ],
+        [
+          "Menopausal Transition",
+          "Estrogen Receptors"
+        ],
+        [
+          "Cohort Studies",
+          "Statistical Analysis",
+          "Non-parametric",
+          "Findings. The study design using non-parametric methods leading to the observed differences."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:46.442Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16418930",
+      "global_index": 266,
+      "question": "Landolt C and snellen e acuity: differences in strabismus amblyopia?",
+      "contexts": [
+        "Assessment of visual acuity depends on the optotypes used for measurement. The ability to recognize different optotypes differs even if their critical details appear under the same visual angle. Since optotypes are evaluated on individuals with good visual acuity and without eye disorders, differences in the lower visual acuity range cannot be excluded. In this study, visual acuity measured with the Snellen E was compared to the Landolt C acuity.",
+        "100 patients (age 8 - 90 years, median 60.5 years) with various eye disorders, among them 39 with amblyopia due to strabismus, and 13 healthy volunteers were tested. Charts with the Snellen E and the Landolt C (Precision Vision) which mimic the ETDRS charts were used to assess visual acuity. Three out of 5 optotypes per line had to be correctly identified, while wrong answers were monitored. In the group of patients, the eyes with the lower visual acuity, and the right eyes of the healthy subjects, were evaluated.",
+        "Differences between Landolt C acuity (LR) and Snellen E acuity (SE) were small. The mean decimal values for LR and SE were 0.25 and 0.29 in the entire group and 0.14 and 0.16 for the eyes with strabismus amblyopia. The mean difference between LR and SE was 0.55 lines in the entire group and 0.55 lines for the eyes with strabismus amblyopia, with higher values of SE in both groups. The results of the other groups were similar with only small differences between LR and SE."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Amblyopia",
+        "Cataract",
+        "Child",
+        "Eye Diseases",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Reference Values",
+        "Refractive Errors",
+        "Reproducibility of Results",
+        "Retinal Diseases",
+        "Strabismus",
+        "Vision Tests",
+        "Visual Acuity"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Visual Acuity",
+          "Optotype Differences."
+        ],
+        [
+          "Lower Visual Acuity",
+          "Landolt C vs Snellen E Differences."
+        ],
+        [
+          "Strabismus",
+          "Amblyopia",
+          "Visual Acuity",
+          "Landolt C vs Snellen E"
+        ],
+        [
+          "Visual Acuity Tests",
+          "Landolt C",
+          "Strabismus Amblyopia",
+          "Reference Values",
+          "Differences"
+        ],
+        [
+          "Study Participants (Patients with Strabismus Amblyopia)",
+          "Optotype Recognition Variability",
+          "Reproducibility of Results",
+          "Landolt vs Snellen Differences"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:19:56.107Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16428354",
+      "global_index": 267,
+      "question": "Does rural or urban residence make a difference to neonatal outcome in premature birth?",
+      "contexts": [
+        "Patients living in rural areas may be at a disadvantage in accessing tertiary health care.AIM: To test the hypothesis that very premature infants born to mothers residing in rural areas have poorer outcomes than those residing in urban areas in the state of New South Wales (NSW) and the Australian Capital Territory (ACT) despite a coordinated referral and transport system.",
+        "\"Rural\" or \"urban\" status was based on the location of maternal residence. Perinatal characteristics, major morbidity and case mix adjusted mortality were compared between 1879 rural and 6775 urban infants<32 weeks gestational age, born in 1992-2002 and admitted to all 10 neonatal intensive care units in NSW and ACT.",
+        "Rural mothers were more likely to be teenaged, indigenous, and to have had a previous premature birth, prolonged ruptured membrane, and antenatal corticosteroid. Urban mothers were more likely to have had assisted conception and a caesarean section. More urban (93% v 83%) infants were born in a tertiary obstetric hospital. Infants of rural residence had a higher mortality (adjusted odds ratio (OR) 1.26, 95% confidence interval (CI) 1.07 to 1.48, p = 0.005). This trend was consistently seen in all subgroups and significantly for the tertiary hospital born population and the 30-31 weeks gestation subgroup. Regional birth data in this gestational age range also showed a higher stillbirth rate among rural infants (OR 1.20, 95% CI 1.09 to 1.32, p<0.001)."
+      ],
+      "mesh_terms": [
+        "Australian Capital Territory",
+        "Epidemiologic Methods",
+        "Female",
+        "Gestational Age",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Premature",
+        "New South Wales",
+        "Pregnancy",
+        "Pregnancy Outcome",
+        "Premature Birth",
+        "Residence Characteristics",
+        "Rural Health",
+        "Stillbirth",
+        "Urban Health"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Residence Characteristics",
+          "Access to Tertiary Care"
+        ],
+        [
+          "Antenatal Corticosteroid",
+          "Gestational Age",
+          "Mortality."
+        ],
+        [
+          "The study also found higher stillbirth rates in rural areas. So Rural Health",
+          "Stillbirth",
+          "Gestational Age. But I need to connect via concepts. Maybe Rural Residence",
+          "Longer Prolonged Membranes",
+          "Stillbirth."
+        ],
+        [
+          "Urban mothers had more caesarean sections. That could be a path: Urban Health",
+          "Cesarean Section",
+          "Pregnancy Outcome"
+        ],
+        [
+          "Also, considering previous premature birth as a factor for rural mothers. So Residence",
+          "Previous Premature Birth",
+          "Gestational Age",
+          "Outcome."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:07.378Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16432652",
+      "global_index": 268,
+      "question": "Transgastric endoscopic splenectomy: is it possible?",
+      "contexts": [
+        "We have previously reported the feasibility of diagnostic and therapeutic peritoneoscopy including liver biopsy, gastrojejunostomy, and tubal ligation by an oral transgastric approach. We present results of per-oral transgastric splenectomy in a porcine model. The goal of this study was to determine the technical feasibility of per-oral transgastric splenectomy using a flexible endoscope.",
+        "We performed acute experiments on 50-kg pigs. All animals were fed liquids for 3 days prior to procedure. The procedures were performed under general anesthesia with endotracheal intubation. The flexible endoscope was passed per orally into the stomach and puncture of the gastric wall was performed with a needle knife. The puncture was extended to create a 1.5-cm incision using a pull-type sphincterotome, and a double-channel endoscope was advanced into the peritoneal cavity. The peritoneal cavity was insufflated with air through the endoscope. The spleen was visualized. The splenic vessels were ligated with endoscopic loops and clips, and then mesentery was dissected using electrocautery.",
+        "Endoscopic splenectomy was performed on six pigs. There were no complications during gastric incision and entrance into the peritoneal cavity. Visualization of the spleen and other intraperitoneal organs was very good. Ligation of the splenic vessels and mobilization of the spleen were achieved using commercially available devices and endoscopic accessories."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Endoscopy",
+        "Models, Animal",
+        "Spleen",
+        "Splenectomy",
+        "Stomach",
+        "Swine"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Another path could involve the procedure steps. For example, Endoscopy",
+          "Stomach (as the access point)",
+          "Spleen (target organ)",
+          "Splenectomy. But maybe adding another step. Like Endoscopy",
+          "Stomach",
+          "Peritoneal Cavity",
+          "Splenectomy. That shows the access route."
+        ],
+        [
+          "Another angle is the method of creating the incision. Needle knife",
+          "Gastric wall puncture",
+          "Endoscopic access",
+          "Gastric Incision",
+          "Peritoneal Access",
+          "Splenectomy."
+        ],
+        [
+          "Then there's the use of devices: Endoscopic loops",
+          "Vascular ligation",
+          "Splenic vessels",
+          "Splenectomy. That shows the tools used in the procedure."
+        ],
+        [
+          "Another path could involve the outcome: No complications",
+          "Technical feasibility",
+          "Successful splenectomy",
+          "Swine model. But maybe restructuring that."
+        ],
+        [
+          "Swine as the animal model used in the study, connected to the procedure. So Swine",
+          "Models, Animal",
+          "Endoscopy",
+          "Splenectomy."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:16.902Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16465002",
+      "global_index": 269,
+      "question": "Dose end-tidal carbon dioxide measurement correlate with arterial carbon dioxide in extremely low birth weight infants in the first week of life?",
+      "contexts": [
+        "To study the correlation and agreement between end-tidal carbon dioxide (EtCO2) and arterial carbon dioxide (PaCO(2)) in ventilated extremely low birth weight (ELBW) infants in the first week of life.",
+        "Retrospective chart review of all ELBW (<1,000 g) infants admitted to a level III NICU from January 2003 to December 2003. Data collected included demographic details and simultaneous EtCO(2) (mainstream capnography) and arterial blood gas values (pH, PaCO(2), PaO(2)).",
+        "The correlation coefficient, degree of bias with 95% confidence interval between the EtCO(2) and PaCO(2).",
+        "There were 754 end-tidal and arterial CO(2) pairs from 31 ELBW infants (21 male and 10 female). The overall EtCO(2) values were significantly lower than PaCO(2) value. In only 89/754(11.8%) pairs, the EtCO(2) was higher than the PaCO(2). The overall bias was 5.6 +/- 6.9 mmHg (95% C.I. 5.11-6.09). The intraclass correlation coefficient was 0.81. Using EtCO2 ranges of 30 to 50 mmHg, the capnographic method was able to identify 84% of instances where PaCO(2) was between 35 (<35 = hypocarbia) and 55 mmHg (>55= hypercapnia)."
+      ],
+      "mesh_terms": [
+        "Blood Gas Analysis",
+        "Capnography",
+        "Carbon Dioxide",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Very Low Birth Weight",
+        "Male",
+        "Respiration, Artificial",
+        "Respiratory Distress Syndrome, Newborn",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Sensitivity and Specificity",
+        "Tidal Volume"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Sensitivity and Specificity",
+          "Respiratory Distress Syndrome, Newborn? Not sure. Maybe not."
+        ],
+        [
+          "The bias (5.6 mmHg) could relate to the Clinical Application. But how? Maybe Retrospective Studies",
+          "Carbon Dioxide Measurement Discrepancy",
+          "Clinical Decision-Making. But need to use existing concepts."
+        ],
+        [
+          "Capnography",
+          "Carbon Dioxide Measurement",
+          "Intraclass Correlation Coefficient",
+          "Clinical Monitoring"
+        ],
+        [
+          "Retrospective Studies",
+          "Infant, Very Low Birth Weight",
+          "Capnography",
+          "Sensitivity and Specificity"
+        ],
+        [
+          "Blood Gas Analysis",
+          "Arterial Carbon Dioxide",
+          "Bias in Measurement",
+          "Clinical Decision-Making"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:27.479Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16498158",
+      "global_index": 270,
+      "question": "Is atropine needed with ketamine sedation?",
+      "contexts": [
+        "To compare atropine with placebo as an adjunct to ketamine sedation in children undergoing minor painful procedures. Outcome measures included hypersalivation, side effect profile, parental/patient satisfaction, and procedural success rate.",
+        "Children aged between 1 and 16 years of age requiring ketamine procedural sedation in a tertiary emergency department were randomised to receive 0.01 mg/kg of atropine or placebo. All received 4 mg/kg of intramuscular ketamine. Tolerance and sedation scores were recorded throughout the procedure. Side effects were recorded from the start of sedation until discharge. Parental and patient satisfaction scores were obtained at discharge and three to five days after the procedure, with the opportunity to report side effects encountered at home.",
+        "A total of 83 patients aged 13 months to 14.5 years (median age 3.4 years) were enrolled over a 16 month period. Hypersalivation occurred in 11.4% of patients given atropine compared with 30.8% given placebo (odds ratio (OR) 0.29, 95% confidence interval (CI) 0.09 to 0.91). A transient rash was observed in 22.7% of the atropine group compared with 5.1% of the placebo group (OR 5.44, 95% CI 1.11 to 26.6). Vomiting during recovery occurred in 9.1% of atropine patients compared with 25.6% of placebo patients (OR 0.29, 95% CI 0.09 to 1.02). There was a trend towards better tolerance in the placebo group. No patient experienced serious side effects."
+      ],
+      "mesh_terms": [
+        "Adjuvants, Anesthesia",
+        "Adolescent",
+        "Anesthetics, Dissociative",
+        "Atropine",
+        "Child",
+        "Child, Preschool",
+        "Double-Blind Method",
+        "Drug Combinations",
+        "Female",
+        "Humans",
+        "Infant",
+        "Injections, Intramuscular",
+        "Ketamine",
+        "Male",
+        "Minor Surgical Procedures",
+        "Pain",
+        "Patient Satisfaction",
+        "Prospective Studies",
+        "Sialorrhea"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Outcome Measures",
+          "Patient Satisfaction?"
+        ],
+        [
+          "Third, thinking about the age group: Child, Preschool, and how ketamine affects them. Maybe Child",
+          "Ketamine",
+          "Sialorrhea",
+          "Atropine. But need to connect concepts properly."
+        ],
+        [
+          "Atropine",
+          "Vomiting Reduction?"
+        ],
+        [
+          "Adjuvants",
+          "Transient Rash?"
+        ],
+        [
+          "Ketamine",
+          "Sialorrhea",
+          "Atropine",
+          "Hypersalivation Reduction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:37.548Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16510651",
+      "global_index": 271,
+      "question": "Birth characteristics and risk of low intellectual performance in early adulthood: are the associations confounded by socioeconomic factors in adolescence or familial effects?",
+      "contexts": [
+        "In this study we investigated whether the association between measures of fetal growth restriction and intellectual performance was mediated by socioeconomic or familial factors.",
+        "This was a population-based cohort study of 357,768 Swedish males born as singletons without congenital malformations between 1973 and 1981. The main outcome measure was intellectual performance at military conscription.",
+        "Compared with men born with appropriate birth weight for gestational age, men born light for gestational age suffered an increased risk of low intellectual performance after adjustment for maternal and socioeconomic factors. The increase in risk of low intellectual performance related to a decrease in birth weight for gestational age was similar between families and within families. Men born short or with a small head circumference for gestational age were also at increased risk of low intellectual performance, both when adjusting for maternal and socioeconomic factors and within families."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Birth Weight",
+        "Family Characteristics",
+        "Female",
+        "Fetal Growth Retardation",
+        "Growth",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Small for Gestational Age",
+        "Intelligence",
+        "Male",
+        "Pregnancy",
+        "Risk Factors",
+        "Socioeconomic Factors",
+        "Sweden"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Intellectual Performance",
+          "Socioeconomic Factors",
+          "Low Birth Weight",
+          "Intellectual Performance",
+          "Socioeconomic Adjustment. Wait, the study adjusted for these factors."
+        ],
+        [
+          "Birth Weight",
+          "Intellectual Performance. Then maybe including another concept like Risk Factors."
+        ],
+        [
+          "The study mentions that even within families, the association persists. So Fetal Growth Retardation",
+          "Family Effects"
+        ],
+        [
+          "Socioeconomic Factors are a key variable here. So Socioeconomic Factors",
+          "Maternal Factors",
+          "Maternal Adjustment",
+          "Intellectual Performance."
+        ],
+        [
+          "Growth Retardation",
+          "Intelligence. Then maybe adding another factor from the study."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:46.058Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16538201",
+      "global_index": 272,
+      "question": "Does use of hydrophilic guidewires significantly improve technical success rates of peripheral PTA?",
+      "contexts": [
+        "To determine whether the use of hydrophilic guidewires has increased the technical success rate of peripheral percutaneous transluminal angioplasty (PTA).MATERIAL/",
+        "We performed 125 procedures and analyzed the technical success rates of PTA using the conventional guidewire first and then if needed, the hydrophilic guidewire for iliac and SFA stenoses or occlusions. Angioplasty was performed on 25 stenosed, 25 occluded iliac arteries and 25 stenosed, 50 occluded femoral arteries. The result was defined as technical success when the lesion was crossed by a guidewire and balloon, then it was dilated with restoration of vessel lumen and less than 30% residual stenosis and the rise in ABI values was at least 0.15 after 24 hours.",
+        "The technical success rate after PTA of stenosed iliac arteries was achieved in 96% (24/25) using conventional wires and 100% using hydrophilic guidewire; in iliac occlusions, the rates were 60% (15/25) and 96%, respectively; in femoral stenosis - 84% (21/25) and 100%; in occlusions in the first group: lesions<10 cm -64% (16/25) and 96%, in the second group: lesions>10 cm -48% (12/25) and 88%. In the iliac group, there was no significant difference in the success of iliac stenosis PTA. However, there were significant changes in the success rates of PTA performed for SFA stenosis and iliac and SFA occlusions."
+      ],
+      "mesh_terms": [
+        "Angioplasty, Balloon",
+        "Arterial Occlusive Diseases",
+        "Constriction, Pathologic",
+        "Femoral Artery",
+        "Humans",
+        "Iliac Artery",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Hydrophilic Guidewires",
+          "Iliac Artery",
+          "Technical Success. Wait, maybe include occlusions here. Path1 could be Angioplasty, Balloon",
+          "Hydrophilic Guidewires",
+          "Iliac Artery",
+          "Technical Success Rate. Hmm, but the example uses MESH terms."
+        ],
+        [
+          "Another angle: Arterial Occlusive Diseases (the condition being treated)",
+          "use of Hydrophilic Guidewires",
+          "better outcomes in terms of Treatment Outcome. That could be a path."
+        ],
+        [
+          "could involve Pathologic Constriction",
+          "Hydrophilic Guidewires"
+        ],
+        [
+          "Arterial Occlusive Diseases",
+          "Hydrophilic Guidewires",
+          "Technical Success."
+        ],
+        [
+          "Hydrophilic Guidewires",
+          "Increased Technical Success. But need to use MESH terms. Maybe Lesion Length",
+          "Hydrophilic Guidewires",
+          "Technical Success Rate."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:20:56.512Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16564683",
+      "global_index": 273,
+      "question": "Is there any interest to perform ultrasonography in boys with undescended testis?",
+      "contexts": [
+        "To evaluate the accuracy of ultrasonographic examination in boys with an undescended testis.",
+        "All patients who were referred to the paediatric surgeon after detection of an undescended testis were evaluated prospectively between November 2001 and November 2004. Among these 377 patients, 87 were referred with an ultrasonogram previously prescribed by the referring primary physician. The results of the ultrasonogram were compared to the results of the clinical examination of the paediatric surgeon and, in cases of no palpable testis, to the surgical findings.",
+        "Ultrasonography did not detect the retractile testes. Ultrasonography detected 67% of the palpable undescended testes. In cases of no palpable testis, the ultrasonographic examination missed the abdominal testes and sometimes other structures were falsely interpreted as a testis."
+      ],
+      "mesh_terms": [
+        "Child",
+        "Child, Preschool",
+        "Cryptorchidism",
+        "Humans",
+        "Infant",
+        "Male",
+        "Prospective Studies",
+        "Reproducibility of Results",
+        "Ultrasonography"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Ultrasonography",
+          "Clinical Examination"
+        ],
+        [
+          "False Positives",
+          "Reproducibility of Results",
+          "Diagnostic Reliability."
+        ],
+        [
+          "The study was a prospective study. So, using the MESH term Prospective Studies",
+          "Cryptorchidism",
+          "Ultrasonography",
+          "Diagnostic Accuracy. That's another path."
+        ],
+        [
+          "Retractile testes weren't detected by ultrasonography. So Retractile Testes",
+          "Ultrasonography",
+          "Diagnostic Limitation",
+          "Ultrasonography",
+          "Abdominal Testes Missed",
+          "Surgical Exploration."
+        ],
+        [
+          "The first could be about the study's design. Prospective Studies",
+          "Cryptorchidism",
+          "Ultrasonography",
+          "Clinical Evaluation. That's three steps. Or maybe Prospective Studies",
+          "Clinical Evaluation",
+          "Ultrasonography",
+          "Diagnostic Accuracy."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:04.938Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16647887",
+      "global_index": 274,
+      "question": "Are women who are treated for hypothyroidism at risk for pregnancy complications?",
+      "contexts": [
+        "The purpose of this study was to investigate the outcomes that are associated with pregnancy and treated hypothyroidism.",
+        "This was a retrospective cohort study of all women who received prenatal care and were delivered at the University of California, San Francisco, between 1989 and 2001. All patients with hypothyroidism diagnosed before pregnancy or early in pregnancy were identified. Maternal, fetal, and obstetric outcomes were then collected and analyzed for women with hypothyroidism and compared with women without hypothyroidism.",
+        "Among 20,499 deliveries, there were 419 women (2.1%) who were treated for hypothyroidism during the study period. Hypothyroidism was more common among women>or =35 years old, white women, and women without Medicaid insurance. Treated hypothyroidism was not associated with any increase in maternal, fetal, or neonatal complications. In addition, hypothyroidism did not affect mode of delivery."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Distribution",
+        "Cohort Studies",
+        "Female",
+        "Humans",
+        "Hypothyroidism",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Prevalence",
+        "Retrospective Studies",
+        "Risk Assessment"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Hypothyroidism",
+          "Pregnancy",
+          "Pregnancy Complications",
+          "Retrospective Studies",
+          "No Association"
+        ],
+        [
+          "Risk Assessment",
+          "Hypothyroidism",
+          "Maternal Outcomes",
+          "Cohort Studies",
+          "No Increased Risk"
+        ],
+        [
+          "Age Distribution",
+          "Female",
+          "Hypothyroidism",
+          "Pregnancy Complications",
+          "Prevalence Analysis"
+        ],
+        [
+          "Treated Hypothyroidism",
+          "Humans",
+          "Pregnancy",
+          "Fetal Outcomes",
+          "No Adverse Effects"
+        ],
+        [
+          "Medicaid Insurance",
+          "Hypothyroidism",
+          "Risk Assessment",
+          "Pregnancy",
+          "Equitable Outcomes"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:12.575Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16678696",
+      "global_index": 275,
+      "question": "Continuity of care experience of residents in an academic vascular department: are trainees learning complete surgical care?",
+      "contexts": [
+        "It is widely accepted that exemplary surgical care involves a surgeon's involvement in the preoperative, perioperative, and postoperative periods. In an era of ever-expanding therapeutic modalities available to the vascular surgeon, it is important that trainees gain experience in preoperative decision-making and how this affects a patient's operative and postoperative course. The purpose of this study was to define the current experience of residents on a vascular surgery service regarding the continuity of care they are able to provide for patients and the factors affecting this experience.",
+        "This prospective cohort study was approved by the Institutional Review Board and conducted at the University of British Columbia during January 2005. All patients who underwent a vascular procedure at either of the two teaching hospitals were included. In addition to type of case (emergent, outpatient, inpatient), resident demographic data and involvement in each patient's care (preoperative assessment, postoperative daily assessment, and follow-up clinic assessment) were recorded. Categoric data were analyzed with the chi2 test.",
+        "The study included 159 cases, of which 65% were elective same-day admission patients, 20% were elective previously admitted patients; and 15% were emergent. The overall rate of preoperative assessment was 67%, involvement in the decision to operate, 17%; postoperative assessment on the ward, 79%; and patient follow-up in clinic, 3%. The rate of complete in-hospital continuity of care (assessing patient pre-op and post-op) was 57%. Emergent cases were associated with a significantly higher rate of preoperative assessment (92% vs 63%, P<.05). For elective cases admitted before the day of surgery compared with same-day admission patients, the rates of preoperative assessment (78% vs 58%, P<.05) and involvement in the decision to operate (16% vs 4%, P<.05) were significantly higher."
+      ],
+      "mesh_terms": [
+        "Ambulatory Surgical Procedures",
+        "British Columbia",
+        "Cohort Studies",
+        "Continuity of Patient Care",
+        "Curriculum",
+        "Decision Making",
+        "Emergencies",
+        "Forecasting",
+        "Hospitals, Teaching",
+        "Humans",
+        "Internship and Residency",
+        "Postoperative Care",
+        "Preoperative Care",
+        "Prospective Studies",
+        "Surgery Department, Hospital",
+        "Vascular Surgical Procedures"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Internship and Residency",
+          "Teaching",
+          "Internship and Residency",
+          "Continuity of Patient Care."
+        ],
+        [
+          "Preoperative Care",
+          "Preoperative Care",
+          "Postoperative Care",
+          "Continuity of Patient Care."
+        ],
+        [
+          "Preoperative Assessment",
+          "Continuity of Patient Care. But I need to include a MESH term. Maybe Case Type",
+          "Preoperative Care",
+          "Continuity of Patient Care."
+        ],
+        [
+          "Cohort Studies",
+          "Continuity of Patient Care. That's another path."
+        ],
+        [
+          "Teaching",
+          "Internship and Residency",
+          "Continuity of Patient Care. Or Hospitals",
+          "Teaching",
+          "Internship and Residency",
+          "Continuity."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:23.145Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16713745",
+      "global_index": 276,
+      "question": "Do cytokine concentrations in pancreatic juice predict the presence of pancreatic diseases?",
+      "contexts": [
+        "Cytokine concentration in pancreatic juice of patients with pancreatic disease is unknown. Secretin stimulation allows endoscopic collection of pancreatic juice secreted into the duodenum. We aimed to evaluate the cytokine concentrations in pancreatic juice of patients with abdominal pain to discriminate presence from absence of pancreatic disease.",
+        "From January 2003-December 2004, consecutive patients with abdominal pain compatible with pancreatic origin were enrolled. Patients underwent upper endoscopy. Intravenous secretin (0.2 mug/kg) was given immediately before scope intubation. Pancreatic juice collected from the duodenum was immediately snap-frozen in liquid nitrogen until assays were performed. Pancreatic juice levels of interleukin-8, interleukin-6, intercellular adhesion molecule 1, and transforming growth factor-beta 1 were measured by modified enzyme-linked immunosorbent assays. The final diagnosis was made by the primary gastroenterologist on the basis of medical history; laboratory, endoscopic, and imaging studies; and clinical follow-up. Fisher exact test and Kruskal-Wallis rank sum test were used for statistical analysis.",
+        "Of 130 patients screened, 118 met the inclusion criteria. Multivariate analysis revealed that only interleukin-8 was able to discriminate between normal pancreas and chronic pancreatitis (P = .011), pancreatic cancer (P = .044), and the presence of pancreatic diseases (P = .007). Individual cytokine concentrations were not significantly different in chronic pancreatitis compared with pancreatic cancer."
+      ],
+      "mesh_terms": [
+        "Abdominal Pain",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Biomarkers",
+        "Cytokines",
+        "Diagnosis, Differential",
+        "Endoscopy, Gastrointestinal",
+        "Female",
+        "Humans",
+        "Intercellular Adhesion Molecule-1",
+        "Interleukin-6",
+        "Interleukin-8",
+        "Lipase",
+        "Male",
+        "Middle Aged",
+        "Pancreatic Diseases",
+        "Pancreatic Juice",
+        "Pancreatic Neoplasms",
+        "Pancreatitis, Chronic",
+        "Secretin",
+        "Transforming Growth Factor beta"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Pancreatic Juice",
+          "Interleukin-8",
+          "Pancreatic Diseases."
+        ],
+        [
+          "The study uses endoscopy as part of the process. So Endoscopy",
+          "Pancreatic Juice collection",
+          "Cytokine concentrations",
+          "Diagnosis."
+        ],
+        [
+          "The study found IL-8 as a key biomarker. Maybe: Interleukin-8",
+          "Pancreatic Diseases (like Chronic Pancreatitis and Pancreatic Cancer)",
+          "Diagnostic Biomarker."
+        ],
+        [
+          "The study's patient population includes adults with abdominal pain. Abdominal Pain",
+          "Pancreatic Diseases",
+          "Cytokine Analysis in Pancreatic Juice."
+        ],
+        [
+          "Inflammation (maybe part of MESH but not listed, but maybe using Diagnosis or others)",
+          "Chronic Pancreatitis or Pancreatic Neoplasms."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:32.765Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16735905",
+      "global_index": 277,
+      "question": "Does the severity of obstructive sleep apnea predict patients requiring high continuous positive airway pressure?",
+      "contexts": [
+        "To investigate polysomnographic and anthropomorphic factors predicting need of high optimal continuous positive airway pressure (CPAP).",
+        "Retrospective data analysis.",
+        "Three hundred fifty-three consecutive obstructive sleep apnea (OSA) patients who had a successful manual CPAP titration in our sleep disorders unit.",
+        "The mean optimal CPAP was 9.5 +/- 2.4 cm H2O. The optimal CPAP pressure increases with an increase in OSA severity from 7.79 +/- 2.2 in the mild, to 8.7 +/- 1.8 in the moderate, and to 10.1 +/- 2.3 cm H2O in the severe OSA group. A high CPAP was defined as the mean + 1 standard deviation (SD;>or =12 cm H2O). The predictor variables included apnea-hypopnea index (AHI), age, sex, body mass index (BMI), Epworth Sleepiness Scale (ESS), and the Multiple Sleep Latency Test (MSLT). High CPAP was required in 2 (6.9%), 6 (5.8%), and 63 (28.6%) patients with mild, moderate, and severe OSA, respectively. On univariate analysis, AHI, BMI, ESS score, and the proportion of males were significantly higher in those needing high CPAP. They also have a lower MSLT mean. On logistic regression, the use of high CPAP was 5.90 times more frequent (95% confidence interval 2.67-13.1) in severe OSA patients after adjustment for the other variables. The area under the receiver operator curve was 72.4%, showing that the model was adequate."
+      ],
+      "mesh_terms": [
+        "Body Mass Index",
+        "Continuous Positive Airway Pressure",
+        "Female",
+        "Humans",
+        "Logistic Models",
+        "Male",
+        "Middle Aged",
+        "Models, Theoretical",
+        "Polysomnography",
+        "Predictive Value of Tests",
+        "Retrospective Studies",
+        "Severity of Illness Index",
+        "Sex Factors",
+        "Sleep Apnea, Obstructive"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Apnea-Hypopnea Index",
+          "High CPAP Requirement."
+        ],
+        [
+          "Logistic Models",
+          "High CPAP Prediction."
+        ],
+        [
+          "BMI is a significant predictor. So BMI",
+          "Severity of Illness Index",
+          "High CPAP Requirement."
+        ],
+        [
+          "Sex factors were mentioned (higher proportion of males needing high CPAP). Path: Sex Factors",
+          "Male",
+          "High CPAP Requirement."
+        ],
+        [
+          "The study is a Retrospective Study. Maybe how study design factors in. Retrospective Studies",
+          "Severity of Illness Index",
+          "High CPAP Prediction."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:43.312Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16769333",
+      "global_index": 278,
+      "question": "Preoperative tracheobronchoscopy in newborns with esophageal atresia: does it matter?",
+      "contexts": [
+        "Despite surgical refinements, perioperative use of tracheobronchoscopy (TBS) as part of surgical approach to esophageal atresia (EA) is still controversial. The purpose of this study was to evaluate the influence of preoperative TBS in newborns with EA in preventing complications and improving diagnosis and surgical treatment.",
+        "In the period ranging from 1997 to 2003, 62 patients with EA underwent preoperative TBS. The procedure was carried out with flexible bronchoscope maintaining spontaneous breathing. When a wide carinal fistula was found, this was mechanically occluded by Fogarty catheter and cannulated with rigid bronchoscopy. Type of EA, surgical procedure variations caused by TBS, and associated anomalies not easily detectable were recorded.",
+        "Before TBS, the Gross classification of the 62 patients was as follows: type A, 9 patients; type B, none; type C, 51 patients. At TBS, however, 3 of 9 type A patients had an unsuspected proximal fistula (type B). These 3 patients, plus the 2 with H-type fistula, were repaired through a cervical approach. In 4 patients, previously undetected malformations of the respiratory tree (2 aberrant right upper bronchus and 2 hypoplastic bronchi) were found at TBS. Carinal fistulas in 14 type C patients were occluded by Fogarty catheter to improve ventilation during repair. No complications were observed. Overall, TBS was clinically useful in 28 (45.2%) of 62 patients, including 15 (24.2%) of 62 infants in whom it was crucial in modifying the surgical approach."
+      ],
+      "mesh_terms": [
+        "Bronchoscopy",
+        "Digestive System Surgical Procedures",
+        "Endoscopy",
+        "Esophageal Atresia",
+        "Female",
+        "Humans",
+        "Infant, Newborn",
+        "Male",
+        "Postoperative Complications",
+        "Preoperative Care",
+        "Respiratory Tract Fistula",
+        "Retrospective Studies",
+        "Trachea"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Preoperative TBS",
+          "detects Respiratory Tract Fistula",
+          "modifies Surgical Approach"
+        ],
+        [
+          "Esophageal Atresia",
+          "requires Preoperative Care",
+          "includes Tracheobronchoscopy",
+          "identifies Anomalies",
+          "improves Surgical Outcomes. Here, preoperative steps lead to better surgery."
+        ],
+        [
+          "Tracheobronchoscopy",
+          "reveals Carinal Fistula",
+          "uses Fogarty Catheter",
+          "prevents Ventilation Issues. This is about specific technical steps during TBS."
+        ],
+        [
+          "Undetected Malformations",
+          "found via TBS",
+          "leads to Corrective Surgery",
+          "prevents Respiratory Complications. This highlights TBS's role in finding hidden issues."
+        ],
+        [
+          "Retrospective Study",
+          "shows TBS Utility",
+          "influences Preoperative Protocols",
+          "standardizes Care. Methodology leading to clinical practice changes."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:21:52.592Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16772913",
+      "global_index": 279,
+      "question": "A comparison of 500 prefilled textured saline breast implants versus 500 standard textured saline breast implants: is there a difference in deflation rates?",
+      "contexts": [
+        "This study provides the first large-volume (1000 implant) comparison of the deflation rates of Poly Implant Prosthesis prefilled textured saline breast implants versus a control group of Mentor Siltex textured saline implants.",
+        "A consecutive series of 500 Poly Implant Prosthesis prefilled textured saline breast implants was compared with a consecutive series of 500 Mentor Siltex breast implants. Each breast implant was evaluated for a 4-year period, and the annual deflation rate (number of deflations during a given year divided by the total number of implants) and cumulative deflation rate (cumulative total of deflations through a given year divided by the total number of implants) were recorded. Statistical significance was calculated using the Fisher's exact test at year 1 and the chi-square analysis at years 2 through 4.",
+        "The cumulative deflation rates of the Poly Implant Prosthesis implants was as follows: year 1, 1.2 percent; year 2, 5.6 percent; year 3, 11.4 percent; and year 4, 15.4 percent. The cumulative deflation rates of the Mentor implants was: year 1, 0.2 percent; year 2, 0.6 percent; year 3, 1.6 percent; and year 4, 4.4 percent. At year 1, the difference between deflation rates was not statistically significant (Fisher's exact test, p>0.05). However, at year 2 (chi-square, 13.29; p<0.001), year 3 (chi-square, 37.91; p<0.001), and year 4 (chi-square, 32.69; p<0.001), the difference was statistically significant."
+      ],
+      "mesh_terms": [
+        "Breast Implantation",
+        "Breast Implants",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Postoperative Complications",
+        "Prosthesis Failure"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Study comparing two implant types",
+          "Follow-Up Studies",
+          "Cumulative Deflation Rates"
+        ],
+        [
+          "Breast Implantation",
+          "Prosthesis Failure",
+          "Deflation Rates",
+          "Statistical Analysis (Fisher's exact, chi-square). But need to connect these with arrows."
+        ],
+        [
+          "Mentor Siltex Implants",
+          "Lower Cumulative Deflation Rates",
+          "Less Postoperative Complications. But how to link?"
+        ],
+        [
+          "Poly Implant Prosthesis",
+          "Higher Deflation Rates",
+          "Postoperative Complications. Then maybe link to Prosthesis Failure."
+        ],
+        [
+          "Follow-Up Studies",
+          "Annual Deflation Rates",
+          "Chi-Square Analysis",
+          "Significant Differences. That uses the study's methodology and results."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:03.351Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16776337",
+      "global_index": 280,
+      "question": "Pituitary apoplexy: do histological features influence the clinical presentation and outcome?",
+      "contexts": [
+        "A retrospective analysis of a contemporary series of patients with pituitary apoplexy was performed to ascertain whether the histopathological features influence the clinical presentation or the outcome.",
+        "A retrospective analysis was performed in 59 patients treated for pituitary apoplexy at the University of Virginia Health System, Charlottesville, Virginia, or Groote Schuur Hospital, University of Cape Town, South Africa. The patients were divided into two groups according to the histological features of their disease: one group with infarction alone, comprising 22 patients; and the other with hemorrhagic infarction and/or frank hemorrhage, comprising 37 patients. The presenting symptoms, clinical features, endocrinological status, and outcome were compared between the two groups."
+      ],
+      "mesh_terms": [
+        "Adenoma",
+        "Female",
+        "Follow-Up Studies",
+        "Hemorrhage",
+        "Humans",
+        "Infarction",
+        "Male",
+        "Middle Aged",
+        "Pituitary Apoplexy",
+        "Pituitary Gland",
+        "Pituitary Neoplasms",
+        "Retrospective Studies",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Acute Symptoms",
+          "Hemorrhage",
+          "Clinical Presentation",
+          "Outcome. Wait, the concepts available are Pituitary Apoplexy, Hemorrhage, Infarction, etc."
+        ],
+        [
+          "Acute Headache",
+          "Seizure Risk",
+          "Poorer Outcome. But I need to stick to the given concepts. Maybe Hemorrhage",
+          "Pituitary Gland Compression",
+          "Vision Loss",
+          "Treatment Outcome. But I need to use the MESH terms. Let's check the available terms again."
+        ],
+        [
+          "Possible reasoning path: Pituitary Apoplexy (condition)",
+          "Histological Feature (Infarction vs. Hemorrhage)",
+          "Clinical Presentation (like visual field defects, headache)"
+        ],
+        [
+          "Pituitary Gland Enlargement",
+          "Visual Disturbance",
+          "Surgical Intervention"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:10.867Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16778275",
+      "global_index": 281,
+      "question": "Is routine chest radiography after transbronchial biopsy necessary?",
+      "contexts": [
+        "Pneumothorax following flexible bronchoscopy (FB) with transbronchial biopsy (TBB) occurs in 1 to 6% of cases. Routine chest radiography (CXR) following TBB is therefore requested by most pulmonologists in an attempt to detect complications, particularly pneumothorax. The objective of this study was to determine if routine CXR after bronchoscopy and TBB is necessary.",
+        "The study group included 350 consecutive patients who underwent FB with TBB at our institution between December 2001 and January 2004. Routine CXR was performed up to 2 h after the procedure in all cases. Additionally, the following information was recorded in all patients: sex, age, immune status, indication for bronchoscopy, total number of biopsies done, segment sampled, pulse oxygen saturation, and development of symptoms suggestive of pneumothorax.",
+        "Pneumothorax was diagnosed radiologically in 10 patients (2.9%). Seven patients had symptoms strongly suggestive of pneumothorax prior to CXR, including four patients with large (>10%) pneumothorax. The other three patients were asymptomatic, with only minimal pneumothorax (</= 10%), which resolved completely 24 to 48 h later."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Biopsy",
+        "Bronchi",
+        "Bronchoscopy",
+        "Diagnostic Tests, Routine",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Lung Diseases",
+        "Male",
+        "Middle Aged",
+        "Needs Assessment",
+        "Pneumothorax",
+        "Prospective Studies",
+        "Radiography, Thoracic"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Complication rates leading to necessity of tests: Pneumothorax rate",
+          "Risk of complications",
+          "Routine CXR. That's one path."
+        ],
+        [
+          "diagnostic accuracy",
+          "routine tests."
+        ],
+        [
+          "Cost and resource use: Routine tests being a diagnostic test",
+          "Needs Assessment for resource use. Maybe Routine Diagnostic Tests",
+          "Needs Assessment",
+          "Cost-Effectiveness. But I need to check the terms."
+        ],
+        [
+          "Follow-up studies and monitoring: Follow-Up Studies",
+          "Symptom tracking",
+          "Clinical outcomes. If symptoms are monitored, maybe CXR isn't needed."
+        ],
+        [
+          "Prospective study findings influencing clinical practice. Prospective Studies",
+          "Pneumothorax incidence",
+          "Routine CXR necessity."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:20.428Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16809243",
+      "global_index": 282,
+      "question": "Is fetal gender associated with emergency department visits for asthma during pregnancy?",
+      "contexts": [
+        "To investigate if fetal gender (1) affects the risk of having an emergency department (ED) visit for asthma; and (2) is associated with adverse pregnancy outcomes among women who had at least one visit to the ED for asthma during pregnancy.",
+        "We linked two provincial administrative databases containing records on in-patient deliveries and ED visits. The study sample included women who delivered a live singleton baby between April 2003 and March 2004. Pregnant women who made at least one ED visit for asthma were counted as cases and the rest of the women as control subjects. We performed a multivariable analysis using logistic regression to model the risk of having an ED visit for asthma, with fetal gender being one of the predictors. In addition, a series of multivariable logistic regressions were also constructed separately for cases and controls for the following adverse delivery outcomes: low birth weight baby, preterm delivery, and delivery via Caesarian section.",
+        "Among 109,173 live singleton deliveries, 530 women had visited ED due to asthma during pregnancy. While having an ED visit for asthma was positively associated with teenage pregnancy, low income, and presence of pregnancy-induced hypertension, it was not associated with fetal gender (OR 1.01, 95% CI 0.85-1.19). Fetal gender was not a significant predictor of adverse pregnancy outcomes among women who had an asthma ED visit during pregnancy."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Ambulatory Care",
+        "Asthma",
+        "Case-Control Studies",
+        "Chi-Square Distribution",
+        "Emergency Service, Hospital",
+        "Female",
+        "Gestational Age",
+        "Humans",
+        "Incidence",
+        "Male",
+        "Maternal Age",
+        "Parity",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Pregnancy Outcome",
+        "Pregnancy, High-Risk",
+        "Prenatal Care",
+        "Probability",
+        "Registries",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Sex Determination Analysis",
+        "Sex Distribution",
+        "Sex Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "emergency service, hospital",
+          "asthma",
+          "case-control studies. That uses concepts from the study's methodology."
+        ],
+        [
+          "emergency service, hospital",
+          "asthma",
+          "low birth weight"
+        ],
+        [
+          "Third path: Maybe look at the study's design. Retrospective studies",
+          "case-control studies",
+          "emergency service, hospital",
+          "asthma. That's another angle."
+        ],
+        [
+          "Fourth path: Focus on maternal factors. Maternal age (Adolescent, Adult)",
+          "emergency service",
+          "asthma",
+          "case-control studies. Since the study found teenage pregnancy was associated."
+        ],
+        [
+          "Fifth path: Use statistical methods mentioned. Chi-square distribution",
+          "logistic regression",
+          "sex distribution",
+          "fetal gender. That connects statistical analysis to the concept."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:29.909Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16816043",
+      "global_index": 283,
+      "question": "Do French lay people and health professionals find it acceptable to breach confidentiality to protect a patient's wife from a sexually transmitted disease?",
+      "contexts": [
+        "To determine under what conditions lay people and health professionals find it acceptable for a physician to breach confidentiality to protect the wife of a patient with a sexually transmitted disease (STD).",
+        "In a study in France, breaching confidentiality in 48 scenarios were accepted by 144 lay people, 10 psychologists and 7 physicians. The scenarios were all possible combinations of five factors: severity of the disease (severe, lethal); time taken to discuss this with (little time, much time); intent to inform the spouse about the disease (none, one of these days, immediately); intent to adopt protective behaviours (no intent, intent); and decision to consult an expert in STDs (yes, no), 2 x 2 x 3 x 2 x 2. The importance and interactions of each factor were determined, at the group level, by performing analyses of variance and constructing graphs.",
+        "The concept of breaching confidentiality to protect a wife from her husband's STD was favoured much more by lay people and psychologists than by physicians (mean ratings 11.76, 9.28 and 2.90, respectively, on a scale of 0-22). The patient's stated intentions to protect his wife and to inform her of the disease had the greatest impact on acceptability. A cluster analysis showed groups of lay participants who found breaching confidentiality \"always acceptable\" (n = 14), \"depending on the many circumstances\" (n = 87), requiring \"consultation with an expert\" (n = 30) and \"never acceptable (n = 13)\"."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Attitude of Health Personnel",
+        "Attitude to Health",
+        "Cluster Analysis",
+        "Confidentiality",
+        "Female",
+        "France",
+        "Humans",
+        "Intention",
+        "Interpersonal Relations",
+        "Male",
+        "Middle Aged",
+        "Severity of Illness Index",
+        "Sexual Behavior",
+        "Sexually Transmitted Diseases",
+        "Spouses",
+        "Time Factors"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Interpersonal Relations",
+          "Breach of Confidentiality Acceptability."
+        ],
+        [
+          "Patient's intent to adopt protective behaviors is another key factor. So Sexual Behavior",
+          "Protective Behaviors",
+          "Acceptability of Breach."
+        ],
+        [
+          "France",
+          "Attitude of Health Personnel"
+        ],
+        [
+          "Severity of Illness Index",
+          "Time Factors",
+          "Intention"
+        ],
+        [
+          "Cluster Analysis",
+          "Interpersonal Relations",
+          "Spouses"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:39.300Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16827975",
+      "global_index": 284,
+      "question": "Chemotherapy and survival in advanced non-small cell lung carcinoma: is pneumologists' skepticism justified?",
+      "contexts": [
+        "Few studies have assessed whether the advantage chemotherapy has been shown to have in treating advanced non-small lung carcinoma in clinical trials is transferrable to normal health care activity. This could explain the skepticism of a large number of pneumologists towards this treatment. The objective of our study was to analyze prognostic factors related to survival and to see whether cytostatic treatment was an independent predictor.",
+        "Patients enrolled in the study had been diagnosed with non-small cell carcinoma in stages IV or IIIB with pleural or N2-N3 involvement and with a performance status of 2 or below according to the Eastern Cooperative Oncology Group (ECOG). Survival was analyzed with regard to the following variables: age, sex, comorbidity, weight loss, laboratory test results, histological type, ECOG score, TNM staging, and treatment. The Student t test, the chi(2) test, the Kaplan-Meier method, the log-rank test, and Cox regression analysis were used in the statistical analysis.",
+        "We enrolled 190 patients (157 men and 33 women) with a mean (SD) age of 61.75 (10.85) years (range, 33-85 years). Of these patients, 144 received cytostatic treatment and 46 palliative treatment. The median survival was 31 weeks and was related to absence of weight loss (hazard ratio [HR], 1.73; 95% confidence interval [CI], 1.26-2.39; P=.001), cytostatic treatment (HR, 1.85; 95% CI, 1.25-2.76; P=.002), and ECOG score of 0 to 1 (HR, 2.84; 95% CI, 1.62-5.00; P=.0001). In patients with ECOG scores of 0 to 1, weight loss and treatment were significant prognostic factors. Survival in the ECOG 2 group was 15 weeks for patients undergoing cytostatic treatment and 11 weeks for patients with symptomatic treatment."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Disease Progression",
+        "Female",
+        "Humans",
+        "Lung Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Staging",
+        "Prognosis",
+        "Pulmonary Medicine",
+        "Retrospective Studies",
+        "Survival Analysis",
+        "Survival Rate"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "*Chemotherapy",
+          "Survival Rate",
+          "Prognosis"
+        ],
+        [
+          "*ECOG Score",
+          "Survival Analysis",
+          "Chemotherapy"
+        ],
+        [
+          "*Comorbidity",
+          "Prognosis",
+          "Chemotherapy"
+        ],
+        [
+          "*Weight Loss",
+          "Prognosis",
+          "Chemotherapy"
+        ],
+        [
+          "*Pulmonary Medicine",
+          "Skepticism",
+          "Retrospective Studies"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:50.739Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16872243",
+      "global_index": 285,
+      "question": "Can decisional algorithms replace global introspection in the individual causality assessment of spontaneously reported ADRs?",
+      "contexts": [
+        "In this study, an expert panel assessed causality of adverse reports by using the WHO global introspection (GI) method. The same reports were independently assessed using 15 published algorithms. The causality assessment level 'possible' was considered the lower limit for a report to be considered to be drug related. For a given algorithm, sensitivity was determined by the proportion of reports simultaneously classified as drug related by the algorithm and the GI method. Specificity was measured as the proportion of reports simultaneously considered non-drug related. The analysis was performed for the total sample and within serious or unexpected events.",
+        "Five hundred adverse reports were studied. Algorithms presented high rates of sensitivity (average of 93%, positive predictive value of 89%) and low rates of specificity (average of 7%, negative predictive value of 31%)."
+      ],
+      "mesh_terms": [
+        "Adverse Drug Reaction Reporting Systems",
+        "Algorithms",
+        "Decision Support Techniques",
+        "Drug-Related Side Effects and Adverse Reactions",
+        "Evaluation Studies as Topic",
+        "Gastrointestinal Diseases",
+        "Humans",
+        "Reproducibility of Results",
+        "Risk Factors",
+        "Skin Diseases",
+        "World Health Organization"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Path1: Algorithms",
+          "High Sensitivity",
+          "Adverse Drug Reaction Reporting Systems"
+        ],
+        [
+          "Path2: Decision Support Techniques",
+          "Reproducibility of Results",
+          "Evaluation Studies as Topic"
+        ],
+        [
+          "Another possible path could involve Risk Factors",
+          "Algorithms",
+          "Specificity"
+        ],
+        [
+          "Alternatively, Algorithms",
+          "Specificity",
+          "Non-Drug Related Cases",
+          "Evaluation Studies. Because the study evaluated algorithms' specificity."
+        ],
+        [
+          "Causality Assessment",
+          "World Health Organization",
+          "Global Introspection. Since WHO developed GI, which uses Decision Support Techniques."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:22:59.200Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16909975",
+      "global_index": 286,
+      "question": "Can dose reduction to one parotid gland prevent xerostomia?",
+      "contexts": [
+        "Dryness of the mouth is one of the most distressing chronic toxicities of radiation therapy in head and neck cancers. In this study, parotid function was assessed in patients with locally advanced head and neck cancers undergoing intensity-modulated radiotherapy (IMRT) with or without chemotherapy. Parotid function was assessed with the help of a questionnaire and parotid scintigraphy, especially with regards to unilateral sparing of the parotid gland.",
+        "In total, 19 patients were treated with compensator-based IMRT between February 2003 and March 2004. The dose to the clinical target volume ranged between 66 and 70 Gy in 30-35 fractions to 95% of the isodose volume. Ipsilateral high-risk neck nodes received an average dose of 60 Gy and the contralateral low-risk neck received a dose of 54-56 Gy. Eight of 19 patients also received concomitant chemotherapy.",
+        "Subjective toxicity to the parotid glands was assessed with the help of a questionnaire at 0, 3 and 6 months and objective toxicity was assessed with parotid scintigraphy at 0 and 3 months. The mean dose to the ipsilateral parotid gland ranged from 19.5 to 52.8 Gy (mean 33.14 Gy) and the mean dose to the contralateral gland was 11.1-46.6 Gy (mean 26.85 Gy). At a median follow-up of 13 months, 9/19 patients had no symptoms of dryness of the mouth (grade I), 8/19 had mild dryness of the mouth (grade II) and only 2/19 had grade III xerostomia, although the parotid gland could only be spared on one side in most of the patients."
+      ],
+      "mesh_terms": [
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Combined Modality Therapy",
+        "Disease Progression",
+        "Dose-Response Relationship, Radiation",
+        "Feasibility Studies",
+        "Follow-Up Studies",
+        "Head and Neck Neoplasms",
+        "Humans",
+        "Magnetic Resonance Imaging",
+        "Neoplasm Recurrence, Local",
+        "Neoplasm Staging",
+        "Parotid Gland",
+        "Radionuclide Imaging",
+        "Radiotherapy Dosage",
+        "Radiotherapy, Intensity-Modulated",
+        "Sensitivity and Specificity",
+        "Surveys and Questionnaires",
+        "Tomography, X-Ray Computed",
+        "Treatment Outcome",
+        "Xerostomia"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Radiotherapy, Intensity-Modulated",
+          "Radiotherapy Dosage",
+          "Parotid Gland"
+        ],
+        [
+          "Radiotherapy, Intensity-Modulated",
+          "Radiotherapy Dosage",
+          "Parotid Gland",
+          "Xerostomia Reduction",
+          "Treatment Outcome"
+        ],
+        [
+          "Feasibility Studies",
+          "Dose-Response Relationship",
+          "Parotid Gland Sparing",
+          "Xerostomia Prevention"
+        ],
+        [
+          "Head and Neck Neoplasms",
+          "Combined Modality Therapy",
+          "Radiotherapy Dosage",
+          "Xerostomia"
+        ],
+        [
+          "Parotid Scintigraphy",
+          "Objective Toxicity Assessment",
+          "Dose Reduction Efficacy",
+          "Treatment Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:23:10.676Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16956164",
+      "global_index": 287,
+      "question": "Do all ethnic groups in New Zealand exhibit socio-economic mortality gradients?",
+      "contexts": [
+        "First, to establish whether a deprivation gradient in all-cause mortality exists for all ethnic groups within New Zealand; second, if such gradients do exist, whether their absolute slopes are the same; and third, if such gradients exist, what impact the unequal deprivation distributions of the different ethnic groups have on the observed ethnic inequalities in life expectancy at birth.",
+        "Abridged lifetables for the period 1999-2003 were constructed using standard demographic methods for each of four ethnic groups (Asian, Pacific, Maori and European) by NZDep2001 quintile and sex. Gradients were estimated by fitting generalised linear models to the quintile-specific life expectancy estimates for each ethnic group (by sex). The contribution of variation in deprivation distributions to inter-ethnic inequalities in life expectancy was estimated by re-weighting the quintile-specific mortality rates for each ethnic group using weights derived from the European deprivation distribution and recalculating the lifetable.",
+        "All four ethnic groups exhibit deprivation gradients in all-cause mortality (life expectancy). Maori show the steepest gradients, with slopes approximately 25% steeper than those of Europeans for both males and females. By contrast, gradients among Asian and Pacific peoples are shallower than those of their European counterparts."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Ethnic Groups",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Mortality",
+        "New Zealand",
+        "Social Class",
+        "Vital Statistics"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Start with Ethnic Groups",
+          "Deprivation Gradient",
+          "Mortality, then mention the specific groups like Maori having steeper gradients."
+        ],
+        [
+          "Ethnic Mortality Differences",
+          "Life Expectancy. The study reweighted using European distribution to see the impact."
+        ],
+        [
+          "Considering Sex Differences. The study analyzed by sex. So maybe Ethnic Groups",
+          "Sex"
+        ],
+        [
+          "The study used NZDep2001 quintiles. Maybe link Quintiles",
+          "Life Expectancy Estimates",
+          "Generalized Linear Models. This shows the methodology used to establish gradients."
+        ],
+        [
+          "Another path could be about the unequal deprivation distribution's role. So Ethnic Groups",
+          "Deprivation Distribution",
+          "Ethnic Mortality Inequality",
+          "Life Expectancy. This ties into the third part of the study's objectives."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:23:19.287Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16962519",
+      "global_index": 288,
+      "question": "Volume change of uterine myomas during pregnancy: do myomas really grow?",
+      "contexts": [
+        "To estimate changes in uterine myoma volume during pregnancy.",
+        "Review of departmental electronic perinatal database and medical records. Canadian Task Force Classification II-3.",
+        "Obstetrical ultrasound unit in an academic tertiary care center.",
+        "One hundred-seven patients diagnosed with uterine myomas during pregnancy and who had two or more obstetrical ultrasounds in different periods of pregnancy.",
+        "We analyzed the change in volume of uterine myomas between the first half of pregnancy (up until 19 weeks), third quarter (20-30 weeks), and last quarter (31 weeks to term). The volume of largest uterine myoma was calculated using the formula Volume (mm3)=Pi/6x(length mm)x(width mm)x(height mm).",
+        "The mean age of the population was 31+/-6 years. Between the first and the second study periods, the percentage of uterine myomas that decreased in size was 55.1% (95% CI: 43-66), with a mean decrease in volume of 35%+/-4%; while the percentage of uterine myomas that enlarged was 44.9% (95% CI: 34-56), with a mean increase in volume of 69%+/-11%. Between the second and the third study periods, 75% (95% CI: 56-87) became smaller, with a mean decrease in volume of 30%+/-3%; while 25% (95% CI: 13-43) enlarged, with a mean increase in volume of 102%+/-62%."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Female",
+        "Humans",
+        "Leiomyoma",
+        "Longitudinal Studies",
+        "Pregnancy",
+        "Pregnancy Complications, Neoplastic",
+        "ROC Curve",
+        "Retrospective Studies",
+        "Tumor Burden",
+        "Ultrasonography, Prenatal",
+        "Uterine Neoplasms"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Ultrasonography, Prenatal",
+          "Leiomyoma Volume Changes",
+          "Tumor Burden."
+        ],
+        [
+          "Trimester-Specific Volume Changes",
+          "Leiomyoma Growth"
+        ],
+        [
+          "*Patient Population and Outcomes**: The patients were female adults. So Female",
+          "Adult",
+          "Leiomyoma"
+        ],
+        [
+          "Volume Calculation",
+          "Leiomyoma Growth",
+          "Tumor Burden. That could be one path."
+        ],
+        [
+          "Leiomyoma Volume Variability",
+          "ROC Curve",
+          "Longitudinal Studies",
+          "Leiomyoma Volume Trends",
+          "Pregnancy Outcomes."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:23:29.859Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16968183",
+      "global_index": 289,
+      "question": "Is laparoscopic cholecystectomy safe and acceptable as a day case procedure?",
+      "contexts": [
+        "This study reviewed the results of performing day case laparoscopic cholecystectomy to assess the feasibility and safety of the procedure as a day case.",
+        "This is a prospective study of 150 day case laparoscopic cholecystectomies performed between September 1999 and December 2004 under the care of the senior author. The results of a follow-up questionnaire to assess post-discharge clinical course and patient satisfaction were analyzed. All patients had commenced eating and drinking and were fully mobile before discharge home. The length of hospital stay was 4-8 hours.",
+        "The mean age of the patients was 43 years; 134 patients had an American Society of Anesthesiologists grade I, the remaining 16 patients were grade II. The mean operative time was 41 minutes. There were no conversions to open procedures. There was no bleeding, no visceral injury, and no mortality. There was one admission directly from the day surgical unit (admission rate of 0.6%), but no readmission following discharge. No patients were admitted due to postoperative nausea or pain. Ninety-nine (66%) of 150 patients responded to our questionnaire: 97% were satisfied about the information they had received. Patients rated their satisfaction with the procedure as follows: 75% excellent, 21% good, 3% satisfied, and 1 patient un-satisfied. Ninety-four percent of the patients would recommend the procedure as a day case."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Ambulatory Surgical Procedures",
+        "Cholecystectomy, Laparoscopic",
+        "Cost-Benefit Analysis",
+        "Drinking",
+        "Eating",
+        "Feasibility Studies",
+        "Female",
+        "Follow-Up Studies",
+        "Gallbladder Diseases",
+        "Humans",
+        "Length of Stay",
+        "Male",
+        "Middle Aged",
+        "Patient Admission",
+        "Patient Discharge",
+        "Patient Satisfaction",
+        "Postoperative Nausea and Vomiting",
+        "Prospective Studies",
+        "Surveys and Questionnaires",
+        "Treatment Outcome",
+        "United Kingdom"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Second path could focus on the absence of major complications. So Laparoscopic Cholecystectomy",
+          "No conversions",
+          "No Visceral Injury",
+          "Safety. That shows safety through complication absence."
+        ],
+        [
+          "Early Ambulation (from the context where patients were fully mobile)",
+          "Short Hospital Stay",
+          "Feasibility. Feasibility is a study aspect mentioned."
+        ],
+        [
+          "Fourth path might involve the follow-up study results. Follow-Up Studies",
+          "High Patient Satisfaction",
+          "Recommendation Rate (from 94% would recommend)",
+          "Acceptability. This connects follow-ups and satisfaction to overall acceptability."
+        ],
+        [
+          "Short Length of Stay",
+          "Cost-Benefit Analysis",
+          "Acceptability. This links economic factors to acceptability."
+        ],
+        [
+          "Laparoscopic Cholecystectomy",
+          "Ambulatory Surgical Procedures",
+          "Patient Satisfaction",
+          "Acceptability"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:23:38.873Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16968876",
+      "global_index": 290,
+      "question": "Is a patient's self-reported health-related quality of life a prognostic factor for survival in non-small-cell lung cancer patients?",
+      "contexts": [
+        "The aim of this prognostic factor analysis was to investigate if a patient's self-reported health-related quality of life (HRQOL) provided independent prognostic information for survival in non-small cell lung cancer (NSCLC) patients.",
+        "Pretreatment HRQOL was measured in 391 advanced NSCLC patients using the EORTC QLQ-C30 and the EORTC Lung Cancer module (QLQ-LC13). The Cox proportional hazards regression model was used for both univariate and multivariate analyses of survival. In addition, a bootstrap validation technique was used to assess the stability of the outcomes.",
+        "The final multivariate Cox regression model retained four parameters as independent prognostic factors for survival: male gender with a hazard ratio (HR) = 1.32 (95% CI 1.03-1.69; P = 0.03); performance status (0 to 1 versus 2) with HR = 1.63 (95% CI 1.04-2.54; P = 0.032); patient's self-reported score of pain with HR= 1.11 (95% CI 1.07-1.16; P<0.001) and dysphagia with HR = 1.12 (95% CI 1.04-1.21; P = 0.003). A 10-point shift worse in the scale measuring pain and dysphagia translated into an 11% and 12% increased in the likelihood of death respectively. A risk group categorization was also developed."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Europe",
+        "Female",
+        "Health Status",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Prognosis",
+        "Quality of Life",
+        "Regression Analysis",
+        "Survival Analysis"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "HRQOL",
+          "Pain",
+          "Survival Analysis",
+          "Prognosis. That shows how HRQOL component (pain) affects prognosis via survival analysis."
+        ],
+        [
+          "Multivariate Analysis",
+          "HRQOL (pain)",
+          "Hazard Ratio",
+          "Prognostic Factors. Here, using multivariate analysis to find HRQOL's role and HR as an indicator."
+        ],
+        [
+          "HRQOL",
+          "Dysphagia",
+          "Cox Regression",
+          "Prognosis. Another HRQOL component, dysphagia, analyzed through Cox model."
+        ],
+        [
+          "Risk Group Categorization",
+          "HRQOL Parameters",
+          "Survival Analysis",
+          "Prognosis. Using risk groups based on HRQOL to predict survival."
+        ],
+        [
+          "HRQOL",
+          "Bootstrap Validation",
+          "Multivariate Analysis",
+          "Prognosis. Emphasizing the validation technique's role in confirming HRQOL's prognostic value."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:23:48.184Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16971978",
+      "global_index": 291,
+      "question": "Are complex coronary lesions more frequent in patients with diabetes mellitus?",
+      "contexts": [
+        "Coronary atherosclerotic burden is excessive in diabetic patients. Diabetes mellitus (DM) is an independent predictor for both death and myocardial infarction. It is not known whether the prevalence of complex coronary lesions, such as bifurcation and ostial lesions, is different in diabetics from nondiabetics.",
+        "The aim of present study was to investigate the prevalence of these lesions in patients with DM.",
+        "One thousand fourteen consecutive patients (mean age 61.3+/-10.7 years) were investigated. Coronary angiograms were examined for bifurcation and ostial lesions using a digital quantitative system. Patients were classified as diabetic (n=281) or nondiabetic (n=733).",
+        "Patient mean age, and rates of hypertension and hyperlipidemia were significantly higher in the diabetic group than in the nondiabetic group (P<0.0001), although smoking was significantly lower (P=0.001). Reasons for coronary angiography and treatment were comparable between the two groups. The prevalence of bifurcation lesions and ostial lesions was significantly greater in the diabetic group than in the nondiabetic group (9.8% versus 4.3% [P=0.001] and 38.4% versus 29.2% [P=0.003]in the diabetic group versus the nondiabetic group). The presence of DM and greater age were found to be independent predictors for bifurcation lesions (OR=2.27 [P=0.004] and OR=1.03 [P=0.01], for DM and age, respectively) and ostial lesions (OR=1.40 [P=0.027] and OR=1.02 [P=0.001], for DM and age, respectively) in multivariate analysis."
+      ],
+      "mesh_terms": [
+        "Coronary Angiography",
+        "Coronary Artery Disease",
+        "Diabetes Mellitus",
+        "Female",
+        "Humans",
+        "Hyperlipidemias",
+        "Hypertension",
+        "Male",
+        "Middle Aged",
+        "Prevalence",
+        "Turkey"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Coronary Artery Disease",
+          "Bifurcation Lesions",
+          "Ostial Lesions."
+        ],
+        [
+          "Hypertension",
+          "Hyperlipidemias",
+          "Ostial Lesions."
+        ],
+        [
+          "Age",
+          "Bifurcation Lesions",
+          "Prevalence Increase."
+        ],
+        [
+          "Since coronary angiography was used in the study, maybe start there. Coronary Angiography",
+          "Lesion Detection",
+          "Diabetes Mellitus",
+          "Increased Complexity."
+        ],
+        [
+          "Bifurcation Lesions",
+          "Diabetes Mellitus",
+          "Prevalence Difference."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:23:58.720Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "16991071",
+      "global_index": 292,
+      "question": "Rotator cuff tear--an occupational disease?",
+      "contexts": [
+        "In literature there are only few data which describe the influence of occupation on the development of rotator cuff disease.",
+        "In a retrospective study, 760 open rotator cuff repairs were analysed and related to the profession and occupational load. Exclusion criteria were traumatic tears and sports injuries. All male persons were statistically analysed and the data compared with occupational patterns of the region, obtained from the Federal Statistical State Office.",
+        "Rotator cuff repairs were performed in 472 males who had no evidence for a traumatic origin. After statistical analysis (p<0.001) we found significantly more patients working in agriculture and forestry (6.38% versus 1.07% in Bavaria) and in the building industry (35.11% versus 13.40% in Bavaria)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Comorbidity",
+        "Employment",
+        "Female",
+        "Germany",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Occupational Diseases",
+        "Prevalence",
+        "Risk Assessment",
+        "Risk Factors",
+        "Rotator Cuff Injuries",
+        "Rupture",
+        "Shoulder Impingement Syndrome",
+        "Workload"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "*Occupational Load",
+          "Risk Factors"
+        ],
+        [
+          "*Occupation",
+          "Prevalence"
+        ],
+        [
+          "*Risk Assessment",
+          "Employment"
+        ],
+        [
+          "*Agriculture Forestry",
+          "Workload"
+        ],
+        [
+          "*Male Demographics",
+          "Occupational Patterns"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:24:07.459Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17008699",
+      "global_index": 293,
+      "question": "Do patients with localized prostate cancer treatment really want more aggressive treatment?",
+      "contexts": [
+        "Examine whether patients with prostate cancer choose the more aggressive of two radiotherapeutic options, whether this choice is reasoned, and what the determinants of the choice are.",
+        "One hundred fifty patients with primary prostate cancer (T(1-3)N(0)M(0)) were informed by means of a decision aid of two treatment options: radiotherapy with 70 Gy versus 74 Gy. The latter treatment is associated with more cure and more toxicity. The patients were asked whether they wanted to choose, and if so which treatment they preferred. They also assigned importance weights to the probability of various outcomes, such as survival, cure and adverse effects. Patients who wanted to choose their own treatment (n = 119) are described here.",
+        "The majority of these patients (75%) chose the lower radiation dose. Their choice was highly consistent (P<or = .001), with the importance weights assigned to the probability of survival, cure (odds ratio [OR] = 6.7 and 6.9) and late GI and genitourinary adverse effects (OR = 0.1 and 0.2). The lower dose was chosen more often by the older patients, low-risk patients, patients without hormone treatment, and patients with a low anxiety or depression score."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Anxiety",
+        "Decision Making",
+        "Depression",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Odds Ratio",
+        "Patient Satisfaction",
+        "Prostatic Neoplasms",
+        "Radiometry",
+        "Radiotherapy Planning, Computer-Assisted",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Starting with Path1: Maybe link age-related factors. Older patients chose lower dose. So Aged",
+          "Treatment Outcome",
+          "Treatment Outcome",
+          "Lower Dose."
+        ],
+        [
+          "Decision Making",
+          "Lower Dose. Also, Depression might be involved. Maybe Anxiety",
+          "Depression",
+          "Decision Making",
+          "Lower Dose? But need to keep it 3-7 steps. Let me simplify. Anxiety",
+          "Decision Making",
+          "Lower Dose."
+        ],
+        [
+          "Risk level is a factor. Low-risk patients chose lower dose. Prostatic Neoplasms (localized)",
+          "Risk Level (low)",
+          "Low Risk",
+          "Patient Satisfaction",
+          "Lower Dose. Not sure if that's correct. Alternatively, maybe Prostatic Neoplasms",
+          "Radiotherapy Planning"
+        ],
+        [
+          "Decision Making",
+          "Lower Dose. Or maybe Survival",
+          "Adverse Effects",
+          "Adverse Effect Concern",
+          "Lower Dose. Or Survival",
+          "Adverse Effects",
+          "Lower Dose."
+        ],
+        [
+          "Lower Dose. But hormone treatment is part of the context. Let's see. Prostatic Neoplasms",
+          "Hormone Treatment Status",
+          "Treatment Option",
+          "Lower Dose. Alternatively, link to Male as a demographic factor."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:24:17.217Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17032327",
+      "global_index": 294,
+      "question": "Do supervised colorectal trainees differ from consultants in terms of quality of TME surgery?",
+      "contexts": [
+        "The quality of surgical excision is held to be a major determinant of outcome following surgery for rectal cancer. Macroscopic examination of the excised mesorectum allows for reproducible assessment of the quality of surgery. We aimed to determine whether quality of excision undertaken by colorectal trainees under supervision was comparable with that performed by consultants, as measured using mesorectal grades.",
+        "A total of 130 consecutive patients undergoing potentially curative resection for primary adenocarcinoma of the rectum in our centre from 2001 to 2003 were included in the study. The pathologists graded the excised mesorectum according to staged classification proposed by Quirke. The outcome (quality of mesorectal excision and secondary outcomes including local recurrence and overall recurrence) of operations performed by consultants was compared with that of trainees. Statistical significance was tested using Pearson chi(2) test.",
+        "Eighty-nine operations were performed by consultants and 41 by senior colorectal trainees with consultant supervision. Forty-four patients (49%) had good mesorectum when operated by consultants in comparison with 17 (41.5%) by the trainees. There was no statistically significant difference (P = 0.717) between the two groups in terms of quality of mesorectum excised after potentially curative resection. Furthermore, there were seven local recurrences in patients operated by consultants (7.8%) when compared with four in the trainee group (9.5%) and once again there was no statistical significance between the two groups (P = 0.719)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Clinical Competence",
+        "Digestive System Surgical Procedures",
+        "Female",
+        "Humans",
+        "Internship and Residency",
+        "Male",
+        "Neoplasm Recurrence, Local",
+        "Quality of Health Care",
+        "Rectal Neoplasms",
+        "Rectum",
+        "Retrospective Studies",
+        "Treatment Outcome",
+        "United Kingdom"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Clinical Competence",
+          "Quality of Health Care",
+          "Mesorectal Excision Quality. That could be a path."
+        ],
+        [
+          "The study uses mesorectal grading (Quirke's classification) as a measure. So, Rectal Neoplasms",
+          "Mesorectal Excision Quality",
+          "Local Recurrence. Then link to the study's outcome. Maybe Mesorectal Excision Quality",
+          "Local Recurrence",
+          "Treatment Outcome. But need to connect to the groups. Maybe Rectal Neoplasms",
+          "Mesorectal Excision Quality",
+          "Local Recurrence",
+          "Treatment Outcome. That could be another path."
+        ],
+        [
+          "The study is a Retrospective Study. So Retrospective Studies",
+          "Clinical Competence (trainees vs consultants)",
+          "Quality of Health Care",
+          "Mesorectal Excision Quality. That's another angle."
+        ],
+        [
+          "Internship and Residency",
+          "Quality of Health Care",
+          "Mesorectal Excision Quality. But I need to ensure the concepts are linked properly."
+        ],
+        [
+          "Neoplasm Recurrence, Local",
+          "Quality of Surgery",
+          "Consultant vs Trainee. But need to connect correctly."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:24:26.826Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17051586",
+      "global_index": 295,
+      "question": "Can folic acid protect against congenital heart defects in Down syndrome?",
+      "contexts": [
+        "Several studies have suggested a protective effect of folic acid (FA) on congenital heart anomalies. Down syndrome (DS) infants are known to have a high frequency of heart anomalies. Not all children with DS suffer from heart anomalies, which raises the question whether maternal factors might affect the risk of these anomalies. Our objectives were to investigate whether first-trimester FA use protects against heart anomalies among DS children.",
+        "Women with liveborn DS children participating in the Slone Epidemiology Center Birth Defects Study between 1976 and 1997 were included. We performed case-control analyses using DS, with heart anomalies as cases and DS, without heart anomalies as controls. Subanalyses were performed for defects that have been associated with FA in non-DS populations (conotruncal, ventricular septal [VSD]) and for those that are associated with DS (ostium secundum type atrial septal defects [ASD]and endocardial cushion defects [ECD]). Exposure was defined as the use of any FA-containing product for an average of at least 4 days per week during the first 12 weeks of pregnancy, whereas no exposure was defined as no use of FA in these 12 weeks.",
+        "Of the 223 cases, 110 (49%) were exposed versus 84 (46%) of the 184 controls. After adjustment for possible confounders, no protective effect of FA was found on heart anomalies overall (OR 0.95, 95% CI: 0.61-1.47) nor separately for conotruncal defects, VSDs, ASDs, or ECDs."
+      ],
+      "mesh_terms": [
+        "Dietary Supplements",
+        "Down Syndrome",
+        "Female",
+        "Folic Acid",
+        "Food, Fortified",
+        "Heart Defects, Congenital",
+        "Humans",
+        "Infant, Newborn",
+        "Male",
+        "Pregnancy",
+        "Pregnancy Trimester, First",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Pregnancy Trimester, First",
+          "Heart Defects, Congenital",
+          "Down Syndrome",
+          "No Protective Effect. Wait, but need to connect concepts from the MESH list."
+        ],
+        [
+          "Conotruncal Defects",
+          "Down Syndrome",
+          "No Association. But how to connect them properly?"
+        ],
+        [
+          "Confounders Adjustment",
+          "Heart Anomalies"
+        ],
+        [
+          "Folic Acid Supplementation",
+          "Down Syndrome"
+        ],
+        [
+          "Let me think of different angles. Path 1: Folic Acid",
+          "Pregnancy Trimester, First",
+          "Heart Defects, Congenital",
+          "Down Syndrome. But how to show the connection. Maybe Folic Acid use during first trimester",
+          "Heart Defects in Down Syndrome",
+          "No Protective Effect. But \"No Protective Effect\" isn't a MESH term. Hmm."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:24:36.742Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17054994",
+      "global_index": 296,
+      "question": "Does frozen section alter surgical management of multinodular thyroid disease?",
+      "contexts": [
+        "Frozen section (FS) evaluation during thyroid surgery is often used to guide intraoperative management. We sought to determine the utility of FS in patients undergoing thyroidectomy for multinodular thyroid disease.",
+        "From May 1994 through November 2004, 236 patients with multinodular goiter underwent thyroidectomy at our institution. Patient data were retrospectively analyzed to see if a frozen section was performed during the procedure and whether it changed the patient's outcome.",
+        "Of the 236 patients, 135 (57%) had intra-operative FS. There were no differences between patients who had FS analysis and those who did not with regard to age, gender, and the incidence of malignancy. Of the patients who had FS, 4/135 (3%) were subsequently diagnosed with thyroid cancer on permanent histology. Three of these FS were misread as benign. Therefore, the sensitivity of FS for the diagnosis of thyroid cancer was only 25%. Importantly, in none of the 135 patients did FS alter the intraoperative management."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Carcinoma, Papillary",
+        "Female",
+        "Frozen Sections",
+        "Goiter, Nodular",
+        "Humans",
+        "Incidence",
+        "Intraoperative Care",
+        "Lymphoma",
+        "Male",
+        "Middle Aged",
+        "Retrospective Studies",
+        "Sensitivity and Specificity",
+        "Thyroid Neoplasms",
+        "Thyroidectomy",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Let me start forming some paths. For example, Frozen Sections",
+          "Intraoperative Care",
+          "Thyroidectomy",
+          "Thyroidectomy",
+          "Frozen Sections"
+        ],
+        [
+          "Frozen Sections",
+          "Sensitivity and Specificity",
+          "Thyroid Cancer Detection",
+          "Treatment Outcome"
+        ],
+        [
+          "Multinodular Goiter",
+          "Frozen Sections",
+          "Intraoperative Care",
+          "Surgical Management"
+        ],
+        [
+          "Thyroidectomy",
+          "Frozen Sections",
+          "Misdiagnosis",
+          "Treatment Outcome"
+        ],
+        [
+          "Retrospective Studies",
+          "Frozen Sections",
+          "Intraoperative Care",
+          "No Change in Management"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:24:45.385Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17062225",
+      "global_index": 297,
+      "question": "Thoracic and thoracoabdominal aneurysm repair: is reimplantation of spinal cord arteries a waste of time?",
+      "contexts": [
+        "The impact of different strategies for management of intercostal and lumbar arteries during repair of thoracic and thoracoabdominal aortic aneurysms (TAA/A) on the prevention of paraplegia remains poorly understood.",
+        "One hundred consecutive patients with intraoperative monitoring of motor evoked potentials (MEP) and somatosensory evoked potentials (SSEP) during TAA/A repair involving serial segmental artery sacrifice (October 2002 to December 2004) were reviewed.",
+        "Operative mortality was 6%. The median intensive care unit stay was 2.5 days (IQ range: 1-4 days), and the median hospital stay 10.0 days (IQ range: 8-17 days). Potentials remained unchanged during the course of serial segmental artery sacrifice, or could be returned to baseline levels by anesthetic and blood pressure manipulation, in 99 of 100 cases. An average of 8.0 +/- 2.6 segmental artery pairs were sacrificed overall, with an average of 4.5 +/- 2.1 segmental pairs sacrificed between T7 and L1, where the artery of Adamkiewicz is presumed to arise. Postoperative paraplegia occurred in 2 patients. In 1, immediate paraplegia was precipitated by an intraoperative dissection, resulting in 6 hours of lower body ischemia. A second ambulatory patient had severe paraparesis albeit normal cerebral function after resuscitation from a respiratory arrest."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Aortic Aneurysm, Abdominal",
+        "Aortic Aneurysm, Thoracic",
+        "Arteries",
+        "Blood Vessel Prosthesis Implantation",
+        "Evoked Potentials, Motor",
+        "Evoked Potentials, Somatosensory",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Monitoring, Intraoperative",
+        "Paraplegia",
+        "Replantation",
+        "Retrospective Studies",
+        "Spinal Cord"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Evoked Potentials Stability",
+          "Decision on Reimplantation."
+        ],
+        [
+          "Spinal Cord Perfusion",
+          "Paraplegia Risk. If monitoring is used, perhaps they can avoid it."
+        ],
+        [
+          "Thoracic Aneurysm Repair",
+          "Replantation of Spinal Cord Arteries",
+          "Evoked Potentials Monitoring",
+          "Paraplegia Prevention. But in the study, most didn't need it. Hmm, maybe another angle."
+        ],
+        [
+          "Thoracoabdominal Aneurysm Repair",
+          "Segmental Artery Sacrifice",
+          "Evoked Potentials Stability",
+          "Reduced Need for Reimplantation."
+        ],
+        [
+          "Spinal Cord Ischemia",
+          "Intraoperative Dissection",
+          "Paraplegia",
+          "Replantation Necessity."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:24:57.202Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17062234",
+      "global_index": 298,
+      "question": "Surgical management of the atherosclerotic ascending aorta: is endoaortic balloon occlusion safe?",
+      "contexts": [
+        "Occlusion of the atherosclerotic ascending aorta by an endoaortic inflatable balloon has been proposed as an alternative to conventional cross-clamping to prevent injury to the vessel and distal embolization of debris. The safety and the effectiveness of endoaortic occlusion have not been documented in this setting.",
+        "Endoaortic occlusion was employed in 52 of 2,172 consecutive patients. Surgeon's choice was based on preoperative identification of aortic calcifications or intraoperative epiaortic ultrasonographic scanning. Deaths and strokes were analyzed casewise and in aggregate.",
+        "In 10 patients (19.2%), the endoaortic balloon had to be replaced by the ordinary cross-clamp because of incomplete occlusion (n = 5), hindered exposure (n = 2), or balloon rupture (n = 3). In-hospital death occurred in 13 patients (25%), and stroke on awakening from anesthesia in 2 (3.8%). The death rate of patients treated by endoaortic occlusion was significantly higher compared with all other patients (4.2%, p<0.0001) and with the expected estimate by European System for Cardiac Operative Risk Evaluation (10.5%, p = 0.05). By multivariable analysis, use of endoaortic occlusion was independently associated with in-hospital death (odds ratio = 5.609, 95% confidence interval: 2.684 to 11.719). Although the stroke rate was higher in the endoaortic occlusion group compared with all other patients, the difference was only possibly significant (3.8% versus 0.8%, p = 0.067)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Aorta",
+        "Aortic Diseases",
+        "Atherosclerosis",
+        "Balloon Occlusion",
+        "Constriction",
+        "Coronary Artery Bypass",
+        "Female",
+        "Hospital Mortality",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Retrospective Studies",
+        "Stroke",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Endoaortic Balloon Occlusion",
+          "Hospital Mortality"
+        ],
+        [
+          "Hospital Mortality",
+          "Safety Concerns. But need to connect three concepts. Maybe Balloon Occlusion",
+          "Hospital Mortality"
+        ],
+        [
+          "Stroke risk: Balloon Occlusion",
+          "Stroke",
+          "Anesthesia Complication",
+          "Treatment Outcome. Not sure."
+        ],
+        [
+          "Alternative approach: Cross-clamp as alternative. Maybe Cross-clamp vs Balloon Occlusion",
+          "Lower Mortality",
+          "Treatment Preference."
+        ],
+        [
+          "Methodological aspect: Retrospective Studies",
+          "Bias",
+          "Outcome Validity. The study is retrospective, which can have biases."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:25:08.094Z",
+      "processed_at": "2026-01-27T19-17-35"
+    },
+    {
+      "pmid": "17076091",
+      "global_index": 299,
+      "question": "Does obstructive sleep apnea affect aerobic fitness?",
+      "contexts": [
+        "We sought to determine whether patients with obstructive sleep apnea (OSA) had an objective change in aerobic fitness during cycle ergometry compared to a normal population. The most accurate test of aerobic fitness is measurement of maximum oxygen consumption (VO2max) with cycle ergometry.",
+        "We performed a retrospective cohort analysis (247 patients with OSA) of VO2max from annual cycle ergometry tests compared to a large control group (normative data from 1.4 million US Air Force tests) in a tertiary care setting.",
+        "Overall, individuals with OSA had increased VO2max when compared to the normalized US Air Force data (p<.001). Patients with an apnea-hypopnea index of greater than 20 demonstrated a decreased VO2max as compared to normalized values (p<.001). No differences in VO2max were observed after either medical or surgical therapy for OSA."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Cohort Studies",
+        "Continuous Positive Airway Pressure",
+        "Exercise Test",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Military Personnel",
+        "Oxygen Consumption",
+        "Physical Fitness",
+        "Retrospective Studies",
+        "Sleep Apnea, Obstructive",
+        "United States"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "For Path 1, maybe OSA",
+          "Exercise Test",
+          "VO2max",
+          "AHI >20",
+          "Decreased VO2max",
+          "Lower Aerobic Fitness."
+        ],
+        [
+          "Another path could involve the study method: Retrospective Cohort Studies",
+          "OSA Patients",
+          "Compare to Control",
+          "Aerobic Fitness. That uses the study design and population."
+        ],
+        [
+          "Also, consider the therapy part. Continuous Positive Airway Pressure",
+          "No Change in VO2max",
+          "No Effect on Aerobic Fitness. That shows the treatment's impact."
+        ],
+        [
+          "Exercise Test",
+          "Normative Data",
+          "Comparison with OSA Patients."
+        ],
+        [
+          "Another angle is the study's outcome measure, like Oxygen Consumption (VO2max)",
+          "Aerobic Fitness. But need to link to OSA. So OSA",
+          "Oxygen Consumption",
+          "VO2max",
+          "Aerobic Fitness."
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T19:25:16.742Z",
+      "processed_at": "2026-01-27T19-17-35"
+    }
+  ]
+}
