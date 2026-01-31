@@ -1,0 +1,3311 @@
+{
+  "metadata": {
+    "checkpoint": 50,
+    "total": 125,
+    "successful": 48,
+    "failed": 2
+  },
+  "results": [
+    {
+      "pmid": "20337874",
+      "global_index": 500,
+      "question": "Delayed diagnosis of anorectal malformations: are current guidelines sufficient?",
+      "contexts": [
+        "Infants referred to our institution with a final diagnosis of ARM were retrospectively reviewed between 2001 and 2009. The first cohort consisted of patients that were referred between November 2001 and November 2006 with the diagnosis of an ARM that had been delayed for more than 48 h. The second cohort was those referred between December 2006 and May 2009 with whom the diagnosis of ARM had not been made within 24 h of birth.",
+        "Nineteen infants were referred with delayed diagnosis of an ARM over the 7.5 years of the study. Of 44 patients referred to our institution between December 2006 and May 2009, diagnosis of an ARM was delayed more than 24 h in 14 (32%). There was no difference in gender, birth weight, prematurity, type of malformation or presence of associated anomalies between those with timely and delayed diagnosis of their ARM. A significantly greater proportion of those with a delayed diagnosis presented with obstructive symptoms (86% vs. 27%, P<0.001), including abdominal distension (57%) and delayed passage of meconium or stool (29%). Despite undergoing neonatal examination, the diagnosis of ARM was missed in 12 patients overall."
+      ],
+      "mesh_terms": [
+        "Cohort Studies",
+        "Delayed Diagnosis",
+        "Digestive System Abnormalities",
+        "Female",
+        "Guidelines as Topic",
+        "Humans",
+        "Infant, Newborn",
+        "Male",
+        "New South Wales",
+        "Rectal Fistula",
+        "Rectum",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Delayed Diagnosis of Anorectal Malformations",
+          "Guidelines as Topic",
+          "Neonatal Examination",
+          "Obstructive Symptoms"
+        ],
+        [
+          "Cohort Studies",
+          "Retrospective Studies",
+          "Newborn",
+          "Delayed Diagnosis of Anorectal Malformations"
+        ],
+        [
+          "Male Neonate",
+          "Anorectal Malformation",
+          "Rectal Fistula",
+          "Associated Anomalies"
+        ],
+        [
+          "Female Neonate",
+          "Anorectal Malformation",
+          "Delayed Diagnosis",
+          "Prematurity"
+        ],
+        [
+          "Digestive System Abnormalities",
+          "Rectum",
+          "Anorectal Malformations",
+          "Guidelines as Topic"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:18:29.688Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20338971",
+      "global_index": 501,
+      "question": "Does peritoneal dialysis affect halitosis in patients with end-stage renal disease?",
+      "contexts": [
+        "There are various causes of halitosis, one of which is chronic renal failure. The objective of this study was to investigate halitosis levels in end-stage renal disease (ESRD) patients before and after peritoneal dialysis (PD) therapy.",
+        "42 subjects with ESRD were included in this study. The presence of halitosis was assessed using an organoleptic measurement and compared with blood urea nitrogen (BUN) levels and salivary flow rates. Decayed, missing, and filled teeth (DMFT) index and Community Periodontal Index (CPI) were calculated. All measurements were done before and after patients had received 3 months of PD therapy.",
+        "Mean serum BUN level was found to be lower (46.05 ± 13.30 vs 91.24 ± 31.28 mg/dL), salivary flow rate higher (0.34 ± 0.07 vs 0.26 ± 0.04 mL/minute), and halitosis level lower (2.39 ± 0.60 vs 3.90 ± 0.37) at the end of 3 months of PD therapy than at the beginning of PD therapy. There was no significant difference in CPI or DMFT index before and after PD therapy (p>0.05). There was statistically significant positive correlation between the presence of halitosis and BUN levels (r = 0.702, p = 0.001 before PD; r = 0.45, p = 0.002 after PD) and a negative correlation between the presence of halitosis and salivary flow rates (r = -0.69, p = 0.000 before PD; r = -0.37, p = 0.01 after PD)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Blood Urea Nitrogen",
+        "Disease Progression",
+        "Female",
+        "Follow-Up Studies",
+        "Halitosis",
+        "Humans",
+        "Kidney Failure, Chronic",
+        "Male",
+        "Middle Aged",
+        "Peritoneal Dialysis",
+        "Risk Factors",
+        "Saliva",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Kidney Failure",
+          "Elevated Blood Urea Nitrogen",
+          "Halitosis",
+          "Peritoneal Dialysis",
+          "Reduced Halitosis"
+        ],
+        [
+          "Chronic Kidney Failure",
+          "Uremic Toxin Accumulation",
+          "Salivary Dryness",
+          "Halitosis",
+          "Peritoneal Dialysis",
+          "Improved Salivary Flow",
+          "Less Halitosis"
+        ],
+        [
+          "End‑Stage Renal Disease",
+          "High Blood Urea Nitrogen",
+          "Oral Volatile Sulfur Compounds",
+          "Halitosis",
+          "3‑Month Follow‑Up Per"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:18:31.949Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20353735",
+      "global_index": 502,
+      "question": "Treatment of vitamin D deficiency in CKD patients with ergocalciferol: are current K/DOQI treatment guidelines adequate?",
+      "contexts": [
+        "Vitamin D deficiency/insufficiency (VDDI) is common in CKD patients and may be associated with abnormal mineral metabolism. It is not clear whether the K/DOQI recommended doses of ergocalciferol are adequate for correction of VDDI and hyperparathyroidism.",
+        "Retrospective study of 88 patients with CKD Stages 1 - 5 and baseline 25-hydroxyvitamin D level<30 ng/ml (<75 nmol/l). Patients treated with ergocalciferol as recommended by K/DOQI guidelines. Only 53 patients had elevated baseline PTH level for the CKD stage. Patients were excluded if they received vitamin D preparations other than ergocalciferol or phosphate binders. 25-hydroxyvitamin D level, intact PTH level (iPTH), and other parameters of mineral metabolism were measured at baseline and after completion of ergocalciferol course.",
+        "88 patients with CKD were treated with ergocalciferol. Mean age 56.8 +/- 9.5 years and 41% were males. The mean (+/- SD) GFR was 28.3 +/- 16.6 ml/min. At the end of the 6-month period of ergocalciferol treatment, the mean 25-hydroxyvitamin D level increased from 15.1 +/- 5.8 to 23.3 +/- 11.8 ng/ml (37.75 +/- 14.5 to 58.25 +/- 29.5 nmol/l) (p<0.001). Treatment led to>or = 5 ng/ml (12.5 nmol/l) increases in 25-hydroxyvitamin D level in 54% of treated patients, and only 25% achieved levels>or = 30 ng/ml (75 nmol/l). Mean iPTH level decreased from 157.9 +/- 125.9 to 150.7 +/- 127.5 pg/ml (p = 0.5). Only 26% of patients had>or = 30% decrease in their iPTH level after treatment with ergocalciferol."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Chi-Square Distribution",
+        "Dose-Response Relationship, Drug",
+        "Drug Administration Schedule",
+        "Ergocalciferols",
+        "Female",
+        "Humans",
+        "Kidney Failure, Chronic",
+        "Male",
+        "Middle Aged",
+        "Parathyroid Hormone",
+        "Patient Selection",
+        "Practice Guidelines as Topic",
+        "Regression Analysis",
+        "Retrospective Studies",
+        "Treatment Outcome",
+        "Vitamin D",
+        "Vitamin D Deficiency",
+        "Vitamins"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Vitamin D Deficiency",
+          "Ergocalciferol",
+          "K/DOQI Guidelines",
+          "Treatment Outcome"
+        ],
+        [
+          "Chronic Kidney Failure",
+          "Parathyroid Hormone",
+          "Ergocalciferol",
+          "Parathyroid Hormone decrease"
+        ],
+        [
+          "Retrospective Studies",
+          "Dose-Response Relationship",
+          "25-hydroxyvitamin D level increase",
+          "Treatment Outcome"
+        ],
+        [
+          "Patient Selection",
+          "Vitamin D Deficiency",
+          "25-hydroxyvitamin D level increase",
+          "Parathyroid Hormone decrease"
+        ],
+        [
+          "Practice Guidelines as Topic",
+          "Ergocalciferol Dose",
+          "Vitamin D Level >30 ng/ml",
+          "Need for guideline revision"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:18:34.111Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20354380",
+      "global_index": 503,
+      "question": "Do women residents delay childbearing due to perceived career threats?",
+      "contexts": [
+        "To assess gender differences among residents regarding their plans to have children during residency and determine the most influential reasons for these differences.",
+        "Using the Health Belief Model as a framework, the authors created an instrument to survey 424 residents from 11 residency programs at three academic medical institutions about their intentions to have children during residency. The authors developed a scale to assess the perceived career threats of having children during residency, evaluated its psychometric properties, and calculated the effect of the mediators.",
+        "The response rate was 77% (328/424). Forty-one percent of men versus 27% of women planned to have children during residency (P = .01). The instrument measured four career threats-extended training, loss of fellowship positions, pregnancy complications, and interference with career plans-on a five-point Likert scale. The scale had a Cronbach alpha of 0.84 and an eigenvalue of 2.2. Compared with men, women had higher scores for each item and a higher mean score (2.9 versus 2.1, P = .001), signifying greater belief in the potential of pregnancy to threaten careers. After adjusting for age, institution, postgraduate year, and knowledge of parental leave policies, women were less likely to plan to have children during residency (odds ratio 0.46 [95% confidence interval 0.25-0.84]). In mediation analysis, threats to career explained 67% of the gender variance."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Career Mobility",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Internship and Residency",
+        "Male",
+        "Physicians, Women",
+        "Pregnancy",
+        "Psychometrics",
+        "Reproductive Behavior",
+        "Sex Factors",
+        "Surveys and Questionnaires",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Women Residents (Internship and Residency)",
+          "Perceived Career Threats",
+          "Lower Childbearing Intentions During Residency"
+        ],
+        [
+          "Cross-Sectional Studies",
+          "Surveys and Questionnaires",
+          "Psychometrics",
+          "Scale Reliability (Cronbach Alpha)",
+          "Mediation Analysis",
+          "Gender Variance"
+        ],
+        [
+          "Pregnancy Complications",
+          "Perceived Career Threats",
+          "Women Residents",
+          "Delay Childbearing"
+        ],
+        [
+          "Career Mobility",
+          "Loss of Fellowship Positions",
+          "Perceived Career Threats",
+          "Women Residents",
+          "Delay Childbearing"
+        ],
+        [
+          "Sex Factors",
+          "Female vs Male",
+          "Differential Perceived Career Threats",
+          "Women Residents",
+          "Delay Childbearing"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:18:41.485Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20363841",
+      "global_index": 504,
+      "question": "Do symptoms predict COPD in smokers?",
+      "contexts": [
+        "The US Preventive Services Task Force recommends against spirometry in the absence of symptoms. However, as much as 50% of COPD cases in the United States remain undiagnosed.",
+        "Report of symptoms, smoking history, and spirometric data were collected from subjects screened for a work-related medical evaluation (N = 3,955). Prevalence of airflow obstruction and respiratory symptoms were assessed. Sensitivity, specificity, positive and negative predictive values, and relative risks of predicting symptoms and smoking history for COPD were calculated.",
+        "Forty-four percent of smokers in our sample had airways obstruction (AO). Of these, 36% reported a diagnosis of or treatment for COPD. Odds ratio (95% CI) for AO with smoking (>or = 20 pack-years) was 3.73 (3.12- 4.45), 1.98 (1.73-2.27) for cough, 1.79 (1.55-2.08) for dyspnea, 1.95 (1.70-2.34) for sputum, and 2.59 (2.26-2.97) for wheeze. Respiratory symptoms were reported by 92% of smokers with AO, 86% smokers with restriction, 76% smokers with normal spirometry, and 73% of nonsmokers. Sensitivity (92% vs 90%), specificity (19% vs 22%), positive (47% vs 40%) and negative (75% vs 80%) predictive values for the presence of one or more symptoms were similar between smokers and all subjects."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Female",
+        "Humans",
+        "Logistic Models",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prevalence",
+        "Pulmonary Disease, Chronic Obstructive",
+        "Radiography, Thoracic",
+        "Respiratory Function Tests",
+        "Risk Factors",
+        "Sensitivity and Specificity",
+        "Smoking",
+        "Spirometry",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Smokers",
+          "Symptoms",
+          "Spirometry",
+          "COPD Diagnosis"
+        ],
+        [
+          "Smoking History",
+          "Risk Factors",
+          "Prevalence of Airflow Obstruction",
+          "Predictive Value of Tests"
+        ],
+        [
+          "Respiratory Symptoms",
+          "Positive Predictive Value",
+          "COPD Identification",
+          "Work-Related Medical Evaluation"
+        ],
+        [
+          "Spirometry",
+          "Specificity",
+          "Undiagnosed COPD",
+          "Prevalence"
+        ],
+        [
+          "Logistic Models",
+          "Relative Risk",
+          "Symptoms & Smoking History",
+          "COPD Prediction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:18:43.338Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20382292",
+      "global_index": 505,
+      "question": "Knee extensor strength, dynamic stability, and functional ambulation: are they related in Parkinson's disease?",
+      "contexts": [
+        "To evaluate the relationship between knee extensor strength, postural stability, functional ambulation, and disease severity in Parkinson's disease (PD).",
+        "A cohort study.",
+        "University research laboratory.",
+        "Patients (N=44) with idiopathic PD.",
+        "Not applicable.",
+        "Participants were evaluated on their isokinetic knee extensor strength. Additionally, participants completed an assessment of their postural stability (Functional Reach Test for static stability and a dynamic postural stability assessment as measured by the center of pressure-center of mass moment arm during gait initiation). Participants also underwent an evaluation of their functional ambulation as measured by a 6-minute walk test. Lastly, participants were evaluated by a neurologist specially trained in movement disorders to assess neurologic status and disease severity using the Unified Parkinson's Disease Rating Scale and the Hoehn and Yahr disability score.",
+        "Knee extensor strength positively correlated with dynamic postural stability and negatively correlated with disease severity. Further, dynamic postural stability was negatively correlated to disease severity and positively correlated with functional ambulation in this cohort of patients with PD (P<.05). The results also suggest that the Functional Reach Test may be a valuable assessment tool to examine postural stability in PD."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Cohort Studies",
+        "Humans",
+        "Knee",
+        "Middle Aged",
+        "Muscle Strength",
+        "Muscle, Skeletal",
+        "Parkinson Disease",
+        "Physical Therapy Modalities",
+        "Postural Balance",
+        "Severity of Illness Index",
+        "Walking"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Parkinson's disease",
+          "Knee extensor strength",
+          "Dynamic postural stability",
+          "Functional ambulation"
+        ],
+        [
+          "Isokinetic strength testing",
+          "Functional Reach Test",
+          "Postural stability",
+          "Unified Parkinson's Disease Rating Scale"
+        ],
+        [
+          "Hoehn and Yahr disability score",
+          "6-minute walk test",
+          "Dynamic postural stability",
+          "Knee extensor strength"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:18:45.698Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20401819",
+      "global_index": 506,
+      "question": "Is ultrasound equal to X-ray in pediatric fracture diagnosis?",
+      "contexts": [
+        "Ultrasound is currently not established for the diagnosis of fractures. The aim of this study was to compare ultrasound and X-ray beyond their use solely for the identification of fractures, i. e., for the detection of fracture type and dislocation for pediatric fracture diagnosis.",
+        "Limb bones of dead young pigs served as a model for pediatric bones. The fractured bones were examined with ultrasound, X-ray, and CT, which served as the gold standard.",
+        "162 of 248 bones were fractured. 130 fractures were identified using ultrasound, and 148 using X-ray. There were some advantages of X-ray over ultrasound in the detection of fracture type (80 correct results using X-ray, 66 correct results using ultrasound). Ultrasound, however, was superior to X-ray for dislocation identification (41 correct results using X-ray, 51 correct results using ultrasound). Both findings were not statistically significant after adjustment for multiple testing."
+      ],
+      "mesh_terms": [
+        "Age Factors",
+        "Animals",
+        "Bone and Bones",
+        "Child",
+        "Disease Models, Animal",
+        "Fractures, Bone",
+        "Fractures, Closed",
+        "Fractures, Comminuted",
+        "Growth Plate",
+        "Humans",
+        "Image Processing, Computer-Assisted",
+        "Imaging, Three-Dimensional",
+        "Intra-Articular Fractures",
+        "Salter-Harris Fractures",
+        "Sensitivity and Specificity",
+        "Swine",
+        "Tomography, Spiral Computed",
+        "Ultrasonography"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Child",
+          "Fractures",
+          "Ultrasound",
+          "Sensitivity and Specificity"
+        ],
+        [
+          "X-ray",
+          "Fracture Type",
+          "Ultrasound",
+          "Dislocation Identification"
+        ],
+        [
+          "Growth Plate",
+          "Salter-Harris Fractures",
+          "Ultrasound",
+          "Sensitivity and Specificity"
+        ],
+        [
+          "Animal Model",
+          "Swine",
+          "Limb Bones",
+          "Fracture Detection",
+          "Ultrasound vs X-ray"
+        ],
+        [
+          "Computed Tomography",
+          "Gold Standard",
+          "Fracture Identification",
+          "Sensitivity and Specificity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:18:51.017Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20488985",
+      "global_index": 507,
+      "question": "The English antibiotic awareness campaigns: did they change the public's knowledge of and attitudes to antibiotic use?",
+      "contexts": [
+        "To determine the effect of the 2008 English public antibiotic campaigns.",
+        "English and Scottish (acting as controls) adults aged>or = 15 years were questioned face to face about their attitudes to and use of antibiotics, in January 2008 (1888) before and in January 2009 (1830) after the antibiotic campaigns.",
+        "Among English respondents, there was a small increase in recollection of campaign posters (2009 23.7% versus 2008 19.2%; P = 0.03), but this increase was only 2.3% higher in England than in Scotland. We did not detect any improvement in either England or Scotland, or any differences between England and Scotland in the understanding of the lack of benefit of antibiotics for coughs and colds, and we found no improvement in antibiotic use. We detected a significant increase in respondents retaining leftover antibiotics. Over 20% reported discussing antibiotics with their general practitioner (GP) or nurse in the year to January 2009. The offer of a delayed antibiotic prescription was reported significantly more often by English respondents (19% versus 8% Scottish in 2009; P = 0.01), and English respondents were advised to use other remedies for coughs and colds significantly more often in the year to January 2009 (12.7% in 2009 versus 7.4% in 2008; P<0.001)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Anti-Bacterial Agents",
+        "Bacterial Infections",
+        "Data Collection",
+        "England",
+        "Female",
+        "Health Knowledge, Attitudes, Practice",
+        "Health Services Research",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Scotland",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "England",
+          "Antibiotic Awareness Campaigns",
+          "Health Knowledge",
+          "Attitudes to Antibiotic Use",
+          "Practice of Antibiotic Use"
+        ],
+        [
+          "Adult Population",
+          "Data Collection",
+          "Reported Discussion with GP",
+          "Increased Delayed Prescription",
+          "Reduced Antibiotic Use"
+        ],
+        [
+          "Anti-Bacterial Agents",
+          "Use for Coughs and Colds",
+          "Campaign Message (No Benefit)",
+          "Knowledge of Inappropriate Use",
+          "No Change in Practice"
+        ],
+        [
+          "Leftover Antibiotics",
+          "Retention after Use",
+          "Potential for Misuse",
+          "Awareness Campaigns (Targeted)",
+          "No Significant Reduction"
+        ],
+        [
+          "Scotland",
+          "No Campaign",
+          "Baseline Attitudes",
+          "England",
+          "Comparison of Attitudes",
+          "No Significant Difference"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:19:14.771Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20497146",
+      "global_index": 508,
+      "question": "A model of healing of Los Angeles grades C and D reflux oesophagitis: is there an optimal time of acid suppression for maximal healing?",
+      "contexts": [
+        "In patients with Los Angeles (LA) grade C or D oesophagitis, a positive relationship has been established between the duration of intragastric acid suppression and healing.AIM: To determine whether there is an apparent optimal time of intragastric acid suppression for maximal healing of reflux oesophagitis.",
+        "Post hoc analysis of data from a proof-of-concept, double-blind, randomized study of 134 adult patients treated with esomeprazole (10 or 40 mg od for 4 weeks) for LA grade C or D oesophagitis. A curve was fitted to pooled 24-h intragastric pH (day 5) and endoscopically assessed healing (4 weeks) data using piecewise quadratic logistic regression.",
+        "Maximal reflux oesophagitis healing rates were achieved when intragastric pH>4 was achieved for approximately 50-70% (12-17 h) of the 24-h period. Acid suppression above this threshold did not yield further increases in healing rates."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Dose-Response Relationship, Drug",
+        "Double-Blind Method",
+        "Esomeprazole",
+        "Esophageal pH Monitoring",
+        "Esophagitis, Peptic",
+        "Female",
+        "Humans",
+        "Hydrogen-Ion Concentration",
+        "Los Angeles",
+        "Male",
+        "Middle Aged",
+        "Wound Healing",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Los Angeles grade C/D oesophagitis",
+          "Esomeprazole therapy",
+          "Intragastric pH >4 for 50–70% of 24‑h",
+          "Maximal healing"
+        ],
+        [
+          "Acid suppression duration",
+          "Dose‑Response Relationship",
+          "Healing rates plateau after ~50–70% pH>4"
+        ],
+        [
+          "24‑h intragastric pH monitoring",
+          "Piecewise quadratic logistic regression",
+          "Optimal 12–17 h of pH>4",
+          "Healing"
+        ],
+        [
+          "Double‑blind randomized study",
+          "4‑week esomeprazole treatment",
+          "Endoscopic healing assessment",
+          "Confirmation of optimal pH threshold"
+        ],
+        [
+          "Adult patients",
+          "Esomeprazole 10 mg vs 40 mg"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:19:21.248Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20497880",
+      "global_index": 509,
+      "question": "Is transurethral catheterisation the ideal method of bladder drainage?",
+      "contexts": [
+        "Bladder catheterisation is a routine part of major abdominal surgery. Transurethral catheterisation is the most common method of bladder drainage but is also notorious for its discomfort and increased risk of urinary tract infection. The present study aimed to establish patient satisfaction with transurethral catheterisation and to assess the incidence of clinically significant urinary tract infections after transurethral catheterisation through survey.",
+        "All patients who underwent major open abdominal surgery between October 2006 and December 2008 and required standard transurethral bladder catheterisation, were asked to participate in the study. Fifty patients were recruited.",
+        "Male patients were more dissatisfied than their female counterparts with transurethral catheterisation (satisfaction score: 4.18/10 vs. 2.75/10; p = 0.05). Male patients had more than double the score for pain at the urinary meatus with the catheter in situ (p =0.012) and during urine catheter removal (p = 0.013). Half the patients in the study also had symptoms of urinary tract infection after catheter removal."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Catheters, Indwelling",
+        "Female",
+        "Health Care Surveys",
+        "Humans",
+        "Incidence",
+        "Male",
+        "Middle Aged",
+        "Pain",
+        "Patient Satisfaction",
+        "Urinary Catheterization",
+        "Urinary Tract Infections"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Transurethral Catheterization",
+          "Pain at Urinary Meatus",
+          "Lower Patient Satisfaction",
+          "Male Dissatisfaction"
+        ],
+        [
+          "Catheters",
+          "Indwelling",
+          "Urinary Tract Infections",
+          "Postoperative Symptoms"
+        ],
+        [
+          "Major Abdominal Surgery",
+          "Bladder Catheterization",
+          "Standard Practice",
+          "Clinical Outcomes"
+        ],
+        [
+          "Male Patients",
+          "Higher Pain Score",
+          "Lower Satisfaction",
+          "Transurethral Catheterization"
+        ],
+        [
+          "Survey",
+          "Patient Satisfaction",
+          "Incidence of Urinary Tract Infections",
+          "Evaluation of Ideal Method"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:19:27.374Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20530150",
+      "global_index": 510,
+      "question": "Is cholecystectomy really an indication for concomitant splenectomy in mild hereditary spherocytosis?",
+      "contexts": [
+        "Children referred with symptomatic gallstones complicating HS between April 1999 and April 2009 were prospectively identified and reviewed retrospectively. During this period, the policy was to undertake concomitant splenectomy only if indicated for haematological reasons and not simply because of planned cholecystectomy.",
+        "A total of 16 patients (mean age 10.4, range 3.7 to 16 years, 11 women) with HS and symptomatic gallstones underwent cholecystectomy. Three patients subsequently required a splenectomy for haematological reasons 0.8-2.5 years after cholecystectomy; all three splenectomies were performed laparoscopically. There were no postoperative complications in the 16 patients; postoperative hospital stay was 1-3 days after either cholecystectomy or splenectomy. The 13 children with a retained spleen remain under regular review by a haematologist (median follow-up 4.6, range 0.5 to 10.6 years) and are well and transfusion independent."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Child",
+        "Child, Preschool",
+        "Cholecystectomy",
+        "Female",
+        "Follow-Up Studies",
+        "Gallstones",
+        "Humans",
+        "Laparoscopy",
+        "Male",
+        "Retrospective Studies",
+        "Spherocytosis, Hereditary",
+        "Splenectomy",
+        "Treatment Outcome",
+        "Unnecessary Procedures"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Hereditary Spherocytosis",
+          "Gallstones",
+          "Cholecystectomy",
+          "Splenectomy"
+        ],
+        [
+          "Cholecystectomy",
+          "Laparoscopy",
+          "Splenectomy",
+          "Hematological Reasons"
+        ],
+        [
+          "Child",
+          "Symptomatic Gallstones",
+          "Cholecystectomy",
+          "Follow-Up Studies"
+        ],
+        [
+          "Mild Hereditary Spherocytosis",
+          "Treatment Outcome",
+          "Unnecessary Procedures",
+          "Follow-Up Studies"
+        ],
+        [
+          "Female",
+          "Cholecystectomy",
+          "Splenectomy",
+          "Transfusion Independence"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:19:40.269Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20537205",
+      "global_index": 511,
+      "question": "Is halofantrine ototoxic?",
+      "contexts": [
+        "Halofantrine is a newly developed antimalarial drug used for the treatment of Plasmodium falciparum malaria. The introduction of this drug has been delayed because of its possible side effects, and due to insufficient studies on adverse reactions in humans. There have been no studies investigating its effect on hearing.",
+        "Thirty guinea pigs were divided into three groups: a control group, a halofantrine therapeutic dose group and a halofantrine double therapeutic dose group. One cochlea specimen from each animal was stained with haematoxylin and eosin and the other with toluidine blue.",
+        "No changes were detected in the control group. The halofantrine therapeutic dose group showed loss and distortion of inner hair cells and inner phalangeal cells, and loss of spiral ganglia cells. In the halofantrine double therapeutic dose group, the inner and outer hair cells were distorted and there was loss of spiral ganglia cells."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Antimalarials",
+        "Cochlea",
+        "Dose-Response Relationship, Drug",
+        "Guinea Pigs",
+        "Hair Cells, Auditory, Outer",
+        "Phenanthrenes",
+        "Staining and Labeling"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Halofantrine",
+          "Antimalarial Drug",
+          "Inner Hair Cell Loss",
+          "Ototoxicity"
+        ],
+        [
+          "Guinea Pigs",
+          "Cochlea",
+          "Toluidine Blue Staining",
+          "Inner Hair Cell Distortion",
+          "Spiral Ganglia Cell Loss",
+          "Ototoxicity"
+        ],
+        [
+          "Dose-Response Relationship",
+          "Double Therapeutic Dose",
+          "Outer Hair Cell Distortion",
+          "Auditory Dysfunction",
+          "Ototoxicity"
+        ],
+        [
+          "Phenanthrenes",
+          "Halofantrine Structural Class",
+          "Antimalarial",
+          "Potential Adverse Effect",
+          "Ototoxicity"
+        ],
+        [
+          "Antimalarial Drug",
+          "Lack of Human Hearing Studies",
+          "Extrapolate from Guinea Pig"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:19:53.025Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20538207",
+      "global_index": 512,
+      "question": "Should temperature be monitorized during kidney allograft preservation?",
+      "contexts": [
+        "It is generally considered that kidney grafts should be preserved at 4 degrees C during cold storage. However, actual temperature conditions are not known. We decided to study the temperature levels during preservation with the Biotainer storage can and Vitalpack transport pack.",
+        "Temperature was monitored using the Thermobouton probe during preservation of pig kidneys, in the same conditions used with human grafts. The probe recorded the temperature level every 10 minutes during four days. We compared the results found with the new storage can with results obtained in the same conditions with the storage can formerly used by our team. We also studied the best position of the probe for temperature monitoring and the influence of the amount of ice within the transport pack on the temperature level. We then monitored the temperature during the conservation of actual human kidney grafts harvested at our institution from August 2007 to May 2008.",
+        "The temperature levels were the same regardless of the position of the probe within the transport pack. The lowest temperature was maintained during 15 hours, and the temperature level stayed below 5 degrees C for 57 hours with the new storage can. The former storage can maintained the lowest temperature level for 80 minutes, and temperature reached 5 degrees C after 10 hours 40 minutes. Temperature levels were similar when 2 or 4 kg of crushed ice were used. We observed similar results when monitoring the conservation of human grafts."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Body Temperature",
+        "Cold Temperature",
+        "Humans",
+        "Kidney Transplantation",
+        "Organ Preservation",
+        "Swine"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Kidney Transplantation",
+          "Organ Preservation",
+          "Cold Temperature",
+          "Temperature Monitoring"
+        ],
+        [
+          "Cold Temperature",
+          "Cryopreservation",
+          "Ice Pack Quantity",
+          "Temperature Stability"
+        ],
+        [
+          "Body Temperature",
+          "Hypothermia",
+          "Graft Viability",
+          "Clinical Outcomes"
+        ],
+        [
+          "Storage Can Design",
+          "Temperature Gradient",
+          "Probe Positioning",
+          "Accurate Monitoring"
+        ],
+        [
+          "Human Kidney Graft",
+          "Pig Kidney Model",
+          "Comparative Temperature Analysis",
+          "Validation of Preservation Protocol"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:19:59.104Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20549895",
+      "global_index": 513,
+      "question": "Health habits and vaccination status of Lebanese residents: are future doctors applying the rules of prevention?",
+      "contexts": [
+        "There has never been a nationally representative survey of medical students' personal health-related practices, although they are inherently of interest and may affect patient-counseling practices. This study evaluated the health practices and the vaccination status of first year residents working at the academic hospital Hôtel-Dieu de France.",
+        "The medical files of all medicine and surgery residents in their first year of specialization between the years 2005 and 2008 were reviewed. These residents were required to go through a preventive medical visit at the University Center of Family and Community Health.",
+        "One hundred and nine residents (109) were included in the study; 68 (6239%) were male and 41 (37.61%) were female with a mean age of 26 years. Only 6 residents (5.50%) practiced physical activity according to international guidelines (more than three times a week for more than 30 minutes each time). Most residents (n = 76 ; 69.73%) used to skip one or two meals especially breakfast and as a consequence 30 male (44.11%) and 4 female (9.75%) students were overweight, with a statistical difference between the two sexes (Fisher test, p-value = 0.001). Twenty-eight residents (25.69%) were smokers with a male predominance. Fourteen residents of both genders (12.84%) drank alcohol regularly (>3 times a week) and 71 (65.14%) had a drink occasionally (once a month or less). Only 25 residents (23%) of the cohort had a complete and up-to-date immunization status. The immunization gap was basically against measles, mumps, rubella (MMR) and diphtheria, tetanus, poliomyelitis (dT Polio). Ninety-nine residents (90.83%) had full immunization against hepatitis B with an adequate response in 78 residents (71.56%)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Feeding Behavior",
+        "Female",
+        "Health Behavior",
+        "Humans",
+        "Internship and Residency",
+        "Lebanon",
+        "Male",
+        "Overweight",
+        "Physicians",
+        "Smoking",
+        "Vaccination"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Smoking",
+          "Overweight",
+          "Vaccination Gap",
+          "Physicians"
+        ],
+        [
+          "Physical Activity",
+          "Health Behavior",
+          "Vaccination Status"
+        ],
+        [
+          "Feeding Behavior",
+          "Overweight",
+          "Health Risk",
+          "Physicians"
+        ],
+        [
+          "MMR Vaccination",
+          "Immunization Gap",
+          "Adult Vaccination Needs",
+          "Internship and Residency"
+        ],
+        [
+          "Hepatitis B Vaccination",
+          "Adequate Response",
+          "Hepatitis B Prevention",
+          "Lebanese Residents"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:20:06.521Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20571467",
+      "global_index": 514,
+      "question": "Is it appropriate to implant kidneys from elderly donors in young recipients?",
+      "contexts": [
+        "Kidneys from elderly donors tend to be implanted in recipients who are also elderly. We present the results obtained after 10 years of evolution on transplanting elderly kidneys into young recipients.",
+        "Ninety-one consecutive transplants are studied, carried out in our center with kidneys from cadaver donors older than 60 years implanted in recipients younger than 60 years. The control group is made up of 91 transplants, matched with those from the study group, whose donor and recipient were younger than 60 years.",
+        "There were no differences between groups with regard to recipient age, sex, cause of death and renal function of the donor, hepatitis C and cytomegalovirus serologies, cold ischemia time, tubular necrosis, immediate diuresis, need for dialysis, human leukocyte antigen incompatibilities, hypersensitized patients, acute rejection, waiting time on dialysis, and days of admission. Survival in both groups at 1, 5, and 10 years was 97.6%, 87.2%, and 76.6% vs. 98.8%, 87.5%, and 69.5% for the patient (P=0.642), 92.9%, 81.3%, and 64.2% vs. 93.9%, 76.4%, and 69.5% for the graft (P=0.980), and 94.4%, 92.6%, and 77.4% vs. 94.3%, 86.7%, and 84.4% for the graft with death censured (P=0.747), respectively. Creatininaemias at 1, 5, and 10 years were 172, 175, and 210 vs. 139, 134, and 155 (P<0.05)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Biomarkers",
+        "Case-Control Studies",
+        "Chi-Square Distribution",
+        "Creatinine",
+        "Donor Selection",
+        "Female",
+        "Glomerular Filtration Rate",
+        "Graft Survival",
+        "Humans",
+        "Kaplan-Meier Estimate",
+        "Kidney Transplantation",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Resource Allocation",
+        "Risk Assessment",
+        "Risk Factors",
+        "Time Factors",
+        "Tissue Donors",
+        "Treatment Outcome",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Aged",
+          "Donor Selection",
+          "Kidney Transplantation",
+          "Graft Survival"
+        ],
+        [
+          "Young Adult",
+          "Recipient Age",
+          "Risk Assessment",
+          "Graft Survival"
+        ],
+        [
+          "Creatinine",
+          "Biomarkers",
+          "Glomerular Filtration Rate",
+          "Treatment Outcome"
+        ],
+        [
+          "Resource Allocation",
+          "Risk Factors",
+          "Time Factors",
+          "Treatment Outcome"
+        ],
+        [
+          "Prospective Studies",
+          "Kaplan-Meier Estimate",
+          "Survival"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:20:13.949Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20577124",
+      "global_index": 515,
+      "question": "Is leptin involved in phagocytic NADPH oxidase overactivity in obesity?",
+      "contexts": [
+        "Hyperleptinemia and oxidative stress play a major role in the development of cardiovascular diseases in obesity. This study aimed to investigate whether there is a relationship between plasma levels of leptin and phagocytic nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, and its potential relevance in the vascular remodeling in obese patients.",
+        "The study was performed in 164 obese and 94 normal-weight individuals (controls). NADPH oxidase activity was evaluated by luminescence in phagocytic cells. Levels of leptin were quantified by ELISA in plasma samples. Carotid intima-media thickness (cIMT) was measured by ultrasonography. In addition, we performed in-vitro experiments in human peripheral blood mononuclear cells and murine macrophages.",
+        "Phagocytic NADPH oxidase activity and leptin levels were enhanced (P<0.05) in obese patients compared with controls. NADPH oxidase activity positively correlated with leptin in obese patients. This association remained significant in a multivariate analysis. cIMT was higher (P<0.05) in obese patients compared with controls. In addition, cIMT also correlated positively with leptin and NADPH oxidase activity in obese patients. In-vitro studies showed that leptin induced NADPH oxidase activation. Inhibition of the leptin-induced NADPH oxidase activity by wortmannin and bisindolyl maleimide suggested a direct involvement of the phosphatidylinositol 3-kinase and protein kinase C pathways, respectively. Finally, leptin-induced NADPH oxidase activation promoted macrophage proliferation."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Atherosclerosis",
+        "Carotid Arteries",
+        "Case-Control Studies",
+        "Cell Line",
+        "Cell Proliferation",
+        "Female",
+        "Humans",
+        "In Vitro Techniques",
+        "Leptin",
+        "Macrophages",
+        "Male",
+        "Mice",
+        "Middle Aged",
+        "NADPH Oxidases",
+        "Obesity",
+        "Oxidative Stress",
+        "Phagocytes",
+        "Superoxides",
+        "Tunica Intima"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Leptin",
+          "NADPH Oxidase Activation",
+          "Superoxide Production",
+          "Oxidative Stress",
+          "Atherosclerosis"
+        ],
+        [
+          "Obesity",
+          "Hyperleptinemia",
+          "Macrophage Activation",
+          "Phagocyte NADPH Oxidase Activity",
+          "Carotid Intima‑Media Thickness"
+        ],
+        [
+          "In Vitro Techniques",
+          "Human PBMCs",
+          "Leptin Stimulation",
+          "NADPH Oxidase Activation",
+          "Phosphatidylinositol 3‑Kinase Pathway"
+        ],
+        [
+          "Case‑Control Studies",
+          "Obese vs Normal‑Weight",
+          "Correlation Analysis",
+          "Leptin Levels",
+          "NADPH Oxidase Activity"
+        ],
+        [
+          "Mice",
+          "Leptin Administration",
+          "Macrophage Proliferation",
+          "NADPH Oxidase Overactivity",
+          "Oxidative Stress in Tunica Intima"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:20:21.245Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20594006",
+      "global_index": 516,
+      "question": "A patient with myelomeningocele: is untethering necessary prior to scoliosis correction?",
+      "contexts": [
+        "Tethering of the spinal cord is thought to increase the chance of neurological injury when scoliosis correction is undertaken. All patients with myelomeningocele (MM) are radiographically tethered, and untethering procedures carry significant morbidity risks including worsening neurological function and wound complications. No guidelines exist as regards untethering in patients with MM prior to scoliosis correction surgery. The authors' aim in this study was to evaluate their experience in patients with MM who were not untethered before scoliosis correction.",
+        "Seventeen patients with MM were retrospectively identified and 1) had no evidence of a clinically symptomatic tethered cord, 2) had undergone spinal fusion for scoliosis correction, and 3) had not been untethered for at least 1 year prior to surgery. The minimum follow-up after fusion was 2 years. Charts and radiographs were reviewed for neurological or shunt complications in the perioperative period.",
+        "The average age of the patients was 12.4 years, and the following neurological levels were affected: T-12 and above, 7 patients; L-1/L-2, 6 patients; L-3, 2 patients; and L-4, 2 patients. All were radiographically tethered as confirmed on MR imaging. Fourteen of the patients (82%) had a ventriculoperitoneal shunt. The mean Cobb angle was corrected from 82 degrees to 35 degrees , for a 57% correction. All patients underwent neuromonitoring of their upper extremities, and some underwent lower extremity monitoring as well. Postoperatively, no patient experienced a new cranial nerve palsy, shunt malfunction, change in urological function, or upper extremity weakness/sensory loss. One patient had transient lower extremity weakness, which returned to baseline within 1 month of surgery."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Child",
+        "Female",
+        "Humans",
+        "Lumbar Vertebrae",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Meningomyelocele",
+        "Neural Tube Defects",
+        "Neurosurgical Procedures",
+        "Radiography",
+        "Risk Factors",
+        "Scoliosis",
+        "Spinal Cord",
+        "Spinal Fusion",
+        "Thoracic Vertebrae",
+        "Treatment Outcome",
+        "Unnecessary Procedures"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Myelomeningocele",
+          "Tethered Cord",
+          "Spinal Fusion Surgery",
+          "Neurological Injury Risk",
+          "Untethering Consideration"
+        ],
+        [
+          "Tethered Cord",
+          "Magnetic Resonance Imaging",
+          "No Clinical Symptom",
+          "Decision to Skip Untethering",
+          "Spinal Fusion Outcome"
+        ],
+        [
+          "Scoliosis",
+          "Spinal Fusion",
+          "Neuromonitoring",
+          "Prevention of Upper Extremity Weakness",
+          "Postoperative Neurological Preservation"
+        ],
+        [
+          "Ventriculoperitoneal Shunt",
+          "Shunt Malfunction Risk",
+          "Scoliosis Correction Surgery",
+          "Monitoring of Shunt Function",
+          "Neurological Safety"
+        ],
+        [
+          "Adolescent",
+          "Scoliosis Severity",
+          "57% Cobb Angle Correction",
+          "Functional Improvement",
+          "No New Neurological Deficits"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:20:45.133Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20602101",
+      "global_index": 517,
+      "question": "Is hypoalbuminemia an independent prognostic factor in patients with gastric cancer?",
+      "contexts": [
+        "Studies have indicated that hypoalbuminemia is associated with decreased survival of patients with gastric cancer. However, the prognostic value of albumin may be secondary to an ongoing systemic inflammatory response. The aim of the study was to assess the relation between hypoalbuminemia, the systemic inflammatory response, and survival in patients with gastric cancer.",
+        "Patients diagnosed with gastric carcinoma attending the upper gastrointestinal surgical unit in the Royal Infirmary, Glasgow between April 1997 and December 2005 and who had a pretreatment measurement of albumin and C-reactive protein (CRP) were studied.",
+        "Most of the patients had stage III/IV disease and received palliative treatment. The minimum follow-up was 15 months. During follow-up, 157 (72%) patients died of their cancer. On univariate analysis, stage (p<0.001), treatment (p<0.001), albumin level (p<0.001), and CRP level (p<0.001) were significant predictors of survival. On multivariate analysis, stage (p<0.001), treatment (p<0.001), and CRP level (p<0.001) remained significant predictors of survival. Albumin was no longer an independent predictor of survival."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Albumins",
+        "C-Reactive Protein",
+        "Female",
+        "Humans",
+        "Hypoalbuminemia",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prognosis",
+        "Stomach Neoplasms",
+        "Survival Analysis",
+        "Systemic Inflammatory Response Syndrome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Hypoalbuminemia",
+          "C-Reactive Protein",
+          "Systemic Inflammatory Response Syndrome",
+          "Prognosis"
+        ],
+        [
+          "Stomach Neoplasms",
+          "Stage (III/IV)",
+          "Survival Analysis",
+          "Prognosis"
+        ],
+        [
+          "Hypoalbuminemia",
+          "Predictive Value of Tests",
+          "Multivariate Analysis",
+          "Independent Prognostic Factor"
+        ],
+        [
+          "C-Reactive Protein",
+          "Systemic Inflammatory Response Syndrome",
+          "Survival Analysis",
+          "Prognosis"
+        ],
+        [
+          "Stage (III/IV)",
+          "Treatment (palliative)",
+          "Survival",
+          "Prognosis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:20:57.904Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20602784",
+      "global_index": 518,
+      "question": "Identification of racial disparities in breast cancer mortality: does scale matter?",
+      "contexts": [
+        "This paper investigates the impact of geographic scale (census tract, zip code, and county) on the detection of disparities in breast cancer mortality among three ethnic groups in Texas (period 1995-2005). Racial disparities were quantified using both relative (RR) and absolute (RD) statistics that account for the population size and correct for unreliable rates typically observed for minority groups and smaller geographic units. Results were then correlated with socio-economic status measured by the percentage of habitants living below the poverty level.",
+        "African-American and Hispanic women generally experience higher mortality than White non-Hispanics, and these differences are especially significant in the southeast metropolitan areas and southwest border of Texas. The proportion and location of significant racial disparities however changed depending on the type of statistic (RR versus RD) and the geographic level. The largest proportion of significant results was observed for the RD statistic and census tract data. Geographic regions with significant racial disparities for African-Americans and Hispanics frequently had a poverty rate above 10.00%."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "African Americans",
+        "Age Distribution",
+        "Aged",
+        "Breast Neoplasms",
+        "Cause of Death",
+        "Censuses",
+        "Confidence Intervals",
+        "Cross-Sectional Studies",
+        "Databases, Factual",
+        "European Continental Ancestry Group",
+        "Female",
+        "Health Knowledge, Attitudes, Practice",
+        "Health Status Disparities",
+        "Hispanic Americans",
+        "Humans",
+        "Incidence",
+        "Logistic Models",
+        "Middle Aged",
+        "Odds Ratio",
+        "Risk Assessment",
+        "Socioeconomic Factors",
+        "Survival Analysis",
+        "Texas"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Geographic Scale",
+          "Census Tract",
+          "Breast Cancer Mortality",
+          "Relative Risk",
+          "Racial Disparities"
+        ],
+        [
+          "Socioeconomic Factors",
+          "Poverty Rate",
+          "Breast Neoplasms Incidence",
+          "Survival Analysis",
+          "African Americans"
+        ],
+        [
+          "Cross-Sectional Studies",
+          "Databases",
+          "Logistic Models",
+          "Odds Ratio",
+          "Hispanic Americans"
+        ],
+        [
+          "Health Status Disparities",
+          "Relative Risk",
+          "Confidence Intervals",
+          "Texas",
+          "Breast Cancer Mortality"
+        ],
+        [
+          "Age Distribution",
+          "Middle Aged",
+          "Breast Neoplasms",
+          "Cause of Death",
+          "Racial Disparities"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:21:19.726Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20605051",
+      "global_index": 519,
+      "question": "Does case-mix based reimbursement stimulate the development of process-oriented care delivery?",
+      "contexts": [
+        "Reimbursement based on the total care of a patient during an acute episode of illness is believed to stimulate management and clinicians to reduce quality problems like waiting times and poor coordination of care delivery. Although many studies already show that this kind of case-mix based reimbursement leads to more efficiency, it remains unclear whether care coordination improved as well. This study aims to explore whether case-mix based reimbursement stimulates development of care coordination by the use of care programmes, and a process-oriented way of working.",
+        "Data for this study were gathered during the winter of 2007/2008 in a survey involving all Dutch hospitals. Descriptive and structural equation modelling (SEM) analyses were conducted.",
+        "SEM reveals that adoption of the case-mix reimbursement within hospitals' budgeting processes stimulates hospitals to establish care programmes by the use of process-oriented performance measures. However, the implementation of care programmes is not (yet) accompanied by a change in focus from function (the delivery of independent care activities) to process (the delivery of care activities as being connected to a chain of interdependent care activities)."
+      ],
+      "mesh_terms": [
+        "Budgets",
+        "Delivery of Health Care",
+        "Diagnosis-Related Groups",
+        "Economics, Hospital",
+        "Health Care Surveys",
+        "Humans",
+        "Models, Theoretical",
+        "Netherlands",
+        "Patient Care Management",
+        "Quality of Health Care",
+        "Reimbursement Mechanisms"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Reimbursement Mechanisms",
+          "Case-Mix Reimbursement",
+          "Hospital Budgets",
+          "Adoption of Care Programmes",
+          "Process-Oriented Performance Measures"
+        ],
+        [
+          "Diagnosis-Related Groups",
+          "Case-Mix Reimbursement",
+          "Efficiency",
+          "Patient Care Management",
+          "Quality of Health Care"
+        ],
+        [
+          "Economics",
+          "Budgeting Process",
+          "Incentives for Care Coordination",
+          "Care Programmes",
+          "Process-Oriented Care Delivery"
+        ],
+        [
+          "Netherlands",
+          "Health Care Surveys",
+          "Structural Equation Modeling",
+          "Findings: No Shift from Function to Process",
+          "Implication: Limited Impact on Process-Oriented Care Delivery"
+        ],
+        [
+          "Hospitals",
+          "Care Programmes",
+          "Care Coordination",
+          "Quality of Health Care",
+          "Patient Outcomes"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:21:26.113Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20608141",
+      "global_index": 520,
+      "question": "PSA repeatedly fluctuating levels are reassuring enough to avoid biopsy?",
+      "contexts": [
+        "Prostate-specific antigen (PSA) levels can show wide fluctuations when repeatedly measured. Here we investigatewd if: (a) biopsy timing influences the prostate cancer (PC) detection rate in patients with fluctuating PSA (flu-PSA) in comparison with patients with steadily increasing PSA (si-PSA); (b) PSA slope estimated in patients with flu-PSA predicts a different risk of cancer detection; (c) flu-PSA and si-PSA patients develop PC in topographically different sites; (d) the behaviour of pre-operative PSA is an expression of a disease with defferent characteristics to the following radical prostatectomy.",
+        "The study involved 211 patients who underwent at least a second biopsy after a first negative prostate biopsy. PSA Slope, PSA velocity (PSAV) and PSA doubling time (PSADT) were estimated. Flu-PSA level was defined as a PSA series with at least one PSA value lower than the one immediately preceding it.",
+        "82 patients had flu-PSA levels and 129 si-PSA levels. There were no significant differences between the two groups in terms of cancer detection, clinical or pathological stage, but the si-PSA group with cancer had a higher Gleason score. No difference was found for PSA Slope between flu-PSA patients with cancer and those without."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Biomarkers, Tumor",
+        "Biopsy",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prostate-Specific Antigen",
+        "Prostatic Neoplasms",
+        "Reproducibility of Results"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Prostate‑Specific Antigen",
+          "Fluctuating PSA",
+          "Reproducibility of Results",
+          "Cancer Detection Rate"
+        ],
+        [
+          "PSA Velocity",
+          "PSA Doubling Time",
+          "Biopsy Timing",
+          "Prostatic Neoplasms"
+        ],
+        [
+          "Fluctuating PSA",
+          "Predictive Value of Tests",
+          "Gleason Score",
+          "Tumor Aggressiveness"
+        ],
+        [
+          "Repeated Biopsy",
+          "Biopsy Timing",
+          "Detection of Prostate Cancer",
+          "Clinical Management"
+        ],
+        [
+          "Middle Aged Male",
+          "Prostate‑Specific Antigen",
+          "PSA Slope"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:21:32.682Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20629769",
+      "global_index": 521,
+      "question": "Is primary angioplasty an acceptable alternative to thrombolysis?",
+      "contexts": [
+        "The National Infarct Angioplasty Project assessed the feasibility of establishing a comprehensive primary angioplasty service. We aimed to compare satisfaction at intervention hospitals offering angioplasty-based care and control hospitals offering thrombolysis-based care.",
+        "Mixed methods, with postal survey of patients and their carers, supported by semi-structured interviews.",
+        "Survey of 682 patients and 486 carers, and interviews with 33 patients and carers, in eight English hospitals.",
+        "Primary angioplasty or thrombolysis.",
+        "Satisfaction with treatment.",
+        "Responses were received from 595/682 patients (87%) and 418/486 carers (86%). Satisfaction with overall care was high at both intervention and control sites (78% vs. 71% patients rated their care as 'excellent', P = 0.074). Patient satisfaction was higher at intervention sites for some aspects of care such as speed of treatment (80% vs. 67%'excellent', P = 0.001). Convenience of visiting was rated lower at intervention sites by carers (12% vs. 1%'poor', P = 0.001). During interviews, carers reported that they accepted the added inconvenience of visiting primary angioplasty sites in the context of this life-saving treatment. Patient satisfaction with discharge and aftercare was lower in both treatment groups than for other aspects of care."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Angioplasty",
+        "Caregivers",
+        "England",
+        "Health Care Surveys",
+        "Humans",
+        "Interviews as Topic",
+        "Male",
+        "Middle Aged",
+        "Myocardial Infarction",
+        "Patient Satisfaction",
+        "Thrombolytic Therapy",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Primary Angioplasty",
+          "Myocardial Infarction",
+          "Reperfusion Therapy",
+          "Survival Benefit"
+        ],
+        [
+          "Thrombolytic Therapy",
+          "Myocardial Infarction",
+          "Door-to-Needle Time",
+          "Patient Satisfaction"
+        ],
+        [
+          "Primary Angioplasty",
+          "Speed of Treatment",
+          "Patient Satisfaction",
+          "Life‑Saving Treatment"
+        ],
+        [
+          "Thrombolytic Therapy",
+          "Convenience of Visiting",
+          "Carer Satisfaction",
+          "Treatment Acceptance"
+        ],
+        [
+          "Myocardial Infarction",
+          "Primary Angioplasty",
+          "Hospital",
+          "Caregivers",
+          "Treatment Preference"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:21:46.174Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20674150",
+      "global_index": 522,
+      "question": "Validation of the 2009 TNM version in a large multi-institutional cohort of patients treated for renal cell carcinoma: are further improvements needed?",
+      "contexts": [
+        "A new edition of the TNM was recently released that includes modifications for the staging system of kidney cancers. Specifically, T2 cancers were subclassified into T2a and T2b (<or =10 cm vs>10 cm), tumors with renal vein involvement or perinephric fat involvement were classified as T3a cancers, and those with adrenal involvement were classified as T4 cancers.",
+        "Our aim was to validate the recently released edition of the TNM staging system for primary tumor classification in kidney cancer.",
+        "Our multicenter retrospective study consisted of 5339 patients treated in 16 academic Italian centers.",
+        "Patients underwent either radical or partial nephrectomy.",
+        "Univariable and multivariable Cox regression models addressed cancer-specific survival (CSS) after surgery.",
+        "In the study, 1897 patients (35.5%) were classified as pT1a, 1453 (27%) as pT1b, 437 (8%) as pT2a, 153 (3%) as pT2b, 1059 (20%) as pT3a, 117 (2%) as pT3b, 26 (0.5%) as pT3c, and 197 (4%) as pT4. At a median follow-up of 42 mo, 786 (15%) had died of disease. In univariable analysis, patients with pT2b and pT3a tumors had similar CSS, as did patients with pT3c and pT4 tumors. Moreover, both pT3a and pT3b stages included patients with heterogeneous outcomes. In multivariable analysis, the novel classification of the primary tumor was a powerful independent predictor of CSS (p for trend<0.0001). However, the substratification of pT1 tumors did not retain an independent predictive role. The major limitations of the study are retrospective design, lack of central pathologic review, and the small number of patients included in some substages."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Carcinoma, Renal Cell",
+        "Cohort Studies",
+        "Female",
+        "Humans",
+        "Kidney Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Staging",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Renal Cell Carcinoma",
+          "TNM staging (2009)",
+          "Primary tumor substage (pT2a/pT2b)",
+          "Cancer-specific survival"
+        ],
+        [
+          "Multicenter retrospective study",
+          "5339 patients",
+          "Cox regression",
+          "Independent predictor of CSS"
+        ],
+        [
+          "Renal vein involvement",
+          "T3a classification",
+          "Heterogeneous outcomes",
+          "Need for further refinement"
+        ],
+        [
+          "Partial nephrectomy",
+          "Radical nephrectomy",
+          "Surgical treatment",
+          "Impact on staging accuracy"
+        ],
+        [
+          "Lack of central pathologic review",
+          "Small sample in substages",
+          "Limitations",
+          "Implications for future studies"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:21:53.585Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20684175",
+      "global_index": 523,
+      "question": "Vitamin D supplementation and regulatory T cells in apparently healthy subjects: vitamin D treatment for autoimmune diseases?",
+      "contexts": [
+        "Epidemiological data show significant associations of vitamin D deficiency and autoimmune diseases. Vitamin D may prevent autoimmunity by stimulating naturally occurring regulatory T cells.",
+        "To elucidate whether vitamin D supplementation increases Tregs frequency (%Tregs) within circulating CD4+ T cells.",
+        "We performed an uncontrolled vitamin D supplementation trial among 50 apparently healthy subjects including supplementation of 140,000 IU at baseline and after 4 weeks (visit 1). The final follow-up visit was performed 8 weeks after the baseline examination (visit 2). Blood was drawn at each study visit to determine 25-hydroxyvitamin D levels and %Tregs. Tregs were characterized as CD4+CD25++ T cells with expression of the transcription factor forkhead box P3 and low or absent expression of CD127.",
+        "Forty-six study participants (65% females, mean age +/- SD 31 +/- 8 years) completed the trial. 25(OH)D levels increased from 23.9 +/- 12.9 ng/ml at baseline to 45.9 +/- 14.0 ng/ml at visit 1 and 58.0 +/- 15.1 ng/ml at visit 2. %Tregs at baseline were 4.8 +/- 1.4. Compared to baseline levels we noticed a significant increase of %Tregs at study visit 1 (5.9 +/- 1.7, P<0.001) and 2 (5.6 +/- 1.6, P<0.001)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "C-Reactive Protein",
+        "CD4 Lymphocyte Count",
+        "CD4-Positive T-Lymphocytes",
+        "Calcium",
+        "Dietary Supplements",
+        "Female",
+        "Follow-Up Studies",
+        "Forkhead Transcription Factors",
+        "Humans",
+        "Immunologic Factors",
+        "Interleukin-2 Receptor alpha Subunit",
+        "Interleukin-7 Receptor alpha Subunit",
+        "Male",
+        "Pilot Projects",
+        "T-Lymphocytes, Regulatory",
+        "Vitamin D",
+        "Vitamins"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Vitamin D supplementation",
+          "25‑hydroxyvitamin D levels ↑",
+          "Regulatory T cells (%Tregs) ↑",
+          "Autoimmune disease prevention"
+        ],
+        [
+          "Vitamin D deficiency",
+          "Increased risk of autoimmune disease",
+          "Vitamin D supplementation",
+          "Correction of deficiency"
+        ],
+        [
+          "Vitamin D supplementation",
+          "25‑hydroxyvitamin D levels ↑",
+          "Forkhead box P3 expression ↑",
+          "Regulatory T cells ↑",
+          "Reduced C‑reactive protein"
+        ],
+        [
+          "Vitamin D supplementation",
+          "CD4+ T lymphocytes with CD25++ phenotype ↑",
+          "Low CD127 expression",
+          "Regulatory T cells ↑",
+          "Immunologic regulation"
+        ],
+        [
+          "Vitamin D supplementation",
+          "25‑hydroxyvitamin D levels ↑",
+          "Activation of vitamin D receptor in CD4+ T cells",
+          "Upregulation of FOXP3 transcription",
+          "Regulatory T cell expansion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:22:08.632Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20736672",
+      "global_index": 524,
+      "question": "Does perspective-taking increase patient satisfaction in medical encounters?",
+      "contexts": [
+        "To assess whether perspective-taking, which researchers in other fields have shown to induce empathy, improves patient satisfaction in encounters between student-clinicians and standardized patients (SPs).",
+        "In three studies, randomly assigned students (N = 608) received either a perspective-taking instruction or a neutral instruction prior to a clinical skills examination in 2006-2007. SP satisfaction was the main outcome in all three studies. Study 1 involved 245 third-year medical students from two universities. Studies 2 and 3 extended Study 1 to examine generalizability across student and SP subpopulations. Study 2 (105 physician assistant students, one university) explored the effect of perspective-taking on African American SPs' satisfaction. Study 3 (258 third-year medical students, two universities) examined the intervention's effect on students with high and low baseline perspective-taking tendencies.",
+        "Intervention students outscored controls in patient satisfaction in all studies: Study 1: P = .01, standardized effect size = 0.16; Study 2: P = .001, standardized effect size = 0.31; Study 3: P = .009, standardized effect size = 0.13. In Study 2, perspective-taking improved African American SPs' satisfaction. In Study 3, intervention students with high baseline perspective-taking tendencies outscored controls (P = .0004, standardized effect size = 0.25), whereas those with low perspective-taking tendencies did not (P = .72, standardized effect size = 0.00)."
+      ],
+      "mesh_terms": [
+        "Analysis of Variance",
+        "Clinical Competence",
+        "Communication",
+        "Curriculum",
+        "Education, Medical, Undergraduate",
+        "Educational Measurement",
+        "Empathy",
+        "Humans",
+        "Patient Satisfaction",
+        "Physician-Patient Relations",
+        "Students, Medical"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Perspective-Taking",
+          "Empathy",
+          "Patient Satisfaction"
+        ],
+        [
+          "Perspective-Taking",
+          "Communication",
+          "Physician-Patient Relations",
+          "Patient Satisfaction"
+        ],
+        [
+          "Perspective-Taking",
+          "Clinical Competence",
+          "Medical Student",
+          "Patient Satisfaction"
+        ],
+        [
+          "Perspective-Taking",
+          "Standardized Patients",
+          "Study Design",
+          "Analysis of Variance",
+          "Patient Satisfaction"
+        ],
+        [
+          "Perspective-Taking",
+          "Educational Measurement",
+          "Curriculum",
+          "Medical Education",
+          "Patient Satisfaction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:22:21.974Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20736887",
+      "global_index": 525,
+      "question": "Is decompressive surgery effective for spinal cord sarcoidosis accompanied with compressive cervical myelopathy?",
+      "contexts": [
+        "A retrospective multicenter study of series of 12 patients with spinal cord sarcoidosis who underwent surgery.",
+        "To evaluate the postoperative outcomes of patients with cervical spinal cord sarcoidosis accompanied with compressive myelopathy and effect of decompressive surgery on the prognosis of sarcoidosis.",
+        "Sarcoidosis is a chronic, multisystem noncaseating granulomatous disease. It is difficult to differentiate spinal cord sarcoidosis from cervical compressive myelopathy. There are no studies regarding the coexistence of compressive cervical myelopathy with cervical spinal cord sarcoidosis and the effect of decompressive surgery.",
+        "Nagoya Spine Group database included 1560 cases with cervical myelopathy treated with cervical laminectomy or laminoplasty from 2001 to 2005. A total of 12 patients (0.08% of cervical myelopathy) were identified spinal cord sarcoidosis treated with decompressive surgery. As a control subject, 8 patients with spinal cord sarcoidosis without compressive lesion who underwent high-dose steroid therapy without surgery were recruited.",
+        "In the surgery group, enhancing lesions on magnetic resonance imaging (MRI) were mostly seen at C5-C6, coincident with the maximum compression level in all cases. Postoperative recovery rates in the surgery group at 1 week and 4 weeks were -7.4% and -1.1%, respectively. Only 5 cases had showed clinical improvement, and the condition of these 5 patients had worsened again at averaged 7.4 weeks after surgery. Postoperative oral steroid therapy was initiated at an average of 6.4 weeks and the average initial dose was 54.0 mg in the surgery group, while 51.3 mg in the nonsurgery group. The recovery rate of the Japanese Orthopedic Association score, which increased after steroid therapy, was better in the nonsurgery group (62.5%) than in the surgery group (18.6%) with significant difference (P<0.01)."
+      ],
+      "mesh_terms": [
+        "Adrenal Cortex Hormones",
+        "Aged",
+        "Cervical Vertebrae",
+        "Databases, Factual",
+        "Decompression, Surgical",
+        "Female",
+        "Humans",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Middle Aged",
+        "Sarcoidosis",
+        "Spinal Cord Compression",
+        "Spinal Cord Diseases",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Spinal Cord Sarcoidosis",
+          "Spinal Cord Compression",
+          "Decompressive Surgery",
+          "Postoperative Recovery Rate"
+        ],
+        [
+          "Cervical Vertebrae (C5‑C6)",
+          "Magnetic Resonance Imaging",
+          "Enhancing Lesions",
+          "Surgical Decision"
+        ],
+        [
+          "High‑Dose Steroid Therapy",
+          "Sarcoidosis Activity",
+          "Nonoperative Management",
+          "Better JOA Recovery"
+        ],
+        [
+          "Surgical Decompression",
+          "Postoperative Steroid Initiation",
+          "Delayed Improvement",
+          "Poor Outcome"
+        ],
+        [
+          "Retrospective Multicenter Study",
+          "Small Sample (12)",
+          "Limited Evidence",
+          "Need for Further Research"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:22:38.522Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20813740",
+      "global_index": 526,
+      "question": "Does β-catenin have a role in pathogenesis of sebaceous cell carcinoma of the eyelid?",
+      "contexts": [
+        "48 cases of SbCC were analysed immunohistochemically using monoclonal β-catenin antibody and the results correlated with tumour size, histopathological differentiation, orbital invasion and pagetoid spread.",
+        "Cytoplasmic overexpression of β-catenin was seen in 66% cases of SbCC which correlated positively with tumour size, orbital invasion and pagetoid spread. This correlation was found to be significant in tumour size>2 cm (p = 0.242). Nuclear staining was not observed in any of the cases."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Eyelid Neoplasms",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Proteins",
+        "Prognosis",
+        "Sebaceous Gland Neoplasms",
+        "Tumor Burden",
+        "beta Catenin"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "β‑catenin",
+          "Cytoplasmic Overexpression",
+          "Sebaceous Cell Carcinoma of Eyelid",
+          "Tumor Size"
+        ],
+        [
+          "Sebaceous Cell Carcinoma of Eyelid",
+          "Orbital Invasion",
+          "β‑catenin Cytoplasmic Overexpression",
+          "Prognosis"
+        ],
+        [
+          "β‑catenin",
+          "Absence of Nuclear Staining",
+          "Pathogenesis of Sebaceous Cell Carcinoma",
+          "Tumor Burden"
+        ],
+        [
+          "Adult",
+          "Sebaceous Gland Neoplasms",
+          "β‑catenin Cytoplasmic Overexpression",
+          "Tumor Size > 2 cm"
+        ],
+        [
+          "Male",
+          "Sebaceous Cell Carcinoma of Ey"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:22:48.997Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20828836",
+      "global_index": 527,
+      "question": "Is discordance in TEOAE and AABR outcomes predictable in newborns?",
+      "contexts": [
+        "To determine the perinatal predictors of discordant screening outcomes based on a two-stage screening protocol with transient-evoked otoacoustic emissions (TEOAE) and automated auditory brainstem response (AABR).",
+        "A cross-sectional study of infants tested with TEOAE and AABR under a hospital-based universal newborn hearing screening program in Lagos, Nigeria. Maternal and infant factors associated with discordant TEOAE and AABR outcomes were determined with multivariable logistic regression analyses adjusting for potential confounding factors.",
+        "Of the 4718 infants enrolled under the program 1745 (36.9%) completed both TEOAE and AABR. Of this group, 1060 (60.7%) passed both TEOAE and AABR (\"true-negatives\"); 92 (5.3%) failed both TEOAE and AABR (\"true-positive\"); 571 (32.7%) failed TEOAE but passed AABR (\"false-positives\") while 22 (1.3%) passed TEOAE but failed AABR (\"false-negatives\"). Infants with false-positives were likely to be admitted into well-baby nursery (p=0.001), belong to mothers who attended antenatal care (p=0.010) or who delivered vaginally (p<0.001) compared to infants with true-negatives while infants with true-positives were also more likely to be delivered vaginally (p=0.002) or admitted into well-baby nursery (p=0.035) compared to infants with false-negatives. Infants with true-positives were significantly more likely to be delivered vaginally (p<0.001) and have severe hyperbilirubinemia (p=0.045) compared with infants with true-negatives. No association was observed between false-negatives and true-negatives. Antenatal care status, mode of delivery and nursery type were useful predictors of discordant outcomes among all infants undergoing screening (c-statistic=0.73)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Cross-Sectional Studies",
+        "Delivery, Obstetric",
+        "Evoked Potentials, Auditory, Brain Stem",
+        "False Negative Reactions",
+        "False Positive Reactions",
+        "Female",
+        "Hearing Loss",
+        "Humans",
+        "Hyperbilirubinemia, Neonatal",
+        "Infant, Newborn",
+        "Logistic Models",
+        "Male",
+        "Neonatal Screening",
+        "Nigeria",
+        "Nurseries, Hospital",
+        "Otoacoustic Emissions, Spontaneous",
+        "Prenatal Care",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Antenatal Care",
+          "Mode of Delivery",
+          "Nursery Type",
+          "Discordant TEOAE‑AABR Outcomes"
+        ],
+        [
+          "Hyperbilirubinemia",
+          "Auditory Brainstem Response",
+          "False Negatives",
+          "Predictable Discordance"
+        ],
+        [
+          "Transient‑Evoked Otoacoustic Emissions",
+          "False Positives",
+          "Well‑Baby Nursery Admission",
+          "Predictive Factor"
+        ],
+        [
+          "Logistic Regression Model",
+          "Predictors (Antenatal Care, Delivery Mode, Nursery Type)",
+          "Risk of Discordant Screening",
+          "Predictability Assessment"
+        ],
+        [
+          "Newborn Hearing Screening",
+          "Two‑Stage Protocol",
+          "TEOAE vs"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:23:14.895Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20842006",
+      "global_index": 528,
+      "question": "Neck pain treatment with acupuncture: does the number of needles matter?",
+      "contexts": [
+        "Acupuncture has been successfully used in myofascial pain syndromes. However, the number of needles used, that is, the dose of acupuncture stimulation, to obtain the best antinociceptive efficacy is still a matter of debate. The question was addressed comparing the clinical efficacy of two different therapeutic schemes, characterized by a different number of needles used on 36 patients between 29-60 years of age with by a painful cervical myofascial syndrome.",
+        "Patients were divided into two groups; the first group of 18 patients were treated with 5 needles and the second group of 18 patients were treated with 11 needles, the time of needle stimulation was the same in both groups: 100 seconds. Each group underwent six cycles of somatic acupuncture. Pain intensity was evaluated before, immediately after and 1 and 3 months after the treatment by means of both the Mc Gill Pain Questionnaire and the Visual Analogue Scale (VAS). In both groups, the needles were fixed superficially excluding the two most painful trigger points where they were deeply inserted.",
+        "Both groups, independently from the number of needles used, obtained a good therapeutic effect without clinically relevant differences."
+      ],
+      "mesh_terms": [
+        "Acupuncture Therapy",
+        "Adult",
+        "Humans",
+        "Middle Aged",
+        "Myofascial Pain Syndromes",
+        "Neck Pain",
+        "Needles",
+        "Pain Measurement",
+        "Severity of Illness Index",
+        "Surveys and Questionnaires",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Acupuncture Therapy",
+          "Number of Needles (Dose)",
+          "Visual Analogue Scale",
+          "Treatment Outcome"
+        ],
+        [
+          "Myofascial Pain Syndromes",
+          "Neck Pain",
+          "Clinical Efficacy of 5 Needles vs 11 Needles",
+          "No Clinically Relevant Difference"
+        ],
+        [
+          "Needles",
+          "Trigger Points (Deep vs Superficial)",
+          "McGill Pain Questionnaire",
+          "Patient-Reported Pain Reduction"
+        ],
+        [
+          "Adult Patients",
+          "Randomized Controlled Trial",
+          "Six Cycles of Somatic Acupuncture",
+          "3‑Month Follow"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:23:21.317Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20850631",
+      "global_index": 529,
+      "question": "Diagnosis and follow-up in constipated children: should we use ultrasound?",
+      "contexts": [
+        "We investigated the efficacy of ultrasound in determining megarectum and fecal load and the response to treatment in constipation and tried to specify objective criteria in this study.",
+        "A total of 66 cases were queried and divided into 2 groups as constipated (n = 35; mean age, 6.8 ± 2.9 years) and control (n = 31; mean age, 8.4 ± 3.8 years) according to Rome III criteria. After the clinical evaluation, pelvic ultrasonography (US) was performed by 2 separate radiologists. The bladder capacity and the transverse rectal diameter were measured with a full bladder. Then the rectal diameter and rectal anterior wall thickness were measured, and the presence of fecal load in the rectum and sigmoid colon was recorded with an empty bladder. The examination and ultrasound were repeated after treatment for a month in these patients.",
+        "Comparison of the US measurements of the 2 radiologists performing the US tests did not show any interobserver difference (r = 0.981; P<.001). We therefore believe our results are objective and reproducible. We found a positive correlation between the rectal diameters and the age, height, weight, and bladder capacity. The posturination mean rectal diameter was thicker in the constipated group (3.02 ± 1.04 cm) than in the control group (1.98 ± 0.64 cm) (P<.001). The cutoff point of rectal diameter for a diagnosis of constipation was determined as 2.44 cm (71% sensitive; 76% specific; area under curve, 0.825; P<.001). The rectal anterior wall thickness and fecal load were higher in the constipated patients (P<.001). There was a significant decrease in the constipation score and fecal load after treatment for a month (P<.001), but the rectal diameter had not reached normal limits yet despite the decrease (2.71 ± 0.77 cm) (P>.05)."
+      ],
+      "mesh_terms": [
+        "Child",
+        "Child, Preschool",
+        "Constipation",
+        "Feces",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Male",
+        "Prospective Studies",
+        "Rectum",
+        "Ultrasonography"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Child",
+          "Constipation",
+          "Ultrasonography",
+          "Rectal Diameter",
+          "Diagnosis"
+        ],
+        [
+          "Prospective Studies",
+          "Ultrasonography",
+          "Objective Criteria",
+          "Follow-Up Studies"
+        ],
+        [
+          "Rectum",
+          "Fecal Load",
+          "Ultrasonography",
+          "Treatment Response"
+        ],
+        [
+          "Female",
+          "Constipation",
+          "Megarectum",
+          "Ultrasonography",
+          "Monitoring"
+        ],
+        [
+          "Preschool",
+          "Follow-Up Studies",
+          "Ultrasonography",
+          "Bladder Capacity",
+          "Assessment"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:23:35.981Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20871246",
+      "global_index": 530,
+      "question": "Young-Burgess classification of pelvic ring fractures: does it predict mortality, transfusion requirements, and non-orthopaedic injuries?",
+      "contexts": [
+        "The objectives of this study were to evaluate the ability of the Young-Burgess classification system to predict mortality, transfusion requirements, and nonorthopaedic injuries in patients with pelvic ring fractures and to determine whether mortality rates after pelvic fractures have changed over time.",
+        "Retrospective review.",
+        "Level I trauma center.",
+        "One thousand two hundred forty-eight patients with pelvic fractures during a 7-year period.",
+        "None.",
+        "Mortality at index admission, transfusion requirement during first 24 hours, and presence of nonorthopaedic injuries as a function of Young-Burgess pelvic classification type. Mortality compared with historic controls.",
+        "Despite a relatively large sample size, the ability of the Young-Burgess system to predict mortality only approached statistical significance (P = 0.07, Kruskal-Wallis). The Young-Burgess system differentiated transfusion requirements--lateral compression Type 3 (LC3) and anteroposterior compression Types 2 (APC2) and 3 (APC3) fractures had higher transfusion requirements than did lateral compression Type 1 (LC1), anteroposterior compression Type 1 (APC1), and vertical shear (VS) (P<0.05)--but was not as useful at predicting head, chest, or abdomen injuries. Dividing fractures into stable and unstable types allowed the system to predict mortality rates, abdomen injury rates, and transfusion requirements. Overall mortality in the study group was 9.1%, unchanged from original Young-Burgess studies 15 years previously (P = 0.3)."
+      ],
+      "mesh_terms": [
+        "Blood Transfusion",
+        "Comorbidity",
+        "Fractures, Compression",
+        "Humans",
+        "Maryland",
+        "Pelvic Bones",
+        "Predictive Value of Tests",
+        "Retrospective Studies",
+        "Survival Rate",
+        "Tomography, X-Ray Computed",
+        "Trauma Centers",
+        "Trauma Severity Indices"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Young-Burgess Classification",
+          "Predictive Value of Tests",
+          "Mortality"
+        ],
+        [
+          "Trauma Centers",
+          "Retrospective Studies",
+          "Transfusion Requirements",
+          "Blood Transfusion"
+        ],
+        [
+          "Pelvic Bones",
+          "Fractures",
+          "Compression Types",
+          "Transfusion Requirements"
+        ],
+        [
+          "Trauma Severity Indices",
+          "Non-orthopaedic Injuries",
+          "Mortality",
+          "Survival Rate"
+        ],
+        [
+          "Tomography",
+          "Identification of Non-orthopaedic Injuries",
+          "Mortality"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:23:59.844Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "20971618",
+      "global_index": 531,
+      "question": "Are lifetime prevalence of impetigo, molluscum and herpes infection really increased in children having atopic dermatitis?",
+      "contexts": [
+        "Cutaneous infections such as impetigo contagiosum (IC), molluscum contagiosum (MC) and herpes virus infection (HI) appear to be associated with atopic dermatitis (AD), but there are no reports of concrete epidemiological evidence.",
+        "We evaluated the association of childhood AD with these infections by conducting a population-based cross-sectional study.",
+        "Enrolled in this study were 1117 children aged 0-6 years old attending nursery schools in Ishigaki City, Okinawa Prefecture, Japan. Physical examination was performed by dermatologists, and a questionnaire was completed on each child's history of allergic diseases including AD, asthma, allergic rhinitis and egg allergy, and that of skin infections including IC, MC and HI, as well as familial history of AD.",
+        "In 913 children (AD; 132), a history of IC, MC or HI was observed in 45.1%, 19.7%, and 2.5%, respectively. Multiple logistic regression analysis revealed that the odds of having a history of IC were 1.8 times higher in AD children than in non-AD children. Meanwhile, a history of MC was significantly correlated to the male gender, but not to a personal history of AD. As for HI, we found no correlated factors in this study."
+      ],
+      "mesh_terms": [
+        "Child",
+        "Child, Preschool",
+        "Cross-Sectional Studies",
+        "Dermatitis, Atopic",
+        "Female",
+        "Herpesviridae Infections",
+        "Humans",
+        "Impetigo",
+        "Infant",
+        "Japan",
+        "Male",
+        "Molluscum Contagiosum",
+        "Prevalence",
+        "Risk Factors"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Child",
+          "Atopic Dermatitis",
+          "Skin Barrier Dysfunction",
+          "Increased Impetigo Prevalence"
+        ],
+        [
+          "Cross-Sectional Studies",
+          "Population-Based Study",
+          "Odds Ratio of Impetigo in AD",
+          "Elevated Lifetime Prevalence"
+        ],
+        [
+          "Molluscum Contagiosum",
+          "Viral Infection of Keratinocytes",
+          "No Significant Association with Atopic Dermatitis",
+          "Prevalence Unchanged"
+        ],
+        [
+          "Male",
+          "Hormonal Influence",
+          "Higher Molluscum Prevalence",
+          "Independent of Atopic Dermatitis"
+        ],
+        [
+          "Herpesviridae Infections",
+          "Immune Dysregulation in Atopic Dermatitis",
+          "No Correlated Factors",
+          "Prevalence Not Elevated"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:25:01.012Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21074975",
+      "global_index": 532,
+      "question": "Ultra high risk (UHR) for psychosis criteria: are there different levels of risk for transition to psychosis?",
+      "contexts": [
+        "The ultra high risk (UHR) for psychosis criteria have been validated in a number of studies. However, it is not known whether particular UHR criteria (Attenuated Psychotic Symptoms (APS), Brief Limited Intermittent Psychotic Symptoms (BLIPS) or Trait vulnerability criteria), or combination of criteria, is associated with a higher risk of transition to psychosis. The current study investigated this issue over a 6-month follow-up period. We hypothesised that the risk of transition would increase in the following order: Trait alone<APS alone<APS+Trait<BLIPS.",
+        "Data on UHR intake criteria and transition to psychosis status at 6 months were analysed for UHR patients seen at the PACE clinic, Orygen Youth Health between January 2000 and November 2008.",
+        "A total of 928 new referrals were accepted into the PACE clinic over this period of whom 817 (88%) had baseline information available for analysis. The percentage of subjects who presented with APS, Trait and BLIPS were 83%, 27% and 4%, respectively. When the two intermediate groups (APS alone and APS+Trait) were combined, there was evidence that the risk of transition increased in the order of Trait alone<APS<BLIPS (p=0.024, adjusted analysis)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Male",
+        "Neuropsychological Tests",
+        "Psychiatric Status Rating Scales",
+        "Psychotic Disorders",
+        "Regression Analysis",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Severity of Illness Index",
+        "Time Factors",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Attenuated Psychotic Symptoms",
+          "Risk Factors",
+          "6‑Month Follow‑Up",
+          "Transition to Psychotic Disorders"
+        ],
+        [
+          "Brief Limited Intermittent Psychotic Symptoms",
+          "Higher Severity of Illness Index",
+          "Greater Transition Probability",
+          "Psychotic Disorders Diagnosis"
+        ],
+        [
+          "Trait Vulnerability Criteria",
+          "Lower Transition Risk",
+          "Trait Alone < APS",
+          "Risk Stratification"
+        ],
+        [
+          "UHR Intake Criteria",
+          "Regression Analysis",
+          "Adjustment for Time Factors",
+          "Comparative Transition Rates"
+        ],
+        [
+          "PACE Clinic Referrals",
+          "Retrospective Study",
+          "Adolescents and Young Adults",
+          "Outcome of Psychosis Transition"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:25:08.197Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21080127",
+      "global_index": 533,
+      "question": "Can implant retention be recommended for treatment of infected TKA?",
+      "contexts": [
+        "Retention treatment is reportedly associated with lower infection control rates than two-stage revision. However, the studies on which this presumption are based depend on comparisons of historical rather than concurrent controls.QUESTIONS/",
+        "We (1) asked whether the infection control rates, number of additional procedures, length of hospital stay, and treatment duration differed between implant retention and two-stage revision treatment; and (2) identified risk factors that can contribute to failure of infection control.",
+        "We reviewed the records of 60 patients treated for 64 infected TKA from 2002 to 2007. Twenty-eight patients (32 knees) underwent débridement with retention of component, and 32 patients (32 knees) were treated with component removal and two-stage revision surgery. We determined patients' demographics, type of infection, causative organisms, and outcome of treatment. Mean followup was 36 months (range, 12-84 months).",
+        "Infection control rate was 31% in retention and 59% in the removal group after initial surgical treatment, and 81% and 91% at latest followup, respectively. Treatment duration was shorter in the retention group and there was no difference in number of additional surgeries and length of hospital stay. Type of treatment (retention versus removal) was the only factor associated with infection control; subgroup analysis in the retention group showed Staphylococcus aureus infection and polyethylene nonexchange as contributing factors for failure of infection control."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Arthroplasty, Replacement, Knee",
+        "Boston",
+        "Chi-Square Distribution",
+        "Debridement",
+        "Device Removal",
+        "Female",
+        "Humans",
+        "Infection Control",
+        "Kaplan-Meier Estimate",
+        "Knee Prosthesis",
+        "Length of Stay",
+        "Logistic Models",
+        "Male",
+        "Middle Aged",
+        "Odds Ratio",
+        "Patient Selection",
+        "Polyethylene",
+        "Prosthesis Design",
+        "Prosthesis-Related Infections",
+        "Reoperation",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Risk Factors",
+        "Time Factors",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Knee Prosthesis",
+          "Prosthesis-Related Infections",
+          "Implant Retention",
+          "Infection Control Rate"
+        ],
+        [
+          "Two-Stage Revision",
+          "Component Removal",
+          "Antibiotic-Loaded Cement",
+          "Infection Eradication"
+        ],
+        [
+          "Staphylococcus aureus",
+          "Biofilm Formation",
+          "Failure of Implant Retention",
+          "Increased Reoperation Rate"
+        ],
+        [
+          "Polyethylene Nonexchange",
+          "Biofilm Persistence",
+          "Implant Retention Failure",
+          "Need for Revision"
+        ],
+        [
+          "Patient Selection",
+          "Risk Assessment",
+          "Decision for Implant Retention vs Two-Stage Revision",
+          "Clinical Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:25:10.379Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21084567",
+      "global_index": 534,
+      "question": "Are stroke patients' reports of home blood pressure readings reliable?",
+      "contexts": [
+        "Home blood pressure (BP) monitoring is gaining increasing popularity among patients and may be useful in hypertension management. Little is known about the reliability of stroke patients' records of home BP monitoring.",
+        "To assess the reliability of home BP recording in hypertensive patients who had suffered a recent stroke or transient ischaemic attack.",
+        "Thirty-nine stroke patients (mean age 73 years) randomized to the intervention arm of a trial of home BP monitoring were included. Following instruction by a research nurse, patients recorded their BPs at home and documented them in a booklet over the next year. The booklet readings over a month were compared with the actual readings downloaded from the BP monitor and were checked for errors or selective bias in recording.",
+        "A total of 1027 monitor and 716 booklet readings were recorded. Ninety per cent of booklet recordings were exactly the same as the BP monitor readings. Average booklet readings were 0.6 mmHg systolic [95% confidence interval (95% CI) -0.6 to 1.8] and 0.3 mmHg diastolic (95% CI -0.3 to 0.8) lower than those on the monitor."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Blood Pressure Monitoring, Ambulatory",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Hypertension",
+        "Ischemic Attack, Transient",
+        "Male",
+        "Middle Aged",
+        "Reproducibility of Results",
+        "Self Care",
+        "Self Report",
+        "Stroke Rehabilitation"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Stroke Rehabilitation",
+          "Self Care",
+          "Blood Pressure Monitoring",
+          "Reproducibility of Results"
+        ],
+        [
+          "Aged",
+          "Hypertension",
+          "Blood Pressure Monitoring",
+          "Self Report"
+        ],
+        [
+          "Ischemic Attack",
+          "Blood Pressure Monitoring",
+          "Ambulatory",
+          "Self Care"
+        ],
+        [
+          "Cross-Sectional Studies",
+          "Reproducibility of Results",
+          "Self Report",
+          "Stroke Patients"
+        ],
+        [
+          "Middle Aged",
+          "Hypertension",
+          "Blood Pressure Monitoring",
+          "Blood Pressure Monitoring"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:25:32.258Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21123461",
+      "global_index": 535,
+      "question": "Are adult body circumferences associated with height?",
+      "contexts": [
+        "Weight scales as height squared, which is an observation that forms the basis of body mass index (weight/height(2)). If, and how, circumferences, including waist circumference (WC) and hip circumference (HC), scale to height remains unclear, but this is an important consideration when developing normative ranges or applying WC/height and HC/height as risk indexes.",
+        "The study aim was to examine the scaling of weight, WC, and HC to height in NHANES (National Health and Nutrition Examination Survey) III participants.",
+        "Subjects were adult non-Hispanic white, non-Hispanic black, and Mexican American men (n = 7422) and nonpregnant women (n = 7999) who had complete demographic and anthropometric data. In addition to height, allometric models were developed for each measure that controlled for age, race, and self-reported health status.",
+        "After adjustment for age and race, weight scaled to height in men and women with mean (±SEE) powers of 2.29 ± 0.11 and 1.80 ± 0.07, respectively (both P<0.001). Although univariate circumference-height models were weak or nonsignificant, when adjusted for age and race WC and HC scaled to height with powers of 0.76 ± 0.08 and 0.45 ± 0.05, respectively, in men and 0.80 ± 0.05 and 0.53 ± 0.04, respectively, in women (all P<0.001). Age- and race-adjusted incremental increases in circumferences ranged from 0.2 to 0.5 cm per centimeter increase in height. Both WC/height and HC/height scaled negatively to height in men and women, and WC/HC scaled negatively to height in women only (all P<0.001). Health status-adjusted models were similar."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Anthropometry",
+        "Body Height",
+        "Body Weight",
+        "Female",
+        "Hip",
+        "Humans",
+        "Male",
+        "Nutrition Surveys",
+        "Obesity",
+        "Reference Values",
+        "Waist Circumference"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Adult",
+          "Anthropometry",
+          "Body Height",
+          "Waist Circumference"
+        ],
+        [
+          "Body Height",
+          "Allometric Models",
+          "Waist Circumference",
+          "Risk Index"
+        ],
+        [
+          "Adult",
+          "Race",
+          "Waist Circumference",
+          "Height"
+        ],
+        [
+          "Anthropometry",
+          "Allometric Models",
+          "Weight",
+          "BMI"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:25:39.828Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21164063",
+      "global_index": 536,
+      "question": "Is there a role for fondaparinux in perioperative bridging?",
+      "contexts": [
+        "A possible role for fondaparinux as a bridging agent in the perioperative setting is explored.",
+        "Anticoagulation guidelines provide minimal direction on the perioperative use of fondaparinux. Fondaparinux's extended half-life of 17-21 hours complicates its use as a perioperative bridging therapy. The ideal time for discontinuation before surgery is an issue, particularly in surgeries with a high bleeding risk or in which neuraxial anesthesia is used. Guidance for perioperative bridging with fondaparinux must be derived from pharmacokinetic data, surgical prophylaxis trials, case reports, and anesthesia guidelines. Published trials used fondaparinux sodium 2.5 mg daily for venous thromboembolism prophylaxis in surgical patients, and the majority avoided its use before surgery in patients receiving neuraxial anesthesia. Three case reports cited the use of fondaparinux sodium as perioperative bridge therapy; one used a 2.5-mg dose, and the other two used a full treatment dose of 7.5 mg. Furthermore, professional anesthesia guidelines conflict in their recommendations regarding the timing of drug administration with neuraxial catheter use. For these reasons, it may be optimal to avoid fondaparinux use before surgery. In some instances, the use of low-molecular-weight heparin or inpatient use of i.v. unfractionated heparin is not possible, is contraindicated, or has limited efficacy, such as a patient with history of heparin-induced thrombocytopenia or antithrombin III deficiency. Fondaparinux may have a role in bridge therapy for these patients."
+      ],
+      "mesh_terms": [
+        "Anticoagulants",
+        "Humans",
+        "Perioperative Care",
+        "Polysaccharides",
+        "Practice Guidelines as Topic",
+        "Surgical Procedures, Operative"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Fondaparinux",
+          "Extended half-life",
+          "Perioperative bridging",
+          "High bleeding risk",
+          "Avoid preoperative use"
+        ],
+        [
+          "Fondaparinux",
+          "Neuraxial anesthesia",
+          "Timing conflict",
+          "Anesthesia guidelines",
+          "Optimal discontinuation"
+        ],
+        [
+          "Fondaparinux",
+          "Heparin-induced thrombocytopenia",
+          "Low-molecular-weight heparin contraindicated",
+          "Fondaparinux as alternative bridge",
+          "Limited evidence"
+        ],
+        [
+          "Fondaparinux",
+          "Antithrombin III deficiency",
+          "Low-molecular-weight heparin ineffective",
+          "Fondaparinux efficacy",
+          "Bridge therapy"
+        ],
+        [
+          "Fondaparinux",
+          "Venous thromboembolism prophylaxis",
+          "Surgical procedures",
+          "Clinical trials",
+          "2.5 mg daily dosing"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:25:54.383Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21166749",
+      "global_index": 537,
+      "question": "Is patient outcome compromised during the initial experience with robot-assisted radical cystectomy?",
+      "contexts": [
+        "• Robot-assisted radical cystectomy (RARC) remains controversial in terms of oncologic outcomes, especially during the initial experience. The purpose of this study was to evaluate the impact of initial experience of robotic cystectomy programs on oncologic outcomes and overall survival.",
+        "• Utilizing a prospectively maintained, single institution robotic cystectomy database, we identified 164 consecutive patients who underwent RARC since November 2005. • After stratification by age group, gender, pathologic T stage, lymph node status, surgical margin status, and sequential case number; we used chi-squared analyses to correlate sequential case number to operative time, surgical blood loss, lymph node yield, and surgical margin status. • We also addressed the relationship between complications and sequential case number. We then utilized Cox proportional hazard modeling and Kaplan-Meier survival analyses to correlate variables to overall mortality.",
+        "• Sequential case number was not significantly associated with increased incidence of complications, surgical blood loss, or positive surgical margins (P= 0.780, P= 0.548, P= 0.545). Case number was, however, significantly associated with shorter operative time and mean number of lymph nodes retrieved (P<0.001, P<0.001). • Sequential case number was not significantly associated with survival; however, tumour stage, the presence of lymph node metastases, and positive surgical margins were significantly associated with death. • Although being the largest of its kind, this was a small study with short follow-up when compared to open cystectomy series."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Blood Loss, Surgical",
+        "Chemotherapy, Adjuvant",
+        "Clinical Competence",
+        "Cystectomy",
+        "Female",
+        "Humans",
+        "Learning Curve",
+        "Lymphatic Metastasis",
+        "Male",
+        "Middle Aged",
+        "Postoperative Complications",
+        "Prospective Studies",
+        "Risk Factors",
+        "Robotics",
+        "Survival Analysis",
+        "Treatment Outcome",
+        "Urinary Bladder Neoplasms",
+        "Urology"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Learning Curve",
+          "Sequential Case Number",
+          "Operative Time",
+          "Surgical Margin Status",
+          "Treatment Outcome"
+        ],
+        [
+          "Age Factors",
+          "Aged, 80 and over",
+          "Postoperative Complications",
+          "Survival Analysis"
+        ],
+        [
+          "Robotics",
+          "Lymph Node Yield",
+          "Lymphatic Metastasis",
+          "Overall Survival"
+        ],
+        [
+          "Urinary Bladder Neoplasms",
+          "Tumor Stage",
+          "Positive Surgical Margins",
+          "Treatment Outcome"
+        ],
+        [
+          "Clinical Competence",
+          "Prospective Studies",
+          "Risk Factors",
+          "Overall Survival"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:26:56.588Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21172844",
+      "global_index": 538,
+      "question": "Does TDP-43 type confer a distinct pattern of atrophy in frontotemporal lobar degeneration?",
+      "contexts": [
+        "To determine whether TDP-43 type is associated with distinct patterns of brain atrophy on MRI in subjects with pathologically confirmed frontotemporal lobar degeneration (FTLD).",
+        "In this case-control study, we identified all subjects with a pathologic diagnosis of FTLD with TDP-43 immunoreactive inclusions (FTLD-TDP) and at least one volumetric head MRI scan (n = 42). In each case we applied published criteria for subclassification of FTLD-TDP into FTLD-TDP types 1-3. Voxel-based morphometry was used to compare subjects with each of the different FTLD-TDP types to age- and gender-matched normal controls (n = 30). We also assessed different pathologic and genetic variants within, and across, the different types.",
+        "Twenty-two subjects were classified as FTLD-TDP type 1, 9 as type 2, and 11 as type 3. We identified different patterns of atrophy across the types with type 1 showing frontotemporal and parietal atrophy, type 2 predominantly anterior temporal lobe atrophy, and type 3 predominantly posterior frontal atrophy. Within the FTLD-TDP type 1 group, those with a progranulin mutation had significantly more lateral temporal lobe atrophy than those without. All type 2 subjects were diagnosed with semantic dementia. Subjects with a pathologic diagnosis of FTLD with motor neuron degeneration had a similar pattern of atrophy, regardless of whether they were type 1 or type 3."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Atrophy",
+        "Brain",
+        "Case-Control Studies",
+        "DNA-Binding Proteins",
+        "Female",
+        "Frontal Lobe",
+        "Frontotemporal Lobar Degeneration",
+        "Humans",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Middle Aged",
+        "Parietal Lobe",
+        "Risk Factors",
+        "Temporal Lobe"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "TDP-43 type 1",
+          "Frontal Lobe Atrophy",
+          "Temporal Lobe Atrophy",
+          "Behavioral Variant Frontotemporal Dementia"
+        ],
+        [
+          "TDP-43 type 2",
+          "Anterior Temporal Lobe Atrophy",
+          "Semantic Dementia",
+          "Language Impairment"
+        ],
+        [
+          "TDP-43 type 3",
+          "Posterior Frontal Lobe Atrophy",
+          "Motor Neuron Disease",
+          "Upper Motor Neuron Signs"
+        ],
+        [
+          "Progranulin mutation",
+          "Lateral Temporal Lobe Atrophy",
+          "TDP-43 type 1",
+          "Distinct Frontotemporal Atrophy Pattern"
+        ],
+        [
+          "Magnetic Resonance Imaging",
+          "Voxel-Based Morphometry",
+          "Pattern Identification Across TDP-43 Types",
+          "Diagnostic Stratification"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:26:58.574Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21190419",
+      "global_index": 539,
+      "question": "Does nuchal translucency thickness in the first trimester predict GDM onset during pregnancy?",
+      "contexts": [
+        "This study was planned to evaluate whether increased nuchal translucency (NT) thickness in the first trimester of gestation can be related to onset of gestational diabetes mellitus (GDM) during pregnancy.",
+        "From January 2006 to August 2008, a group of 678 singleton pregnancies who had developed GDM has been selected as a study group among a total of 3966 pregnant women who had undergone first trimester screening for aneuploidies at 11-14 weeks of gestation. A group of 420 single pregnant women with physiological pregnancy were enrolled as control group. Both fetal structural and karyotype's anomalies were excluded in the two groups. NT was mesured by a Fetal Medicine Foundation certificated operator; GDM was diagnosed at 24-28 weeks of gestation following Carpenter and Coustan criteria. In the analyses of continuos variables, study and control group were compared by Student's t-test and Anova test.",
+        "There was no significative difference (p = 0.585) between NT values in the study (mean = 1.56) and control group (mean = 1.54)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Diabetes, Gestational",
+        "Early Diagnosis",
+        "Female",
+        "Glucose Tolerance Test",
+        "Hospitals, University",
+        "Humans",
+        "Nuchal Translucency Measurement",
+        "Predictive Value of Tests",
+        "Pregnancy",
+        "Pregnancy Trimester, First",
+        "Pregnancy Trimester, Second",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Nuchal Translucency Measurement",
+          "NT Thickness",
+          "No Significant Difference",
+          "Predictive Value of Tests",
+          "GDM Onset"
+        ],
+        [
+          "First Trimester Screening",
+          "NT Measurement",
+          "Carpenter and Coustan Criteria",
+          "GDM Diagnosis",
+          "Pregnancy Outcome"
+        ],
+        [
+          "NT Thickness",
+          "Placental Development",
+          "Metabolic Regulation",
+          "Gestational Diabetes Mellitus",
+          "Maternal Hyperglycemia"
+        ],
+        [
+          "NT Measurement",
+          "Retrospective Study Design",
+          "Student's t-test",
+          "Statistical Non-Significance",
+          "Conclusion"
+        ],
+        [
+          "NT Thickness",
+          "Early Pregnancy Biomarker",
+          "Predictive Value of Tests",
+          "Lack of Association",
+          "GDM Onset"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:27:00.763Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21194998",
+      "global_index": 540,
+      "question": "Does minimal access major surgery in the newborn hurt less?",
+      "contexts": [
+        "Minimal access surgery (MAS) in adults is associated with less postoperative pain in comparison to conventional 'open' surgery. It is not known whether this holds true for neonates as well. Less pain would imply that opioid consumption can be reduced, which has a beneficial effect on morbidity.AIM: To evaluate potential differences in' opioid consumption between neonates undergoing thoracoscopic minimal access surgery or conventional surgery of esophageal atresia (EA) and congenital diaphragmatic hernia (CDH).",
+        "In this retrospective cohort study we included two controls for each MAS patient, matched on diagnosis, sex and age at surgery. Opioid dose titration was based on validated pain scores (VAS and COMFORT behaviour), applied by protocol. Cumulative opioid doses at 12, 24, 48 h and 7 days postoperatively were compared between groups with the Mann-Whitney test.",
+        "The study group consisted of 24 MAS patients (14 EA; 10 CDH). These were matched to 48 control patients (28 EA; 20 CDH). At none of the time points cumulative opioid (median in mg/kg (IQR)) doses significantly differed between MAS patients and controls, both with CDH and EA. For example at 24 h postoperative for CDH patients cumulative opioid doses were [0.84(0.61-1.83) MAS vs. 1.06(0.60-1.36) p=1.0] controls, For EApatients at 24 h the cumulative opioid doses were [0.48(0.30-0.75) MAS vs. 0.49(0.35-0.79) p=0.83] controls. This held true for the postoperative pain scores as well."
+      ],
+      "mesh_terms": [
+        "Analgesics, Opioid",
+        "Esophageal Atresia",
+        "Female",
+        "Fentanyl",
+        "Hernia, Diaphragmatic",
+        "Hernias, Diaphragmatic, Congenital",
+        "Humans",
+        "Infant",
+        "Infant, Newborn",
+        "Male",
+        "Minimally Invasive Surgical Procedures",
+        "Morphine",
+        "Pain Measurement",
+        "Pain, Postoperative",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Minimally Invasive Surgical Procedures",
+          "Esophageal Atresia",
+          "Opioid",
+          "Pain Measurement"
+        ],
+        [
+          "Minimally Invasive Surgical Procedures",
+          "Diaphragmatic Hernia",
+          "Pain Measurement",
+          "Pain"
+        ],
+        [
+          "Minimally Invasive Surgical Procedures",
+          "Postoperative",
+          "Analgesics",
+          "Opioid"
+        ],
+        [
+          "Minimally Invasive Surgical Procedures",
+          "Retrospective Studies",
+          "Pain Measurement",
+          "Pain"
+        ],
+        [
+          "Minimally Invasive Surgical Procedures",
+          "Esophageal Atresia",
+          "Morphine",
+          "Pain"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 4,
+      "timestamp": "2026-01-27T23:27:36.623Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21198823",
+      "global_index": 541,
+      "question": "Can dobutamine stress echocardiography induce cardiac troponin elevation?",
+      "contexts": [
+        "Elevation of cardiac troponin (cTn) is considered specific for myocardial damage. Elevated cTn and echocardiogrpahic documentation of wall motion abnormalities (WMAs) that were recorded after extreme physical effort raise the question whether dobutamine stress echo (DSE), can also induce elevation of troponin.",
+        "we prospective enrolled stable patients (age>18 years) referred to DSE. The exam was performed under standardized conditions. Blood samples for cTnI were obtained at baseline and 18-24 hours after the test. We aimed to compare between the clinical and echocardiographic features of patients with elevated cTnI and those without cTnI elevations.",
+        "Fifty-seven consecutive patients were included. The average age was 64.4 ± 10.7, 73% of the patients were males, and nearly half of the patients were known to have ischemic heart disease. Two of the patients were excluded due to technical difficulty. No signs of ischemia were recorded in 25 (45.4%). Among the patients with established ischemia on DSE, 12 (22%) had mild ischemia, 13 (23.6%) had moderate and 5 (9%) had severe ischemia. Angiography was performed in 13 (26%) of the patients, of which 7 had PCI and one was referred to bypass surgery. None of the patients had elevated cTnI 18-24 hours after the DSE."
+      ],
+      "mesh_terms": [
+        "Dobutamine",
+        "Echocardiography",
+        "Exercise Test",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Myocardial Infarction",
+        "Troponin T",
+        "Vasodilator Agents"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Dobutamine",
+          "Stress Echocardiography",
+          "Wall Motion Abnormalities",
+          "Troponin I Elevation"
+        ],
+        [
+          "Dobutamine",
+          "β1‑adrenergic Stimulation",
+          "Increased Myocardial Oxygen Demand",
+          "Ischemic Injury",
+          "Troponin I Release"
+        ],
+        [
+          "Dobutamine",
+          "Standardized Stress Test",
+          "No Ischemia Detected",
+          "No Troponin I Elevation"
+        ],
+        [
+          "Dobutamine",
+          "Hemodynamic Stress",
+          "Subclinical Myocardial Injury",
+          "Troponin I Elevation",
+          "Angiography"
+        ],
+        [
+          "Dobutamine",
+          "Safe in Stable Patients",
+          "No Troponin I Elev"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 4,
+      "timestamp": "2026-01-27T23:28:10.710Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21214884",
+      "global_index": 542,
+      "question": "Can 'high-risk' human papillomaviruses (HPVs) be detected in human breast milk?",
+      "contexts": [
+        "Using polymerase chain reaction techniques, we evaluated the presence of HPV infection in human breast milk collected from 21 HPV-positive and 11 HPV-negative mothers.",
+        "Of the 32 studied human milk specimens, no 'high-risk' HPV 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58 or 58 DNA was detected."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Alphapapillomavirus",
+        "Case-Control Studies",
+        "DNA, Viral",
+        "Female",
+        "Humans",
+        "Infant",
+        "Infectious Disease Transmission, Vertical",
+        "Milk, Human",
+        "Papillomavirus Infections",
+        "Polymerase Chain Reaction",
+        "Risk Assessment",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "High-risk Human Papillomaviruses",
+          "Polymerase Chain Reaction",
+          "DNA Detection",
+          "Breast Milk Specimens"
+        ],
+        [
+          "Breast Milk",
+          "Infant",
+          "Vertical Transmission",
+          "Human Papillomavirus Infections"
+        ],
+        [
+          "Case-Control Studies",
+          "HPV-Positive Mothers",
+          "Breast Milk Sampling",
+          "No HPV DNA Detected"
+        ],
+        [
+          "Adult Female",
+          "Milk Production",
+          "HPV DNA Screening",
+          "Risk Assessment"
+        ],
+        [
+          "Viral Infection",
+          "Breast Milk Transmission Potential",
+          "PCR Sensitivity",
+          "Negative Results"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:28:26.861Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21228436",
+      "global_index": 543,
+      "question": "Can teaching medical students to investigate medication errors change their attitudes towards patient safety?",
+      "contexts": [
+        "The purpose of this study was to evaluate the impact of a patient-safety curriculum administered during a paediatric clerkship on medical students' attitudes towards patient safety.",
+        "Medical students viewed an online video introducing them to systems-based analyses of medical errors. Faculty presented an example of a medication administration error and demonstrated use of the Learning From Defects tool to investigate the defect. Student groups identified and then analysed medication errors during their clinical rotation using the Learning From Defects framework to organise and present their findings. Outcomes included patient safety attitudinal changes, as measured by questions derived from the Safety Attitudes Questionnaire.",
+        "108 students completed the curriculum between July 2008 and July 2009. All student groups (25 total) identified, analysed and presented patient safety concerns. Curriculum effectiveness was demonstrated by significant changes on questionnaire items related to patient safety attitudes. The majority of students felt that the curriculum was relevant to their clinical rotation and should remain part of the clerkship."
+      ],
+      "mesh_terms": [
+        "Attitude of Health Personnel",
+        "Clinical Clerkship",
+        "Curriculum",
+        "Humans",
+        "Medication Errors",
+        "Pediatrics",
+        "Program Evaluation",
+        "Safety Management",
+        "Students, Medical",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Curriculum",
+          "Learning From Defects tool",
+          "Medication Errors",
+          "Attitude of Health Personnel"
+        ],
+        [
+          "Clinical Clerkship",
+          "Pediatrics",
+          "Medication Errors",
+          "Safety Management",
+          "Attitude of Health Personnel"
+        ],
+        [
+          "Students",
+          "Surveys and Questionnaires",
+          "Safety Attitudes Questionnaire",
+          "Program Evaluation",
+          "Attitude of Health Personnel"
+        ],
+        [
+          "Medical",
+          "Curriculum",
+          "Medication Errors",
+          "Safety Management",
+          "Attitude of Health Personnel"
+        ],
+        [
+          "Humans",
+          "Attitude of Health Personnel",
+          "Safety Management",
+          "Program Evaluation",
+          "Curriculum"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:28:32.303Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21252642",
+      "global_index": 544,
+      "question": "Does increased patient awareness improve accrual into cancer-related clinical trials?",
+      "contexts": [
+        "Oncology literature cites that only 2% to 4% of patients participate in research. Up to 85% of patients are unaware that clinical trials research is being conducted at their treatment facility or that they might be eligible to participate.",
+        "It was hypothesized that patients' satisfaction with information regarding clinical trials would improve after targeted educational interventions, and accruals to clinical trials would increase in the year following those interventions.",
+        "All new patients referred to the cancer center over a 4-month period were mailed a baseline survey to assess their knowledge of clinical research. Subsequently, educational interventions were provided, including an orientation session highlighting clinical trials, a pamphlet, and a reference to a clinical trials Web site. A postintervention survey was sent to the responders of the initial survey 3 months after the initial mailing.",
+        "Patient satisfaction with information significantly increased after the interventions. There was no increase in subsequent enrollment in clinical trials. Patients who indicated an inclination to participate in clinical trials tended to have greater satisfaction with the information they received."
+      ],
+      "mesh_terms": [
+        "Clinical Trials as Topic",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasms",
+        "Patient Education as Topic",
+        "Patient Participation",
+        "Patient Satisfaction",
+        "Physician-Patient Relations",
+        "Prospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Patient Education",
+          "Patient Awareness",
+          "Clinical Trials Participation",
+          "Accrual"
+        ],
+        [
+          "Physician-Patient Relations",
+          "Patient Satisfaction",
+          "Research Attitudes",
+          "Clinical Trial Enrollment"
+        ],
+        [
+          "Cross-Sectional Studies",
+          "Baseline Survey",
+          "Knowledge Gap",
+          "Targeted Educational Intervention",
+          "Postintervention Satisfaction"
+        ],
+        [
+          "Prospective Studies",
+          "Intervention",
+          "Enrollment Metrics",
+          "No Increase in Accrual",
+          "Reassess Strategy"
+        ],
+        [
+          "Middle Aged",
+          "Eligibility Perception",
+          "Information Access",
+          "Clinical Trial Interest",
+          "Accrual"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:28:53.874Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21256734",
+      "global_index": 545,
+      "question": "Does pain intensity predict a poor opioid response in cancer patients?",
+      "contexts": [
+        "A secondary analysis of one-hundred-sixty-seven patients referred for treatment of cancer-related pain was conducted. Pain intensity at admission was recorded and patients were divided in three categories of pain intensity: mild, moderate and severe. Patients were offered a treatment with opioid dose titration, according to department policy. Data regarding opioid doses and pain intensity were collected after dose titration was completed. Four levels of opioid response were considered: (a) good pain control, with minimal opioid escalation and without relevant adverse effects; (b) good pain control requiring more aggressive opioid escalation, for example doubling the doses in four days; (c) adequate pain control associated with the occurrence of adverse effects; (d) poor pain control with adverse effects.",
+        "Seventy-six, forty-four, forty-one and six patients showed a response a, b, c, and d, respectively. No correlation between baseline pain intensity categories and opioid response was found. Patients with response 'b' and 'd' showed higher values of OEImg."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Analgesics, Opioid",
+        "Analysis of Variance",
+        "Female",
+        "Humans",
+        "Karnofsky Performance Status",
+        "Male",
+        "Middle Aged",
+        "Neoplasms",
+        "Pain",
+        "Pain Measurement",
+        "Prospective Studies",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:29:54.442Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21276532",
+      "global_index": 546,
+      "question": "Does preoperative anemia adversely affect colon and rectal surgery outcomes?",
+      "contexts": [
+        "Complications associated with blood transfusions have resulted in widespread acceptance of low hematocrit levels in surgical patients. However, preoperative anemia seems to be a risk factor for adverse postoperative outcomes in certain surgical patients. This study investigated the National Surgical Quality Improvement Program (NSQIP) database to determine if preoperative anemia in patients undergoing open and laparoscopic colectomies is an independent predictor for an adverse composite outcome (CO) consisting of myocardial infarction, stroke, progressive renal insufficiency or death within 30 days of operation, or for an increased hospital length of stay (LOS).",
+        "Hematocrit levels were categorized into 4 classes: severe, moderate, mild, and no anemia. From 2005 to 2008, the NSQIP database recorded 23,348 elective open and laparoscopic colectomies that met inclusion criteria. Analyses using multivariable models, controlling for potential confounders and stratifying on propensity score, were performed.",
+        "Compared with nonanemic patients, those with severe, moderate, and mild anemia were more likely to have the adverse CO with odds ratios of 1.83 (95% CI 1.05 to 3.19), 2.19 (95 % CI 1.63 to 2.94), and 1.49 (95% CI 1.20 to 1.86), respectively. Patients with a normal hematocrit had a reduced hospital LOS, compared with those with severe, moderate, and mild anemia (p<0.01). A history of cardiovascular disease did not significantly influence these findings."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Anemia, Hypochromic",
+        "Colectomy",
+        "Comorbidity",
+        "Female",
+        "Hematocrit",
+        "Humans",
+        "Laparoscopy",
+        "Length of Stay",
+        "Logistic Models",
+        "Male",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Myocardial Infarction",
+        "Odds Ratio",
+        "Perioperative Period",
+        "Postoperative Complications",
+        "Renal Insufficiency",
+        "Risk Factors",
+        "Severity of Illness Index",
+        "Stroke",
+        "Transfusion Reaction",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:30:49.541Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21342862",
+      "global_index": 547,
+      "question": "Is EQ-5D a valid quality of life instrument in patients with acute coronary syndrome?",
+      "contexts": [
+        "To evaluate the construct validity of the Turkish version of the EQ-5D in patients with acute coronary syndrome.",
+        "The study was conducted as a cross-sectional study at the Trakya University Hospital between February and May 2008. All patients completed the Turkish version of the EQ-5D and MacNew heart-related quality of life scale. Construct validity of the EQ-5D was assessed according to relationships with MacNew subscales by using Spearman rank correlation and multiple linear regression analyses.",
+        "One hundred and twenty-two patients responded to the instruments. Mean age was 62.9±9.3 years and male gender (88 or 72.1%) was dominant. Mean score of the EQ-5D index was 0.79±0.32, while the global score of MacNew was 5.01±1.16. The correlation coefficients of the EQ-5D index score with the MacNew subscales ranged from 0.557 to 0.721, with EQ-5D VAS score ranging from 0.297 to 0.484 (p<0.001 for all of them). According to the stepwise regression model MacNew global score was found to be significantly effective factor on EQ-5D index score (β =0.188; 95% CI: 0.152-0.224; p<0.001)."
+      ],
+      "mesh_terms": [
+        "Acute Coronary Syndrome",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Quality of Life",
+        "Surveys and Questionnaires",
+        "Turkey"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Acute Coronary Syndrome",
+          "Quality of Life",
+          "EQ‑5D",
+          "Construct Validity"
+        ],
+        [
+          "Cross‑Sectional Studies",
+          "Surveys and Questionnaires",
+          "EQ‑5D",
+          "Validation Methodology"
+        ],
+        [
+          "Turkey",
+          "Turkish version of EQ‑5D",
+          "MacNew heart‑related quality of life scale",
+          "Correlation Coefficients"
+        ],
+        [
+          "Male Patients",
+          "EQ‑5D Index Score",
+          "Spearman Rank Correlation",
+          "MacNew Subscales"
+        ],
+        [
+          "Middle Aged Adults",
+          "EQ‑5D VAS Score",
+          "Multiple Linear Regression",
+          "Predictive Factors for Quality of Life"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:30:51.460Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21346501",
+      "global_index": 548,
+      "question": "Can students' scores on preclerkship clinical performance examinations predict that they will fail a senior clinical performance examination?",
+      "contexts": [
+        "This study was designed to determine whether preclerkship performance examinations could accurately identify medical students at risk for failing a senior clinical performance examination (CPE).",
+        "This study used a retrospective case-control, multiyear design, with contingency table analyses, to examine the performance of 412 students in the classes of 2005 to 2010 at a midwestern medical school. During their second year, these students took four CPEs that each used three standardized patient (SP) cases, for a total of 12 cases. The authors correlated each student's average year 2 case score with the student's average case score on a senior (year 4) CPE. Contingency table analysis was carried out using performance on the year 2 CPEs and passing/failing the senior CPE. Similar analyses using each student's United States Medical Licensing Examination (USMLE) Step 1 scores were also performed. Sensitivity, specificity, odds ratio, and relative risk were calculated for two year 2 performance standards.",
+        "Students' low performances relative to their class on the year 2 CPEs were a strong predictor that they would fail the senior CPE. Their USMLE Step 1 scores also correlated with their performance on the senior CPE, although the predictive values for these scores were considerably weaker."
+      ],
+      "mesh_terms": [
+        "Case-Control Studies",
+        "Chi-Square Distribution",
+        "Clinical Clerkship",
+        "Clinical Competence",
+        "Education, Medical, Undergraduate",
+        "Educational Measurement",
+        "Educational Status",
+        "Humans",
+        "Illinois",
+        "Licensure",
+        "Patient Simulation",
+        "Predictive Value of Tests",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Sensitivity and Specificity",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Preclerkship Clinical Performance Examination",
+          "Predictive Value of Tests",
+          "Sensitivity and Specificity",
+          "Risk Factors",
+          "Failure of Senior Clinical Performance Examination"
+        ],
+        [
+          "USMLE Step 1 Score",
+          "Retrospective Study",
+          "Odds Ratio",
+          "Clinical Competence",
+          "Failure of Senior Clinical Performance Examination"
+        ],
+        [
+          "Case-Control Studies",
+          "Educational Measurement",
+          "Student Performance Standard",
+          "Clinical Clerkship",
+          "Senior Clinical Performance Examination Failure"
+        ],
+        [
+          "Patient Simulation",
+          "Clinical Performance Examination",
+          "Clinical Competence",
+          "Educational Status",
+          "Predictive Value of Tests"
+        ],
+        [
+          "Clinical Clerkship",
+          "Undergraduate Medical Education",
+          "Predictive Value of Tests",
+          "Sensitivity and Specificity",
+          "Failure of Senior Clinical Performance Examination"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:30:53.453Z",
+      "processed_at": "2026-01-27T23-18-28"
+    },
+    {
+      "pmid": "21361755",
+      "global_index": 549,
+      "question": "Laminoplasty outcomes: is there a difference between patients with degenerative stenosis and those with ossification of the posterior longitudinal ligament?",
+      "contexts": [
+        "Two common causes of cervical myelopathy include degenerative stenosis and ossification of the posterior longitudinal ligament (OPLL). It has been postulated that patients with OPLL have more complications and worse outcomes than those with degenerative stenosis. The authors sought to compare the surgical results of laminoplasty in the treatment of cervical stenosis with myelopathy due to either degenerative changes or segmental OPLL.",
+        "The authors conducted a retrospective review of 40 instrumented laminoplasty cases performed at a single institution over a 4-year period to treat cervical myelopathy without kyphosis. Twelve of these patients had degenerative cervical stenotic myelopathy ([CSM]; degenerative group), and the remaining 28 had segmental OPLL (OPLL group). The 2 groups had statistically similar demographic characteristics and number of treated levels (mean 3.9 surgically treated levels; p>0.05). The authors collected perioperative and follow-up data, including radiographic results.",
+        "The overall clinical follow-up rate was 88%, and the mean clinical follow-up duration was 16.4 months. The mean radiographic follow-up rate was 83%, and the mean length of radiographic follow-up was 9.3 months. There were no significant differences in the estimated blood loss (EBL) or length of hospital stay (LOS) between the groups (p>0.05). The mean EBL and LOS for the degenerative group were 206 ml and 3.7 days, respectively. The mean EBL and LOS for the OPLL group were 155 ml and 4 days, respectively. There was a statistically significant improvement of more than one grade in the Nurick score for both groups following surgery (p<0.05). The Nurick score improvement was not statistically different between the groups (p>0.05). The visual analog scale (VAS) neck pain scores were similar between groups pre- and postoperatively (p>0.05). The complication rates were not statistically different between groups either (p>0.05). Radiographically, both groups lost extension range of motion (ROM) following laminoplasty, but this change was not statistically significant (p>0.05)."
+      ],
+      "mesh_terms": [
+        "Cervical Vertebrae",
+        "Constriction, Pathologic",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Laminectomy",
+        "Longitudinal Ligaments",
+        "Male",
+        "Middle Aged",
+        "Neurodegenerative Diseases",
+        "Ossification of Posterior Longitudinal Ligament",
+        "Radiography",
+        "Retrospective Studies",
+        "Spinal Cord Diseases",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Ossification of Posterior Longitudinal Ligament",
+          "Laminoplasty",
+          "Nurick Score Improvement",
+          "Comparable Outcomes to Degenerative Stenosis"
+        ],
+        [
+          "Degenerative Cervical Stenosis",
+          "Laminoplasty",
+          "Blood Loss",
+          "No Significant Difference Compared to OPLL"
+        ],
+        [
+          "Laminoplasty",
+          "Loss of Extension Range of Motion",
+          "Radiographic Follow-up",
+          "No Significant Difference Between Groups"
+        ],
+        [
+          "OPLL",
+          "Complication Rates",
+          "No Significant Difference Compared to Degenerative Stenosis"
+        ],
+        [
+          "Degenerative Cervical Stenosis",
+          "Visual Analog Scale Neck Pain",
+          "Similar Pre‑Post Scores",
+          "Comparable Outcomes"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:30:55.628Z",
+      "processed_at": "2026-01-27T23-18-28"
+    }
+  ]
+}

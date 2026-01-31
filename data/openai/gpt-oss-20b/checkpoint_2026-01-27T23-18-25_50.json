@@ -1,0 +1,3349 @@
+{
+  "metadata": {
+    "checkpoint": 50,
+    "total": 125,
+    "successful": 45,
+    "failed": 5
+  },
+  "results": [
+    {
+      "pmid": "11833948",
+      "global_index": 125,
+      "question": "Does a delay in transfer to a rehabilitation unit for older people affect outcome after fracture of the proximal femur?",
+      "contexts": [
+        "To detemine the relationship between delay in transfer to rehabilitation wards and outcome for patients aged over 75 years with fracture of the proximal femur.",
+        "An observational study in a district general hospital of all patients admitted to hospital aged over 75 years with fracture of the proximal femur over 3 1/2 years. Outcome data collected included the number of patients discharged back to their usual residence and total hospital length of stay related to age, gender, usual residence and delay in transfer to a rehabilitation ward.",
+        "58% of 455 patients were transferred to a rehabilitation ward. For those patients who were transferred to a rehabilitation ward only age predicted discharge to a more dependent residence. The relative risk for discharge to a more dependent residence for people aged over 85 years compared to younger people was 1.47 (95% CI 1.15-1.88). Delay in transfer to rehabilitation was associated with a longer total hospital length of stay of 0.64 (95% CI 0.23-1.05) days per day of delay in transfer."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Female",
+        "Femoral Neck Fractures",
+        "Hospital Units",
+        "Humans",
+        "Length of Stay",
+        "Logistic Models",
+        "Male",
+        "Patient Transfer",
+        "Rehabilitation Centers",
+        "Risk Factors",
+        "Time Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:19:19.035Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11838307",
+      "global_index": 126,
+      "question": "Cold knife conization vs. LEEP. Are they the same procedure?",
+      "contexts": [
+        "To prospectively evaluate the amount of tissue removed at loop electrosurgical excision procedure (LEEP) vs. cold knife conization.",
+        "Forty consecutive LEEP or cold knife conization specimens were prospectively measured and weighed by a single pathology technician. Diameter, length and weight of the specimens were compared using Student's t test.",
+        "Mean diameter of cold knife cone specimens was 2.6 vs. 2.2 cm for LEEP (P = .07). Mean length of cold knife cone specimens was 1.5 vs. 1.0 cm for LEEP (P = .001). Mean weight for cold knife cone specimens was 4.4 vs. 2.0 g for LEEP (P = .001)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Ambulatory Surgical Procedures",
+        "Biopsy, Needle",
+        "Cervical Intraepithelial Neoplasia",
+        "Conization",
+        "Cryosurgery",
+        "Electrosurgery",
+        "Evaluation Studies as Topic",
+        "Female",
+        "Humans",
+        "Middle Aged",
+        "Prospective Studies",
+        "Sensitivity and Specificity",
+        "Specimen Handling",
+        "Uterine Cervical Neoplasms"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Cold Knife Conization",
+          "Specimen Weight",
+          "Greater Tissue Removal",
+          "Improved Diagnostic Accuracy"
+        ],
+        [
+          "LEEP",
+          "Electrosurgery",
+          "Heat-Induced Tissue Damage",
+          "Reduced Specimen Size",
+          "Potential Sampling Error"
+        ],
+        [
+          "Cervical Intraepithelial Neoplasia",
+          "Screening",
+          "Biopsy",
+          "Decision: LEEP vs Cold Knife Conization",
+          "Treatment"
+        ],
+        [
+          "Prospective Study",
+          "Evaluation Studies as Topic",
+          "Specimen Weight Comparison",
+          "Clinical Recommendation"
+        ],
+        [
+          "Ambulatory Surgical Procedure",
+          "Patient Comfort",
+          "Procedure Duration",
+          "Choice of Conization Technique"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:19:26.416Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11862129",
+      "global_index": 127,
+      "question": "Do clinical variables predict pathologic radiographs in the first episode of wheezing?",
+      "contexts": [
+        "To determine if clinical variables assessed in relation to Albuterol aerosol treatments accurately identify children with pathologic radiographs during their initial episode of bronchospasm.",
+        "A prospective convenience sample of children with a first episode of wheezing. Data collected included demographics, baseline and post-treatment clinical score and physical examination, number of aerosols, requirement for supplemental oxygen, and disposition. Chest radiographs were obtained and interpreted, and patients were divided into 2 groups based on a pathologic versus nonpathologic radiograph interpretation. Chi2 testing was performed for categoric variables, and the student t test was performed for continuous variables. A discriminant analysis was used to develop a model.",
+        "Pathologic radiographs were identified in 61 patients (9%). Between groups, a significant difference was noted for pretreatment oxygen saturation only. Clinical score, respiratory rate, and presence of rales both pretreatment and posttreatment were not significantly different between groups. The discriminant analysis correctly predicted 90% of nonpathologic radiographs but only 15% of pathologic radiographs."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Albuterol",
+        "Bronchodilator Agents",
+        "Child",
+        "Child, Preschool",
+        "Discriminant Analysis",
+        "Female",
+        "Humans",
+        "Infant",
+        "Male",
+        "Multivariate Analysis",
+        "Physical Examination",
+        "Prospective Studies",
+        "Radiography",
+        "Respiratory Sounds",
+        "Respiratory Tract Diseases",
+        "Sensitivity and Specificity",
+        "Statistics, Nonparametric"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Albuterol",
+          "Bronchodilator Agents",
+          "Clinical Variables",
+          "Pathologic Radiographs"
+        ],
+        [
+          "Preschool Child",
+          "First Episode Wheezing",
+          "Physical Examination",
+          "Radiography",
+          "Pathologic Radiographs"
+        ],
+        [
+          "Discriminant Analysis",
+          "Multivariate Analysis",
+          "Sensitivity and Specificity",
+          "Predictive Model",
+          "Clinical Variables"
+        ],
+        [
+          "Supplemental Oxygen",
+          "Oxygen Saturation",
+          "Clinical Score",
+          "Respiratory Sounds",
+          "Radiography"
+        ],
+        [
+          "Prospective Studies",
+          "Statistics",
+          "Nonparametric",
+          "Chi2 Testing",
+          "Clinical Variables",
+          "Pathologic Radiographs"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:19:28.487Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11867487",
+      "global_index": 128,
+      "question": "Does rugby headgear prevent concussion?",
+      "contexts": [
+        "To examine the attitudes of players and coaches to the use of protective headgear, particularly with respect to the prevention of concussion.",
+        "A questionnaire designed to assess attitudes to headgear was administered to 63 players from four different Canadian teams, each representing a different level of play (high school, university, community club, national). In addition, coaches from all four levels were questioned about team policies and their personal opinions about the use of headgear to prevent concussion.",
+        "Although the players tended to believe that the headgear could prevent concussion (62%), the coaches were less convinced (33%). Despite the players' belief that headgear offers protection against concussion, only a minority reported wearing headgear (27%) and few (24%) felt that its use should be made mandatory. Common reasons for not wearing headgear were \"its use is not mandatory\", \"it is uncomfortable\", and \"it costs too much\"."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Athletic Injuries",
+        "Brain Concussion",
+        "Canada",
+        "Female",
+        "Football",
+        "Head Protective Devices",
+        "Health Knowledge, Attitudes, Practice",
+        "Humans",
+        "Male",
+        "Sports Equipment",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Head Protective Devices",
+          "Brain Concussion",
+          "Athletic Injuries",
+          "Sports Equipment"
+        ],
+        [
+          "Coaches",
+          "Attitudes",
+          "Practice",
+          "Head Protective Devices"
+        ],
+        [
+          "Players",
+          "Health Knowledge",
+          "Attitudes",
+          "Concussion Prevention"
+        ],
+        [
+          "Adolescent",
+          "Brain Concussion",
+          "Athletic Injuries",
+          "Canada"
+        ],
+        [
+          "Surveys and Questionnaires",
+          "Attitudes",
+          "Practice",
+          "Head Protective Devices"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:19:44.925Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11882828",
+      "global_index": 129,
+      "question": "Does tranexamic acid reduce desmopressin-induced hyperfibrinolysis?",
+      "contexts": [
+        "Desmopressin releases tissue-type plasminogen activator, which augments cardiopulmonary bypass--associated hyperfibrinolysis, causing excessive bleeding. Combined use of desmopressin with prior administration of the antifibrinolytic drug tranexamic acid may decrease fibrinolytic activity and might improve postoperative hemostasis.",
+        "This prospective randomized study was carried out with 100 patients undergoing coronary artery bypass operations between April 1999 and November 2000 in Gülhane Military Medical Academy. Patients were divided into 2 groups. Desmopressin (0.3 microg/kg) was administrated just after cardiopulmonary bypass and after protamine infusion in group 1 (n = 50). Both desmopressin and tranexamic acid (before the skin incision at a loading dose of 10 mg/kg over 30 minutes and followed by 12 hours of 1 mg.kg(-1).h(-1)) were administrated in group 2 (n = 50).",
+        "Significantly less drainage was noted in group 2 (1010 +/- 49.9 mL vs 623 +/- 41.3 mL, P =.0001). Packed red blood cells were transfused at 2.1 +/- 0.5 units per patient in group 1 versus 0.9 +/- 0.3 units in group 2 (P =.0001). Fresh frozen plasma was transfused at 1.84 +/- 0.17 units per patient in group 1 versus 0.76 +/- 0.14 units in group 2 (P =.0001). Only 24% of patients in group 2 required donor blood or blood products compared with 74% of those in the isolated desmopressin group (group 1, P =.00001). Group 1 and group 2 findings were as follows: postoperative fibrinogen, 113 +/- 56.3 mg/dL versus 167 +/- 45.8 mg/dL (P =.0001); fibrin split product, 21.2 +/- 2.3 ng/mL versus 13.5 +/- 3.4 ng/mL (P =.0001); and postoperative hemoglobin level, 7.6 plus minus 1.2 g/dL versus 9.1 plus minus 1.2 g/dL (P =.0001)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Antifibrinolytic Agents",
+        "Blood Loss, Surgical",
+        "Blood Transfusion",
+        "Cardiopulmonary Bypass",
+        "Coronary Artery Bypass",
+        "Deamino Arginine Vasopressin",
+        "Drug Interactions",
+        "Female",
+        "Fibrinolysis",
+        "Hemostasis, Surgical",
+        "Hemostatics",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Tranexamic Acid"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Desmopressin",
+          "Tissue‑plasminogen activator release",
+          "Hyperfibrinolysis",
+          "Tranexamic Acid",
+          "Reduced fibrin split products",
+          "Fewer blood transfusions"
+        ],
+        [
+          "Cardiopulmonary Bypass",
+          "Hyperfibrinolysis",
+          "Desmopressin",
+          "Increased fibrinogen levels",
+          "Improved hemostasis"
+        ],
+        [
+          "Tranexamic Acid",
+          "Plasmin inhibition",
+          "Lower fibrin split products",
+          "Decreased postoperative drainage",
+          "Reduced blood product use"
+        ],
+        [
+          "Desmopressin",
+          "Release of von Willebrand factor",
+          "Enhanced platelet aggregation",
+          "Hemostasis",
+          "Less postoperative bleeding"
+        ],
+        [
+          "Hyperfibrinolysis",
+          "Elevated fibrin split products",
+          "Tranexamic Acid",
+          "Antifibrinolytic effect",
+          "Decreased postoperative hemoglobin drop"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:20:01.233Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11888773",
+      "global_index": 130,
+      "question": "Stage I non-small cell lung carcinoma: really an early stage?",
+      "contexts": [
+        "We review our results on surgical treatment of patients with stage I non-small cell lung carcinoma and we attempted to clarify the prognostic significance of some surgical--pathologic variables.",
+        "From 1993 to 1999, 667 patients received curative lung resection and complete hilar and mediastinal lymphadenectomy for non-small cell lung cancer. Of these, there were 436 Stage I disease (65%), of whom 144 T1N0 and 292 T2N0. No patients had pre- or postoperative radio- or chemotherapy. Prognostic significance of the following independent variables was tested using univariate (log-rank) and multivariate (Cox proportional-hazards) analysis: type of resection (sublobar vs lobectomy vs pneumonectomy), histology (squamous cell vs adenocarcinoma), tumour size (<or=3cm vs>3cm), histologic vascular invasion, visceral pleura involvement, positive bronchial resection margin, general T status.",
+        "Overall 5-year survival was 63%. In both univariate and multivariate survival analysis, significant prognostic factors were histology (adenocarcinoma 65% vs squamous cell carcinoma 51%), tumour size (<or=3cm 67% vs>3cm 46%), and the presence of negative resection margin. Five-year survival by general T status was 66% in T1N0 vs 55% in T2N0 disease (P=0.19)."
+      ],
+      "mesh_terms": [
+        "Carcinoma, Non-Small-Cell Lung",
+        "Female",
+        "Humans",
+        "Lung",
+        "Lung Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Recurrence, Local",
+        "Neoplasm Staging",
+        "Prognosis",
+        "Proportional Hazards Models",
+        "Retrospective Studies",
+        "Survival Rate"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Stage I Non-Small-Cell Lung Carcinoma",
+          "Tumor Size (<or=3 cm)",
+          "5‑Year Survival (67 %)",
+          "Better Prognosis"
+        ],
+        [
+          "Histology (Adenocarcinoma)",
+          "5‑Year Survival (65 %) vs Squamous Cell Carcinoma (51 %)",
+          "Histologic Prognostic Factor"
+        ],
+        [
+          "Positive Resection Margin",
+          "Decreased Survival",
+          "Importance of Complete Resection"
+        ],
+        [
+          "Complete Hilar & Mediastinal Lymphadenectomy",
+          "Accurate T Staging",
+          "Stage I Confirmation",
+          "Early Stage Validity"
+        ],
+        [
+          "Cox Proportional Hazards Model",
+          "Multivariate Analysis",
+          "Identification of Independent Prognostic Factors",
+          "Surgical Decision-Making"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:20:21.205Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11926574",
+      "global_index": 131,
+      "question": "Are hepatitis G virus and TT virus involved in cryptogenic chronic liver disease?",
+      "contexts": [
+        "Hepatitis G virus can cause chronic infection in man but the role of this agent in chronic liver disease is poorly understood. Little is known about the relation of another newly discovered agent, the TT virus, with chronic liver disease.AIM: To investigate the rate of infection with hepatitis G virus and TT virus in patients with cryptogenic chronic liver disease.",
+        "A total of 23 subjects with chronically raised alanine transaminase and a liver biopsy in whom all known causes of liver disease had been excluded, and 40 subjects with hepatitis C virus-related chronic liver disease.",
+        "Evaluation of anti-hepatitis G virus by enzyme immunoassay. Hepatitis G virus-RNA by polymerase chain reaction with primers from the 5' NC and NS5a regions. TT virus-DNA by nested polymerase chain reaction with primers from the ORF1 region. Results. Hepatitis G virus-RNA was detected in 4 out of 23 patients with cryptogenic chronic hepatitis and in 6 out of 40 with hepatitis C virus chronic hepatitis (17.4% vs 15% p=ns). At least one marker of hepatitis G virus infection (hepatitis G virus-RNA and/or anti-hepatitis G virus, mostly mutually exclusive) was present in 6 out of 23 patients with cryptogenic hepatitis and 16 out of 40 with hepatitis C virus liver disease (26. 1% vs 40% p=ns). T virus-DNA was present in serum in 3 subjects, 1 with cryptogenic and 2 with hepatitis C virus-related chronic liver disease. Demographic and clinical features, including stage and grade of liver histology, were comparable between hepatitis G virus-infected and uninfected subjects. Severe liver damage [chronic hepatitis with fibrosis or cirrhosis) were significantly more frequent in subjects with hepatitis C virus liver disease."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Alanine Transaminase",
+        "DNA Virus Infections",
+        "Female",
+        "Flaviviridae Infections",
+        "GB virus C",
+        "Hepatitis, Chronic",
+        "Hepatitis, Viral, Human",
+        "Humans",
+        "Liver",
+        "Male",
+        "Middle Aged",
+        "Reverse Transcriptase Polymerase Chain Reaction",
+        "Torque teno virus"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:21:23.551Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11943048",
+      "global_index": 132,
+      "question": "Does receipt of hospice care in nursing homes improve the management of pain at the end of life?",
+      "contexts": [
+        "To compare analgesic management of daily pain for dying nursing home residents enrolled and not enrolled in Medicare hospice.",
+        "Retrospective, comparative cohort study.",
+        "Over 800 nursing homes in Kansas, Maine, Mississippi, New York, and South Dakota.",
+        "A subset of residents with daily pain near the end of life taken from a matched cohort of hospice (2,644) and nonhospice (7,929) nursing home residents who had at least two resident assessments (Minimum Data Sets (MDSs)) completed, their last between 1992 and 1996, and who died before April 1997. The daily pain subset consisted of 709 hospice and 1,326 nonhospice residents.",
+        "Detailed drug use data contained on the last MDS before death were used to examine analgesic management of daily pain. Guidelines from the American Medical Directors Association (AMDA) were used to identify analgesics not recommended for use in managing chronic pain in long-term care settings. The study outcome, regular treatment of daily pain, examined whether patients received any analgesic, other than those not recommended by AMDA, at least twice a day for each day of documented daily pain (i.e., 7 days before date of last MDS).",
+        "Fifteen percent of hospice residents and 23% of nonhospice residents in daily pain received no analgesics (odds ratio (OR) = 0.57, 95% confidence interval (CI) = 0.45-0.74). A lower proportion of hospice residents (21%) than of nonhospice residents (29%) received analgesics not recommended by AMDA (OR = 0.65, 95% CI =0.52-0.80). Overall, acetaminophen (not in combination with other drugs) was used most frequently for nonhospice residents (25% of 1,673 prescriptions), whereas morphine derivatives were used most frequently for hospice residents (30% of 1,058 prescriptions). Fifty-one percent of hospice residents and 33% of nonhospice residents received regular treatment for daily pain. Controlling for clinical confounders, hospice residents were twice as likely as nonhospice residents to receive regular treatment for daily pain (adjusted odds ratio = 2.08, 95% CI = 1.68-2.56)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Analgesics",
+        "Cohort Studies",
+        "Drug Utilization",
+        "Female",
+        "Homes for the Aged",
+        "Hospice Care",
+        "Humans",
+        "Male",
+        "Nursing Homes",
+        "Pain",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Hospice Care",
+          "Regular Treatment of Daily Pain",
+          "Adjusted Odds Ratio (2.08)",
+          "Improved Pain Management"
+        ],
+        [
+          "Nursing Homes",
+          "Retrospective Cohort Study",
+          "Minimum Data Sets",
+          "Drug Utilization",
+          "Pain Management Assessment"
+        ],
+        [
+          "Daily Pain",
+          "American Medical Directors Association Guidelines",
+          "Non-Recommended Analgesics",
+          "Hospice Residents",
+          "Lower Use of Non-Recommended Drugs"
+        ],
+        [
+          "Morphine Derivatives",
+          "Hospice Residents",
+          "Higher"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:21:30.970Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11955750",
+      "global_index": 133,
+      "question": "Does escalation of the apical dose change treatment outcome in beta-radiation of posterior choroidal melanomas with 106Ru plaques?",
+      "contexts": [
+        "To show the results of treating posterior uveal melanomas with 106Ru plaque beta-ray radiotherapy and to review and discuss the literature concerning the optimal apical dose prescription (100 vs. 160 Gy).",
+        "Forty-eight patients with uveal melanomas (median height 3.85 mm + 1 mm sclera) were treated with ruthenium plaques. The median apical dose was 120 Gy, the median scleral dose 546 Gy.",
+        "After 5.8 years of follow-up, the overall 5-year survival rate was 90%, the disease specific 5-year survival rate was 92% (3 patients alive with metastasis). Six percent received a second ruthenium application, 10% of the eyes had to be enucleated. Local control was achieved in 90% of the patients with conservative therapy alone. Central or paracentral tumors showed 50% of the pretherapeutic vision after 4 years, and 80% of the vision was preserved in those with peripheral tumors. The main side effects were mostly an uncomplicated retinopathy (30%); macular degeneration or scarring led to poor central vision in 30% of cases."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Choroid Neoplasms",
+        "Female",
+        "Humans",
+        "Male",
+        "Melanoma",
+        "Middle Aged",
+        "Radiotherapy Dosage",
+        "Ruthenium Radioisotopes",
+        "Survival Rate",
+        "Visual Acuity"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Apical Dose",
+          "Radiotherapy Dosage",
+          "Survival Rate"
+        ],
+        [
+          "Apical Dose",
+          "Retinopathy",
+          "Visual Acuity"
+        ],
+        [
+          "Choroid Neoplasms",
+          "Tumor Location",
+          "Visual Acuity"
+        ],
+        [
+          "Apical Dose",
+          "Local Control",
+          "Enucleation"
+        ],
+        [
+          "Radiotherapy Dosage",
+          "Ruthenium Radioisotopes",
+          "Beta-Radiation",
+          "Tumor Control"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:21:53.679Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11970923",
+      "global_index": 134,
+      "question": "Convulsions and retinal haemorrhage: should we look further?",
+      "contexts": [
+        "The prevalence of retinal haemorrhages after convulsions is not well established. As these haemorrhages are considered characteristic of child abuse, we investigated their occurrence after convulsive episodes to see whether the finding of haemorrhage should prompt further investigation.",
+        "Prospective study of 153 children (aged 2 months to 2 years), seen in the emergency department after a convulsive episode. After a thorough history and physical examination, a retinal examination was performed by an ophthalmologist. If findings were positive, further investigation was undertaken to rule out systemic disorder or child abuse.",
+        "One child was found with unilateral retinal haemorrhages following an episode of a simple febrile convulsion. A thorough investigation uncovered no other reason for this finding."
+      ],
+      "mesh_terms": [
+        "Child Abuse",
+        "Child, Preschool",
+        "Diagnosis, Differential",
+        "Female",
+        "Humans",
+        "Infant",
+        "Male",
+        "Ophthalmoscopy",
+        "Physical Examination",
+        "Prospective Studies",
+        "Referral and Consultation",
+        "Retinal Hemorrhage",
+        "Seizures"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Convulsions",
+          "Retinal Hemorrhage",
+          "Child Abuse",
+          "Referral and Consultation"
+        ],
+        [
+          "Preschool Child",
+          "Physical Examination",
+          "Ophthalmoscopy",
+          "Retinal Hemorrhage",
+          "Diagnosis"
+        ],
+        [
+          "Seizures",
+          "Retinal Hemorrhage",
+          "Differential Diagnosis",
+          "Referral and Consultation"
+        ],
+        [
+          "Prospective Study",
+          "Retinal Examination",
+          "Retinal Hemorrhage",
+          "Referral and Consultation"
+        ],
+        [
+          "Infant",
+          "Convulsions"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:22:14.431Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11977907",
+      "global_index": 135,
+      "question": "Subclavian steal syndrome: can the blood pressure difference between arms predict the severity of steal?",
+      "contexts": [
+        "A side-to-side difference in systolic brachial arterial blood pressure is a common finding in subclavian artery stenosis and is frequently used as a screening tool for subclavian steal syndrome (SSS). It was the goal of this retrospective study to investigate the relationship between different vertebral artery waveform types and the side-to-side difference in systolic blood pressure in patients with sonographically proven SSS.",
+        "The records of 1860 patients from the Neuroultrasound Laboratory between January 2000 and December 2000 were screened for the diagnosis of SSS in the final ultrasound report. In all patients, bilateral brachial arterial blood pressure was measured in a sitting position prior to the ultrasound examination. Vertebral artery waveforms were classified as (1) systolic deceleration, (2) alternating flow, and (3) complete reversal at rest. Blood pressure difference as calculated by normal-side blood pressure minus lesion-side blood pressure was compared with the 3 Doppler waveform types.",
+        "SSS was found in 51 of 1860 (2.7%) ultrasonography studies of 49 patients (17 men, 32 women; mean age 65.3 +/- 10.5 years). Two patients (4%) had bilateral SSS. In 3 patients (6%), SSS was related to an innominate artery stenosis. Waveform analysis showed a completely reversed flow in 16 (31%), an alternating flow in 24 (47%), and a systolic deceleration in 11 (22%) cases. Systolic blood pressure difference was significantly higher in the complete reversal and alternating groups than in the systolic deceleration group (P<.001)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Analysis of Variance",
+        "Arm",
+        "Blood Flow Velocity",
+        "Blood Pressure",
+        "Female",
+        "Hemodynamics",
+        "Humans",
+        "Male",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Subclavian Steal Syndrome",
+        "Ultrasonography, Doppler",
+        "Vertebral Artery"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Subclavian Artery Stenosis",
+          "Brachial Blood Pressure Difference",
+          "Hemodynamic Steal Severity"
+        ],
+        [
+          "Vertebral Artery Doppler Waveform",
+          "Systolic Deceleration",
+          "Alternating Flow",
+          "Complete Reversal",
+          "Predictive Pressure Gradient"
+        ],
+        [
+          "Ultrasonography Screening",
+          "Brachial Blood Pressure Disparity",
+          "Risk Stratification of Subclavian Steal Syndrome"
+        ],
+        [
+          "Retrospective Cohort Study",
+          "Analysis of Variance",
+          "Correlation of Pressure Difference with Doppler Waveform Types"
+        ],
+        [
+          "Age and Sex Risk Factors",
+          "Subclavian Stenosis Prevalence",
+          "Influence on Arm Blood Pressure Difference",
+          "Steal Severity Prediction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:22:21.874Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "11978239",
+      "global_index": 136,
+      "question": "Do primary care physicians underprescribe antibiotics for peptic ulcer disease?",
+      "contexts": [
+        "To determine how often primary care physicians prescribe eradication therapy for peptic ulcer disease (PUD) and nonulcer dyspepsia (NUD).",
+        "During a 2-year period (1998-2000) we analyzed data concerning patients with PUD or NUD seen by 80 Italian primary care physicians uniformly distributed throughout the country. We classified patients as having a definitive or a presumptive diagnosis on the basis of the completeness of the diagnostic workup and interpreted the prescription of antibiotics for dyspepsia as evidence of attempted eradication of Helicobacter pylori.",
+        "Consecutive ambulatory patients.",
+        "The frequency with which predefined groups of patients received eradication therapy.",
+        "Of 6866 patients, 690 (10%) received eradication therapy. Of 2162 patients with PUD, 596 (27.6%) received eradication therapy; of 4704 patients with NUD, however, only 94 (2%) received this treatment (P =.0001). A total of 341 (37.7%) of 904 PUD patients with a definitive diagnosis were given eradication therapy and 255 (20.3%) of 1258 PUD patients with a presumptive diagnosis were given therapy (P&lt.0001). In NUD patients, 7 of 743 (0.9%) with a definitive diagnosis received eradication therapy, while 87 (2.2%) of 3961 of those with a presumptive diagnosis were given the same therapy (P =.025)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Anti-Bacterial Agents",
+        "Drug Utilization",
+        "Dyspepsia",
+        "Family Practice",
+        "Female",
+        "Health Services Misuse",
+        "Helicobacter Infections",
+        "Helicobacter pylori",
+        "Humans",
+        "Italy",
+        "Male",
+        "Middle Aged",
+        "Peptic Ulcer",
+        "Practice Patterns, Physicians'",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Primary Care Physicians",
+          "Peptic Ulcer Disease",
+          "Helicobacter pylori",
+          "Antibiotic Eradication Therapy",
+          "27.6% Prescription Rate"
+        ],
+        [
+          "Nonulcer Dyspepsia",
+          "Antibiotic Prescription",
+          "2% Rate",
+          "Underprescription"
+        ],
+        [
+          "Definitive Diagnosis",
+          "37.7% Eradication Therapy",
+          "Presumptive Diagnosis 20.3%",
+          "Diagnostic Completeness Affects Prescribing"
+        ],
+        [
+          "Health Services Misuse",
+          "Practice Patterns",
+          "Retrospective Study",
+          "Evidence of Underprescription"
+        ],
+        [
+          "Italy",
+          "80 Primary Care Physicians",
+          "6866 Patients",
+          "10% Eradication Therapy",
+          "Country-Level Analysis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:22:36.511Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12006913",
+      "global_index": 137,
+      "question": "Do lipids, blood pressure, diabetes, and smoking confer equal risk of myocardial infarction in women as in men?",
+      "contexts": [
+        "Studies on coronary risk factors in men and women are mainly based on mortality data and few compare results of both sexes with consistent study design and diagnostic criteria. This study assesses the major risk factors for coronary events in men and women from the Reykjavik Study.",
+        "Within a prospective, population-based cohort study individuals without history of myocardial infarction were identified and the relative risk of baseline variables was assessed in relation to verified myocardial infarction or coronary death during follow-up.",
+        "Of the 9681 women and 8888 men who attended risk assessment from 1967-1991, with follow-up period of up to 28 years, 706 women and 1700 men suffered a non-fatal myocardial infarction or coronary death.",
+        "Serum cholesterol was a significant risk factor for both sexes, with hazard ratios (HR) decreasing with age. Systolic blood pressure was a stronger risk factor for women as was ECG-confirmed left ventricular hypertrophy (women HR 2.89, 95% confidence interval [CI] 1.67-5.01; men HR 1.11 [CI 0.86-1.43]). Fasting blood glucose>or =6.7 mmol/L identified significantly higher risk for women (HR 2.65) than men (HR 2.08) as did self-reported diabetes. Triglyceride risk was significantly higher for women and decreased significantly with age. Smoking increased risk two- to five-fold, increasing with dose, for women, which was significantly higher than the doubling in risk for men."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Biomarkers",
+        "Blood Glucose",
+        "Blood Pressure",
+        "Cohort Studies",
+        "Diabetes Complications",
+        "Diabetes Mellitus",
+        "Electrocardiography",
+        "Endpoint Determination",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Hypertrophy, Left Ventricular",
+        "Iceland",
+        "Lipids",
+        "Male",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Myocardial Infarction",
+        "Prospective Studies",
+        "Risk Factors",
+        "Sex Factors",
+        "Smoking",
+        "Women's Health"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Lipids",
+          "Atherosclerotic Plaque",
+          "Coronary Artery Disease",
+          "Myocardial Infarction"
+        ],
+        [
+          "Blood Pressure",
+          "Left Ventricular Hypertrophy (ECG)",
+          "Myocardial Infarction"
+        ],
+        [
+          "Diabetes Mellitus",
+          "Hyper"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:23:00.354Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12040336",
+      "global_index": 138,
+      "question": "Cardiogenic shock complicating acute myocardial infarction in elderly patients: does admission to a tertiary center improve survival?",
+      "contexts": [
+        "The role of early revascularization among patients with acute myocardial infarction complicated by cardiogenic shock remains controversial. Angioplasty registries, while suggesting a benefit, are subject to selection bias, and clinical trials have been underpowered to detect early benefits. If an invasive strategy is beneficial in this population, patients admitted to hospitals with onsite coronary revascularization might be expected to have a better prognosis. We sought to determine whether access to cardiovascular resources at the admitting hospital influenced the prognosis of patients with acute myocardial infarction complicated by cardiogenic shock.",
+        "By use of the Cooperative Cardiovascular Project database (a retrospective medical record review of Medicare patients discharged with acute myocardial infarction), we identified patients aged>or =65 years whose myocardial infarction was complicated by cardiogenic shock.",
+        "Of the 601 patients with cardiogenic shock, 287 (47.8%) were admitted to hospitals without revascularization services and 314 (52.2%) were admitted to hospitals with coronary angioplasty and coronary artery bypass surgery facilities. Clinical characteristics were similar across the subgroups. Patients admitted to hospitals with revascularization services were more likely to undergo coronary revascularization during the index hospitalization and during the first month after acute myocardial infarction. After adjustment for demographic, clinical, hospital, and treatment strategies, the presence of onsite revascularization services was not associated with a significantly lower 30-day (odds ratio 0.83, 95% CI 0.47, 1.45) or 1-year mortality (odds ratio 0.91, 95% CI 0.49, 1.72)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Angioplasty, Balloon, Coronary",
+        "Cohort Studies",
+        "Coronary Artery Bypass",
+        "Coronary Care Units",
+        "Databases, Factual",
+        "Female",
+        "Hospitalization",
+        "Humans",
+        "Male",
+        "Myocardial Infarction",
+        "Myocardial Revascularization",
+        "Odds Ratio",
+        "Prognosis",
+        "Shock, Cardiogenic"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Cardiogenic Shock",
+          "Myocardial Infarction",
+          "Elderly Patients",
+          "Tertiary Center",
+          "Coronary Angioplasty",
+          "Survival"
+        ],
+        [
+          "Onsite Revascularization Services",
+          "Coronary Angioplasty",
+          "Coronary Artery Bypass",
+          "Odds Ratio",
+          "30‑day Mortality"
+        ],
+        [
+          "Cooperative Cardiovascular Project Database",
+          "Medicare Patients",
+          "Cardiogenic Shock",
+          "1‑year Mortality",
+          "Prognosis"
+        ],
+        [
+          "Angioplasty Registries",
+          "Selection Bias",
+          "Early Revascularization",
+          "Clinical Trials",
+          "Underpowered"
+        ],
+        [
+          "Coronary Care Units",
+          "Revascularization Strategy",
+          "Clinical Characteristics",
+          "Treatment Adjustment",
+          "Prognosis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:23:07.846Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12068831",
+      "global_index": 139,
+      "question": "Do nontriploid partial hydatidiform moles exist?",
+      "contexts": [
+        "To study whether nontriploid partial hydatidiform moles truly exist.",
+        "We conducted a reevaluation of pathology and ploidy in 19 putative nontriploid partial hydatidiform moles using standardized histologic diagnostic criteria and repeat flow cytometric testing by the Hedley technique.",
+        "On review of the 19 moles, 53% (10/19) were diploid nonpartial moles (initially pathologically misclassified), and 37% (7/19) were triploid partial moles (initial ploidy misclassifications). One additional case (5%) was a diploid early complete mole (initially pathologically misclassified)."
+      ],
+      "mesh_terms": [
+        "Boston",
+        "Diagnostic Errors",
+        "Female",
+        "Flow Cytometry",
+        "Histological Techniques",
+        "Humans",
+        "Hydatidiform Mole",
+        "Polyploidy",
+        "Pregnancy",
+        "Uterine Neoplasms"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Hydatidiform Mole",
+          "Histological Techniques",
+          "Diagnostic Errors",
+          "Diploid Nonpartial Moles"
+        ],
+        [
+          "Hydatidiform Mole",
+          "Flow Cytometry",
+          "Ploidy Analysis",
+          "Triploid Partial Moles"
+        ],
+        [
+          "Pregnancy",
+          "Uterine Neoplasms",
+          "Hydatidiform Mole",
+          "Misclassification as Diploid Early Complete Mole"
+        ],
+        [
+          "Female",
+          "Hydatidiform Mole",
+          "Diploid",
+          "Absence of Nontriploid Partial Moles"
+        ],
+        [
+          "Hydatidiform Mole",
+          "Polyploidy",
+          "Triploid",
+          "Standardized Diagnostic Criteria"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:23:12.998Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12070552",
+      "global_index": 140,
+      "question": "Do antibiotics decrease post-tonsillectomy morbidity?",
+      "contexts": [
+        "A tonsillectomy audit was carried out and compared with other studies, to emphasize the role of antibiotics.",
+        "This study was carried out at North West Armed Forces Hospital, Tabuk, Kingdom of Saudi Arabia, during the year January 1999 through to December 1999. This is a retrospective study of patients who had tonsillectomy with or with adenoidectomy, the topics audited included indication for surgery, grade of surgeon, method of surgery, length of hospital stay, complications and the use of postoperative antibiotics.",
+        "A total of 185 patients underwent tonsillectomy with or without adenoidectomy. The patients age ranged between 2 years to 53 years and the majority were children. In our audit we found no difference with regard to grade of surgeons, method of hemostasis in the outcome of surgery. Moreover, postoperative antibiotics had no role in pain control, postoperative fever, secondary hemorrhage or reduction in hospital stay. The administration of analgesics on the basis of, as required, had poor pain control."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Anti-Bacterial Agents",
+        "Anti-Inflammatory Agents, Non-Steroidal",
+        "Child",
+        "Child, Preschool",
+        "Female",
+        "Humans",
+        "Male",
+        "Medical Audit",
+        "Middle Aged",
+        "Postoperative Care",
+        "Postoperative Complications",
+        "Retrospective Studies",
+        "Tonsillectomy"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Retrospective Studies",
+          "Medical Audit",
+          "Tonsillectomy",
+          "Postoperative Complications",
+          "Anti‑Bacterial Agents",
+          "Postoperative Care"
+        ],
+        [
+          "Child",
+          "Tonsillectomy",
+          "Postoperative Fever",
+          "Anti‑Bacterial Agents",
+          "Postoperative Complications"
+        ],
+        [
+          "Tonsillectomy",
+          "Method of Hemostasis",
+          "Secondary Hemorrhage",
+          "Anti‑Bacterial Agents",
+          "Postoperative Complications"
+        ],
+        [
+          "Tonsillectomy",
+          "Non‑Steroidal Anti‑Inflammatory Agents",
+          "Pain Control",
+          "Postoperative Morbidity",
+          "Anti‑Bacterial Agents"
+        ],
+        [
+          "Adult",
+          "Tonsillectomy",
+          "Postoperative Complications",
+          "Anti‑Bacterial Agents",
+          "No Reduction in Morbidity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:23:19.301Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12090319",
+      "global_index": 141,
+      "question": "Is there a need for pelvic CT scan in cases of renal cell carcinoma?",
+      "contexts": [
+        "To determine the necessity of pelvic computed tomography (CT) in patients of renal cell carcinoma (RCC).",
+        "We reviewed the records of 400 patients of RCC, who underwent treatment at our institution between January 1988 and February 2001. These patients were evaluated pre-operatively with ultrasonograms (USG) and contrast enhanced CT scan of the abdomen and pelvis. USG or CT scans of these cases were reviewed for presence of pathology in the pelvis, which were classified into 3 categories viz; benign and likely to be insignificant, benign and likely to be significant; and malignant.",
+        "Of the 400 cases, 114 were stage I, 68 were stage II, 99 were stage III and 119 were stage IV. In all patients, tumour was identified in the kidney on preoperative CT scan. Fourteen patients (3.5%) had an abnormality on pelvic CT. Five (1.25%) had category 1, three (0.75%) had category 2 and six (1.5%) had category 3 abnormality on pelvic CT. However, all these abnormalities in pelvis were detected prior to CT by other investigations (USG or plain x-ray). Of the six cases with malignant findings, two had superficial bladder cancer, one had RCC in a pelvic kidney and three had bone metastases in the pelvis."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Biopsy, Needle",
+        "Carcinoma, Renal Cell",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "India",
+        "Kidney Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Needs Assessment",
+        "Neoplasm Staging",
+        "Nephrectomy",
+        "Pelvis",
+        "Preoperative Care",
+        "Registries",
+        "Retrospective Studies",
+        "Tomography, X-Ray Computed",
+        "Unnecessary Procedures"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Renal Cell Carcinoma",
+          "Neoplasm Staging",
+          "Pelvis",
+          "Unnecessary Procedures"
+        ],
+        [
+          "Preoperative Care",
+          "Tomography",
+          "Pelvic Abnormalities",
+          "Follow-Up Studies"
+        ],
+        [
+          "Biopsy",
+          "Needle",
+          "Confirm Renal Cell Carcinoma",
+          "Determine Stage",
+          "Evaluate Need for Pelvic CT"
+        ],
+        [
+          "Retrospective Studies",
+          "400 RCC Patients",
+          "Pelvic CT Findings",
+          "Low Incidence of Significant Pelvic Disease",
+          "Unnecessary Procedures"
+        ],
+        [
+          "Adult",
+          "Renal Cell Carcinoma",
+          "Bone Metastases in Pelvis",
+          "CT Imaging",
+          "Detect Bone Metastasis",
+          "Preoperative Planning"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:23:26.702Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12094116",
+      "global_index": 142,
+      "question": "Is muscle power related to running speed with changes of direction?",
+      "contexts": [
+        "The purpose of this study was to identify the relationships between leg muscle power and sprinting speed with changes of direction.",
+        "the study was designed to describe relationships between physical qualities and a component of sports performance.",
+        "testing was conducted in an indoor sports hall and a biomechanics laboratory.",
+        "15 male participants were required to be free of injury and have recent experience competing in sports involving sprints with changes of direction.",
+        "subjects were timed in 8 m sprints in a straight line and with various changes of direction. They were also tested for bilateral and unilateral leg extensor muscle concentric power output by an isokinetic squat and reactive strength by a drop jump.",
+        "The correlations between concentric power and straight sprinting speed were non-significant whereas the relationships between reactive strength and straight speed were statistically significant. Correlations between muscle power and speed while changing direction were generally low and non-significant for concentric leg power with some moderate and significant (p<0.05) coefficients found for reactive strength. The participants who turned faster to one side tended to have a reactive strength dominance in the leg responsible for the push-off action."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Humans",
+        "Kinesis",
+        "Leg",
+        "Male",
+        "Muscle Contraction",
+        "Muscle, Skeletal",
+        "Reaction Time",
+        "Running"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Muscle Power",
+          "Reactive Strength",
+          "Running Speed with Changes of Direction"
+        ],
+        [
+          "Leg Muscle Contraction",
+          "Isokinetic Squat Power",
+          "Straight Line Sprinting Speed"
+        ],
+        [
+          "Reaction Time",
+          "Kinesis",
+          "Changes of Direction Performance"
+        ],
+        [
+          "Skeletal Muscle Power",
+          "Drop Jump Reactive Strength",
+          "Faster Turn Direction"
+        ],
+        [
+          "Adult Male",
+          "Sports Experience",
+          "Sprinting Speed with Direction Change"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:23:48.142Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12095973",
+      "global_index": 143,
+      "question": "Chemoradiation instead of surgery to treat mid and low rectal tumors: is it safe?",
+      "contexts": [
+        "The main treatment for rectal carcinoma is surgery. Preoperative chemoradiation (CRT) is advocated to reduce local recurrence and improve resection of mid and low tethered rectal tumors.",
+        "Fifty-two patients with mid or low rectal tumors underwent CRT (external beam radiation plus 5-fluorouracil plus folinic acid). Patients who had low rectal tumors with complete response (CR) were not submitted to surgical treatment. All other patients were submitted to surgery, independently of the response. Mean follow-up was 32.1 months.",
+        "Five-year overall survival was 60.5%. Clinical evaluation after CRT showed CR in 10 cases (19.2%), all low tumors; incomplete response (>50%) in 21 (40.4%); and no response (<50%) in 19 (36.6%). Among the 10 cases with CR, 8 presented with local recurrence within 3.7 to 8.8 months. Two patients were not submitted to surgery and are still alive without cancer after 37 and 58 months. Thirty-nine patients had radical surgery. Seven had local recurrences after CRT plus surgery (17.9%). Overall survival was negatively affected by lymph node metastases (P =.017) and perineural invasion (P =.026)."
+      ],
+      "mesh_terms": [
+        "Adenocarcinoma",
+        "Adult",
+        "Aged",
+        "Antimetabolites, Antineoplastic",
+        "Combined Modality Therapy",
+        "Female",
+        "Fluorouracil",
+        "Humans",
+        "Leucovorin",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Recurrence, Local",
+        "Radiotherapy Dosage",
+        "Rectal Neoplasms",
+        "Survival Rate"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Rectal Neoplasms",
+          "Combined Modality Therapy",
+          "Local Recurrence",
+          "Survival Rate"
+        ],
+        [
+          "Adenocarcinoma of Rectum",
+          "5-Fluorouracil + Leucovorin (Antimetabolites)",
+          "Complete Response",
+          "No Surgery",
+          "Survival Rate"
+        ],
+        [
+          "Low Rectal Tumors",
+          "Preoperative Chemoradiation",
+          "Radical Surgery",
+          "Neoplasm Recurrence",
+          "Survival Rate"
+        ],
+        [
+          "Lymph Node Metastases",
+          "Negative Impact on Survival Rate",
+          "Chemoradiation + Surgery",
+          "Local Control"
+        ],
+        [
+          "Adult",
+          "Rectal Neoplasms",
+          "Radiotherapy Dosage",
+          "Antineoplastic Agents",
+          "Local Recurrence"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:23:54.609Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12098035",
+      "global_index": 144,
+      "question": "Does a special interest in laparoscopy affect the treatment of acute cholecystitis?",
+      "contexts": [
+        "We tested the hypothesis that the treatment of patients with acute cholecystitis (AC) would be improved under the care of laparoscopic specialists.",
+        "The records of patients undergoing cholecystectomy for AC from 1 January 1996 to 31 December 1998 were reviewed retrospectively. Of 170 patients, 48 were cared for by three laparoscopic specialists (LS group), whereas 122 were treated by nine general surgeons who perform only laparoscopic cholecystectomy (LC) (GS group). The rates of successful LC, complications, and length of hospital stay were compared. Multivariate analysis was used to control for baseline differences.",
+        "The patients in the GS group were older (median age, 63 vs 53 years; p = 0.01). In all, 31 LS patients (65%), as compared with 44 GS patients (36%), had successful laparoscopic treatment (p = 0.001). The operating time was the same (median, 70 min). The proportion of patients with postoperative complications was similar in the two groups (37% in the GS vs 31% in the LS group; p = 0.6). The median postoperative hospital stay (3 vs 5 days; p<0.01) was shorter in the LS group. On logistic regression analysis, significant predictors of a successful laparoscopic operation included LS group (p<0.01) and age (p = 0). Predictors of prolonged length of hospital stay were age (p<0.01) and comorbidity score (p<0.01), with LS group status not a significant factor (p = 0.21)."
+      ],
+      "mesh_terms": [
+        "Acute Disease",
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Cholecystectomy, Laparoscopic",
+        "Cholecystitis",
+        "Humans",
+        "Intraoperative Complications",
+        "Laparoscopy",
+        "Length of Stay",
+        "Logistic Models",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Postoperative Complications",
+        "Predictive Value of Tests",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Time Factors",
+        "Treatment Outcome",
+        "Workload"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Acute Cholecystitis",
+          "Laparoscopic Cholecystectomy",
+          "Specialist Surgeons",
+          "Successful Treatment"
+        ],
+        [
+          "Acute Cholecystitis",
+          "General Surgeons",
+          "Older Age",
+          "Prolonged Length of Stay"
+        ],
+        [
+          "Laparoscopic Specialists",
+          "Operative Time",
+          "Comparable to General Surgeons",
+          "Same Complication Rate"
+        ],
+        [
+          "Logistic Models",
+          "Control for Baseline Differences",
+          "Specialist Status",
+          "Predictive Value for Successful Laparoscopy"
+        ],
+        [
+          "Risk Factors",
+          "Age",
+          "Comorbidity Score",
+          "Prolonged Hospital Stay"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:24:09.086Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12121321",
+      "global_index": 145,
+      "question": "Do mossy fibers release GABA?",
+      "contexts": [
+        "Mossy fibers are the sole excitatory projection from dentate gyrus granule cells to the hippocampus, forming part of the trisynaptic hippocampal circuit. They undergo significant plasticity during epileptogenesis and have been implicated in seizure generation. Mossy fibers are a highly unusual projection in the mammalian brain; in addition to glutamate, they release adenosine, dynorphin, zinc, and possibly other peptides. Mossy fiber terminals also show intense immunoreactivity for the inhibitory neurotransmitter gamma-aminobutyric acid (GABA), and immunoreactivity for GAD67. The purpose of this review is to present physiologic evidence of GABA release by mossy fibers and its modulation by epileptic activity.",
+        "We used hippocampal slices from 3- to 5-week-old guinea pigs and made whole-cell voltage clamp recordings from CA3 pyramidal cells. We placed stimulating electrodes in stratum granulosum and adjusted their position in order to recruit mossy fiber to CA3 projections.",
+        "We have shown that electrical stimuli that recruit dentate granule cells elicit monosynaptic GABAA receptor-mediated synaptic signals in CA3 pyramidal neurons. These inhibitory signals satisfy the criteria that distinguish mossy fiber-CA3 synapses: high sensitivity to metabotropic glutamate-receptor agonists, facilitation during repetitive stimulation, and N-methyl-D-aspartate (NMDA) receptor-independent long-term potentiation."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Excitatory Postsynaptic Potentials",
+        "Glutamic Acid",
+        "Guinea Pigs",
+        "In Vitro Techniques",
+        "Mossy Fibers, Hippocampal",
+        "Neural Inhibition",
+        "Patch-Clamp Techniques",
+        "Pyramidal Cells",
+        "Receptors, GABA-A",
+        "Signal Transduction",
+        "Synapses",
+        "Synaptic Transmission",
+        "gamma-Aminobutyric Acid"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Mossy Fibers",
+          "GABA Release",
+          "GABA-A Receptor Activation",
+          "CA3 Pyramidal Cell Inhibition"
+        ],
+        [
+          "Mossy Fiber Terminals",
+          "GAD67 Immunoreactivity",
+          "GABA Synthesis",
+          "Synaptic GABA Release"
+        ],
+        [
+          "Glutamic Acid Release",
+          "Excitatory Postsynaptic Potentials",
+          "CA3 Pyramidal Cell Depolarization",
+          "Mossy Fiber Synaptic Transmission"
+        ],
+        [
+          "Epileptogenesis",
+          "Mossy Fiber Plasticity",
+          "Adenosine Modulation",
+          "Seizure Generation"
+        ],
+        [
+          "In Vitro Whole-Cell Patch-Clamp",
+          "Electrical Stimulation of Stratum Granulosum",
+          "Monosynaptic GABAA Currents",
+          "NMDA-Independent LTP"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:24:16.474Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12142826",
+      "global_index": 146,
+      "question": "Pertrochanteric fractures: is there an advantage to an intramedullary nail?",
+      "contexts": [
+        "To compare the results between a sliding compression hip screw and an intramedullary nail in the treatment of pertrochanteric fractures.",
+        "Prospective computer-generated randomization of 206 patients into two study groups: those treated by sliding compression hip screw (Group 1; n = 106) and those treated by intramedullary nailing (Group 2; n = 100).",
+        "University Level I trauma center.",
+        "All patients over the age of fifty-five years presenting with fractures of the trochanteric region caused by a low-energy injury, classified as AO/OTA Type 31-A1 and A2.",
+        "Treatment with a sliding compression hip screw (Dynamic Hip Screw; Synthes-Stratec, Oberdorf, Switzerland) or an intramedullary nail (Proximal Femoral Nail; Synthes-Stratec, Oberdorf, Switzerland).",
+        "Intraoperative: operative and fluoroscopy times, the difficulty of the operation, intraoperative complications, and blood loss. Radiologic: fracture healing and failure of fixation. Clinical: pain, social functioning score, and mobility score.",
+        "The minimum follow-up was one year. We did not find any statistically significant difference, intraoperatively, radiologically, or clinically, between the two groups of patients."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Bone Nails",
+        "Bone Screws",
+        "Equipment Design",
+        "Female",
+        "Fracture Fixation, Intramedullary",
+        "Hip Fractures",
+        "Humans",
+        "Male",
+        "Prospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Pertrochanteric Fracture",
+          "Intramedullary Nail",
+          "Operative Time",
+          "Comparable Outcomes"
+        ],
+        [
+          "Sliding Compression Hip Screw",
+          "Blood Loss",
+          "Fracture Healing",
+          "No Advantage of Intramedullary Nail"
+        ],
+        [
+          "Low‑Energy Injury",
+          "Aged >55",
+          "AO/OTA 31‑A1/A2 Classification",
+          "Intramedullary Nail vs Sliding Screw",
+          "Randomized Prospective Study",
+          "Equivalent Clinical Outcomes"
+        ],
+        [
+          "Intramedullary Nail",
+          "Fracture Fixation Stability",
+          "Failure of Fixation",
+          "No Statistically Significant Difference"
+        ],
+        [
+          "Intramedullary Nail",
+          "Fluoroscopy Time",
+          "Equipment Design",
+          "No Advantage Over Sliding Compression Hip Screw"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:24:30.038Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12145243",
+      "global_index": 147,
+      "question": "Are lower fasting plasma glucose levels at diagnosis of type 2 diabetes associated with improved outcomes?",
+      "contexts": [
+        "Type 2 diabetes may be present for several years before diagnosis, by which time many patients have already developed diabetic complications. Earlier detection and treatment may reduce this burden, but evidence to support this approach is lacking.",
+        "Glycemic control and clinical and surrogate outcomes were compared for 5,088 of 5,102 U.K. Diabetes Prospective Study participants according to whether they had low (<140 mg/dl [<7.8 mmol/l]), intermediate (140 to<180 mg/dl [7.8 to<10.0 mmol/l]), or high (>or =180 mg/dl [>or =10 mmol/l]) fasting plasma glucose (FPG) levels at diagnosis. Individuals who presented with and without diabetic symptoms were also compared.",
+        "Fewer people with FPG in the lowest category had retinopathy, abnormal biothesiometer measurements, or reported erectile dysfunction. The rate of increase in FPG and HbA(1c) during the study was identical in all three groups, although absolute differences persisted. Individuals in the low FPG group had a significantly reduced risk for each predefined clinical outcome except stroke, whereas those in the intermediate group had significantly reduced risk for each outcome except stroke and myocardial infarction. The low and intermediate FPG groups had a significantly reduced risk for progression of retinopathy, reduction in vibration sensory threshold, or development of microalbuminuria."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Blood Glucose",
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Retinopathy",
+        "Disease-Free Survival",
+        "Fasting",
+        "Female",
+        "Glycated Hemoglobin A",
+        "Humans",
+        "Hyperglycemia",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prospective Studies",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Fasting",
+          "Blood Glucose",
+          "Hyperglycemia",
+          "Diabetic Retinopathy",
+          "Treatment Outcome"
+        ],
+        [
+          "Blood Glucose",
+          "Glycated Hemoglobin A",
+          "Disease-Free Survival",
+          "Prospective Studies"
+        ],
+        [
+          "Type 2 Diabetes",
+          "Diabetic Retinopathy",
+          "Treatment Outcome"
+        ],
+        [
+          "Fasting",
+          "Blood Glucose",
+          "Predictive Value of Tests",
+          "Prospective Studies"
+        ],
+        [
+          "Middle Aged",
+          "Type 2 Diabetes",
+          "Hyperglycemia",
+          "Diabetic Retinopathy",
+          "Treatment Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:24:44.786Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12153648",
+      "global_index": 148,
+      "question": "Does birth center care during a woman's first pregnancy have any impact on her future reproduction?",
+      "contexts": [
+        "Women's experiences of childbirth may affect their future reproduction, and the model of care affects their experiences, suggesting that a causal link may exist between model of care and future reproduction. The study objective was to examine whether the birth center model of care during a woman's first pregnancy affects whether or not she has a second baby, and on the spacing to the next birth.",
+        "Between October 1989 and July 1993, a total of 1860 women at low medical risk in early pregnancy, who participated in a randomized controlled trial of in-hospital birth center care versus standard care, gave birth. The 1063 primiparas in the trial, 543 in the birth center group and 520 in the standard care group, were included in a secondary analysis in which women's personal identification codes were linked to the Swedish National Birth Register, which included information about their subsequent birth during the following 7 to 10 years. Time to an event curves were constructed by means of the Kaplan Meier method.",
+        "The observation period after the first birth was on average 8.8 years in the birth center group and 8.7 years in the standard care group. No statistical difference was found between the groups in time to second birth, which was 2.85 and 2.82 years, respectively (median; log-rank 1.26; p=0.26)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Birth Intervals",
+        "Birthing Centers",
+        "Continuity of Patient Care",
+        "Delivery Rooms",
+        "Female",
+        "Humans",
+        "Maternal Health Services",
+        "Models, Nursing",
+        "Nurse Midwives",
+        "Parity",
+        "Patient Care Team",
+        "Patient Satisfaction",
+        "Pregnancy",
+        "Registries",
+        "Reproduction",
+        "Surveys and Questionnaires",
+        "Sweden"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Birth Center Care",
+          "Continuity of Patient Care",
+          "Patient Satisfaction",
+          "Future Reproduction"
+        ],
+        [
+          "Birth Center Care",
+          "Nurse Midwives",
+          "Model of Care",
+          "Parity"
+        ],
+        [
+          "Birth Center Care",
+          "Swedish National Birth Register",
+          "Follow-up",
+          "Birth Interval"
+        ],
+        [
+          "Birth Center Care",
+          "Low Medical Risk",
+          "Maternal Health Services",
+          "Reproductive Planning"
+        ],
+        [
+          "Birth Center Care",
+          "Randomized Controlled Trial",
+          "Kaplan Meier Analysis",
+          "No Significant Difference",
+          "Future Reproduction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:24:51.186Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12163782",
+      "global_index": 149,
+      "question": "Increased neutrophil migratory activity after major trauma: a factor in the etiology of acute respiratory distress syndrome?",
+      "contexts": [
+        "Neutrophil infiltration of the lung is characteristic of early posttraumatic acute respiratory distress syndrome (ARDS). This study examines the ability of neutrophils isolated (over the first 24 hrs) from the peripheral blood of patients admitted after major trauma to migrate in response to interleukin-8. Interleukin-8 is elevated in the lung within 2 hrs of major trauma in patients who later develop ARDS, and thus it plays a central role in the recruitment of neutrophils to the lung and their subsequent activation. We hypothesized that enhanced interleukin-8-mediated neutrophil migratory activity in the early postinjury phase, before the development of ARDS, may be a crucial factor in the etiology of ARDS.",
+        "Prospective observational study.",
+        "University Hospital Wales, the Royal Gwent Hospital, and East Glamorgan General Hospital. Laboratory work was conducted at the Institute of Nephrology.",
+        "Adult blunt trauma victims with Injury Severity Score>or = 18.",
+        "Neutrophils were isolated from citrated blood from 17 adult blunt major trauma patients at admission (0 hrs) and 8 and 24 hrs later. Identical samples were obtained from normal laboratory volunteers (n = 9). The neutrophil count in each specimen was measured, and the number of neutrophils migrating across porous tissue culture inserts in response to defined concentrations of interleukin-8 (0, 10, 30, and 100 ng/mL) was quantitated by peroxidase assay. Neutrophil counts in the whole blood specimens obtained from those later developing ARDS were elevated significantly at admission and declined rapidly throughout the next 24 hrs. Significantly greater numbers of trauma patients' neutrophils migrated to concentrations of interleukin-8 (30 and 100 ng/mL) at each time point when compared with normal volunteers (Mann-Whitney U test, p<.05). Neutrophils isolated from major trauma patients exhibited an enhanced migratory response to high concentrations of interleukin-8 throughout the first 24 hrs of admission, in contrast to the normal physiologic attenuation of migration seen in neutrophils isolated from normal laboratory volunteers."
+      ],
+      "mesh_terms": [
+        "Acute Disease",
+        "Adult",
+        "Cell Movement",
+        "Humans",
+        "Interleukin-8",
+        "Leukocyte Count",
+        "Neutrophil Infiltration",
+        "Neutrophils",
+        "Prospective Studies",
+        "Respiratory Distress Syndrome, Adult",
+        "Risk Factors",
+        "Time Factors",
+        "Trauma Severity Indices",
+        "Wales",
+        "Wounds, Nonpenetrating"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Major Trauma",
+          "Elevated Interleukin-8",
+          "Enhanced Neutrophil Migration",
+          "Neutrophil Infiltration",
+          "Acute Respiratory Distress Syndrome"
+        ],
+        [
+          "High Trauma Severity Indices",
+          "Increased Leukocyte Count",
+          "Neutrophil Mobilization",
+          "Pulmonary Endothelial Damage",
+          "Acute Respiratory Distress Syndrome"
+        ],
+        [
+          "Prospective Observational Study",
+          "Early Postinjury Time Factors",
+          "Neutrophil Migration Assessment",
+          "Identification of Early ARDS Biomarker",
+          "Clinical Risk Stratification"
+        ],
+        [
+          "Nonpenetrating Blunt Wound",
+          "Systemic Inflammatory Response",
+          "IL-8 Release",
+          "Neutrophil Chemotaxis",
+          "Pulmonary Microvascular Permeability",
+          "Acute Respiratory Distress Syndrome"
+        ],
+        [
+          "Adult Trauma Patient",
+          "Peripheral Blood Neutrophil Isolation",
+          "IL-8-Mediated Chemotaxis Assay",
+          "Exaggerated Migratory Response",
+          "Contribution to ARDS Pathogenesis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:25:07.768Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12172698",
+      "global_index": 150,
+      "question": "Is withdrawal-induced anxiety in alcoholism based on beta-endorphin deficiency?",
+      "contexts": [
+        "Associations between several psychopathological alterations and lowered beta-endorphin(beta E) plasma levels have already been stated in former studies. However, whereas single measures during static conditions generally failed in linking beta E levels with psychopathology, dynamic changes of beta E in particular have been shown to be associated with spells of anxiety and depression. During alcohol withdrawal, a decreased secretion of beta E with a delayed normalization has been reported, but up to now only few data became available regarding the interaction of plasma beta E and psychopathological parameters.",
+        "The aim of our study was to test the hypothesis whether beta E during acute alcohol withdrawal is associated with anxiety, depression, and craving.",
+        "We observed self-rated anxiety, depression, and craving during alcohol withdrawal and assessed beta E levels (RIA) in a consecutive sample of 60 alcoholics on day 1 and day 14 after onset of withdrawal, and in 30 healthy volunteers. To control for mutual interactions of beta E and the pituitary-adrenocortical hormone secretion, plasma corticotropin (ACTH) and cortisol were also determined.",
+        "In accordance with prior studies, beta E was significantly lowered on day 1 and day 14 of alcohol withdrawal relative to controls. Plasma levels of ACTH correlated significantly with beta E in alcoholics at both time points and in controls, without differing significantly between the groups. Self-rated anxiety, depression, and alcohol craving decreased significantly between day 1 and day 14. Levels of beta E were inversely correlated with anxiety day 1 (r=-0.58) and day 14 (r=-0.71). Partial correlation coefficients controlling for ACTH plasma levels revealed that this correlation was largely independent from ACTH. In addition, a significant inverse relationship was found between beta E and craving on day 14 (r=-0.28). No association appeared between beta E and depression."
+      ],
+      "mesh_terms": [
+        "Adrenocorticotropic Hormone",
+        "Adult",
+        "Alcohol Drinking",
+        "Alcoholism",
+        "Anxiety",
+        "Depression",
+        "Disruptive, Impulse Control, and Conduct Disorders",
+        "Female",
+        "Humans",
+        "Hydrocortisone",
+        "Male",
+        "Middle Aged",
+        "Substance Withdrawal Syndrome",
+        "Time Factors",
+        "beta-Endorphin"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:26:09.922Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12221908",
+      "global_index": 151,
+      "question": "The HELPP syndrome--evidence of a possible systemic inflammatory response in pre-eclampsia?",
+      "contexts": [
+        "The principal causes of morbidity and mortality during pregnancy in Mexico, are preeclampsia/eclampsia, obstetric hemorrhage and puerperium complications; this is, 62% of maternal deaths in last years. HELLP syndrome was observed between 5 to 25% of the mortality in pregnancies of 36 weeks or less.",
+        "To analyze patients with HELLP syndrome in ICU's (Intensive Care Unit) of a Gynecology and Obstetric Hospital, related to the abnormal hematological, hepatic and renal results with the obstetric case history and the clinical complications.",
+        "A transversal study in patients with HELLP syndrome during 1998 and 1999 were carry out.",
+        "Peripheral blood with Microangiopathic hemolysis, elevated liver enzymes: AST, ALT over 40 UI/L, even when were LDH lower than 600 UI/L. It was evaluated the hepatic and renal function, platelets count, microangiopathic hemolysis, arterial pressure, seizures, icteric skin color, blindness, visual disturbances, nausea, vomiting and upper quadrant right abdominal pain. In newborn we analyzed gestational age, sex, weight and APGAR. We studied for an association between maternal and biochemical variables with Correlation Pearson Test, and dependence between variables with lineal regression model.",
+        "2878 patients with hypertensives disorders in pregnancy (11.64%). The 1.15% (n = 33) had HELLP syndrome with specific maternal mortality of 0.4 per 10,000 live birth, perinatal mortality of 1.62 per 10,000 live birth; and renal damage in 84.5%. Coefficient beta was higher between number of pregnancies to platelets count (-0.33) and creatinine clearance (-0.401)."
+      ],
+      "mesh_terms": [
+        "Abortion, Induced",
+        "Adult",
+        "Anemia, Hemolytic",
+        "Cesarean Section",
+        "Comorbidity",
+        "Critical Care",
+        "Cross-Sectional Studies",
+        "Disease Susceptibility",
+        "Female",
+        "Humans",
+        "Hypertension",
+        "Infant Mortality",
+        "Infant, Newborn",
+        "Infant, Newborn, Diseases",
+        "Kidney Function Tests",
+        "Liver Diseases",
+        "Liver Function Tests",
+        "Male",
+        "Maternal Age",
+        "Maternal Mortality",
+        "Mexico",
+        "Parity",
+        "Pre-Eclampsia",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Socioeconomic Factors",
+        "Systemic Inflammatory Response Syndrome",
+        "Thrombocytopenia"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "HELLP syndrome",
+          "Microangiopathic hemolysis",
+          "Elevated LDH",
+          "Systemic Inflammatory Response Syndrome"
+        ],
+        [
+          "Pre‑Eclampsia",
+          "Endothelial dysfunction",
+          "Platelet activation",
+          "HELLP syndrome"
+        ],
+        [
+          "HELLP syndrome",
+          "Elevated liver enzymes (AST/ALT)",
+          "Hepatic injury",
+          "Systemic Inflammatory Response"
+        ],
+        [
+          "HELLP syndrome",
+          "Renal dysfunction (↓ creatinine clearance)",
+          "Fluid overload",
+          "Systemic Inflammatory Response"
+        ],
+        [
+          "HELLP syndrome",
+          "Thrombocytopenia",
+          "Coagulopathy",
+          "Maternal mortality"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:26:11.930Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12238307",
+      "global_index": 152,
+      "question": "Vaccine protection in the elderly: are Austrian seniors adequately protected by vaccinations?",
+      "contexts": [
+        "The aim of the study was to evaluate, if elderly persons are sufficiently protected against infectious diseases by vaccination.",
+        "300 elderly (>60 years) and 300 young (<35 years) persons from five Austrian cities were recruited according to the criteria of a field study. Antibody concentrations against tetanus, diphtheria, tickborne encephalitis and influenza were assessed by ELISA or by haemagglutination inhibition test. Disease and vaccination histories were recorded.",
+        "The results of the study demonstrate that protection against infectious diseases was frequently insufficient in the elderly. This was partly due to the fact that old persons were not vaccinated according to recommended strategies. However, low antibody concentration and a short duration of protective humoral immunity were also observed in many elderly persons in spite of regular vaccination. This was not only the case in frail, but also in healthy elderlies."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Antibodies",
+        "Austria",
+        "Communicable Diseases",
+        "Enzyme-Linked Immunosorbent Assay",
+        "Female",
+        "Frail Elderly",
+        "Geriatric Assessment",
+        "Health Services Needs and Demand",
+        "Hemagglutination Inhibition Tests",
+        "Humans",
+        "Immune Tolerance",
+        "Immunization Schedule",
+        "Male",
+        "Middle Aged",
+        "Vaccination"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Aged",
+          "Influenza Vaccination",
+          "Antibody Concentration",
+          "Hemagglutination Inhibition Tests",
+          "Protection Insufficient"
+        ],
+        [
+          "Frail Elderly",
+          "Immune Tolerance",
+          "Low Antibody Concentration",
+          "Short Duration of Protective Humoral Immunity",
+          "Vaccination Strategy"
+        ],
+        [
+          "Austria",
+          "Health Services Needs and Demand",
+          "Geriatric Assessment",
+          "Vaccination",
+          "Protection Insufficient"
+        ],
+        [
+          "Aged, 80 and over",
+          "Tetanus and Diphtheria Vaccination",
+          "Enzyme-Linked Immunosorbent Assay",
+          "Antibody Levels",
+          "Protection Insufficient"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:26:14.165Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12377809",
+      "global_index": 153,
+      "question": "Is anorectal endosonography valuable in dyschesia?",
+      "contexts": [
+        "Dyschesia can be provoked by inappropriate defecation movements. The aim of this prospective study was to demonstrate dysfunction of the anal sphincter and/or the musculus (m.) puborectalis in patients with dyschesia using anorectal endosonography.",
+        "Twenty consecutive patients with a medical history of dyschesia and a control group of 20 healthy subjects underwent linear anorectal endosonography (Toshiba models IUV 5060 and PVL-625 RT). In both groups, the dimensions of the anal sphincter and the m. puborectalis were measured at rest, and during voluntary squeezing and straining. Statistical analysis was performed within and between the two groups.",
+        "The anal sphincter became paradoxically shorter and/or thicker during straining (versus the resting state) in 85% of patients but in only 35% of control subjects. Changes in sphincter length were statistically significantly different (p<0.01, chi(2) test) in patients compared with control subjects. The m. puborectalis became paradoxically shorter and/or thicker during straining in 80% of patients but in only 30% of controls. Both the changes in length and thickness of the m. puborectalis were significantly different (p<0.01, chi(2) test) in patients versus control subjects."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Anal Canal",
+        "Case-Control Studies",
+        "Chi-Square Distribution",
+        "Constipation",
+        "Defecation",
+        "Endosonography",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Pelvic Floor",
+        "Rectum"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Dyschezia",
+          "Paradoxical Anal Sphincter Contraction",
+          "Anorectal Endosonography",
+          "Detection of Shortening/Thickening",
+          "Clinical Management"
+        ],
+        [
+          "Dyschezia",
+          "Puborectalis Muscle Dysfunction",
+          "Anorectal Endosonography",
+          "Measurement of Length/Thickness",
+          "Evidence of Paradoxical Change"
+        ],
+        [
+          "Dyschezia",
+          "Defecation Disorder",
+          "Anorectal Endosonography",
+          "Prospective Study Design",
+          "Comparison with Healthy Controls",
+          "Statistical Significance"
+        ],
+        [
+          "Dyschezia",
+          "Inappropriate Defecation Movements",
+          "Anorectal Endosonography",
+          "Linear Imaging (Toshiba models)",
+          "Identification of Dysfunction",
+          "Treatment Planning"
+        ],
+        [
+          "Dyschezia",
+          "Symptom Evaluation",
+          "Anorectal Endosonography",
+          "Paradoxical Sphincter Response During Straining",
+          "Diagnosis of Functional Deficiency",
+          "Therapeutic Intervention"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:26:16.362Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12380309",
+      "global_index": 154,
+      "question": "Should circumcision be performed in childhood?",
+      "contexts": [
+        "To evaluate prepuce development and retractibility in a group of boys. To point out the value of circumcision and prepucial forced dilation during childhood.",
+        "Prepuce development and retractibility were evaluated in 400 boys ages between 0-16 year old.",
+        "In boys under 1 year prepuce retractibility (assessed only in children who did not undergo forced dilation previously) was type I (non retractile) in 71.5% whereas type V (completely retractile) was only 5.5%. In adolescent boys type I prepuce was observed in 1 boy only, 1.6%, whereas type V was observed in 82.3%. Furthermore, it was observed that at the time of examination for the study 106 boys who had undergone forced dilation at an earlier age had balano-prepucial adhesions again, which demonstrates that prepuce adheres again to glans penis in many boys after a forced dilation is performed. Only 11 boys were considered in need for circumcision, three of them for prepucial orifice stenosis, which prevented normal micturition, causing a prepucial sac, one case due to a constrictive ring below the prepucial edge that would have prevented ulterior retractability, two cases with repetitive balanopostitis, and five cases secondary to xerosol balanitis, accounting for 2.7% of all examined boys."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Age Factors",
+        "Child, Preschool",
+        "Circumcision, Male",
+        "Dilatation",
+        "Humans",
+        "Infant",
+        "Male",
+        "Penile Diseases",
+        "Penis",
+        "Phimosis",
+        "Tissue Adhesions",
+        "Unnecessary Procedures"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Child",
+          "Prepuce retractibility",
+          "Phimosis",
+          "Circumcision"
+        ],
+        [
+          "Forced dilation",
+          "Tissue adhesions",
+          "Recurrent phimosis",
+          "Circumcision"
+        ],
+        [
+          "Infant",
+          "Adolescent",
+          "Prepuce retractibility",
+          "Unnecessary procedures"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:26:23.984Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12407608",
+      "global_index": 155,
+      "question": "Does ultrasound imaging before puncture facilitate internal jugular vein cannulation?",
+      "contexts": [
+        "To investigate whether prepuncture ultrasound evaluation of vascular anatomy facilitates internal jugular vein cannulation compared with landmark-guided puncture.",
+        "Prospective randomized study.",
+        "Single community hospital.",
+        "Adult patients undergoing general anesthesia (n = 240).",
+        "The right internal jugular vein was cannulated using either anatomic landmarks or prepuncture ultrasound (3.75/7.5 MHz) guidance. In the landmark group, respiratory jugular venodilation was used as the primary landmark for locating the vein. Results of cannulation and the incidence of complications were compared.",
+        "Patients were randomly assigned to the ultrasound or landmark group. Respiratory jugular venodilation was identified in 188 patients (78.3%), in whom results of cannulation did not differ between the 2 techniques with respect to the venous access rate (cannulated at the first attempt: 83.5% in the landmark v 85.7% in the ultrasound group), the success rate (cannulated within 3 attempts: 96.9% v 95.6%), and the incidence of arterial puncture (1.0% v 3.3%). In the remaining 52 respiratory jugular venodilation-unidentified patients, the access rate (30.4% v 86.2%, p<0.001) and the success rate (78.3 v 100%, p<0.05) were significantly better in the ultrasound group, and no arterial puncture was recorded in the ultrasound group, whereas the incidence was 13.0% in the landmark group. The results were similar regardless of the ultrasound frequency used."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Catheterization, Central Venous",
+        "Female",
+        "Humans",
+        "Jugular Veins",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Punctures",
+        "Ultrasonography",
+        "Vasodilation",
+        "Ventilators, Mechanical"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Prepuncture Ultrasound",
+          "Visualization of Jugular Veins",
+          "Improved Cannulation Success in Respiratory Jugular Venodilation‑Unidentified Patients"
+        ],
+        [
+          "Landmark Guided Puncture",
+          "Reliance on Respiratory Jugular Venodilation Identification",
+          "Variable Access Rate in Patients"
+        ],
+        [
+          "Prospective Randomized Study",
+          "Comparison of Ultrasound vs Landmark",
+          "Evidence of Ultrasound Advantage in Low Access Rate Group"
+        ],
+        [
+          "Adult Patients on Mechanical Ventilation",
+          "Altered Jugular Vein Size",
+          "Ultrasound Provides Real‑Time Assessment",
+          "Higher Success"
+        ],
+        [
+          "Incidence of Arterial Puncture",
+          "Reduction with Ultrasound Guidance",
+          "Decreased Complications"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:26:39.024Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12419743",
+      "global_index": 156,
+      "question": "Is first-line single-agent mitoxantrone in the treatment of high-risk metastatic breast cancer patients as effective as combination chemotherapy?",
+      "contexts": [
+        "To determine whether patients with high-risk metastatic breast cancer draw benefit from combination chemotherapy as first-line treatment.",
+        "A total of 260 women with measurable metastatic breast cancer fulfilling high-risk criteria, previously untreated with chemotherapy for their metastatic disease, were randomized to receive either mitoxantrone 12 mg/m(2) or the combination of fluorouracil 500 mg/m(2), epirubicin 50 mg/m(2) and cyclophosphamide 500 mg/m(2) (FEC) every 3 weeks. Treatment was continued until complete remission plus two cycles, or until disease progression. In the case of partial remission or stable disease, treatment was stopped after 12 cycles. Second-line treatment was vindesine, mitomycin and prednisolone. Gain from treatment was estimated using a modified Brunner's score composed of time to progression, patients' rating of the treatment benefit, alopecia, vomiting and performance status.",
+        "After recruitment from 1992 to 1997 and observation from 1997 to 1999, the final evaluation showed that single-agent treatment with mitoxantrone does not differ significantly from combination treatment with FEC in terms of response, objective remission rate, remission duration, time to response, time to best response, time to progression or overall survival. There was, however, a significant difference in gain from treatment using a modified Brunner's score favoring the single-agent treatment arm. There was no evidence that any subgroup would fare better with combination treatment."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Biopsy, Needle",
+        "Bone Neoplasms",
+        "Breast Neoplasms",
+        "Cyclophosphamide",
+        "Disease-Free Survival",
+        "Epirubicin",
+        "Female",
+        "Fluorouracil",
+        "Germany",
+        "Humans",
+        "Liver Neoplasms",
+        "Logistic Models",
+        "Lung Neoplasms",
+        "Middle Aged",
+        "Mitoxantrone",
+        "Neoplasm Staging",
+        "Probability",
+        "Proportional Hazards Models",
+        "Quality of Life",
+        "Risk Assessment",
+        "Sensitivity and Specificity",
+        "Statistics, Nonparametric",
+        "Survival Analysis",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Breast Neoplasms",
+          "High-Risk Metastatic Breast Cancer",
+          "Mitoxantrone",
+          "Modified Brunner's Score"
+        ],
+        [
+          "Antineoplastic Combined Chemotherapy Protocols",
+          "Fluorouracil",
+          "Epirubicin",
+          "Cyclophosphamide"
+        ],
+        [
+          "Treatment Outcome",
+          "Survival Analysis",
+          "Proportional Hazards Models",
+          "Overall Survival"
+        ],
+        [
+          "Quality of Life",
+          "Modified Brunner's Score",
+          "Gain from Treatment",
+          "Single-Agent Mitoxantrone"
+        ],
+        [
+          "Risk Assessment",
+          "Probability",
+          "Logistic Models",
+          "Decision on Single-Agent vs Combination"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:27:03.302Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12442934",
+      "global_index": 157,
+      "question": "Does ibuprofen increase perioperative blood loss during hip arthroplasty?",
+      "contexts": [
+        "To determine whether prior exposure of non-steroidal anti-inflammatory drugs increases perioperative blood loss associated with major orthopaedic surgery.",
+        "Fifty patients scheduled for total hip replacement were allocated to two groups (double blind, randomized manner). All patients were pretreated for 2 weeks before surgery: Group 1 with placebo drug, Group 2 with ibuprofen. All patients were injected intrathecally with bupivacaine 20mg plus morphine 0.1 mg, in a total volume of 4 mL, to provide surgical anaesthesia.",
+        "The presence of severe adverse effects caused eight patients in the ibuprofen group and six in the placebo group to terminate their participation in the trial. The perioperative blood loss increased by 45% in the ibuprofen group compared with placebo. The total (+/-SD) blood loss in the ibuprofen group was 1161 (+/-472) mL versus 796 (+/-337) mL in the placebo group."
+      ],
+      "mesh_terms": [
+        "Analgesics, Non-Narcotic",
+        "Anesthesia, Spinal",
+        "Anti-Inflammatory Agents, Non-Steroidal",
+        "Arthroplasty, Replacement, Hip",
+        "Blood Loss, Surgical",
+        "Double-Blind Method",
+        "Female",
+        "Humans",
+        "Ibuprofen",
+        "Male",
+        "Middle Aged",
+        "Postoperative Hemorrhage",
+        "Preoperative Care"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ibuprofen",
+          "NSAID",
+          "Inhibition of COX",
+          "Reduced Thromboxane",
+          "Decreased Platelet Aggregation",
+          "Increased Perioperative Blood Loss"
+        ],
+        [
+          "Preoperative NSAID Administration",
+          "Platelet Dysfunction",
+          "Impaired Hemostasis",
+          "Greater Surgical Blood Loss"
+        ],
+        [
+          "Randomized Double-Blind Trial",
+          "Ibuprofen Group vs Placebo Group",
+          "Measurement of Blood Loss",
+          "45% Increase",
+          "Clinical Significance"
+        ],
+        [
+          "Hip Arthroplasty",
+          "Surgical Trauma",
+          "Blood Vessel Injury",
+          "Hemostasis Requirement",
+          "NSAID Effect on Coagulation",
+          "Elevated Blood Loss"
+        ],
+        [
+          "Non-Steroidal Anti-Inflammatory Drug",
+          "Inhibition of COX-1",
+          "Decreased Prostanoids",
+          "Vasodilation",
+          "Prolonged Bleeding Time",
+          "Increased Perioperative Blood Loss"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:27:25.109Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12484580",
+      "global_index": 158,
+      "question": "Informed consent for total hip arthroplasty: does a written information sheet improve recall by patients?",
+      "contexts": [
+        "To ascertain whether a written information sheet is acceptable to patients and improves recall of the consent interview.",
+        "Prospective randomised controlled study using questionnaires, comparing a group of patients given information in a written sheet with appropriate explanation to a group given verbal information alone.",
+        "A specialist orthopaedic surgery unit.",
+        "The test group was 126 patients undergoing revision or primary total hip arthroplasty; 65 patients were given information verbally, 61 patients were given written information.",
+        "Patients' recall of information given, tested with a questionnaire completed on admission (mean of 18 days later).",
+        "The patients receiving written information scored significantly higher (48% correct answers) than the patients receiving verbal information (38% correct answers)."
+      ],
+      "mesh_terms": [
+        "Arthroplasty, Replacement, Hip",
+        "Female",
+        "Humans",
+        "Informed Consent",
+        "Male",
+        "Mental Recall",
+        "Patient Education as Topic",
+        "Professional-Patient Relations",
+        "Prospective Studies",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Informed Consent",
+          "Patient Education",
+          "Mental Recall",
+          "Total Hip Arthroplasty"
+        ],
+        [
+          "Written Information Sheet",
+          "Questionnaire",
+          "Prospective Study",
+          "Mental Recall"
+        ],
+        [
+          "Verbal Information",
+          "Professional-Patient Relations",
+          "Informed Consent",
+          "Total Hip Arthroplasty"
+        ],
+        [
+          "Total Hip Arthroplasty",
+          "Arthroplasty",
+          "Replacement",
+          "Patient Education"
+        ],
+        [
+          "Humans",
+          "Survey and Questionnaires",
+          "Mental Recall",
+          "Informed Consent"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:27:28.472Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12595848",
+      "global_index": 159,
+      "question": "Is specialty care associated with improved survival of patients with congestive heart failure?",
+      "contexts": [
+        "Implementation of the complex treatment strategies that have been shown to improve survival of patients with congestive heart failure (CHF) may require certain expertise. We wanted to examine the association between pattern of outpatient care and survival of patients with CHF.",
+        "In a retrospective cohort study conducted with national Veterans Health Administration (VHA) databases, we examined the association between the pattern of outpatient care and survival in 11,661 patients discharged from VA hospitals between October 1, 1991, and September 30, 1992, with the primary diagnosis of CHF (cohort 1). Patients were divided into 4 groups, on the basis of their pattern of outpatient care over a 12-month period after discharge: 1) general medicine clinic visits only (GM-only); 2) cardiology clinic visits only (CARD-only); 3) general medicine and cardiology (MIXED) clinic visits; and 4) neither general medicine nor cardiology clinic visits (no-GM/CARD). We used the Cox proportional hazards model to evaluate 1-year survival, controlling for clinical and demographic factors. Consistency of our results was examined by performing identical analysis on a cohort of patients discharged from VHA hospitals between October 1, 1994, and September 30, 1995 (cohort 2, n = 10,141).",
+        "The overall 1-year mortality rate was 23% in the primary cohort. The unadjusted mortality rate was highest for patients in the no-GM/CARD follow up (29%) and lowest for patients in the MIXED group (19%). By use of the MIXED group as reference and adjusting for important clinical and demographic factors, the risk of death (risk ratio [95% CI]) was 1.12 (0.94-1.34) in the CARD-only group, 1.26 (1.15-1.38) in the GM-only group, and 1.48 (1.28-1.72) in the no-GM/CARD group. Cohort-2 results were consistent with cohort 1 for most covariates, and significant survival differences were again found between GM-only and the MIXED group (1.25 [1.14-1.37])."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Cardiology",
+        "Clinical Competence",
+        "Cohort Studies",
+        "Databases, Factual",
+        "Family Practice",
+        "Health Services Accessibility",
+        "Heart Failure",
+        "Hospitals, Veterans",
+        "Humans",
+        "Male",
+        "Outcome Assessment (Health Care)",
+        "Outpatient Clinics, Hospital",
+        "Patient Discharge",
+        "Prognosis",
+        "Proportional Hazards Models",
+        "Survival Rate",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Congestive Heart Failure",
+          "Cardiology Clinic Visits",
+          "Specialty Care",
+          "Improved Survival",
+          "1-Year Mortality Reduction"
+        ],
+        [
+          "Veterans",
+          "VHA Databases",
+          "Retrospective Cohort Study",
+          "Cox Proportional Hazards Model",
+          "Adjusted Risk Ratios"
+        ],
+        [
+          "General Medicine Clinic Visits",
+          "No Cardiology Follow-up",
+          "Higher Mortality",
+          "Poor Survival",
+          "Need for Specialty Care"
+        ],
+        [
+          "Mixed Care (General Medicine + Cardiology)",
+          "Lowest Mortality",
+          "Survival Benefit",
+          "Clinical Competence in Outpatient Management"
+        ],
+        [
+          "No-Outpatient Follow-up",
+          "Highest Mortality",
+          "Lack of Specialty Care",
+          "Reduced Survival",
+          "Importance of Outpatient Clinics"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:27:36.840Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12607120",
+      "global_index": 160,
+      "question": "Does anastomotic leakage affect functional outcome after rectal resection for cancer?",
+      "contexts": [
+        "Anastomotic leakage is the most threatening early complication in sphincter-preserving rectal cancer surgery. While the oncological consequences have been well examined, only few data exist about the functional outcome.",
+        "We investigated continence function in 150 patients after curative sphincter-preserving rectal cancer surgery. Functional results were compared in 22 patients with a clinically relevant anastomotic leakage, confirmed radiologically or endoscopically, and 128 patients with uneventful recovery. Evaluation of continence function was based on the Cleveland Clinic Continence Score and was examined in all patients with anastomotic leakage and in 111 patients without complications 107+/-46 weeks postoperatively. Additionally, 14 patients with anastomotic leakage and 58 patients with uneventful recovery underwent anorectal manometry 26+/-15 weeks postoperatively.",
+        "The continence score in patients after anastomotic leakage did not differ significantly from that in patients without complications. Sphincter function was similar. Maximum tolerable volume and rectal compliance were slightly but not significantly worse after leakage."
+      ],
+      "mesh_terms": [
+        "Anastomosis, Surgical",
+        "Fecal Incontinence",
+        "Female",
+        "Humans",
+        "Male",
+        "Manometry",
+        "Middle Aged",
+        "Postoperative Complications",
+        "Rectal Neoplasms",
+        "Rectum",
+        "Statistics, Nonparametric",
+        "Surgical Wound Dehiscence",
+        "Surveys and Questionnaires",
+        "Treatment Failure"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Anastomotic leakage",
+          "Postoperative complications",
+          "Fecal incontinence",
+          "Cleveland Clinic Continence Score"
+        ],
+        [
+          "Rectal resection",
+          "Sphincter-preserving surgery",
+          "Anastomosis",
+          "Leakage",
+          "Anorectal manometry",
+          "Functional outcome"
+        ],
+        [
+          "Rectal Neoplasms",
+          "Surgical",
+          "Anastomosis",
+          "Leakage",
+          "Rectal compliance",
+          "Functional outcome"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:27:58.701Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12607666",
+      "global_index": 161,
+      "question": "Is extended aortic replacement in acute type A dissection justifiable?",
+      "contexts": [
+        "The aim of this study was to evaluate the effectiveness of our surgical strategy for acute aortic dissection based on the extent of the dissection and the site of the entry, with special emphasis on resection of all dissected aortic segments if technically possible.",
+        "Between January 1995 and March 2001, 43 consecutive patients underwent operations for acute aortic dissection. In all patients the distal repair was performed under circulatory arrest without the use of an aortic cross-clamp. Fifteen patients underwent aortic arch replacement with additional reconstruction of supra-aortic vessels in 3 patients. Complete replacement of all dissected tissue could be achieved in 21 patients (group 1). Because of the distal extent of the dissection beyond the aortic arch, replacement of all the dissected tissue was not possible in 22 patients (group 2).",
+        "Early mortality was 4.7% (2 patients), and the incidence of perioperative cerebrovascular events was 7.0% (3 patients). All of these events occurred in group 2 (p<0.025). During the follow-up period of 6 years or less, 5 patients died, all from causes not related to the aorta or the aortic valve. A persisting patent false lumen was observed in 14 of the 36 surviving patients (39%)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Anastomosis, Surgical",
+        "Aneurysm, Dissecting",
+        "Aortic Aneurysm",
+        "Blood Vessel Prosthesis Implantation",
+        "Brachiocephalic Trunk",
+        "Cardiac Surgical Procedures",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:28:59.824Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12612531",
+      "global_index": 162,
+      "question": "Fragility of the esophageal mucosa: a pathognomonic endoscopic sign of primary eosinophilic esophagitis?",
+      "contexts": [
+        "Primary eosinophilic esophagitis, a chronic inflammatory disorder of the esophagus, evokes recurrent dysphagia. Endoscopy is often unremarkable, and no consensus exists regarding management of resultant dysphagia. The response of a series of patients with primary eosinophilic esophagitis to dilation is reported together with a description of a possibly pathognomonic sign: fragile esophageal mucosa, for which the term \"crêpe-paper\" mucosa is introduced.",
+        "Five men underwent endoscopy because of dysphagia confirmed (clinically, endoscopically, and histologically) to be caused by primary eosinophilic esophagitis and were treated by bouginage.",
+        "All patients had extremely fragile, inelastic, and delicate mucosa, which tore easily even with minor trauma. After the procedure, patients remained asymptomatic for 3 to 24 months."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Deglutition Disorders",
+        "Dilatation",
+        "Eosinophilia",
+        "Esophagitis",
+        "Esophagoscopy",
+        "Esophagus",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Mucous Membrane"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Primary Eosinophilic Esophagitis",
+          "Esophageal Eosinophil Infiltration",
+          "Crêpe-Paper Mucosa",
+          "Fragile Esophageal Mucosa",
+          "Pathognomonic Endoscopic Sign"
+        ],
+        [
+          "Dysphagia",
+          "Esophagoscopy",
+          "Fragile Mucosa",
+          "Bouginage",
+          "Symptom Improvement"
+        ],
+        [
+          "Eosinophilic Esophagitis",
+          "Inflammatory Cytokine Release",
+          "Basement Membrane Disruption",
+          "Inelastic Mucosa",
+          "Fragility"
+        ],
+        [
+          "Adult Male",
+          "Dysphagia",
+          "Endoscopic Finding of Fragile Mucosa",
+          "Histology Confirms ≥15 Eosinophils/HPF",
+          "Diagnosis of Primary Eosinophilic Esophagitis"
+        ],
+        [
+          "Primary Eosinophilic Esophagitis",
+          "Chronic Inflammation",
+          "Mucosal Remodeling",
+          "Crêpe-Paper Appearance",
+          "Endoscopic Diagnostic Indicator"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:29:07.139Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12626177",
+      "global_index": 163,
+      "question": "Can the Internet be used to improve sexual health awareness in web-wise young people?",
+      "contexts": [
+        "To assess Internet use amongst young people to determine whether it would be a practical way to provide sex education and information.",
+        "Year 10 students (aged 14-15 years) from North Nottinghamshire schools were asked to participate in focus groups to discuss the Internet. A series of predefined questions were directed to the whole group to generate debate. Areas explored included: Internet access and site; frequency and purpose of Internet use; websites visited; ideas for a genitourinary medicine (GUM) website. Responses were recorded by a hand count or as individual verbal responses.",
+        "Thirteen focus groups were held involving 287 students of approximately equal sex distribution. All had access to Internet facilities at school and 224 (78.0%) had access elsewhere. Access was at least once a week by 178 (62.0%) mostly for e-mail, games, chatlines and homework. No one accessed for health information. One hundred and seventy-nine (62.4%) participants said they would use a GUM website. A 'question line' where they could e-mail questions to a health care professional was of interest to 202 (70.4%) participants."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "England",
+        "Female",
+        "Focus Groups",
+        "Health Education",
+        "Humans",
+        "Information Dissemination",
+        "Internet",
+        "Male",
+        "Public Health",
+        "Reproductive Medicine",
+        "Safe Sex",
+        "School Health Services",
+        "Sex Education"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Adolescents",
+          "Internet Use",
+          "Health Information Seeking",
+          "Safe Sex Education"
+        ],
+        [
+          "School Health Services",
+          "Focus Groups",
+          "Information Dissemination",
+          "Public Health Outcomes"
+        ],
+        [
+          "Sex Education",
+          "Reproductive Medicine",
+          "GUM Website",
+          "Question Line",
+          "Health Education"
+        ],
+        [
+          "Public Health",
+          "Information Dissemination",
+          "Internet",
+          "Adolescent Engagement"
+        ],
+        [
+          "Female",
+          "Male",
+          "Adolescents",
+          "Sex Education",
+          "Safe Sex"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:29:15.329Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12630042",
+      "global_index": 164,
+      "question": "Does body mass index (BMI) influence morbidity and long-term survival in gastric cancer patients after gastrectomy?",
+      "contexts": [
+        "The long-term survival of patients with gastric cancer is governed by various factors, such as the clinical stage of the cancer, the patient's nutritional state, and the treatment and may be governed by the volume of intraperitoneal adipose tissue. The aim of this study is to clarify the relationship between the degree of the patients' body mass index and their long-term survival.",
+        "Gastric cancer patients who had undergone a gastrectomy with D2-lymphadenectomy and with resection A and B according to the criteria of the Japanese Research Society for Gastric Cancer Rules were subgrouped into those patients with a body mass index<0.185 (the lower body mass index group) and those patients with a body mass index>0.210 (the higher body mass index group). The patient's morbidity and long-term survival rate was retrospectively compared between the 2 groups.",
+        "A significantly longer mean survival rate was observed for the lower body mass index group in stage 2 (1667 vs. 1322 days, P = 0.0240). Also, a significantly longer mean survival rate was observed for the higher BMI group in stage 3a (1431 vs. 943, P = 0.0071)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Body Mass Index",
+        "Female",
+        "Gastrectomy",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Recurrence, Local",
+        "Neoplasm Staging",
+        "Postoperative Complications",
+        "Prognosis",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Stomach Neoplasms",
+        "Survival Rate",
+        "Time Factors"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Body Mass Index",
+          "Postoperative Complications",
+          "Long-Term Survival Rate"
+        ],
+        [
+          "Body Mass Index",
+          "Nutritional State",
+          "Prognosis",
+          "Survival Rate"
+        ],
+        [
+          "Body Mass Index",
+          "Neoplasm Staging",
+          "Survival Rate (Stage‑Specific)"
+        ],
+        [
+          "Body Mass Index",
+          "Volume of Intraperitoneal Adipose Tissue",
+          "Postoperative Complications",
+          "Long-Term Survival"
+        ],
+        [
+          "Body Mass Index",
+          "Retrospective Studies",
+          "Risk Factors",
+          "Survival Rate"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:29:21.556Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12632437",
+      "global_index": 165,
+      "question": "Are environmental factors important in primary systemic vasculitis?",
+      "contexts": [
+        "To investigate the association between primary systemic vasculitis (PSV) and environmental risk factors.",
+        "Seventy-five PSV cases and 273 controls (220 nonvasculitis, 19 secondary vasculitis, and 34 asthma controls) were interviewed using a structured questionnaire. Factors investigated were social class, occupational and residential history, smoking, pets, allergies, vaccinations, medications, hepatitis, tuberculosis, and farm exposure in the year before symptom onset (index year). The Standard Occupational Classification 2000 and job-exposure matrices were used to assess occupational silica, solvent, and metal exposure. Stepwise multiple logistic regression was used to calculate the odds ratio (OR) and 95% confidence interval (95% CI) adjusted for potential confounders. Total PSV, subgroups (47 Wegener's granulomatosis [WG], 12 microscopic polyangiitis, 16 Churg-Strauss syndrome [CSS]), and antineutrophil cytoplasmic antibody (ANCA)-positive cases were compared with control groups.",
+        "Farming in the index year was significantly associated with PSV (OR 2.3 [95% CI 1.2-4.6]), with WG (2.7 [1.2-5.8]), with MPA (6.3 [1.9-21.6]), and with perinuclear ANCA (pANCA) (4.3 [1.5-12.7]). Farming during working lifetime was associated with PSV (2.2 [1.2-3.8]) and with WG (2.7 [1.3-5.7]). Significant associations were found for high occupational silica exposure in the index year (with PSV 3.0 [1.0-8.4], with CSS 5.6 [1.3-23.5], and with ANCA 4.9 [1.3-18.6]), high occupational solvent exposure in the index year (with PSV 3.4 [0.9-12.5], with WG 4.8 [1.2-19.8], and with classic ANCA [cANCA] 3.9 [1.6-9.5]), high occupational solvent exposure during working lifetime (with PSV 2.7 [1.1-6.6], with WG 3.4 [1.3-8.9], and with cANCA 3.3 [1.0-10.8]), drug allergy (with PSV 3.6 [1.8-7.0], with WG 4.0 [1.8-8.7], and with cANCA 4.7 [1.9-11.7]), and allergy overall (with PSV 2.2 [1.2-3.9], with WG 2.7 [1.4-5.7]). No other significant associations were found."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Agriculture",
+        "Case-Control Studies",
+        "Female",
+        "Hazardous Substances",
+        "Hospitals, University",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Occupational Exposure",
+        "Risk Factors",
+        "Surveys and Questionnaires",
+        "United Kingdom",
+        "Vasculitis"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Environmental Factors",
+          "Farming Exposure",
+          "Microscopic Polyangiitis",
+          "ANCA-Positive Vasculitis"
+        ],
+        [
+          "Occupational Exposure",
+          "Silica Exposure",
+          "ANCA-Positive Vasculitis",
+          "Primary Systemic Vasculitis"
+        ],
+        [
+          "Drug Allergy",
+          "Immune Activation",
+          "ANCA Production",
+          "Wegener's Granulomatosis"
+        ],
+        [
+          "High Solvent Exposure",
+          "Oxidative Stress",
+          "Vasculitis Pathogenesis",
+          "Primary Systemic Vasculitis"
+        ],
+        [
+          "Allergy",
+          "Immune Dysregulation",
+          "Churg-Strauss Syndrome",
+          "Primary Systemic Vasculitis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:29:40.781Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12684740",
+      "global_index": 166,
+      "question": "Cue-induced behavioural activation: a novel model of alcohol craving?",
+      "contexts": [
+        "Alcohol-associated cues elicit craving in human addicts but little is known about craving mechanisms. Current animal models focus on relapse and this may confound the effect of environmental cues. OBJECTIVES. To develop a model to study the effects of environmental cues on alcohol consumption in animals not experiencing withdrawal or relapse.",
+        "Rats were trained to orally self-administer an alcohol (5% w/v)/saccharin (0.2%) solution 30 min a day for 20 days. After stable responding on a free choice between alcohol/saccharin and water, rats were exposed to 5, 10 or 15 min of alcohol-associated cues or 5 min of non-alcohol associated cues. The effect of a 5-min cue was measured after a 10-day break from training or pre-treatment with 0.03, 0.1 or 1 mg/kg naltrexone.",
+        "Rats given 5 min of alcohol-associated cues responded significantly more on the active lever (26% increase) and consumed more alcohol as verified by increased blood alcohol levels (8.9 mM versus control 7.5 mM). Ten or 15 min of cues did not change alcohol consumption and 5 min in a novel environment decreased response by 66%. After a 10-day break in training, 5 min of alcohol-associated cues still increased alcohol consumption (29% increase) and the cue effect could be dose-dependently blocked by naltrexone (143% decrease at 0.03 mg/kg)."
+      ],
+      "mesh_terms": [
+        "Alcohol Drinking",
+        "Animals",
+        "Behavior, Addictive",
+        "Cues",
+        "Discrimination Learning",
+        "Environment",
+        "Ethanol",
+        "Male",
+        "Models, Psychological",
+        "Naltrexone",
+        "Narcotic Antagonists",
+        "Rats",
+        "Rats, Wistar",
+        "Reinforcement (Psychology)",
+        "Self Administration",
+        "Time Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Cues",
+          "Behavior",
+          "Alcohol Drinking"
+        ],
+        [
+          "Naltrexone",
+          "Narcotic Antagonists",
+          "Blocked Cue-Induced Response",
+          "Reduced Alcohol Drinking"
+        ],
+        [
+          "5‑Minute Cue Exposure",
+          "Time Factors",
+          "Ethanol"
+        ],
+        [
+          "Novel Environment Exposure",
+          "Environment",
+          "Lever Responding"
+        ],
+        [
+          "Discrimination Learning",
+          "Cue Recognition",
+          "Alcohol Drinking"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T23:30:03.764Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12690589",
+      "global_index": 167,
+      "question": "Can continuous physical training counteract aging effect on myoelectric fatigue?",
+      "contexts": [
+        "To compare the myoelectric onset of muscle fatigue in physically active trained young skiers with respect to elderly skiers and to test whether continuous training can counteract the selective loss of type II muscle fibers usually observed with aging.",
+        "An observational, cross-sectional study of the myoelectric onset of muscle fatigue in the left tibialis anterior muscles.",
+        "Surface electromyography recorded with portable devices at a downhill ski rescue lodge in the Italian Alps.",
+        "Fifty-four physically trained, active skiers (43 men, 11 women; age range, 24-85y).",
+        "Questionnaire on physical activity and 2 sustained isometric voluntary contractions at 20% and 2 at 80% of the maximal voluntary contraction level.",
+        "Isometric contractions and mean and median spectral frequencies calculated to monitor the myoelectric manifestations of muscle fatigue.",
+        "Fatigue indices did not differ significantly between younger and older subjects and, thus, did not show a correlation between myoelectric manifestations of muscle fatigue and age in physically active subjects."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Aging",
+        "Cross-Sectional Studies",
+        "Electromyography",
+        "Exercise",
+        "Female",
+        "Humans",
+        "Isometric Contraction",
+        "Leg",
+        "Male",
+        "Middle Aged",
+        "Muscle Fatigue",
+        "Muscle, Skeletal",
+        "Physical Fitness"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Continuous Physical Training",
+          "Muscle Fiber Hypertrophy",
+          "Type II Muscle Fiber Preservation",
+          "Myoelectric Fatigue Reduction"
+        ],
+        [
+          "Aging",
+          "Selective Type II Fiber Loss",
+          "Increased Muscle Fatigue",
+          "Electromyography Fatigue Index"
+        ],
+        [
+          "Isometric Contraction",
+          "Electromyography",
+          "Spectral Frequency Shift",
+          "Fatigue Manifestation",
+          "Age-independent"
+        ],
+        [
+          "Physical Fitness",
+          "Improved Neuromuscular Efficiency",
+          "Lower Fatigue Manifestation",
+          "Cross-Sectional Study",
+          "No Age Effect"
+        ],
+        [
+          "Elderly Active Skiers",
+          "Continuous Training",
+          "Muscle Fiber Adaptation",
+          "Myoelectric Fatigue Similarity",
+          "Counteract Aging Effect"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:30:08.157Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12765819",
+      "global_index": 168,
+      "question": "Spinal subdural hematoma: a sequela of a ruptured intracranial aneurysm?",
+      "contexts": [
+        "A case of spinal subdural hematoma (SSDH) following subarachnoid hemorrhage (SAH) because of a ruptured internal carotid aneurysm is described. Such a case has never been reported.",
+        "A 52-year-old woman underwent a craniotomy for a ruptured internal carotid aneurysm. A computed tomography scan showed that SAH existed predominantly in the posterior fossa and subdural hematoma beneath the cerebellar tentorium. Intrathecal administration of urokinase, IV administration of fasudil hydrochloride, and continuous cerebrospinal fluid (CSF) evacuation via cisternal drainage were performed as prophylactic treatments for vasospasm. On the sixth postoperative day, the patient complained of severe lower back and buttock pain. Magnetic resonance imaging showed a subdural hematoma in the lumbosacral region. Although the mass effect was extensive, the patient showed no neurologic symptoms other than the sciatica. She was treated conservatively. The hematoma dissolved gradually and had diminished completely 15 weeks later. Her pain gradually subsided, and she was discharged 7 weeks later without any neurologic deficit."
+      ],
+      "mesh_terms": [
+        "Aneurysm, Ruptured",
+        "Carotid Artery, Internal",
+        "Craniotomy",
+        "Female",
+        "Hematoma, Subdural",
+        "Humans",
+        "Intracranial Aneurysm",
+        "Magnetic Resonance Imaging",
+        "Middle Aged",
+        "Rupture, Spontaneous",
+        "Subarachnoid Hemorrhage",
+        "Tomography, X-Ray Computed"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ],
+        [
+          "Question Analysis",
+          "Evidence Evaluation",
+          "Clinical Reasoning",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": false,
+      "generation_attempts": 5,
+      "timestamp": "2026-01-27T23:31:09.453Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12769830",
+      "global_index": 169,
+      "question": "Should tumor depth be included in prognostication of soft tissue sarcoma?",
+      "contexts": [
+        "Most staging systems for soft tissue sarcoma are based on histologic malignancy-grade, tumor size and tumor depth. These factors are generally dichotomized, size at 5 cm. We believe it is unlikely that tumor depth per se should influence a tumor's metastatic capability. Therefore we hypothesized that the unfavourable prognostic importance of depth could be explained by the close association between size and depth, deep-seated tumors on average being larger than the superficial ones. When tumor size is dichotomized, this effect should be most pronounced in the large size (>5 cm) group in which the size span is larger.",
+        "We analyzed the associations between tumor size and depth and the prognostic importance of grade, size and depth in a population-based series of 490 adult patients with soft tissue sarcoma of the extremity or trunk wall with complete, 4.5 years minimum, follow-up.",
+        "Multivariate analysis showed no major prognostic effect of tumor depth when grade and size were taken into account. The mean size of small tumors was the same whether superficial or deep but the mean size of large and deep-seated tumors were one third larger than that of large but superficial tumors. Tumor depth influenced the prognosis in the subset of high-grade and large tumors. In this subset deep-seated tumors had poorer survival rate than superficial tumors, which could be explained by the larger mean size of the deep-seated tumors."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Neoplasm Staging",
+        "Prognosis",
+        "Sarcoma"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Tumor Size",
+          "Tumor Depth",
+          "Multivariate Analysis",
+          "Prognosis"
+        ],
+        [
+          "High-Grade Sarcoma",
+          "Large Tumor",
+          "Tumor Depth",
+          "Survival Rate"
+        ],
+        [
+          "Neoplasm Staging",
+          "Histologic Grade",
+          "Prognosis",
+          "Treatment Decision"
+        ],
+        [
+          "Deep-Seated Tumor",
+          "Larger Mean Size",
+          "Metastatic Potential",
+          "Prognosis"
+        ],
+        [
+          "Adult Patients",
+          "Soft Tissue Sarcoma",
+          "Multivariate Analysis",
+          "Tumor Depth"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:31:11.621Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12790890",
+      "global_index": 170,
+      "question": "Is the cell death in mesial temporal sclerosis apoptotic?",
+      "contexts": [
+        "Mesial temporal sclerosis (MTS) is characterized by neuronal loss in the hippocampus. Studies on experimental models and patients with intractable epilepsy suggest that apoptosis may be involved in neuronal death induced by recurrent seizures.",
+        "We searched evidence for apoptotic cell death in temporal lobes resected from drug-resistant epilepsy patients with MTS by using the terminal deoxynucleotidyl transferase (TdT) and digoxigenin-11-dUTP (TUNEL) method and immunohistochemistry for Bcl-2, Bax, and caspase-cleaved actin fragment, fractin. The temporal lobe specimens were obtained from 15 patients (six women and nine men; mean age, 29 +/- 8 years).",
+        "Unlike that in normal adult brain, we observed Bcl-2 immunoreactivity in some of the remaining neurons dispersed throughout the hippocampus proper as well as in most of the reactive astroglia. Bax immunopositivity was increased in almost all neurons. Fractin immunostaining, an indicator of caspase activity, was detected in approximately 10% of these neurons. Despite increased Bax expression and activation of caspases, we could not find evidence for DNA fragmentation by TUNEL staining. We also could not detect typical apoptotic changes in nuclear morphology by Hoechst-33258 or hematoxylin counterstaining."
+      ],
+      "mesh_terms": [
+        "Actin Cytoskeleton",
+        "Adult",
+        "Age of Onset",
+        "Apoptosis",
+        "Astrocytes",
+        "Cell Count",
+        "Cell Death",
+        "DNA Fragmentation",
+        "Epilepsy, Temporal Lobe",
+        "Female",
+        "Hippocampus",
+        "Humans",
+        "Immunohistochemistry",
+        "In Situ Nick-End Labeling",
+        "Male",
+        "Neurons",
+        "Sclerosis",
+        "Temporal Lobe"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Mesial Temporal Sclerosis",
+          "Neurons",
+          "Apoptosis"
+        ],
+        [
+          "Epilepsy",
+          "Temporal Lobe",
+          "Cell Death"
+        ],
+        [
+          "Immunohistochemistry",
+          "Bcl-2",
+          "Astrocytes"
+        ],
+        [
+          "Caspase Activation",
+          "Fractin",
+          "Apoptosis"
+        ],
+        [
+          "TUNEL Staining",
+          "DNA Fragmentation",
+          "Apoptosis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:31:14.053Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12805495",
+      "global_index": 171,
+      "question": "Can patients be anticoagulated after intracerebral hemorrhage?",
+      "contexts": [
+        "Warfarin increases both the likelihood and the mortality of intracerebral hemorrhage (ICH), particularly in patients with a history of prior ICH. In light of this consideration, should a patient with both a history of ICH and a clear indication for anticoagulation such as nonvalvular atrial fibrillation be anticoagulated? In the absence of data from a clinical trial, we used a decision-analysis model to compare the expected values of 2 treatment strategies-warfarin and no anticoagulation-for such patients.",
+        "We used a Markov state transition decision model stratified by location of hemorrhage (lobar or deep hemispheric). Effectiveness was measured in quality-adjusted life years (QALYs). Data sources included English language literature identified through MEDLINE searches and bibliographies from selected articles, along with empirical data from our own institution. The base case focused on a 69-year-old man with a history of ICH and newly diagnosed nonvalvular atrial fibrillation.",
+        "For patients with prior lobar ICH, withholding anticoagulation therapy was strongly preferred, improving quality-adjusted life expectancy by 1.9 QALYs. For patients with prior deep hemispheric ICH, withholding anticoagulation resulted in a smaller gain of 0.3 QALYs. In sensitivity analyses for patients with deep ICH, anticoagulation could be preferred if the risk of thromboembolic stroke is particularly high."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Anticoagulants",
+        "Aspirin",
+        "Atrial Fibrillation",
+        "Cerebral Hemorrhage",
+        "Cohort Studies",
+        "Decision Support Techniques",
+        "Fibrinolytic Agents",
+        "Humans",
+        "Intracranial Thrombosis",
+        "Male",
+        "Markov Chains",
+        "Quality-Adjusted Life Years",
+        "Risk",
+        "Risk Assessment",
+        "Sensitivity and Specificity",
+        "Warfarin"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Atrial Fibrillation",
+          "Warfarin",
+          "Risk of Intracerebral Hemorrhage",
+          "Quality-Adjusted Life Years"
+        ],
+        [
+          "Prior Lobar Cerebral Hemorrhage",
+          "Withholding Anticoagulation",
+          "Improved QALYs"
+        ],
+        [
+          "Deep Hemispheric Cerebral Hemorrhage",
+          "High Thromboembolic Stroke Risk",
+          "Anticoagulation Preferred"
+        ],
+        [
+          "Decision Support Techniques",
+          "Markov Chains",
+          "Treatment Strategy Comparison",
+          "Quality-Adjusted Life Years"
+        ],
+        [
+          "Risk Assessment",
+          "Sensitivity and Specificity",
+          "Anticoagulation Decision",
+          "Aged Patients"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:31:28.603Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12836106",
+      "global_index": 172,
+      "question": "Does the leukocyte count correlate with the severity of injury?",
+      "contexts": [
+        "Injury severity score (ISS), Glasgow coma score (GCS), and revised trauma score (RTS) are the most frequently used methods to evaluate the severity of injury in blunt trauma patients. ISS is too complicated to assess easily and GCS and RTS are easy to assess but somewhat subjective. White blood cell count (WBC) is an easy, quick and objective test. This study was performed to evaluate the significance of the WBC count at presentation in the blunt trauma patients.",
+        "713 blunt trauma patients, who were admitted to the Uludag University Medical Center Emergency Department between 01.04.2000-31.12.2000, were retrospectively evaluated in terms of ISS, GCS, RTS and white blood cell count at presentation.",
+        "Statistical analysis revealed that WBC was correlated positively with ISS, but negatively with GCS and RTS."
+      ],
+      "mesh_terms": [
+        "Glasgow Coma Scale",
+        "Humans",
+        "Injury Severity Score",
+        "Leukocyte Count",
+        "Predictive Value of Tests",
+        "Trauma Severity Indices",
+        "Wounds, Nonpenetrating"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Leukocyte Count",
+          "Injury Severity Score",
+          "Trauma Severity Indices",
+          "Predictive Value of Tests"
+        ],
+        [
+          "White Blood Cell Count",
+          "Glasgow Coma Scale",
+          "Negative Correlation",
+          "Injury Severity Score"
+        ],
+        [
+          "Leukocyte Count",
+          "Blunt Trauma",
+          "Revised Trauma Score",
+          "Correlation with Severity"
+        ],
+        [
+          "White Blood Cell Count",
+          "Trauma Severity Indices",
+          "Injury Severity Score",
+          "Severity of Injury"
+        ],
+        [
+          "Leukocyte Count",
+          "Injury Severity Score",
+          "Correlation with Severity",
+          "Clinical Outcome Prediction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:31:33.707Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12846929",
+      "global_index": 173,
+      "question": "Quality of life in lung cancer patients: does socioeconomic status matter?",
+      "contexts": [
+        "As part of a prospective study on quality of life in newly diagnosed lung cancer patients an investigation was carried out to examine whether there were differences among patients' quality of life scores and their socioeconomic status.",
+        "Quality of life was measured at two points in time (baseline and three months after initial treatment) using three standard instruments; the Nottingham Health Profile (NHP), the European Organization for Research and Cancer Treatment Quality of Life Questionnaire (EORTC QLQ-C30) and its lung cancer supplement (QLQ-LC13). Socioeconomic status for each individual patient was derived using Carstairs and Morris Deprivation Category ranging from 1 (least deprived) to 7 (most deprived) on the basis of the postcode sector of their address.",
+        "In all, 129 lung cancer patients entered into the study. Of these data for 82 patients were complete (at baseline and follow-up). 57% of patients were of lower socioeconomic status and they had more health problems, less functioning, and more symptoms as compared to affluent patients. Of these, physical mobility (P = 0.05), energy (P = 0.01), role functioning (P = 0.04), physical functioning (P = 0.03), and breathlessness (P = 0.02) were significant at baseline. However, at follow-up assessment there was no significant difference between patient groups nor did any consistent pattern emerge."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Female",
+        "Humans",
+        "Lung Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Quality of Life",
+        "Sickness Impact Profile",
+        "Social Class",
+        "Statistics, Nonparametric",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Social Class",
+          "Carstairs and Morris Deprivation Category",
+          "Lung Neoplasms",
+          "Quality of Life",
+          "Nottingham Health Profile"
+        ],
+        [
+          "Prospective Studies",
+          "Surveys and Questionnaires",
+          "EORTC QLQ-C30",
+          "QLQ-LC13",
+          "Physical Functioning",
+          "Energy"
+        ],
+        [
+          "Middle Aged",
+          "Lung Neoplasms",
+          "Physical Mobility",
+          "Breathlessness",
+          "Sickness Impact Profile"
+        ],
+        [
+          "Aged",
+          "Lung Neoplasms",
+          "Role Functioning",
+          "Energy",
+          "Statistics"
+        ],
+        [
+          "Male",
+          "Female",
+          "Social Class",
+          "Quality of Life",
+          "Nonparametric"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T23:31:47.442Z",
+      "processed_at": "2026-01-27T23-18-25"
+    },
+    {
+      "pmid": "12848629",
+      "global_index": 174,
+      "question": "Is a 9-month treatment sufficient in tuberculous enterocolitis?",
+      "contexts": [
+        "Tuberculosis has increased in parallel with the acquired immunodeficiency syndrome epidemic and the use of immunosuppressive therapy, and the growing incidence of extra-pulmonary tuberculosis, especially with intestinal involvement, reflects this trend. However, the duration of anti-tuberculous therapy has not been clarified in intestinal tuberculosis.AIM: To compare the efficacy of different treatment durations in tuberculous enterocolitis in terms of response and recurrence rates.",
+        "Forty patients with tuberculous enterocolitis were randomized prospectively: 22 patients into a 9-month and 18 into a 15-month group. Diagnosis was made either by colonoscopic findings of discrete ulcers and histopathological findings of caseating granuloma and/or acid-fast bacilli, or by clinical improvement after therapeutic trial. Patients were followed up with colonoscopy every other month until complete response or treatment completion, and then every 6 months for 1 year and annually. Complete response was defined as a resolution of symptoms and active tuberculosis by colonoscopy.",
+        "Complete response was obtained in all patients in both groups. Two patients in the 9-month group and one in the 15-month group underwent operation due to intestinal obstruction and perianal fistula, respectively. No recurrence of active intestinal tuberculosis occurred during the follow-up period in either group."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Antitubercular Agents",
+        "Colonoscopy",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Male",
+        "Prospective Studies",
+        "Recurrence",
+        "Treatment Outcome",
+        "Tuberculosis, Gastrointestinal"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Tuberculosis",
+          "Intestinal Tuberculosis",
+          "Antitubercular Agents",
+          "9-month Treatment Duration",
+          "Complete Response"
+        ],
+        [
+          "Prospective Studies",
+          "Randomized Allocation",
+          "9-month Group vs 15-month Group",
+          "Follow-Up Colonoscopy",
+          "No Recurrence"
+        ],
+        [
+          "Adult",
+          "Gastrointestinal Symptoms",
+          "Colonoscopic Ulcers",
+          "Histopathology",
+          "Caseating Granuloma",
+          "Treatment Outcome"
+        ],
+        [
+          "9-month Treatment",
+          "Antitubercular Agents",
+          "Clinical Improvement",
+          "Follow-Up Studies",
+          "Treatment Outcome"
+        ],
+        [
+          "Immunosuppression",
+          "Extra-Pulmonary Tuberculosis",
+          "Intestinal Involvement",
+          "9-month Therapy",
+          "Recurrence Rate"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T23:31:53.570Z",
+      "processed_at": "2026-01-27T23-18-25"
+    }
+  ]
+}
