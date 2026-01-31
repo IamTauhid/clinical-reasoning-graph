@@ -1,0 +1,1680 @@
+{
+  "metadata": {
+    "checkpoint": 25,
+    "total": 300,
+    "successful": 25,
+    "failed": 0
+  },
+  "results": [
+    {
+      "pmid": "1571683",
+      "global_index": 0,
+      "question": "Storage of vaccines in the community: weak link in the cold chain?",
+      "contexts": [
+        "To assess quality of storage of vaccines in the community.",
+        "Questionnaire survey of general practices and child health clinics, and monitoring of storage temperatures of selected refrigerators.",
+        "Central Manchester and Bradford health districts.",
+        "45 general practices and five child health clinics, of which 40 (80%) responded. Eight practices were selected for refrigeration monitoring.",
+        "Adherence to Department of Health guidelines for vaccine storage, temperature range to which vaccines were exposed over two weeks.",
+        "Of the 40 respondents, only 16 were aware of the appropriate storage conditions for the vaccines; eight had minimum and maximum thermometers but only one of these was monitored daily. In six of the eight practices selected for monitoring of refrigeration temperatures the vaccines were exposed to either subzero temperatures (three fridges) or temperatures up to 16 degrees C (three). Two of these were specialised drug storage refrigerators with an incorporated thermostat and external temperature gauges."
+      ],
+      "mesh_terms": [
+        "Child",
+        "Child Health Services",
+        "Drug Storage",
+        "Family Practice",
+        "Humans",
+        "Refrigeration",
+        "Time Factors",
+        "Vaccines"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Family Practice",
+          "Awareness of Storage Guidelines",
+          "Improper Refrigeration",
+          "Vaccine Potency Loss"
+        ],
+        [
+          "Refrigeration",
+          "Subzero Temperatures",
+          "Vaccine Freeze Damage",
+          "Reduced Immunogenicity"
+        ],
+        [
+          "Temperature Monitoring",
+          "Daily Thermometer Checks",
+          "Compliance with Department of Health Guidelines",
+          "Correct Vaccine Storage"
+        ],
+        [
+          "Drug Storage",
+          "Specialized Refrigerator",
+          "Thermostat Failure",
+          "Temperature Excursions",
+          "Vaccine Degradation"
+        ],
+        [
+          "Time Factors",
+          "Prolonged Exposure to 16°C",
+          "Vaccine Inactivation",
+          "Compromised Child Immunization",
+          "Child Health Services"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:13.565Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "2224269",
+      "global_index": 1,
+      "question": "Should general practitioners call patients by their first names?",
+      "contexts": [
+        "To assess the acceptability to patients of the use of patients' first names by doctors and doctors' first names by patients in general practice.",
+        "An administered questionnaire survey.",
+        "5 General practices in Lothian.",
+        "475 Patients consulting 30 general practitioners.",
+        "Response by patients to questionnaire on attitude to use of first names.",
+        "Most of the patients either liked (223) or did not mind (175) being called by their first names. Only 77 disliked it, most of whom were aged over 65. Most patients (324) did not, however, want to call the doctor by his or her first name."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Attitude",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Physician-Patient Relations",
+        "Physicians, Family",
+        "Social Class"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Physician-Patient Relations",
+          "Attitude",
+          "Age Factors",
+          "Aged",
+          "Dislike of First Name Use"
+        ],
+        [
+          "Physicians",
+          "First Name Use",
+          "Patient Satisfaction",
+          "Adult",
+          "Liking"
+        ],
+        [
+          "Social Class",
+          "Attitude",
+          "Preference for Formal Address",
+          "Middle Aged",
+          "Acceptance"
+        ],
+        [
+          "Family",
+          "Communication Style",
+          "Adolescent",
+          "Preference for First Name",
+          "Positive Attitude"
+        ],
+        [
+          "Male",
+          "Attitude",
+          "First Name Use",
+          "Preference",
+          "Survey Findings"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:21.369Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "2503176",
+      "global_index": 2,
+      "question": "Inhibin: a new circulating marker of hydatidiform mole?",
+      "contexts": [
+        "To define the concentrations of inhibin in serum and tissue of patients with hydatidiform mole and assess their value as a clinical marker of the condition.",
+        "Prospective study of new patients with hydatidiform mole, comparison of paired observations, and case-control analysis.",
+        "A university hospital, two large public hospitals, and a private women's clinic in Japan.",
+        "Seven consecutive referred patients seen over four months with newly diagnosed complete hydatidiform mole, including one in whom the mole was accompanied by viable twin fetuses (case excluded from statistical analysis because of unique clinical features). All patients followed up for six months after evacuation of molar tissue.",
+        "Correlation of serum inhibin concentrations with trophoblastic disease.",
+        "Serum concentrations of inhibin, human chorionic gonadotrophin, and follicle stimulating hormone were compared before and seven to 10 days after evacuation of the mole. Before evacuation the serum inhibin concentrations (median 8.3 U/ml; 95% confidence interval 2.4 to 34.5) were significantly greater than in 21 normal women at the same stage of pregnancy (2.8 U/ml; 2.1 to 3.6), and inhibin in molar tissue was also present in high concentrations (578 U/ml cytosol; 158 to 1162). Seven to 10 days after evacuation inhibin concentrations in serum samples from the same patients declined significantly to values (0.4 U/ml; 0.1 to 1.4) similar to those seen in the follicular phase of normal menstrual cycles. None of the four patients whose serum inhibin concentrations were 0.4 U/ml or less after evacuation developed persistent trophoblastic disease. Though serum human chorionic gonadotrophin concentrations declined after evacuation (6.6 x 10(3) IU/l; 0.8 x 10(3) to 32.6 x 10(3], they remained far higher than in non-pregnant women. Serum follicle stimulating hormone concentrations remained suppressed."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Biomarkers, Tumor",
+        "Chorionic Gonadotropin",
+        "Female",
+        "Humans",
+        "Hydatidiform Mole",
+        "Inhibins",
+        "Middle Aged",
+        "Pregnancy",
+        "Radioimmunoassay",
+        "Uterine Neoplasms"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Hydatidiform Mole",
+          "Trophoblastic Tissue",
+          "Inhibin Production",
+          "Elevated Serum Inhibin",
+          "Potential Biomarker"
+        ],
+        [
+          "Normal Pregnancy",
+          "Baseline Serum Inhibin",
+          "Comparison Group",
+          "Lower Inhibin Levels",
+          "Contrast Highlights Mole‑Specific Rise"
+        ],
+        [
+          "Serum hCG",
+          "Established Marker for Molar Pregnancy",
+          "Limitations",
+          "Need for Additional Marker",
+          "Inhibin via Radioimmunoassay"
+        ],
+        [
+          "Post‑evacuation Serum Inhibin ↓",
+          "Absence of Persistent Trophoblastic Disease",
+          "Prognostic Indicator",
+          "Clinical Decision‑Making"
+        ],
+        [
+          "Inhibin Radioimmunoassay",
+          "Quantitative Measurement",
+          "Sensitivity to Molar Tissue Levels",
+          "Diagnostic Accuracy",
+          "Use as New Circulating Marker"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:25.418Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "7482275",
+      "global_index": 3,
+      "question": "Necrotizing fasciitis: an indication for hyperbaric oxygenation therapy?",
+      "contexts": [
+        "The accepted treatment protocol for necrotizing fasciitis (NF) consists of extensive surgery and wide spectrum antibiotics. Hyperbaric oxygenation (HBO) has been recommended as adjuvant therapy for NF, improving patient mortality and outcome. However, the beneficial effect of HBO for NF remains controversial.",
+        "A retrospective evaluation of treatment outcome in 37 patients treated for NF between 1984 and 1993 was carried out. The mortality rate, morbidity criteria, and risk factors for grave prognosis were compared between a group of 25 patients who received HBO as part of their treatment protocol and a group of the remaining 12 patients treated by surgical excision and antibiotics alone.",
+        "The two groups were found to be similar with regard to age, gender, the incidence of individual risk factors for ominous prognosis, and the Acute Physiology and Chronic Health Evaluation (APACHE) II score for disease's severity on presentation. The mortality rate among the HBO-treated patients was 36%, as opposed to 25% in the non-HBO group. The mean number of surgical débridements required per patient was significantly higher in the HBO group: 3.3 compared with 1.5 in the non-HBO-treated patients. Although the average length of hospitalization for survivors was shorter for the HBO group, the difference between the groups did not reach statistical significance."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Fasciitis, Necrotizing",
+        "Female",
+        "Humans",
+        "Hyperbaric Oxygenation",
+        "Male",
+        "Middle Aged",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Necrotizing Fasciitis",
+          "Tissue Hypoxia",
+          "Hyperbaric Oxygenation",
+          "Enhanced Bacterial Killing",
+          "Potential Mortality Reduction"
+        ],
+        [
+          "Hyperbaric Oxygenation",
+          "Increased Tissue Oxygen Pressure",
+          "Inhibition of Anaerobic Bacterial Growth",
+          "Adjunct to Surgical Debridement",
+          "Impact on Mortality"
+        ],
+        [
+          "Retrospective Study",
+          "HBO‑treated Group vs Non‑HBO Group",
+          "Similar APACHE II Scores",
+          "Higher Mortality in HBO Group",
+          "Questionable Indication"
+        ],
+        [
+          "Number of Surgical Debridements",
+          "Higher in HBO Group",
+          "Suggests More Severe Disease",
+          "Confounding Effect on Outcome",
+          "Limits HBO Benefit Assessment"
+        ],
+        [
+          "Age and Gender Distribution",
+          "Comparable Between Groups",
+          "No Demographic Bias",
+          "Outcomes Attributed to Treatment",
+          "Inconclusive Evidence for HBO Indication"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:29.063Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "7497757",
+      "global_index": 4,
+      "question": "Cardiopulmonary bypass temperature does not affect postoperative euthyroid sick syndrome?",
+      "contexts": [
+        "To determine if temperature during cardiopulmonary bypass (CPB) has an effect on perioperative and postoperative thyroid function.",
+        "Prospective study comparing thyroid function during and after hypothermic and normothermic CPB.",
+        "Cardiac surgical unit at a university-affiliated hospital.",
+        "Twelve patients scheduled to undergo cardiac operations with normothermic (n = 6) or hypothermic (n = 6) CPB.",
+        "Blood was analyzed for serum concentration of total thyroxine (TT4), total triiodothyronine (TT3), free T3 (fT3), reverse T3 (rT3), and thyroid stimulating hormone (TSH) preoperatively, 60 min after CPB was initiated, 30 min after discontinuing CPB, and on postoperative days (POD) 1, 3, and 5.",
+        "Patients who underwent either cold (26 degrees +/- 5 degrees C) or warm (35 degrees +/- 1 degree C) CPB were comparable with regard to age, body weight, duration of CPB, cross-clamp time, use of inotropes, total heparin dose, and length of hospital stay. Incidence of postoperative myocardial infarction, congestive heart failure, and death were similar. In both groups, TT4 and TT3 were reduced below baseline values beginning with CPB and persisting for up to 5 days after CPB (p<0.05), free T3 was reduced for up to 3 days after CPB (p<0.05), mean serum rT3 was elevated on POD 1 and POD 3 (p<0.05), and TSH remained unchanged."
+      ],
+      "mesh_terms": [
+        "Body Temperature",
+        "Cardiac Surgical Procedures",
+        "Cardiopulmonary Bypass",
+        "Euthyroid Sick Syndromes",
+        "Humans",
+        "Middle Aged",
+        "Postoperative Complications",
+        "Thyrotropin",
+        "Thyroxine",
+        "Triiodothyronine",
+        "Triiodothyronine, Reverse"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Cardiopulmonary Bypass",
+          "Hypothermic CPB",
+          "Decrease in TT3 and TT4",
+          "Euthyroid Sick Syndrome"
+        ],
+        [
+          "Normothermic CPB",
+          "Temperature (35°C)",
+          "TT3 reduction",
+          "rT3 elevation",
+          "Euthyroid Sick Syndrome"
+        ],
+        [
+          "CPB duration",
+          "Cross-clamp time",
+          "Stress response",
+          "Increased reverse T3",
+          "Euthyroid Sick Syndrome"
+        ],
+        [
+          "Postoperative day 1",
+          "Elevated rT3",
+          "Unchanged TSH",
+          "Diagnosis of euthyroid sick syndrome"
+        ],
+        [
+          "Inotropes",
+          "Hemodynamic support",
+          "Thyroid hormone decline unchanged",
+          "Temperature (hypo vs normo) not determinant",
+          "Euthyroid Sick Syndrome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:32.487Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "7547656",
+      "global_index": 5,
+      "question": "Does continuous intravenous infusion of low-concentration epinephrine impair uterine blood flow in pregnant ewes?",
+      "contexts": [
+        "Bolus intravenous injection of epinephrine can decrease uterine blood flow. This study examined the effects of intravenous infusion of epinephrine on uterine blood flow in the gravid ewe.",
+        "Maternal and fetal vascular catheters and a maternal electromagnetic uterine artery flow probe were implanted in 10 near-term gravid ewes. After recovery, saline, 0.125% bupivacaine, 0.125% bupivacaine with 1:200,000 epinephrine, 0.125% bupivacaine with 1:400,000 epinephrine, and 0.125% bupivacaine with 1:800,000 epinephrine were infused into the maternal superior vena cava. Drugs were infused at 10 mL/h for 30 minutes and then at 20 mL/h for an additional 30 minutes. Animals also received an intravenous bolus of epinephrine 15 micrograms. Throughout all infusions, maternal heart rate, systemic and pulmonary blood pressures, uterine blood flow, cardiac output, and acid-base balance were measured, as well as fetal heart rate, blood pressure, and acid-base balance.",
+        "Epinephrine 15 micrograms decreased uterine blood flow to 68 +/- 14% of baseline (mean +/- SD). Infusion of all solutions had no effect on any measured hemodynamic variable."
+      ],
+      "mesh_terms": [
+        "Anesthesia, Obstetrical",
+        "Animals",
+        "Dose-Response Relationship, Drug",
+        "Epinephrine",
+        "Female",
+        "Fetus",
+        "Hemodynamics",
+        "Infusions, Intravenous",
+        "Pregnancy",
+        "Pregnancy, Animal",
+        "Sheep",
+        "Uterus"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Intravenous infusion",
+          "Low-concentration epinephrine",
+          "Maternal hemodynamics unchanged",
+          "Uterine blood flow maintained"
+        ],
+        [
+          "Bolus epinephrine",
+          "Acute α‑adrenergic vasoconstriction",
+          "Decrease uterine blood flow",
+          "Demonstrates concentration‑dependent effect"
+        ],
+        [
+          "Dose‑Response Relationship",
+          "Epinephrine 1:800,000",
+          "No change in uterine artery flow",
+          "Suggests safety threshold in pregnant e"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:36.243Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "7664228",
+      "global_index": 6,
+      "question": "Discharging patients earlier from Winnipeg hospitals: does it adversely affect quality of care?",
+      "contexts": [
+        "To determine whether decreasing lengths of stay over time for selected diagnostic categories were associated with increased hospital readmission rates and mean number of physician visits after discharge.",
+        "Retrospective descriptive study.",
+        "The seven large (125 beds or more) acute care hospitals in Winnipeg.",
+        "Manitoba residents admitted to any one of the seven hospitals because acute myocardial infarction (AMI), bronchitis or asthma, transurethral prostatectomy (TURP) and uterine or adnexal procedures for nonmalignant disease during the fiscal years 1989-90 to 1992-93. Patients from out of province, those who died in hospital, those with excessively long stays (more than 60 days) and those who were transferred to or from another institution were excluded.",
+        "Length of hospital stay, and rate of readmission within 30 days after discharge for all four categories and mean number of physician visits within 30 days after discharge for two categories (AMI and bronchitis or asthma.",
+        "The length of stay decreased significantly over the 4 years for all of the four categories, the smallest change being observed for patients with AMI (11.1%) and the largest for those with bronchitis or asthma (22.0%). The readmission rates for AMI, bronchitis or asthma, and TURP showed no consistent change over the 4 years. The readmission rate for uterine or adnexal procedures increased significantly between the first and second year (chi 2 = 4.28, p = 0.04) but then remained constant over the next 3 years. The mean number of physician visits increased slightly for AMI in the first year (1.92 to 2.01) and then remained virtually the same. It decreased slightly for bronchitis or asthma over the 4 years. There was no significant correlation between length of stay and readmission rates for individual hospitals in 1992-93 in any of the four categories. Also, no correlation was observed between length of stay and mean number of physician visits for individual hospitals in 1992-93 in the categories AMI and bronchitis or asthma."
+      ],
+      "mesh_terms": [
+        "Diagnosis-Related Groups",
+        "Humans",
+        "Length of Stay",
+        "Manitoba",
+        "Office Visits",
+        "Patient Readmission",
+        "Quality of Health Care",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Decreased Length of Stay",
+          "30‑day Readmission Rate",
+          "Quality of Health Care"
+        ],
+        [
+          "Retrospective Study",
+          "Diagnosis‑Related Groups (AMI, bronchitis/asthma)",
+          "Length of Stay Trend",
+          "No Significant Correlation with Readmission",
+          "Quality of Health Care"
+        ],
+        [
+          "Early Discharge of AMI Patients",
+          "Mean Physician Visits Post‑discharge",
+          "Continuity of Outpatient Care",
+          "Hospital Quality Assessment"
+        ],
+        [
+          "Length of Stay Reduction in Bronchitis/Asthma",
+          "Slight Decrease in Physician Visits",
+          "Potential Impact on Follow‑up Care",
+          "Quality of Health Care"
+        ],
+        [
+          "Increased Readmission after Uterine Procedures",
+          "Hospital Length of Stay Policy",
+          "Evaluation of Quality Metrics",
+          "Decision on Discharge Timing"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:14:40.026Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "7860319",
+      "global_index": 7,
+      "question": "Measuring hospital mortality rates: are 30-day data enough?",
+      "contexts": [
+        "We compare 30-day and 180-day postadmission hospital mortality rates for all Medicare patients and those in three categories of cardiac care: coronary artery bypass graft surgery, acute myocardial infarction, and congestive heart failure. DATA SOURCES/",
+        "Health Care Financing Administration (HCFA) hospital mortality data for FY 1989.",
+        "Using hospital level public use files of actual and predicted mortality at 30 and 180 days, we constructed residual mortality measures for each hospital. We ranked hospitals and used receiver operating characteristic (ROC) curves to compare 0-30, 31-180, and 0-180-day postadmission mortality.",
+        "For the admissions we studied, we found a broad range of hospital performance when we ranked hospitals using the 30-day data; some hospitals had much lower than predicted 30-day mortality rates, while others had much higher than predicted mortality rates. Data from the time period 31-180 days postadmission yield results that corroborate the 0-30 day postadmission data. Moreover, we found evidence that hospital performance on one condition is related to performance on the other conditions, but that the correlation is much weaker in the 31-180-day interval than in the 0-30-day period. Using ROC curves, we found that the 30-day data discriminated the top and bottom fifths of the 180-day data extremely well, especially for AMI outcomes."
+      ],
+      "mesh_terms": [
+        "Cardiology Service, Hospital",
+        "Centers for Medicare and Medicaid Services (U.S.)",
+        "Coronary Artery Bypass",
+        "Forecasting",
+        "Heart Failure",
+        "Hospital Mortality",
+        "Humans",
+        "Medicare",
+        "Myocardial Infarction",
+        "Patient Admission",
+        "ROC Curve",
+        "Survival Rate",
+        "Time Factors",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Hospital Mortality",
+          "30-Day Mortality Data",
+          "ROC Curve",
+          "Discrimination of Hospital Performance"
+        ],
+        [
+          "Medicare Patients",
+          "Cardiology Service",
+          "Coronary Artery Bypass",
+          "180-Day Mortality",
+          "Comparison with 30-Day Mortality"
+        ],
+        [
+          "Time Factors",
+          "0-30 Day Interval",
+          "Predictive Accuracy",
+          "Hospital Ranking",
+          "Validation with 31-180 Day Data"
+        ],
+        [
+          "Centers for Medicare and Medicaid Services",
+          "Public Use Files",
+          "Residual Mortality Measures",
+          "Hospital Performance Correlation Across Conditions"
+        ],
+        [
+          "Survival Rate",
+          "Acute Myocardial Infarction",
+          "30-Day vs 180-Day Outcomes",
+          "Forecasting Hospital Quality",
+          "Policy Implications"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:14:56.328Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8017535",
+      "global_index": 8,
+      "question": "Substance use and HIV-related sexual behaviors among US high school students: are they related?",
+      "contexts": [
+        "This study was undertaken to examine whether use of alcohol, cigarettes, marijuana, cocaine, and other illicit drugs is related to the likelihood of sexual behaviors that increase risk for human immunodeficiency virus (HIV) infection among youth.",
+        "The 1990 national Youth Risk Behavior Survey was used to collect self-reported information about a broad range of health risk behaviors from a representative sample of 11,631 high school students in the United States.",
+        "Students who reported no substance use were least likely to report having had sexual intercourse, having had four or more sex partners, and not having used a condom at last sexual intercourse. Adjusted for age, sex, and race/ethnicity, odds ratios for each of these sexual risk behaviors were greatest among students who had used marijuana, cocaine, or other illicit drugs. Students who had used only alcohol or cigarettes had smaller but still significant increases in the likelihood of having had sexual intercourse and of having had four or more sex partners."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adolescent Behavior",
+        "Cross-Sectional Studies",
+        "Female",
+        "HIV Infections",
+        "Health Knowledge, Attitudes, Practice",
+        "Humans",
+        "Male",
+        "Odds Ratio",
+        "Risk-Taking",
+        "Sexual Behavior",
+        "Substance-Related Disorders",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Alcohol Use",
+          "Risk‑Taking",
+          "Sexual Intercourse",
+          "Increased HIV Risk"
+        ],
+        [
+          "Marijuana Use",
+          "Odds Ratio ↑",
+          "Four or More Sex Partners",
+          "HIV Infections"
+        ],
+        [
+          "Cross‑Sectional Study",
+          "Self‑Reported Data",
+          "Adolescents",
+          "Substance‑Related Disorders ↔ Unprotected Sex"
+        ],
+        [
+          "Cocaine Use",
+          "Illicit Drug Use",
+          "No Condom Use at Last Intercourse",
+          "HIV Transmission Potential"
+        ],
+        [
+          "United States",
+          "Youth Risk Behavior Survey",
+          "Adjustment for Age, Sex, Race/Ethnicity",
+          "Significant Association between Substance Use and HIV‑Related Sexual Behaviors"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:00.330Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8111516",
+      "global_index": 9,
+      "question": "Do family physicians make good sentinels for influenza?",
+      "contexts": [
+        "To determine whether volunteer family physician reports of the frequency of influenza-like illness (ILI) usefully supplement information from other influenza surveillance systems conducted by the Centers for Disease Control and Prevention.",
+        "Evaluation of physician reports from five influenza surveillance seasons (1987-88 through 1991-92).",
+        "Family physician office practices in all regions of the United States.",
+        "An average of 140 physicians during each of five influenza seasons.",
+        "None.",
+        "An office visit or hospitalization of a patient for ILI, defined as presence of fever (temperature>or = 37.8 degrees C) and cough, sore throat, or myalgia, along with the physician's clinical judgment of influenza. A subset of physicians collected specimens for confirmation of influenza virus by culture.",
+        "Physicians attributed 81,408 (5%) of 1,672,542 office visits to ILI; 2754 (3%) patients with ILI were hospitalized. Persons 65 years of age and older accounted for 11% of visits for ILI and 43% of hospitalizations for ILI. In three of five seasons, physicians obtained influenza virus isolates from a greater proportion of specimens compared with those processed by World Health Organization laboratories (36% vs 12%). Influenza virus isolates from sentinel physicians peaked from 1 to 4 weeks earlier than those reported by World Health Organization laboratories. Physicians reported peak morbidity 1 to 4 weeks earlier than state and territorial health departments in four of five seasons and 2 to 5 weeks earlier than peak mortality reported by 121 cities during seasons with excess mortality associated with pneumonia and influenza."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Centers for Disease Control and Prevention (U.S.)",
+        "Child",
+        "Child, Preschool",
+        "Family Practice",
+        "Humans",
+        "Infant",
+        "Influenza, Human",
+        "Middle Aged",
+        "Population Surveillance",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Family Practice",
+          "Volunteer Physician Reports",
+          "Early Detection of Influenza Peaks",
+          "Population Surveillance"
+        ],
+        [
+          "Influenza",
+          "Influenza-like Illness Definition",
+          "Physician Clinical Judgment",
+          "Sentinel Reporting",
+          "Earlier Peak Identification"
+        ],
+        [
+          "Centers for Disease Control and Prevention",
+          "National Influenza Surveillance",
+          "Integration of Family Physician Data",
+          "Improved Timeliness",
+          "Public Health Response"
+        ],
+        [
+          "Aged",
+          "Higher Hospitalization Rate for ILI",
+          "Need for Early Warning",
+          "Family Physicians as Sentinels",
+          "Reduced Mortality"
+        ],
+        [
+          "United States",
+          "Geographic Coverage of Family Practices",
+          "Representative Sample",
+          "Sentinel System",
+          "Validity of Influenza Surveillance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:03.922Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8165771",
+      "global_index": 10,
+      "question": "Ultrasound in squamous cell carcinoma of the penis; a useful addition to clinical staging?",
+      "contexts": [
+        "As part of the staging procedure in squamous cell carcinoma of the penis, we assessed the role of ultrasound examination, in particular its role in assessing the extent and the invasion into the corpora.",
+        "From 1988 until 1992, all patients referred for primary treatment underwent ultrasound assessment with a 7.5 MHz linear array small parts transducer as part of the clinical workup. All ultrasound images were reviewed by one radiologist, without knowledge of the clinical outcome and were compared with the results obtained at histopathologic examination.",
+        "In 16 patients the primary tumor and in 1 patient a recurrent cancer after primary therapy were examined. All tumors were identified as hypoechoic lesions. Ultrasound examination in the region of the glans was not able to differentiate between invasion of the subepithelial tissue and invasion into the corpus spongiosum, but absence or presence of invasion into the tunica albuginea of the corpus cavernosum was clearly demonstrated. Accurate measurement by ultrasound of maximum tumor thickness was seen in seven of sixteen examinations."
+      ],
+      "mesh_terms": [
+        "Carcinoma, Squamous Cell",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Invasiveness",
+        "Neoplasm Staging",
+        "Penile Neoplasms",
+        "Penis",
+        "Ultrasonography"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ultrasound",
+          "Assessment of Tunica Albuginea Invasion",
+          "Determination of Corpora Cavernosum Involvement",
+          "Improved Clinical Staging"
+        ],
+        [
+          "Squamous Cell Carcinoma of Penis",
+          "Tumor Thickness Measurement by Ultrasound",
+          "Correlation with Histopathologic Depth",
+          "Neoplasm Staging Accuracy"
+        ],
+        [
+          "Hypoechoic Lesion Identification",
+          "Differentiation of Subepithelial vs Corpus Spongiosum Invasion",
+          "Limitation in Glans Region",
+          "Need for Complementary Imaging"
+        ],
+        [
+          "Penile Neoplasms",
+          "Neoplasm Invasiveness Evaluation",
+          "Ultrasonography Findings",
+          "Surgical Planning Decisions"
+        ],
+        [
+          "5 MHz Linear Array Transducer",
+          "High‑Resolution Imaging",
+          "Detection of Corpus Cavernosum Invasion",
+          "Influence on Therapeutic Strategy"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:08.057Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8199520",
+      "global_index": 11,
+      "question": "Are physicians meeting the needs of family caregivers of the frail elderly?",
+      "contexts": [
+        "To explore expressed needs, both formal and informal, of family caregivers of frail elderly. To evaluate roles of physicians.",
+        "Questionnaire survey of members of the Montreal Jewish community providing care for frail elderly family members.",
+        "Jewish community of Montreal.",
+        "Volunteer caregivers who were caring for a family member or friend 60 years or older, who had greatest responsibility for providing physical or emotional support to an elderly person, who saw themselves as caregivers, and who could speak English or French were studied. Of 118 volunteers, 32 were excluded because they withdrew for personal reasons or because they did not meet study criteria.",
+        "Demographic variables, functional status of the care receiver, use of home care services, and needs assessment to identify additional services.",
+        "An average of 75.4% respondents did not use formal support services. Just under half of caregivers were dissatisfied with the attention they received from the health care system, and more than one third expressed feelings of stress, depression, guilt, and isolation."
+      ],
+      "mesh_terms": [
+        "Activities of Daily Living",
+        "Adult",
+        "Aged",
+        "Attitude to Health",
+        "Caregivers",
+        "Counseling",
+        "Family",
+        "Female",
+        "Frail Elderly",
+        "Geriatric Assessment",
+        "Health Services Accessibility",
+        "Health Services Needs and Demand",
+        "Health Services Research",
+        "Home Care Services",
+        "Humans",
+        "Jews",
+        "Male",
+        "Middle Aged",
+        "Patient Satisfaction",
+        "Physician's Role",
+        "Quebec",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Physician's Role",
+          "Counseling",
+          "Family Caregivers",
+          "Stress Reduction",
+          "Improved Satisfaction"
+        ],
+        [
+          "Frail Elderly",
+          "Activities of Daily Living",
+          "Home Care Services",
+          "Low Utilization",
+          "Caregiver Dissatisfaction"
+        ],
+        [
+          "Health Services Accessibility",
+          "Home Care Services",
+          "Caregiver Use",
+          "Unmet Needs",
+          "Physician Intervention"
+        ],
+        [
+          "Geriatric Assessment",
+          "Functional Status",
+          "Caregiver Burden",
+          "Depression",
+          "Need for Physician Support"
+        ],
+        [
+          "Surveys and Questionnaires",
+          "Attitude to Health",
+          "Patient Satisfaction",
+          "Physician's Role",
+          "Enhanced Caregiver Support"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:20.131Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8200238",
+      "global_index": 12,
+      "question": "Must early postoperative oral intake be limited to laparoscopy?",
+      "contexts": [
+        "This prospective, randomized study was designed to evaluate whether or not early postoperative feeding (claimed as a unique benefit of laparoscopic surgery) is possible after laparotomy and colorectal resection.",
+        "The trial was performed between July 1, 1992 and October 31, 1992 and included all 64 consecutive patients who underwent laparotomy with either a colonic or an ileal resection. In all cases the nasogastric tube was removed immediately after the operation. Group 1 consisted of 32 patients (age range, 15-81 years; mean, 52 years) who received a regular diet on the first postoperative morning. Group 2 consisted of 32 patients (age range, 15-87 years; mean, 52 years) who were fed in a traditional manner. Regular food was permitted after resolution of ileus as defined by resumption of bowel movements in the absence of abdominal distention, nausea, or vomiting.",
+        "The rate of nasogastric tube reinsertion for distention with persistent vomiting was 18.7 percent (six patients) in Group 1 and 12.5 percent (four patients) in Group 2. Although vomiting was experienced more frequently by patients in Group 1 (44 percent vs. 25 percent, respectively), there was no difference between the two groups with regard to the duration of postoperative ileus (3.6 vs. 3.4 days, respectively). In the 26 patients from Group 1 who did not require nasogastric tube reinsertion, there was a trend toward shorter hospitalization (6.7 vs. 8.0 days, respectively)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Eating",
+        "Female",
+        "Humans",
+        "Intestinal Obstruction",
+        "Intestines",
+        "Intubation, Gastrointestinal",
+        "Laparoscopy",
+        "Length of Stay",
+        "Male",
+        "Middle Aged",
+        "Postoperative Care",
+        "Postoperative Complications",
+        "Prospective Studies",
+        "Vomiting"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Laparoscopy",
+          "Early postoperative oral intake",
+          "Reduced Length of Stay"
+        ],
+        [
+          "Laparotomy",
+          "Early postoperative oral intake",
+          "Nasogastric tube reinsertion",
+          "Vomiting"
+        ],
+        [
+          "Early postoperative oral intake",
+          "Resolution of ileus",
+          "Regular diet",
+          "Shorter Hospitalization"
+        ],
+        [
+          "Postoperative Complications",
+          "Vomiting",
+          "Nasogastric tube reinsertion",
+          "Delayed feeding"
+        ],
+        [
+          "Prospective Study",
+          "Randomized groups",
+          "Comparison of early feeding vs traditional feeding",
+          "No difference in ileus duration"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:26.570Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8245806",
+      "global_index": 13,
+      "question": "Does family practice at residency teaching sites reflect community practice?",
+      "contexts": [
+        "Family medicine has aspired to train residents and conduct research in settings that closely resemble community practice. The purpose of this study was to compare the patient characteristics of the ambulatory teaching centers of a consortium of seven community-based university-affiliated family practice residency programs in northeast Ohio with the National Ambulatory Medical Care Survey (NAMCS) results for family physicians (FPs) and general practitioners (GPs).",
+        "Ninety-eight faculty and resident physicians at the residency training site of the Northeastern Ohio Universities College of Medicine collected data on all ambulatory patient visits (N = 1498) for one randomly chosen week between July 1, 1991, and June 30, 1992. We compared these data with patient visits reported in the 1990 NAMCS for FPs and GPs.",
+        "The residency training sites saw slightly more children, women, blacks, and Medicare and Medicaid patients. The most common reason for an office visit in both populations was an undifferentiated symptom. Fifteen of the top 20 \"reason for visit\" codes were identical, as were 14 of the top 20 diagnoses. More preventive and therapeutic services were offered or performed at our residency training sites but fewer diagnostic services were performed. There were fewer consultations requested at our residency training sites but similar hospitalization rates for patients. The mean duration of visit differed by only 1 minute."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Ambulatory Care",
+        "Child",
+        "Child, Preschool",
+        "Family Practice",
+        "Female",
+        "Humans",
+        "Internship and Residency",
+        "Male",
+        "Middle Aged",
+        "Office Visits",
+        "Ohio",
+        "Patients",
+        "Reimbursement Mechanisms",
+        "Time Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Family Practice",
+          "Residency Teaching Sites",
+          "Patient Demographics (children, women, blacks)",
+          "Comparison with NAMCS",
+          "Reflects Community Practice"
+        ],
+        [
+          "Ambulatory Care",
+          "Reason for Visit (undifferentiated symptom)",
+          "Overlap of Top 20 Codes with NAMCS",
+          "Similar Clinical Profile",
+          "Mirrors Community Practice"
+        ],
+        [
+          "Office Visits",
+          "Preventive Services (higher at residency sites)",
+          "Service Mix Comparison",
+          "Alignment with Community Practice Patterns"
+        ],
+        [
+          "Time Factors",
+          "Mean Visit Duration (difference of 1 minute)",
+          "Comparable to Community Visits",
+          "Indicates Similar Practice Flow"
+        ],
+        [
+          "Reimbursement Mechanisms",
+          "Medicare/Medicaid Proportion (higher at residency sites)",
+          "Payer Mix Comparison with NAMCS",
+          "Consistent with Community Practice"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:39.991Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8262881",
+      "global_index": 14,
+      "question": "Body dysmorphic disorder: does it have a psychotic subtype?",
+      "contexts": [
+        "Although body dysmorphic disorder (BDD) is classified in DSM-III-R as a nonpsychotic somatoform disorder, controversy exists as to whether BDD can present with psychotic features. If it can, this raises the possibility that its DSM-III-R psychotic counterpart-delusional disorder, somatic type--may not be a separate disorder. The purpose of this study was to determine whether patients with nonpsychotic BDD (defined according to DSM-III-R criteria, i.e., with maintenance of some insight) were different from patients with psychotic BDD (those whose preoccupation was without insight and of delusional intensity).",
+        "Fifty consecutive patients meeting DSM-III-R criteria A and C for BDD were assessed with a semistructured interview and the Structured Clinical Interview for DSM-III-R (SCID). Family histories of psychiatric disorders were blindly assessed. The 24 patients with nonpsychotic BDD were compared with the 26 patients with psychotic BDD with respect to demographics, phenomenology, course of illness, associated features, comorbid psychiatric disorders, family history, and treatment response.",
+        "Patients with psychotic BDD displayed a significantly higher rate of lifetime DSM-III-R psychotic disorder diagnoses than patients with nonpsychotic BDD. However, the two groups did not differ significantly on most other variables examined. For instance, both psychotic and nonpsychotic patients displayed significant morbidity; high comorbidity with mood, anxiety, and psychoactive substance use disorders; and apparent preferential response to serotonin reuptake inhibitors rather than to non-serotonin reuptake blocking antidepressants or antipsychotics."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Body Image",
+        "Comorbidity",
+        "Delusions",
+        "Diagnosis, Differential",
+        "Female",
+        "Humans",
+        "Male",
+        "Mental Disorders",
+        "Middle Aged",
+        "Psychiatric Status Rating Scales",
+        "Somatoform Disorders",
+        "Terminology as Topic",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Body Dysmorphic Disorder",
+          "Insight Level",
+          "Psychotic BDD (delusional intensity)",
+          "DSM‑III‑R Classification"
+        ],
+        [
+          "Psychotic BDD",
+          "Higher Lifetime Psychotic Disorder Diagnosis",
+          "Delusional Disorder, Somatic Type",
+          "Question of Separate Disorder"
+        ],
+        [
+          "Nonpsychotic BDD",
+          "High Comorbidity",
+          "Mood Disorders, Anxiety Disorders, Substance Use Disorders",
+          "Serotonin Reuptake Inhibitors",
+          "Treatment Outcome"
+        ],
+        [
+          "Psychotic BDD",
+          "Family History Assessment",
+          "No Significant Difference vs Nonpsychotic BDD",
+          "Shared Etiology"
+        ],
+        [
+          "Body Dysmorphic Disorder",
+          "Somatoform Disorders Category",
+          "Differential Diagnosis",
+          "Inclusion of Psychotic Subtype"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:47.415Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8375607",
+      "global_index": 15,
+      "question": "Is the breast best for children with a family history of atopy?",
+      "contexts": [
+        "Previous studies reported that breast-feeding protects children against a variety of diseases, but these studies were generally conducted on \"high-risk\" or hospitalized children. This paper describes the results of our study on the effects of breast-feeding on rate of illness in normal children with a family history of atopy.",
+        "A historic cohort approach of 794 children with a family history of atopy was used to assess the effects of breast-feeding on illness rates. Family history of atopy was based on allergic diseases in family members as registered by the family physician. Illness data from birth onwards were available from the Continuous Morbidity Registration of the Department of Family Medicine. Information on breast-feeding was collected by postal questionnaire. We then compared rates of illness between children with a family history of atopy who were and who were not breast-fed.",
+        "Breast-feeding was related to lower levels of childhood illness both in the first and the first three years of life. In the first year of life they had fewer episodes of gastroenteritis, lower respiratory tract infections, and digestive tract disorders. Over the next three years of life they had fewer respiratory tract infections and skin infections."
+      ],
+      "mesh_terms": [
+        "Breast Feeding",
+        "Cohort Studies",
+        "Humans",
+        "Hypersensitivity, Immediate",
+        "Infant, Newborn",
+        "Morbidity",
+        "Risk Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Breast Feeding",
+          "Lower Respiratory Tract Infections",
+          "Decreased Morbidity in Infants with Family History of Atopy"
+        ],
+        [
+          "Family History of Atopy",
+          "Increased Risk Factors",
+          "Breast Feeding",
+          "Reduced Gastroenteritis Episodes",
+          "Improved Childhood Health"
+        ],
+        [
+          "Cohort Studies",
+          "Historic Cohort of 794 Children",
+          "Breast Feeding Exposure Assessment",
+          "Comparison of Illness Rates",
+          "Evidence for Protective Effect"
+        ],
+        [
+          "Hypersensitivity",
+          "Immediate Hypersensitivity Reactions",
+          "Skin Infections",
+          "Breast Feeding",
+          "Lower Incidence of Skin Infections"
+        ],
+        [
+          "Newborn",
+          "Breast Feeding Initiation",
+          "Immune Transfer",
+          "Modulation of Infant Immune System",
+          "Decreased Atopic Morbidity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:15:57.778Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8422202",
+      "global_index": 16,
+      "question": "Metered-dose inhalers. Do health care providers know what to teach?",
+      "contexts": [
+        "The specific aim of this investigation was to evaluate the proficiency of health care providers and patients in the proper use of metered-dose inhalers.",
+        "Health care providers, which include house staff, nurses, and respiratory care practitioners who provide care to patients with asthma in the primary general medicine clinic or the pulmonary medicine clinic of a university-county hospital in which patients were referred, were surveyed and assigned a performance score regarding the knowledge base of the appropriate use of metered-dose inhalers. Patients who attended the primary care general medicine and pulmonary subspecialty clinic were also assessed as to their proficiency in the use of metered-dose inhalers.",
+        "A significant percentage of patients had a poor understanding of the technique used with the metered-dose inhaler. House staff and nursing staff were also less proficient in the proper use of the metered-dose inhaler. The respiratory care practitioners were the most knowledgeable of the health care providers."
+      ],
+      "mesh_terms": [
+        "Asthma",
+        "Hospital Bed Capacity, 500 and over",
+        "Humans",
+        "Internship and Residency",
+        "Nebulizers and Vaporizers",
+        "Nursing Staff, Hospital",
+        "Outpatient Clinics, Hospital",
+        "Patient Education as Topic",
+        "Respiratory Therapy",
+        "Respiratory Therapy Department, Hospital",
+        "Texas"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Asthma",
+          "Patient Education as Topic",
+          "Internship and Residency",
+          "Metered-dose inhaler proficiency"
+        ],
+        [
+          "Respiratory Therapy Department",
+          "Respiratory Therapy",
+          "Knowledge proficiency",
+          "Patient instruction on metered-dose inhaler"
+        ],
+        [
+          "Nursing Staff",
+          "Outpatient Clinics",
+          "Metered-dose inhaler technique",
+          "Patient Education as Topic"
+        ],
+        [
+          "Hospital",
+          "Internship and Residency",
+          "Training deficits",
+          "Nebulizers and Vaporizers",
+          "Metered-dose inhaler teaching"
+        ],
+        [
+          "Texas",
+          "Hospital",
+          "Respiratory Therapy",
+          "High proficiency",
+          "Curriculum development for metered-dose inhaler education"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:16:08.109Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8521557",
+      "global_index": 17,
+      "question": "The insertion allele of the ACE gene I/D polymorphism. A candidate gene for insulin resistance?",
+      "contexts": [
+        "The insertion/deletion (ID) polymorphism of the angiotensin-converting enzyme (ACE) gene has been associated with increased coronary heart disease (CHD), although the mechanism of this association is not apparent. We tested the hypothesis that the deletion allele of the ACE gene is associated with insulin resistance.",
+        "We related ACE genotype to components of the insulin-resistance syndrome in 103 non-insulin-dependent diabetic (NIDDM) and 533 nondiabetic white subjects. NIDDM subjects with the DD genotype had significantly lower levels of specific insulin (DD 38.6, ID 57.1, and II 87.4 pmol.L-1 by ANOVA, P = .011). Non-insulin-treated subjects with the DD genotype had increased insulin sensitivity by HOMA % (DD 56.4%, II 29.4%, P = .027) and lower levels of des 31,32 proinsulin (DD 3.3, II 7.6 pmol.L-1, P = .012) compared with II subjects. There were no differences in prevalence of CHD or levels of blood pressure, serum lipids, or plasminogen activator inhibitor-1 (PAI-1) activity between the three ACE genotypes. In nondiabetic subjects there were no differences in insulin sensitivity, levels of insulin-like molecules, blood pressure, PAI-1, serum lipids, or CHD prevalence between the three ACE genotypes."
+      ],
+      "mesh_terms": [
+        "Alleles",
+        "Case-Control Studies",
+        "Coronary Disease",
+        "DNA Transposable Elements",
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Angiopathies",
+        "Female",
+        "Genotype",
+        "Humans",
+        "Insulin Resistance",
+        "Male",
+        "Middle Aged",
+        "Peptidyl-Dipeptidase A",
+        "Plasminogen Activator Inhibitor 1",
+        "Polymerase Chain Reaction",
+        "Polymorphism, Genetic"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "ACE I/D polymorphism",
+          "Deletion allele (DD genotype)",
+          "Increased insulin sensitivity (HOMA %)",
+          "Lower insulin levels",
+          "Decreased insulin resistance"
+        ],
+        [
+          "ACE genotype",
+          "Angiotensin‑Converting Enzyme activity",
+          "Vascular tone",
+          "Blood pressure",
+          "No genotype‑related difference in hypertension"
+        ],
+        [
+          "ACE I/D polymorphism",
+          "Plasminogen Activator Inhibitor‑1 activity",
+          "Fibrinolysis",
+          "Coronary disease risk",
+          "Similar CHD prevalence across genotypes"
+        ],
+        [
+          "Deletion allele (DD)",
+          "Reduced des‑31,32 proinsulin",
+          "Improved β‑cell processing",
+          "Lower circulating insulin",
+          "Attenuated insulin resistance"
+        ],
+        [
+          "Insertion allele (II)",
+          "Higher insulin levels",
+          "Potential insulin resistance",
+          "Type 2 Diabetes Mellitus susceptibility",
+          "Consideration as candidate gene"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:16:28.069Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8566975",
+      "global_index": 18,
+      "question": "Serovar specific immunity to Neisseria gonorrhoeae: does it exist?",
+      "contexts": [
+        "To determine whether the host immune response to gonorrhoea provides limited serovar specific protection from reinfection.",
+        "508 episodes of gonorrhoea diagnosed at a city centre genitourinary medicine clinic including 22 patients with multiple infections over a 4 year period.",
+        "Patients with recurrent gonococcal infection were analysed with respect to the initial and subsequent serovars isolated.",
+        "No significant difference was seen in the prevalence of serovars isolated following a repeat infection compared with those without repeat infections. The site of the initial infection did not appear to influence the subsequent serovar isolated."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Antibodies, Bacterial",
+        "Antibody Specificity",
+        "Female",
+        "Gonorrhea",
+        "Humans",
+        "Male",
+        "Neisseria gonorrhoeae",
+        "Recurrence",
+        "Serotyping",
+        "Sexual Behavior"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Neisseria gonorrhoeae",
+          "Serotyping",
+          "Initial serovar identification",
+          "Recurrence",
+          "No serovar specific immunity"
+        ],
+        [
+          "Host immune response",
+          "Antibodies",
+          "Antibody Specificity",
+          "Serovar-specific antigens",
+          "Limited protection"
+        ],
+        [
+          "Sexual Behavior",
+          "Multiple exposures",
+          "Different serovars",
+          "Re‑infection",
+          "Absence of serovar‑specific immunity"
+        ],
+        [
+          "Gonorrhea",
+          "Recurrence",
+          "Serotyping",
+          "Serovar comparison",
+          "No significant difference"
+        ],
+        [
+          "Adolescent",
+          "Serovar prevalence",
+          "Reinfection",
+          "Serovar specific immunity",
+          "Not observed"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:16:38.361Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8738894",
+      "global_index": 19,
+      "question": "Diabetes mellitus among Swedish art glass workers--an effect of arsenic exposure?",
+      "contexts": [
+        "The purpose of this study was to search for evidence of an association between occupational arsenic exposure and diabetes mellitus, as implied by the relation of this disease to arsenic in drinking water in a recent study from Taiwan.",
+        "A case-referent analysis on death records of 5498 individuals in the art glass producing part of southeastern Sweden was performed. Out of all the enrolled subjects, 888 were glass workers. According to occupational title, glassblowers, foundry workers, and unspecified workers were regarded as potentially exposed to arsenic. Persons with a diagnosis of diabetes mellitus either as an underlying or contributing cause of death were considered cases. Referents were decedents without any indication of cancer, cardiovascular disease, or diabetes.",
+        "A slightly elevated risk [Mantel-Haenszel odds ratio (MH-OR) 1.2, 95% confidence interval (95% CI) 0.82-1.8] was found for diabetes mellitus among the glassworks employees, especially in combination with cardiovascular disease (MH-OR 1.4, 95% CI 0.81-2.3). For the glassblowers, other foundry workers and unspecified glassworkers probably exposed to arsenic, the M-H odds ratio was 1.4 (95% CI 0.92-2.2). Unspecified glass workers, who probably included persons with high exposure, carried the higher risk (MH-OR 1.8, 95% CI 1.1-2.8)."
+      ],
+      "mesh_terms": [
+        "Age Distribution",
+        "Aged",
+        "Arsenic",
+        "Cause of Death",
+        "Diabetes Complications",
+        "Diabetes Mellitus",
+        "Glass",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Occupational Exposure",
+        "Occupations",
+        "Poisons",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Sweden"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Occupational Exposure",
+          "Arsenic",
+          "Pancreatic β‑cell Toxicity",
+          "Impaired Insulin Secretion",
+          "Diabetes Mellitus"
+        ],
+        [
+          "Glass",
+          "Foundry Workers",
+          "Potential Arsenic Exposure",
+          "Elevated Odds Ratio (MH‑OR 1.4)",
+          "Association with Diabetes Mellitus"
+        ],
+        [
+          "Sweden",
+          "Art Glass Workers",
+          "Retrospective Study",
+          "Case‑Referent Analysis",
+          "Diabetes Mellitus as Cause of Death"
+        ],
+        [
+          "Arsenic",
+          "Environmental Poison",
+          "Dose‑Response Relationship",
+          "Risk Assessment",
+          "Increased Diabetes Risk in Unspecified Glass Workers"
+        ],
+        [
+          "Male",
+          "Middle Aged",
+          "Occupational Arsenic Exposure",
+          "Cardiovascular Disease Co‑morbidities",
+          "Higher Diabetes Mellitus Odds (MH‑OR 1.4)"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:16:46.573Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8847047",
+      "global_index": 20,
+      "question": "Prognosis of well differentiated small hepatocellular carcinoma--is well differentiated hepatocellular carcinoma clinically early cancer?",
+      "contexts": [
+        "The purpose of this study is to examine whether or not well differentiated (w-d) hepatocellular carcinoma (HCC) is indeed clinically early cancer.",
+        "Seventy six patients with solitary small HCCs up to 3 cm in diameter, who underwent hepatectomy, were observed for at least 2 years for possible recurrence. These patients were divided into two groups: 10 patients with w-d HCCs (Edmondson and Steiner's grade I) and 66 patients with less differentiated (l-d) HCCs (Edmondson and Steiner's grade I-II, II-III, and III).",
+        "The histological analysis revealed that w-d HCCs had lower incidences of fibrous capsule formation (P<0.01), when compared to l-d HCCs. There were no significant differences in the incidence of intrahepatic metastasis, or portal vein invasion. In a resected specimen of w-d HCC, barium sulfate and gelatin were injected into portal vein and a transparent specimen was made. The transparent specimen showed that the portal vein in the tumor seemed to be intact. Microscopically, cancer cell infiltration into the fibrous frame of the portal tract was present. There were no significant differences in the disease free survival between the two groups. An analysis of tumor volume doubling time in recurrent foci suggested that minute cancerous foci had been present at the time of operation."
+      ],
+      "mesh_terms": [
+        "Carcinoma, Hepatocellular",
+        "Case-Control Studies",
+        "Disease-Free Survival",
+        "Female",
+        "Follow-Up Studies",
+        "Hepatectomy",
+        "Humans",
+        "Incidence",
+        "Liver",
+        "Liver Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Invasiveness",
+        "Neoplasm Recurrence, Local",
+        "Portal Vein",
+        "Prognosis",
+        "Time Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Well differentiated HCC",
+          "Small tumor size (≤3 cm)",
+          "Low portal vein invasion",
+          "Similar disease‑free survival",
+          "Not clinically early cancer"
+        ],
+        [
+          "Fibrous capsule formation ↓",
+          "Indicator of tumor invasiveness",
+          "Well differentiated (grade I)",
+          "No difference in intrahepatic metastasis",
+          "Prognosis similar to less differentiated HCC"
+        ],
+        [
+          "Tumor volume doubling time",
+          "Minute cancerous foci present at operation",
+          "Early recurrence",
+          "Unchanged disease‑free survival",
+          "Well differentiated HCC not early cancer"
+        ],
+        [
+          "Edmondson grade I (well differentiated)",
+          "Lower incidence of fibrous capsule",
+          "No reduction in recurrence",
+          "Prognosis unchanged",
+          "Clinical early cancer status questionable"
+        ],
+        [
+          "Small solitary HCC",
+          "Hepatectomy",
+          "Follow‑up ≥2 years",
+          "Disease‑free survival comparison",
+          "No significant difference between well‑ and less‑differentiated groups",
+          "Early cancer designation unresolved"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:16:52.350Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8910148",
+      "global_index": 21,
+      "question": "Transesophageal echocardiographic assessment of left ventricular function in brain-dead patients: are marginally acceptable hearts suitable for transplantation?",
+      "contexts": [
+        "The brain-dead donor supply has become one of the criteria limiting the performance of heart transplantation. Conventional screening criteria are too limiting and exclude suitable heart donors. Echocardiography is now widely available and is a reliable tool to assess left ventricular dysfunction in brain-dead donors. Yet few data are available on the degree of left ventricular dysfunction where a transplantation is possible.",
+        "Fifty-five potential brain-dead heart donors (age 38 +/- 11 years) were prospectively evaluated by transesophageal echocardiography (TEE) before harvesting. Fractional area change (FAC) was used to assess left ventricular function in potential brain-dead donors. Transplanted hearts were evaluated on the fifth postoperative day. The transplantation was considered a success if the recipient was alive, not retransplanted, without an assistance device or an epinephrine infusion of more than 1 mg/h and showed an ejection fraction above 40%.",
+        "Of the 55 potential heart donors, 20 exhibited an FAC of less than 50%. Forty hearts were harvested, 36 of which were successfully transplanted. Nine patients had an FAC below 50% (group H2) and 27 had an FAC over 50% (group H1). Four patients died: 2 from hemorrhage (FAC>50% in donors); 1 from right and one from left ventricular dysfunction (FAC<50% in donors). The FAC increased significantly from 51 +/- 15% to 57 +/- 11% in 18 hearts that underwent TEE in donors and afterwards in recipients. Overall actuarial survival was 86.2% versus 64.6% at 1 and 2 years in group H1 and group H2, respectively (p = NS)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Brain Death",
+        "Echocardiography, Transesophageal",
+        "Female",
+        "Heart Transplantation",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Tissue Donors",
+        "Ventricular Function, Left"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Brain Death",
+          "Catecholamine Surge",
+          "Left Ventricular Dysfunction",
+          "Transesophageal Echocardiography",
+          "Fractional Area Change",
+          "Donor Selection"
+        ],
+        [
+          "Transesophageal Echocardiography",
+          "Fractional Area Change <50%",
+          "Marginally Acceptable Hearts",
+          "Post‑transplant Ejection Fraction >40%",
+          "Successful Heart Transplantation"
+        ],
+        [
+          "Prospective Study",
+          "Adult Brain‑dead Tissue Donors",
+          "TEE Evaluation",
+          "FAC >50%",
+          "Higher Actuarial Survival",
+          "Transplant Success"
+        ],
+        [
+          "Fractional Area Change",
+          "Ventricular Function",
+          "Predicts Post‑operative LV Performance",
+          "Transplant Eligibility"
+        ],
+        [
+          "Marginally Acceptable Hearts",
+          "FAC ≈45%",
+          "Recovery of LV Function after Transplant",
+          "Comparable 1‑year Survival",
+          "Heart Transplantation"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:16:58.522Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8916748",
+      "global_index": 22,
+      "question": "Do socioeconomic differences in mortality persist after retirement?",
+      "contexts": [
+        "To assess the risk of death associated with work based and non-work based measures of socioeconomic status before and after retirement age.",
+        "Follow up study of mortality in relation to employment grade and car ownership over 25 years.",
+        "The first Whitehall study.",
+        "18,133 male civil servants aged 40-69 years who attended a screening examination between 1967 and 1970.",
+        "Death.",
+        "Grade of employment was a strong predictor of mortality before retirement. For men dying at ages 40-64 the lowest employment grade had 3.12 times the mortality of the highest grade (95% confidence interval 2.4 to 4.1). After retirement the ability of grade to predict mortality declined (rate ratio 1.86; 1.6 to 2.2). A non-work based measure of socioeconomic status (car ownership) predicted mortality less well than employment grade before retirement but its ability to predict mortality declined less after retirement. Using a relative index of inequality that was sensitive to the distribution among socioeconomic groups showed employment grade and car ownership to have independent associations with mortality that were of equal magnitude after retirement. The absolute difference in death rates between the lowest and highest employment grades increased with age from 12.9 per 1000 person years at ages 40-64 to 38.3 per 1000 at ages 70-89."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Cause of Death",
+        "England",
+        "Follow-Up Studies",
+        "Government",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Mortality",
+        "Retirement",
+        "Social Class",
+        "Socioeconomic Factors",
+        "Survival Rate"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Employment Grade",
+          "Mortality",
+          "Retirement",
+          "Rate Ratio Decrease",
+          "Socioeconomic Difference Persists"
+        ],
+        [
+          "Car Ownership",
+          "Mortality Prediction",
+          "Post-Retirement",
+          "Relative Index of Inequality",
+          "Equal Magnitude Association"
+        ],
+        [
+          "Age Factors",
+          "Absolute Death Rate Difference",
+          "Low Employment Grade",
+          "Higher Death Rate at Ages 70‑89",
+          "Persistence of SES Mortality Gap"
+        ],
+        [
+          "Socioeconomic Factors",
+          "Relative Index of Inequality",
+          "Independent Associations",
+          "Employment Grade & Car Ownership",
+          "Mortality After Retirement"
+        ],
+        [
+          "Follow-Up Studies",
+          "25‑Year Mortality Data",
+          "Employment Grade vs Car Ownership",
+          "Decline in Predictive Ability",
+          "Socioeconomic Mortality Gradient Remains"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:17:21.968Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8921484",
+      "global_index": 23,
+      "question": "Does gestational age misclassification explain the difference in birthweights for Australian aborigines and whites?",
+      "contexts": [
+        "After 34 weeks gestation, summary measures of location for birthweight (e.g means and centiles) increase more slowly for Australian Aborigines than for whites. A similar pattern has been observed for blacks in the US. This study tests whether the reported pattern is due to differential misclassification of gestational age.",
+        "Simulation was used to measure the potential effect of differential misclassification of gestational age. Reported gestational age data were obtained from Queensland Perinatal Data Collection (QPDC). Estimates of the true distributions of gestational age were obtained by assuming various (plausible) types of misclassification and applying these to the reported distributions. Previous studies and data from the QPDC were used to help specify the birthweight distributions used in the simulations.",
+        "At full term, the parameters of the birthweight distributions were robust to gestational age misclassification. At preterm, the 10th centiles were robust to misclassification. In contrast, the 90th centiles were sensitive to even minor misclassification. Extreme types of misclassification were required to remove the divergence in median birthweights for Aborigines and whites."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Australia",
+        "Birth Weight",
+        "Classification",
+        "Computer Simulation",
+        "European Continental Ancestry Group",
+        "Female",
+        "Gestational Age",
+        "Humans",
+        "Male",
+        "Oceanic Ancestry Group",
+        "Pregnancy"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Gestational Age Misclassification",
+          "Birth Weight Distribution",
+          "90th Centile Sensitivity",
+          "Observed Divergence Between Aborigines and Whites"
+        ],
+        [
+          "Queensland Perinatal Data Collection",
+          "Reported Gestational Age",
+          "Simulation of True Gestational Age",
+          "Assessment of Median Birthweight Difference"
+        ],
+        [
+          "Oceanic Ancestry Group",
+          "Preterm Birth",
+          "10th Centile Robustness",
+          "Minimal Effect of Misclassification"
+        ],
+        [
+          "European Continental Ancestry Group",
+          "Full Term Pregnancy",
+          "Birth Weight Mean",
+          "Robust to Gestational Age Misclassification"
+        ],
+        [
+          "Computer Simulation",
+          "Assumed Misclassification Scenarios",
+          "Extreme Misclassification Required",
+          "Elimination of Birthweight Divergence"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:17:43.700Z",
+      "processed_at": "2026-01-27T18-14-09"
+    },
+    {
+      "pmid": "8985020",
+      "global_index": 24,
+      "question": "Does induction chemotherapy have a role in the management of nasopharyngeal carcinoma?",
+      "contexts": [
+        "To assess the outcomes of patients with nasopharyngeal carcinoma (NPC) whose treatment was determined by computerized tomography (CT) and/or magnetic resonance imaging staging and to analyze the impact of induction chemotherapy and accelerated fractionated radiotherapy.",
+        "The analysis is based on 122 of 143 previously untreated patients with NPC treated with radiation therapy at The University of Texas M. D. Anderson Cancer Center between 1983 and 1992. Excluded were 4 patients treated with palliative intent, 4 children, 12 patients not staged with CT, and 1 patient who died of a cerebrovascular accident prior to completion of treatment. The stage distribution was as follows: AJCC Stage I-2, Stage II-7, Stage III-12, Stage IV-101; Tl-15, T2-33, T3-22, T4-52; N0-32, N1-10, N2-47, N3-32, Nx-1. Fifty-nine (48%) patients had squamous cell carcinoma; 63 (52%) had lymphoepitheliomas, undifferentiated NPC or poorly differentiated carcinoma, NOS (UNPC). Sixty-seven patients (65 with Stage IV disease) received induction chemotherapy. Fifty-eight patients (24 of whom had induction chemotherapy) were treated with the concomitant boost fractionation schedule. The median follow-up for surviving patients was 57 months.",
+        "The overall actuarial 2- and 5-year survival rates were 78 and 68%, respectively. Forty-nine patients (40%) had disease recurrence. Thirty-three (27%) had local regional failures; 19 at the primary site only, 8 in the neck and 6 in both. Local failure occurred in 31% of patients staged T4 compared to 13% of T1-T3 (p = 0.007). Sixteen patients failed at distant sites alone. Among Stage IV patients the 5-year actuarial rates for patients who did and did not receive induction chemotherapy were as follows: overall survival: 68 vs. 56% (p = 0.02), freedom from relapse: 64 vs. 37% (p = 0.01), and local control: 86 vs. 56% (p = 0.009). The actuarial 5-year distant failure rate in patients with UNPC who were treated with induction chemotherapy and controlled in the primary and neck was 13%. In patients who did not receive chemotherapy, the actuarial 5-year local control rates for patients treated with concomitant boost or conventional fractionation were 66 and 67%, respectively."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Combined Modality Therapy",
+        "Humans",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Nasopharyngeal Neoplasms",
+        "Neoplasm Staging",
+        "Radiotherapy Dosage",
+        "Survival Rate",
+        "Tomography, X-Ray Computed"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Induction Chemotherapy",
+          "Combined Modality Therapy",
+          "Overall Survival ↑"
+        ],
+        [
+          "Stage IV Nasopharyngeal Neoplasms",
+          "Induction Chemotherapy",
+          "Freedom from Relapse ↑"
+        ],
+        [
+          "CT Staging",
+          "T4 Tumor Classification",
+          "Induction Chemotherapy",
+          "Improved Local Control"
+        ],
+        [
+          "Undifferentiated NPC (UNPC)",
+          "Chemosensitivity",
+          "Induction Chemotherapy",
+          "Decreased Distant Failure"
+        ],
+        [
+          "Accelerated Fractionated Radiotherapy",
+          "Concomitant Boost Fractionation",
+          "Local Control",
+          "5‑year Survival Rate"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:17:59.626Z",
+      "processed_at": "2026-01-27T18-14-09"
+    }
+  ]
+}

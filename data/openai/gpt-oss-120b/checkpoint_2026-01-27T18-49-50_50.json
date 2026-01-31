@@ -1,0 +1,3388 @@
+{
+  "metadata": {
+    "checkpoint": 50,
+    "total": 140,
+    "successful": 50,
+    "failed": 0
+  },
+  "results": [
+    {
+      "pmid": "24172579",
+      "global_index": 749,
+      "question": "Does sex influence the response to intravenous thrombolysis in ischemic stroke?",
+      "contexts": [
+        "Women are more likely to have a worse outcome after an acute stroke than men. Some studies have suggested that women also benefit less from intravenous thrombolysis after an acute ischemic stroke, but others found no sex differences in safety and efficacy. We aimed to evaluate differences in 3-month outcome between sexes in intravenous tissue-type plasminogen activator-treated patients registered in the Safe Implementation of Treatments in Stroke-International Stroke Thrombolysis Register.",
+        "A total of 45 079 patients treated with intravenous alteplase were recorded from 2002 to 2011. Main outcome measures were symptomatic intracerebral hemorrhage, functional independence (modified Rankin Scale score, 0-2), and mortality at 3 months.",
+        "Among 25 777 (57.2%) men and 19 302 (42.8%) women, we found no difference in the rate of symptomatic intracerebral hemorrhage (P=0.13), a significantly higher likelihood of functional independence at 3 months in men (P<0.0001) and a higher mortality in women when compared with men (P<0.00001). After adjustment for confounding variables, we did not observe any difference between sexes in functional outcome (odds ratio, 1.03; 95% confidence interval, 0.97-1.09; P=0.39), whereas male sex was related to a higher risk of mortality (odds ratio, 1.19; 95% confidence interval, 1.10-1.29; P=0.00003) and symptomatic intracerebral hemorrhage (odds ratio, 1.25, 95% confidence interval, 1.04-1.51; P=0.02)."
+      ],
+      "mesh_terms": [
+        "Administration, Intravenous",
+        "Aged",
+        "Aged, 80 and over",
+        "Body Weight",
+        "Brain Ischemia",
+        "Female",
+        "Fibrinolytic Agents",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Registries",
+        "Sex Factors",
+        "Stroke",
+        "Thrombolytic Therapy",
+        "Tissue Plasminogen Activator",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Female",
+          "Baseline Age & Body Weight Differences",
+          "Pharmacokinetics of Tissue Plasminogen Activator",
+          "Functional Independence (mRS 0-2) at 3 months"
+        ],
+        [
+          "Male",
+          "Higher Risk of Symptomatic Intracerebral Hemorrhage",
+          "Intravenous Thrombolysis (Alteplase)",
+          "Mortality at 3 months"
+        ],
+        [
+          "Intravenous Thrombolysis",
+          "Tissue Plasminogen Activator Administration",
+          "Symptomatic Intracerebral Hemorrhage",
+          "Treatment Outcome (Mortality)"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:52.356Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24183388",
+      "global_index": 750,
+      "question": "Is the Hawkins sign able to predict necrosis in fractures of the neck of the astragalus?",
+      "contexts": [
+        "To assess if the Hawkins sign can predict whether or not astragalus fractures of the neck will develop avascular necrosis. It is also assessed whether the occurrence of this complication is related to the displacement of the fracture, soft tissue injury, or delay in the reduction or surgery. The results were compared with those found in the literature.",
+        "A retrospective study was conducted on 23 talar neck fractures recorded over a a period of thirteen years. The following variables were analysed: displacement of the fracture, soft tissue injury, delay and type of treatment, complications, observation of the Hawkins sign, and functional outcome.",
+        "There were 7 type I Hawkins fractures, 11 type II, and 4 type III and 1 type IV. Four cases developed avascular necrosis (2 Hawkins type II and 2 type III). Hawkins sign was observed in 12 cases, of which none developed necrosis. Four cases with negative Hawkins sign developed necrosis. No statistically significant differences were found when comparing the development of avascular necrosis with the displacement of the fracture, soft tissue injury, or delay in treatment. Differences were found when comparing the development of avascular necrosis with the Hawkins sign (P=.03)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Child",
+        "Child, Preschool",
+        "Female",
+        "Fractures, Bone",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Osteonecrosis",
+        "Prognosis",
+        "Retrospective Studies",
+        "Talus",
+        "Young Adult"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Hawkins sign",
+          "Positive radiographic sign",
+          "Indication of subchondral bone perfusion",
+          "Decreased likelihood of avascular necrosis"
+        ],
+        [
+          "Talar neck fracture",
+          "Displacement of fracture",
+          "Soft tissue injury",
+          "Potential vascular disruption",
+          "Avascular necrosis"
+        ],
+        [
+          "Retrospective study",
+          "Observation of Hawkins sign",
+          "Statistical association (P=.03)",
+          "Prognostic predictor of necrosis"
+        ],
+        [
+          "Delay in reduction",
+          "No significant impact on avascular necrosis",
+          "Hawkins sign remains independent predictor",
+          "Prognosis"
+        ],
+        [
+          "Hawkins fracture type II/III",
+          "Higher fracture severity",
+          "Negative Hawkins sign",
+          "Correlation with development of avascular necrosis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:54.639Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24191126",
+      "global_index": 751,
+      "question": "Is CA72-4 a useful biomarker in differential diagnosis between ovarian endometrioma and epithelial ovarian cancer?",
+      "contexts": [
+        "Surgical excision of ovarian endometriomas in patients desiring pregnancy has recently been criticized because of the risk of damage to healthy ovarian tissue and consequent reduction of ovarian reserve. A correct diagnosis in cases not scheduled for surgery is therefore mandatory in order to avoid unexpected ovarian cancer misdiagnosis. Endometriosis is often associated with high levels of CA125. This marker is therefore not useful for discriminating ovarian endometrioma from ovarian malignancy. The aim of this study was to establish if the serum marker CA72-4 could be helpful in the differential diagnosis between ovarian endometriosis and epithelial ovarian cancer.",
+        "Serums CA125 and CA72-4 were measured in 72 patients with ovarian endometriomas and 55 patients with ovarian cancer.",
+        "High CA125 concentrations were observed in patients with ovarian endometriosis and in those with ovarian cancer. A marked difference in CA72-4 values was observed between women with ovarian cancer (71.0%) and patients with endometriosis (13.8%) (P<0.0001)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Antigens, Tumor-Associated, Carbohydrate",
+        "CA-125 Antigen",
+        "Carcinoma",
+        "Diagnosis, Differential",
+        "Endometriosis",
+        "Female",
+        "Humans",
+        "Membrane Proteins",
+        "Middle Aged",
+        "Ovarian Neoplasms"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ovarian endometrioma",
+          "Elevated CA125",
+          "Overlap with epithelial ovarian cancer",
+          "Need alternative marker",
+          "CA72-4"
+        ],
+        [
+          "CA72-4",
+          "Tumor-associated carbohydrate antigen",
+          "Higher expression in epithelial ovarian cancer",
+          "Distinguishes from endometrioma",
+          "Differential diagnosis"
+        ],
+        [
+          "Serum CA72-4 measurement",
+          "Positive in 71% ovarian cancer vs 13.8% endometriosis",
+          "High specificity",
+          "Useful biomarker",
+          "Clinical decision"
+        ],
+        [
+          "Endometriosis",
+          "High CA125",
+          "Low CA72-4",
+          "Combined marker panel",
+          "Improved diagnostic accuracy"
+        ],
+        [
+          "Ovarian neoplasms",
+          "Epithelial ovarian cancer",
+          "CA72-4 sensitivity (71%)",
+          "Statistical significance (P<0.0001)",
+          "Supports utility in differential diagnosis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:57.332Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24235894",
+      "global_index": 752,
+      "question": "Is there a first night effect on sleep bruxism?",
+      "contexts": [
+        "Sleep bruxism (SB) is reported to vary in frequency over time. The aim of this study was to assess the first night effect on SB.",
+        "A retrospective polysomnographic (PSG) analysis was performed of data from a sample of SB patients (12 females, 4 males; age range: 17-39 years) recorded in a sleep laboratory over 2 consecutive nights. Sleep parameters and jaw muscle activity variables (i.e., rhythmic masticatory muscle activity [RMMA]) for SB were quantified and compared between the 2 nights. Subjects were classified into groups according to severity of RMMA frequency, such as low frequency (2-4 episodes/h and/or<25 bursts/h) and moderate-high frequency (≥ 4 episodes/h and ≥ 25 bursts/h).",
+        "Overall, no first night effects were found for most sleep variables. However, total sleep time, sleep efficiency, and stage transitions showed significant time and group interactions (repeated measures ANOVAs, p ≤ 0.05). The RMMA episode index did not differ between the 2 nights, whereas the second night showed significantly higher burst index, bruxism time index, and mean burst duration (repeated measure ANOVAs, p ≤ 0.05). Five patients of 8 in the low frequency group were classified into the moderate-high frequency group on the second night, whereas only one patient in the moderate-high frequency group moved to the low frequency group."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Analysis of Variance",
+        "Electrocardiography",
+        "Electroencephalography",
+        "Electromyography",
+        "Female",
+        "Humans",
+        "Male",
+        "Masticatory Muscles",
+        "Muscle Contraction",
+        "Periodicity",
+        "Polysomnography",
+        "Retrospective Studies",
+        "Severity of Illness Index",
+        "Sleep",
+        "Sleep Bruxism",
+        "Sleep Stages",
+        "Surveys and Questionnaires",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "First Night Effect",
+          "Polysomnography",
+          "Sleep Bruxism",
+          "RMMA Episode Index"
+        ],
+        [
+          "Sleep",
+          "Sleep Stages",
+          "Electromyography",
+          "Rhythmic Masticatory Muscle Activity",
+          "Burst Index"
+        ],
+        [
+          "Severity of RMMA Frequency",
+          "Group Classification",
+          "Night-to-Night Change",
+          "First Night Effect Assessment"
+        ],
+        [
+          "Total Sleep Time",
+          "Sleep Efficiency",
+          "Repeated Measures ANOVA",
+          "Detection of First Night Effect"
+        ],
+        [
+          "Young Adult",
+          "Sleep Laboratory",
+          "Two Consecutive Nights",
+          "Bruxism Time Index",
+          "First Night Effect"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:59.816Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24237112",
+      "global_index": 753,
+      "question": "Do provider service networks result in lower expenditures compared with HMOs or primary care case management in Florida's Medicaid program?",
+      "contexts": [
+        "To determine the impact of Florida's Medicaid Demonstration 4 years post-implementation on per member per month (PMPM) Medicaid expenditures and whether receiving care through HMOs versus provider service networks (PSNs) in the Demonstration was associated with PMPM expenditures.DATA: Florida Medicaid claims from two fiscal years prior to implementation of the Demonstration (FY0405, FY0506) and the first four fiscal years after implementation (FY0607-FY0910) from two urban Demonstration counties and two urban non-Demonstration counties.",
+        "A difference-in-difference approach was used to compare changes in enrollee expenditures before and after implementation of the Demonstration overall and specifically for HMOs and PSNs.",
+        "Claims data were extracted for enrollees in the Demonstration and non-Demonstration counties and collapsed into monthly amounts (N = 26,819,987 person-months).",
+        "Among SSI enrollees, the Demonstration resulted in lower increases in PMPM expenditures over time ($40) compared with the non-Demonstration counties ($186), with Demonstration PSNs lowering PMPM expenditures by $7 more than HMOs. Savings were also seen among TANF enrollees but to a lesser extent."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Case Management",
+        "Child",
+        "Child, Preschool",
+        "Female",
+        "Florida",
+        "Health Expenditures",
+        "Health Maintenance Organizations",
+        "Humans",
+        "Infant",
+        "Male",
+        "Medicaid",
+        "Middle Aged",
+        "Primary Health Care",
+        "United States",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Florida",
+          "Medicaid Demonstration",
+          "Provider Service Networks",
+          "Lower Per Member Per Month Expenditures",
+          "Compared with Health Maintenance Organizations"
+        ],
+        [
+          "SSI Enrollees",
+          "Florida Medicaid Demonstration",
+          "Provider Service Networks",
+          "$7 PMPM Savings vs HMOs",
+          "Lower Health Expenditures"
+        ],
+        [
+          "TANF Enrollees",
+          "Medicaid",
+          "Provider Service Networks",
+          "Modest PMPM Expenditure Reduction",
+          "Compared to HMOs"
+        ],
+        [
+          "United States",
+          "Medicaid Policies",
+          "Health Maintenance Organizations",
+          "Managed Care Costs",
+          "Higher"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:02.972Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24245816",
+      "global_index": 754,
+      "question": "Is trabecular bone related to primary stability of miniscrews?",
+      "contexts": [
+        "To compare the primary stability of miniscrews inserted into bone blocks of different bone mineral densities (BMDs) with and without cortical bone, and investigate whether some trabecular properties could influence primary stability.",
+        "Fifty-two bone blocks were extracted from fresh bovine pelvic bone. Four groups were created based on bone type (iliac or pubic region) and presence or absence of cortical bone. Specimens were micro-computed tomography imaged to evaluate trabecular thickness, trabecular number, trabecular separation, bone volume density (BV/TV), BMD, and cortical thickness. Miniscrews 1.4 mm in diameter and 6 mm long were inserted into the bone blocks, and primary stability was evaluated by insertion torque (IT), mini-implant mobility (PTV), and pull-out strength (PS).",
+        "Intergroup comparison showed lower levels of primary stability when the BMD of trabecular bone was lower and in the absence of cortical bone (P≤.05). The Pearson correlation test showed correlation between trabecular number, trabecular thickness, BV/TV, trabecular BMD, total BMD, and IT, PTV, and PS. There was correlation between cortical thickness and IT and PS (P≤.05)."
+      ],
+      "mesh_terms": [
+        "Anatomy, Cross-Sectional",
+        "Animals",
+        "Bone Density",
+        "Bone Screws",
+        "Bone and Bones",
+        "Cattle",
+        "Dental Stress Analysis",
+        "Durapatite",
+        "Ilium",
+        "Image Processing, Computer-Assisted",
+        "Imaging, Three-Dimensional",
+        "Miniaturization",
+        "Orthodontic Anchorage Procedures",
+        "Orthodontic Appliances",
+        "Pubic Bone",
+        "Stress, Mechanical",
+        "Torque",
+        "X-Ray Microtomography"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Trabecular Bone Density (BMD)",
+          "Insertion Torque (IT)",
+          "Primary Stability of Miniscrews"
+        ],
+        [
+          "Trabecular Thickness",
+          "Bone Volume Fraction (BV/TV)",
+          "Pull-out Strength (PS)",
+          "Primary Stability"
+        ],
+        [
+          "Absence of Cortical Bone",
+          "Reduced Mechanical Support",
+          "Lower Insertion Torque",
+          "Decreased Miniscrew Primary Stability"
+        ],
+        [
+          "Trabecular Number",
+          "Micro‑Computed Tomography Evaluation",
+          "Correlation with Insertion Torque",
+          "Prediction of Miniscrew Stability"
+        ],
+        [
+          "Bone Screws (Miniscrews)",
+          "Orthodontic Anchorage Procedures",
+          "Stress Distribution in Trabecular Bone",
+          "Influence on Primary Stability"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:05.513Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24267613",
+      "global_index": 755,
+      "question": "Is the advanced age a contraindication to GERD laparoscopic surgery?",
+      "contexts": [
+        "In this prospective non randomized observational cohort study we have evaluated the influence of age on outcome of laparoscopic total fundoplication for GERD.",
+        "Six hundred and twenty consecutive patients underwent total laparoscopic fundoplication for GERD. Five hundred and twenty-four patients were younger than 65 years (YG), and 96 patients were 65 years or older (EG). The following parameters were considered in the preoperative and postoperative evaluation: presence, duration, and severity of GERD symptoms, presence of a hiatal hernia, manometric and 24 hour pH-monitoring data, duration of operation, incidence of complications and length of hospital stay.",
+        "Elderly patients more often had atypical symptoms of GERD and at manometric evaluation had a higher rate of impaired esophageal peristalsis in comparison with younger patients. The duration of the operation was similar between the two groups. The incidence of intraoperative and postoperative complications was low and the difference was not statistically significant between the two groups. An excellent outcome was observed in 93.0% of young patients and in 88.9% of elderly patients (p = NS)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Child",
+        "Contraindications",
+        "Female",
+        "Follow-Up Studies",
+        "Fundoplication",
+        "Gastroesophageal Reflux",
+        "Humans",
+        "Laparoscopy",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Time Factors",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Aged",
+          "Higher Rate of Impaired Esophageal Peristalsis",
+          "Laparoscopic Total Fundoplication",
+          "Excellent Outcome",
+          "No Contraindication"
+        ],
+        [
+          "Age Factors",
+          "Surgical Risk Assessment",
+          "Intraoperative Complications (low)",
+          "Comparable to Younger",
+          "Contraindication Not Supported"
+        ],
+        [
+          "Elderly",
+          "Atypical GERD Symptoms",
+          "Manometric Evaluation",
+          "Adequate Preoperative Workup",
+          "Feasibility of Laparoscopic Surgery"
+        ],
+        [
+          "Advanced Age",
+          "Length of Hospital Stay (not significant)",
+          "Postoperative Recovery",
+          "Acceptable",
+          "Not a Contraindication"
+        ],
+        [
+          "Age",
+          "Individual Co‑morbidities",
+          "Contraindications Evaluation",
+          "Prospective Studies Show Safety",
+          "Laparoscopy Indicated"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:08.553Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24270957",
+      "global_index": 756,
+      "question": "Is combined therapy more effective than growth hormone or hyperbaric oxygen alone in the healing of left ischemic and non-ischemic colonic anastomoses?",
+      "contexts": [
+        "Our aim was to investigate the effects of growth hormone (GH), hyperbaric oxygen and combined therapy on normal and ischemic colonic anastomoses in rats.",
+        "Eighty male Wistar rats were divided into eight groups (n = 10). In the first four groups, non-ischemic colonic anastomosis was performed, whereas in the remaining four groups, ischemic colonic anastomosis was performed. In groups 5, 6, 7, and 8, colonic ischemia was established by ligating 2 cm of the mesocolon on either side of the anastomosis. The control groups (1 and 5) received no treatment. Hyperbaric oxygen therapy was initiated immediately after surgery and continued for 4 days in groups 3 and 4. Groups 2 and 6 received recombinant human growth hormone, whereas groups 4 and 8 received GH and hyperbaric oxygen treatment. Relaparotomy was performed on postoperative day 4, and a perianastomotic colon segment 2 cm in length was excised for the detection of biochemical and mechanical parameters of anastomotic healing and histopathological evaluation.",
+        "Combined treatment with hyperbaric oxygen and GH increased the mean bursting pressure values in all of the groups, and a statistically significant increase was noted in the ischemic groups compared to the controls (p<0.05). This improvement was more evident in the ischemic and normal groups treated with combined therapy. In addition, a histopathological evaluation of anastomotic neovascularization and collagen deposition showed significant differences among the groups."
+      ],
+      "mesh_terms": [
+        "Anastomosis, Surgical",
+        "Animals",
+        "Collagen",
+        "Colon",
+        "Combined Modality Therapy",
+        "Disease Models, Animal",
+        "Human Growth Hormone",
+        "Hyperbaric Oxygenation",
+        "Ischemia",
+        "Male",
+        "Necrosis",
+        "Neovascularization, Physiologic",
+        "Pressure",
+        "Rats",
+        "Rats, Wistar",
+        "Reproducibility of Results",
+        "Treatment Outcome",
+        "Wound Healing"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Combined Modality Therapy",
+          "Neovascularization ↑",
+          "Collagen Deposition ↑",
+          "Bursting Pressure ↑",
+          "Enhanced Anastomotic Healing"
+        ],
+        [
+          "Growth Hormone",
+          "Collagen Synthesis ↑",
+          "Moderate Bursting Pressure ↑",
+          "Partial Healing Improvement"
+        ],
+        [
+          "Hyperbaric Oxygenation",
+          "Tissue Oxygenation ↑",
+          "Neovascularization ↑",
+          "Limited Bursting Pressure ↑",
+          "Some Healing Benefit"
+        ],
+        [
+          "Ischemic Colonic Anastomosis",
+          "Impaired Wound Healing",
+          "Need for Adjunctive Treatment",
+          "Combined Therapy",
+          "Restoration of Mechanical Strength"
+        ],
+        [
+          "Wistar Rat Model",
+          "Randomized Groups",
+          "Measurement of Mechanical Parameters"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:50:20.074Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24298614",
+      "global_index": 757,
+      "question": "Is the 7th TNM edition suitable for biological predictor in early gastric cancer?",
+      "contexts": [
+        "The clinical and prognostic value of the previous node classification of TNM staging in early gastric cancer (EGC) has been less definitive. The aim was to assess the suitability of the revised node staging for prediction of clinical behavior of EGC.",
+        "Between 2005 and 2008, 1,845 patients were diagnosed with EGC and underwent surgery at Severance Hospitals. Clinicopathological characteristics were analyzed with comparisons between sixth and seventh TNM staging.",
+        "When comparing IB with IIA upstaged based on seventh staging, poor differentiation, signet ring cell, diffuse, undifferentiated types, perineural invasion (PNI), larger size and younger age, were more significantly associated with IIA. Clinicopathological factors were compared between N0/N1 and N2/N3 based on both staging. In mucosal cancer, younger age, diffuse and undifferentiated types were more significantly associated with N2/N3 based on seventh staging. In submucosal cancer, larger size, poor differentiation, signet ring cell, diffuse, undifferentiated types, PNI and deeper submucosal invasion, were more significantly associated with N2/N3 based on seventh staging."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Female",
+        "Gastric Mucosa",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Invasiveness",
+        "Neoplasm Staging",
+        "Stomach Neoplasms"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Early Gastric Cancer",
+          "7th TNM Node Staging",
+          "Upstaging to IIA",
+          "Poor Differentiation"
+        ],
+        [
+          "Poor Differentiation",
+          "Signet Ring Cell Histology",
+          "Diffuse Type",
+          "Predicts N2/N3 in 7th TNM"
+        ],
+        [
+          "Younger Age",
+          "Larger Tumor Size",
+          "Deeper Submucosal Invasion",
+          "Higher N Stage (N2/N3) in 7th TNM"
+        ],
+        [
+          "Mucosal Cancer",
+          "Undifferentiated Type",
+          "Increased N2/N3 Nodes",
+          "Validation of 7th TNM as Biological Predictor"
+        ],
+        [
+          "Perineural Invasion",
+          "Neoplasm Invasiveness",
+          "Higher N Stage (N2/N3)",
+          "Supports Predictive Value of 7th TNM"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:27.234Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24315783",
+      "global_index": 758,
+      "question": "Aripiprazole: a new risk factor for pathological gambling?",
+      "contexts": [
+        "It is commonly accepted that pathological gambling results from the interaction of multiple risk factors. Among these, dopamine replacement therapy (DRT) prescribed for Parkinson disease can be cited. Another dopamine agonist, aripiprazole, could be a new risk factor. We decided to explore this potential adverse drug reaction (ADR).",
+        "Based on a cohort of 166 pathological gamblers starting treatment in our department, data of each of the 8 patients treated by aripiprazole at inclusion were analyzed.",
+        "The patients involved were schizophrenic or bipolar, mostly young men with a history of addictive disorders and regular gambling prior to the prescription of aripiprazole. For each one of them, the causality of aripiprazole was considered, using an algorithm. The probability that pathological gambling is actually due to aripiprazole is \"possible\" in 7 cases out of 8, and \"doubtful\" in one."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Antipsychotic Agents",
+        "Aripiprazole",
+        "Bipolar Disorder",
+        "Dopamine Agonists",
+        "Female",
+        "Gambling",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Piperazines",
+        "Quinolones",
+        "Risk Factors",
+        "Schizophrenia",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Aripiprazole",
+          "Dopamine Agonists",
+          "Increased Dopaminergic Activity",
+          "Pathological Gambling"
+        ],
+        [
+          "Schizophrenia",
+          "Antipsychotic Agents",
+          "Partial D2 Agonism",
+          "Impulse Control Impairment",
+          "Gambling"
+        ],
+        [
+          "Bipolar Disorder",
+          "Mood Stabilization",
+          "Aripiprazole Prescription",
+          "History of Addictive Disorders",
+          "Elevated Gambling Risk"
+        ],
+        [
+          "Young Adult",
+          "Male",
+          "Prior Addictive Disorders",
+          "Aripiprazole Exposure",
+          "Possible ADR (Pathological Gambling)"
+        ],
+        [
+          "Parkinson Disease",
+          "Dopamine Replacement Therapy",
+          "Known Risk Factor for Gambling",
+          "Similar Mechanism",
+          "Aripiprazole as New Risk Factor"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:34.071Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24318956",
+      "global_index": 759,
+      "question": "Is digoxin use for cardiovascular disease associated with risk of prostate cancer?",
+      "contexts": [
+        "Digoxin is a commonly used medication for heart failure and cardiac arrhythmias that has recently been suggested as a novel chemotherapeutic agent. Preclinical studies of prostate cancer (PCa) have shown anti-tumor activity with digoxin. We explore the relationship between use of digoxin and PCa risk.",
+        "Data from a population-based case-control study of incident cases aged 35-74 years at PCa diagnosis in 2002-2005 in King County, Washington were available. Controls were identified by random digit dialing and frequency matched by age. Use of digoxin was determined from in-person questionnaires regarding medical and prescription history. The relationship of digoxin use with PCa risk was evaluated with logistic regression.",
+        "One thousand one cases of PCa and 942 controls were analyzed. The prevalence of digoxin use in controls was 2.7%, and use was positively correlated with age. In multivariate analysis adjusting for age, race, PSA screening, and family history of PCa, digoxin use was associated with a reduction in the odds ratio of PCa (OR 0.58, 95% CI: 0.30-1.10). Among those with ≥3 PSA tests over the preceding 5 years (546 cases, 380 controls), digoxin use was associated with a stronger reduction of PCa risk (OR 0.44, 95% CI: 0.20-0.98)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Cardiovascular Diseases",
+        "Case-Control Studies",
+        "Digoxin",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Population Surveillance",
+        "Prostatic Neoplasms",
+        "Risk Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Digoxin",
+          "Na+/K+ ATPase inhibition",
+          "Antiproliferative effect",
+          "Reduced Prostatic Neoplasms risk"
+        ],
+        [
+          "Cardiovascular Diseases",
+          "Digoxin prescription in Male",
+          "Age (Aged) correlation",
+          "Higher prevalence in controls",
+          "Potential confounding for Prostatic Neoplasms risk"
+        ],
+        [
+          "Case‑Control Studies",
+          "Logistic regression adjusting for Age, PSA screening, Family history",
+          "Odds Ratio 0.58 for Digoxin",
+          "Suggestive reduced Prostatic Neoplasms risk"
+        ],
+        [
+          "PSA screening frequency",
+          "Detection bias",
+          "Stronger association of Digoxin (OR 0.44)",
+          "Implication for Prostatic Neoplasms risk reduction"
+        ],
+        [
+          "Population Surveillance",
+          "Adult Male cohort",
+          "Digoxin use as Risk Factor",
+          "Evaluated for Prostatic Neoplasms",
+          "Observational association"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:41.224Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24336869",
+      "global_index": 760,
+      "question": "Can routinely collected ambulance data about assaults contribute to reduction in community violence?",
+      "contexts": [
+        "The 'law of spatiotemporal concentrations of events' introduced major preventative shifts in policing communities. 'Hotspots' are at the forefront of these developments yet somewhat understudied in emergency medicine. Furthermore, little is known about interagency 'data-crossover', despite some developments through the Cardiff Model. Can police-ED interagency data-sharing be used to reduce community-violence using a hotspots methodology?",
+        "12-month (2012) descriptive study and analysis of spatiotemporal clusters of police and emergency calls for service using hotspots methodology and assessing the degree of incident overlap. 3775 violent crime incidents and 775 assault incidents analysed using spatiotemporal clustering with k-means++ algorithm and Spearman's rho.",
+        "Spatiotemporal location of calls for services to the police and the ambulance service are equally highly concentrated in a small number of geographical areas, primarily within intra-agency hotspots (33% and 53%, respectively) but across agencies' hotspots as well (25% and 15%, respectively). Datasets are statistically correlated with one another at the 0.57 and 0.34 levels, with 50% overlap when adjusted for the number of hotspots. At least one in every two police hotspots does not have an ambulance hotspot overlapping with it, suggesting half of assault spatiotemporal concentrations are unknown to the police. Data further suggest that more severely injured patients, as estimated by transfer to hospital, tend to be injured in the places with the highest number of police-recorded crimes."
+      ],
+      "mesh_terms": [
+        "Algorithms",
+        "Ambulances",
+        "Cluster Analysis",
+        "Cooperative Behavior",
+        "Data Collection",
+        "Emergency Service, Hospital",
+        "England",
+        "Humans",
+        "Police",
+        "Violence",
+        "Wounds and Injuries"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Ambulances",
+          "Data Collection",
+          "Cluster Analysis",
+          "Hotspots",
+          "Police Intervention",
+          "Community Violence Reduction"
+        ],
+        [
+          "Police",
+          "Interagency Data Sharing",
+          "Ambulance Data",
+          "Spatiotemporal Clustering",
+          "Targeted Enforcement",
+          "Assault Reduction"
+        ],
+        [
+          "Emergency Service",
+          "Algorithms",
+          "Cluster Analysis",
+          "Identification of High‑Risk Areas",
+          "Hospital Transfer Data",
+          "Severity‑Based Policing",
+          "Violence Prevention"
+        ],
+        [
+          "Violence",
+          "Wounds and Injuries",
+          "Hospital",
+          "Severity Mapping",
+          "Hotspot Prioritization",
+          "Resource Allocation",
+          "Reduced Assaults"
+        ],
+        [
+          "England",
+          "Police",
+          "Cooperative Behavior",
+          "Data Crossover",
+          "Ambulances",
+          "Predictive Modeling",
+          "Community Violence Reduction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:49.328Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24340838",
+      "global_index": 761,
+      "question": "Do ventricular arrhythmias in athletes subside over time?",
+      "contexts": [
+        "Sudden death in athletes can occur during sport activities and is presumably related to ventricular arrhythmias.",
+        "To investigate the long-term follow-up ofathletes with ventricular arrhythmias during an exercise test.",
+        "From a database of 56,462 athletes we identified 192 athletes (35 years old who had ventricular arrhythmias during an exercise test. Ninety athletes had>or =3 ventricular premature beats (VPB) (group A) and 102 athletes had ventricular couplets or non-sustained ventricular tachycardia during an exercise test (group B). A control group of 92 athletesfrom without ventricular arrhythmias was randomly seleclted from the database (group C). Of the 192 athletes 39 returnied for a repeat exercise test after a mean follow-up period of 70 +/- 25 months and they constitute the study population.",
+        "Twelve athletes from group A, 21 fromgroup B and 6 from group C returned for a repeat exercise test. The athletes reached a significantly lower peak heart rate during their follow-up exercise test (P = 0.001). More athletes were engaged in competitive sports during their initialexercise test than in the follow-up test (P = 0.021). Most of theathletes who had VPB and/orventricular couplets and/or NSVT during their initial exercise test had far fewer ventricular arrhythmias in the follow-up exercise test (P = 0.001)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Arrhythmias, Cardiac",
+        "Athletes",
+        "Case-Control Studies",
+        "Databases, Factual",
+        "Exercise Test",
+        "Follow-Up Studies",
+        "Heart Rate",
+        "Humans",
+        "Sports",
+        "Tachycardia, Ventricular",
+        "Time Factors",
+        "Ventricular Premature Complexes",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ventricular Premature Complexes",
+          "Exercise Test",
+          "Follow-Up Studies",
+          "Decreased Arrhythmia Frequency"
+        ],
+        [
+          "Athletes",
+          "Competitive Sports Participation",
+          "Lower Peak Heart Rate",
+          "Reduced Ventricular Arrhythmias"
+        ],
+        [
+          "Non‑Sustained Ventricular Tachycardia",
+          "Time Factors",
+          "Natural Regression",
+          "Subside Over Time"
+        ],
+        [
+          "Young Adult",
+          "High Baseline Heart Rate",
+          "Exercise‑Induced Ventricular Arrhythmias",
+          "Long‑Term Cardiac Adaptation",
+          "Arrhythmia Attenuation"
+        ],
+        [
+          "Database",
+          "Case‑Control Studies",
+          "Ventricular Arrhythmias in Athletes",
+          "Evidence of Decline with Follow‑Up"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:57.436Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24352924",
+      "global_index": 762,
+      "question": "Is portable ultrasonography accurate in the evaluation of Schanz pin placement during extremity fracture fixation in austere environments?",
+      "contexts": [
+        "The purpose of this study was to investigate the efficacy of ultrasonography to confirm Schanz pin placement in a cadaveric model, and the interobserver repeatability of the ultrasound methodology.",
+        "This investigation is a repeated measures cadaveric study with multiple examiners.",
+        "Cadaveric preparation and observations were done by an orthopaedic traumatologist and resident, and two general surgery traumatologists.",
+        "A total of 16 Schanz pins were equally placed in bilateral femora and tibiae. Four examiners took measurements of pin protrusion beyond the distal cortices using first ultrasonography and then by direct measurement after gross dissection.MAIN OUTCOME MEASURE(S): Distal Schanz pin protrusion length measurements from both ultrasonography and direct measurement post dissection.",
+        "Schanz pin protrusion measurements are underestimated by ultrasonography (p<0.01) by an average of 10 percent over the range of 5 to 18 mm, and they display a proportional bias that increases the under reporting as the magnitude of pin protrusion increases. Ultrasound data demonstrate good linear correlation and closely represent actual protrusion values in the 5 to 12 mm range. Interobserver repeatability analysis demonstrated that all examiners were not statistically different in their measurements despite minimal familiarity with the ultrasound methodology (p>0.8)."
+      ],
+      "mesh_terms": [
+        "Bone Nails",
+        "Cadaver",
+        "External Fixators",
+        "Femoral Fractures",
+        "Fracture Fixation",
+        "Humans",
+        "Point-of-Care Systems",
+        "Reproducibility of Results",
+        "Tibial Fractures",
+        "Ultrasonography"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ultrasonography",
+          "Schanz pin placement",
+          "Protrusion length measurement",
+          "Underestimation bias",
+          "Impact on fracture fixation accuracy"
+        ],
+        [
+          "Point-of-Care Systems",
+          "Portable ultrasonography",
+          "Austere environment",
+          "Real-time assessment of External Fixators",
+          "Improved patient outcomes"
+        ],
+        [
+          "Cadaver study",
+          "Bone Nails",
+          "Femoral and Tibial fractures",
+          "Interobserver repeatability",
+          "Reproducibility of Results"
+        ],
+        [
+          "External Fixators",
+          "Schanz pin",
+          "Ultrasonography linear correlation",
+          "Accurate range 5‑12 mm",
+          "Decision threshold for pin removal"
+        ],
+        [
+          "Fracture Fixation",
+          "Tibial Fractures",
+          "Ultrasonography measurement",
+          "Proportional bias increase with greater protrusion",
+          "Necessity for calibration in austere settings"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:04.451Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24359102",
+      "global_index": 763,
+      "question": "Two-year follow-up survey of patients with allergic contact dermatitis from an occupational cohort: is the prognosis dependent on the omnipresence of the allergen?",
+      "contexts": [
+        "Skin diseases are the most frequently recognized occupational diseases in Denmark. The prognosis for occupational contact dermatitis is often poor.",
+        "To investigate the prognosis, assessed by eczema, job status and skin-related quality of life, among patients allergic to rubber chemicals and latex (ubiquitous allergens) and epoxy (nonubiquitous allergen), 2 years after recognition of occupational allergic contact dermatitis.",
+        "From a cohort of all patients recognized as having occupational dermatitis by the Danish National Board of Industrial Injuries in 2010, 199 patients with relevant rubber allergy (contact allergy to rubber chemicals or contact urticaria from latex) or epoxy allergy were identified. Follow-up consisted of a questionnaire covering current severity of eczema, employment, exposure and quality of life.",
+        "The response rate was 75%. Clearance of eczema was reported by 11% of patients and 67% reported improvement. Overall 22% of patients with allergy to a nonubiquitous allergen had total clearance of eczema compared with 10% of cases allergic to ubiquitous allergens and 0% of those with contact urticaria (P = 0·116). Improvement was significantly more frequent in those who had changed jobs compared with those who had not (P = 0·01)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Allergens",
+        "Denmark",
+        "Dermatitis, Allergic Contact",
+        "Dermatitis, Occupational",
+        "Eczema",
+        "Employment",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Latex Hypersensitivity",
+        "Male",
+        "Middle Aged",
+        "Prognosis",
+        "Quality of Life",
+        "Urticaria",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ubiquitous allergens",
+          "Continuous occupational exposure",
+          "Persistent eczema",
+          "Poor prognosis"
+        ],
+        [
+          "Nonubiquitous allergen (epoxy)",
+          "Ability to avoid exposure",
+          "Higher eczema clearance",
+          "Better prognosis"
+        ],
+        [
+          "Change of job",
+          "Reduced allergen exposure",
+          "Improvement in eczema",
+          "Improved skin‑related quality of life"
+        ],
+        [
+          "Latex hypersensitivity",
+          "Contact urticaria",
+          "No eczema clearance",
+          "Unfavorable prognosis"
+        ],
+        [
+          "Follow‑up survey",
+          "Assessment of eczema severity & employment status",
+          "Correlation analysis",
+          "Prognosis not solely dependent on allergen ubiquity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:11.088Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24374414",
+      "global_index": 764,
+      "question": "Does health information exchange reduce redundant imaging?",
+      "contexts": [
+        "Broad-based electronic health information exchange (HIE), in which patients' clinical data follow them between care delivery settings, is expected to produce large quality gains and cost savings. Although these benefits are assumed to result from reducing redundant care, there is limited supporting empirical evidence.",
+        "To evaluate whether HIE adoption is associated with decreases in repeat imaging in emergency departments (EDs).DATA SOURCE/",
+        "ED discharge data from the State Emergency Department Databases for California and Florida for 2007-2010 were merged with Health Information Management Systems Society data that report hospital HIE participation.",
+        "Using regression with ED fixed effects and trends, we performed a retrospective analysis of the impact of HIE participation on repeat imaging, comparing 37 EDs that initiated HIE participation during the study period to 410 EDs that did not participate in HIE during the same period. Within 3 common types of imaging tests [computed tomography (CT), ultrasound, and chest x-ray), we defined a repeat image for a given patient as the same study in the same body region performed within 30 days at unaffiliated EDs.",
+        "In our sample there were 20,139 repeat CTs (representing 14.7% of those cases with CT in the index visit), 13,060 repeat ultrasounds (20.7% of ultrasound cases), and 29,703 repeat chest x-rays (19.5% of x-ray cases). HIE was associated with reduced probability of repeat ED imaging in all 3 modalities: -8.7 percentage points for CT [95% confidence interval (CI): -14.7, -2.7], -9.1 percentage points for ultrasound (95% CI: -17.2, -1.1), and -13.0 percentage points for chest x-ray (95% CI: -18.3, -7.7), reflecting reductions of 44%-67% relative to sample means."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "California",
+        "Continuity of Patient Care",
+        "Diagnostic Imaging",
+        "Electronic Health Records",
+        "Emergency Service, Hospital",
+        "Female",
+        "Florida",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Retrospective Studies",
+        "Sex Factors",
+        "Socioeconomic Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Health Information Exchange",
+          "Continuity of Patient Care",
+          "Access to Prior Diagnostic Imaging",
+          "Reduced Repeat CT"
+        ],
+        [
+          "Electronic Health Records",
+          "Data Interoperability",
+          "Emergency Department Decision-Making",
+          "Lower Redundant Ultrasound"
+        ],
+        [
+          "Hospital",
+          "HIE Participation",
+          "Fixed-Effects"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:19.453Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24433626",
+      "global_index": 765,
+      "question": "Prevalence of chronic conditions among Medicare Part A beneficiaries in 2008 and 2010: are Medicare beneficiaries getting sicker?",
+      "contexts": [
+        "Medicare beneficiaries who have chronic conditions are responsible for a disproportionate share of Medicare fee-for-service expenditures. The objective of this study was to analyze the change in the health of Medicare beneficiaries enrolled in Part A (hospital insurance) between 2008 and 2010 by comparing the prevalence of 11 chronic conditions.",
+        "We conducted descriptive analyses using the 2008 and 2010 Chronic Conditions Public Use Files, which are newly available from the Centers for Medicare and Medicaid Services and have administrative (claims) data on 100% of the Medicare fee-for-service population. We examined the data by age, sex, and dual eligibility (eligibility for both Medicare and Medicaid).",
+        "Medicare Part A beneficiaries had more chronic conditions on average in 2010 than in 2008. The percentage increase in the average number of chronic conditions was larger for dual-eligible beneficiaries (2.8%) than for nondual-eligible beneficiaries (1.2%). The prevalence of some chronic conditions, such as congestive heart failure, ischemic heart disease, and stroke/transient ischemic attack, decreased. The deterioration of average health was due to other chronic conditions: chronic kidney disease, depression, diabetes, osteoporosis, rheumatoid arthritis/osteoarthritis. Trends in Alzheimer's disease, cancer, and chronic obstructive pulmonary disease showed differences by sex or dual eligibility or both."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Chronic Disease",
+        "Female",
+        "Health Services Research",
+        "Humans",
+        "Insurance Claim Review",
+        "Male",
+        "Medicare Part A",
+        "Middle Aged",
+        "Prevalence",
+        "Time Factors",
+        "United States"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Medicare Part A",
+          "2010 Data",
+          "Higher Average Number of Chronic Conditions",
+          "Dual-eligible Beneficiaries",
+          "Larger Increase (2.8%)"
+        ],
+        [
+          "Aged",
+          "Chronic Kidney Disease",
+          "Increased Prevalence",
+          "Contribute to Overall Health Deterioration"
+        ],
+        [
+          "Female",
+          "Osteoporosis",
+          "Higher Prevalence in 2010",
+          "Contributes to Rise in Chronic Condition Count"
+        ],
+        [
+          "Male",
+          "Ischemic Heart Disease",
+          "Decreased Prevalence",
+          "Offsets Some Health Decline"
+        ],
+        [
+          "Time Factors",
+          "2008 vs 2010",
+          "Health Services Research",
+          "Evaluation of Medicare Beneficiary Health Trends",
+          "Determination of “Getting Sicker”"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:26.374Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24434052",
+      "global_index": 766,
+      "question": "Are we seeing the effects of public awareness campaigns?",
+      "contexts": [
+        "The last 20 years has seen a marked improvement in skin cancer awareness campaigns. We sought to establish whether this has affected the presenting Breslow thickness of malignant melanoma in the South West.",
+        "This is a retrospective study looking at the first presentation of melanomas from 2003 to 2011. Data was accessed using the local online melanoma database.",
+        "A total of 2001 new melanomas presented from 2003 to 2012 (Male:Female = 1:1.062). The average yearly number of melanomas was 200.1 (range = 138-312). The mean age was 62.5 years (range 12-99). Data was analysed using a Chi² test. For 0-1 mm melanomas, there is a significant difference in the observed versus expected values over the 10 years (p = 0.0018). There is an increasing proportion of 0-1 mm (thin) melanomas presenting year on year, with a positive linear trend. This is very statistically significant (p<0.0001). The 1-2 mm melanomas are decreasing in proportion with a negative linear trend (p = 0.0013). The 2-4 mm are also decreasing in proportion (p = 0.0253). There is no significant change in the thick>4 mm melanomas (p = 0.1456)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Child",
+        "England",
+        "Female",
+        "Health Knowledge, Attitudes, Practice",
+        "Health Promotion",
+        "Humans",
+        "Male",
+        "Melanoma",
+        "Middle Aged",
+        "Patient Acceptance of Health Care",
+        "Retrospective Studies",
+        "Skin Neoplasms",
+        "Young Adult"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Health Promotion",
+          "Health Knowledge",
+          "Early Detection",
+          "Increased 0-1 mm Melanomas"
+        ],
+        [
+          "Public Awareness Campaigns",
+          "Attitudes",
+          "Patient Acceptance of Health Care",
+          "Earlier Presentation",
+          "Decreased 1-2 mm Melanomas"
+        ],
+        [
+          "Skin Neoplasms",
+          "Melanoma",
+          "Breslow Thickness",
+          "Retrospective Studies",
+          "Linear Trend Analysis",
+          "Thin Melanoma Proportion ↑"
+        ],
+        [
+          "Adult",
+          "Melanoma",
+          "Screening",
+          "Thin Melanoma Detection",
+          "Reduced Thick (>4 mm) Melanomas"
+        ],
+        [
+          "England",
+          "Health Promotion",
+          "Chi² Test",
+          "Significant p‑value",
+          "Evidence of Campaign Effect"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:33.485Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24446763",
+      "global_index": 767,
+      "question": "The secular growth acceleration: does it appear during fetal life?",
+      "contexts": [
+        "To test if secular growth acceleration occurs during fetal life.",
+        "ANOVA Kruskal-Wallis and Mann-Whitney U-test have been used for the biometric characteristics comparison of nowadays fetal population with those three decades ago and to test the hypothesis about the existence of secular growth acceleration during fetal life. For this purpose, we first calculated mean values of particular biometric parameters for the whole pregnancy. During the period 2002-2009 biparietal diameter, fetal length and abdominal circumference measurements in singleton uncomplicated pregnancies between 22 and 41 gestational weeks were obtained. Gestational age was estimated according to Naegele's rule and confirmed with an early ultrasound examination. Pregnancies with fetal cromosomopathies and malformations were excluded as well as those resulting in perinatal death.",
+        "There were no statistically significant differences of the examined fetal biometric parameters measured by ultrasound between contemporary fetal population and those from 35 years ago."
+      ],
+      "mesh_terms": [
+        "Acceleration",
+        "Birth Weight",
+        "Female",
+        "Fetal Development",
+        "Gestational Age",
+        "Humans",
+        "Infant, Newborn",
+        "Population Growth",
+        "Pregnancy",
+        "Reference Values",
+        "Ultrasonography, Prenatal"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Secular growth acceleration",
+          "Population Growth",
+          "Birth Weight",
+          "Fetal Biometric Parameters",
+          "Ultrasonography",
+          "No Significant Change"
+        ],
+        [
+          "Prenatal",
+          "Ultrasonography",
+          "Biparietal Diameter",
+          "Gestational Age",
+          "Historical Cohort Comparison",
+          "Absence of Secular Acceleration"
+        ],
+        [
+          "Fetal Development",
+          "Reference Values",
+          "Biometric Measurements",
+          "35‑year Temporal Comparison",
+          "Secular Growth Trend",
+          "Negative Finding"
+        ],
+        [
+          "Female",
+          "Birth Weight",
+          "Secular Trend Analysis",
+          "Fetal Length",
+          "Ultrasound Data",
+          "No Acceleration Detected"
+        ],
+        [
+          "Human",
+          "Pregnancy",
+          "Gestational Age",
+          "Biometric Parameters",
+          "Population Growth",
+          "Secular Growth Acceleration Not Observed"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:40.324Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24449622",
+      "global_index": 768,
+      "question": "Is there a relationship between serum paraoxonase level and epicardial fat tissue thickness?",
+      "contexts": [
+        "This study aimed to show the relationship between serum paraoxonase 1 level and the epicardial fat tissue thickness.",
+        "Two hundred and seven patients without any atherosclerotic disease history were included in this cross-sectional observational study. Correlation analysis was performed to determine the correlation between epicardial fat tissue thickness, which was measured by echocardiography and serum paraoxonase 1 level. Also correlation analysis was performed to show correlation between patients' clinical and laboratory findings and the level of serum paraoxonase 1 (PON 1) and the epicardial fat tissue thickness. Pearson and Spearman test were used for correlation analysis.",
+        "No linear correlation between epicardial fat tissue thickness and serum PON 1 found (correlation coefficient: -0.127, p=0.069). When epicardial fat tissue thickness were grouped as 7 mm and over, and below, and 5 mm and over, and below, serum PON 1 level were significantly lower in ≥7 mm group (PON1 : 168.9 U/L) than<7 mm group (PON 1: 253.9 U/L) (p<0.001). Also hypertension prevalence was increased in ≥7 mm group (p=0.001). Serum triglyceride was found to be higher in ≥7 mm group (p=0.014), body mass index was found higher in ≥5 mm group (p=0.006)."
+      ],
+      "mesh_terms": [
+        "Adipose Tissue",
+        "Aryldialkylphosphatase",
+        "Coronary Artery Disease",
+        "Cross-Sectional Studies",
+        "Echocardiography",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Pericardium"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Epicardial fat tissue thickness",
+          "Adipose Tissue",
+          "Increased oxidative stress",
+          "Decreased Aryldialkylphosphatase (PON1) activity"
+        ],
+        [
+          "Serum paraoxonase 1 (Aryldialkylphosphatase)",
+          "Antioxidant enzyme",
+          "Protects LDL from oxidation",
+          "Lower risk of Coronary Artery Disease"
+        ],
+        [
+          "Echocardiography",
+          "Measurement of epicardial fat thickness",
+          "Grouped ≥7 mm",
+          "Lower serum PON1 levels"
+        ],
+        [
+          "Hypertension prevalence ↑ in ≥7 mm group",
+          "Hypertension",
+          "Elevated oxidative stress",
+          "Reduced serum PON1"
+        ],
+        [
+          "Body mass index ↑",
+          "Epicardial Adipose Tissue ↑",
+          "Serum triglyceride ↑",
+          "Serum PON1 ↓"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:48.773Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24450673",
+      "global_index": 769,
+      "question": "Delayed imaging in routine CT examinations of the abdomen and pelvis: is it worth the additional cost of radiation and time?",
+      "contexts": [
+        "The purpose of this study was to retrospectively assess the potential benefits of delayed phase imaging series in routine CT scans of the abdomen and pelvis.",
+        "Routine contrast-enhanced abdominopelvic CT scans of 1000 consecutively examined patients (912 men, 88 women; average age, 60 years; range, 22-94 years) were retrospectively evaluated, and the added benefits of the delayed phase series through the abdomen were recorded for each examination. Examinations performed for indications requiring multiphasic imaging were excluded. Images were reviewed by two fellowship-trained abdominal radiologists, who were blinded to official CT reports. All examinations were performed between July 2008 and February 2010 at a single institution. Radiation doses for both the portal venous and delayed phases, when available, were analyzed to assess the effect of the delayed phase on overall radiation exposure.",
+        "Forty-two patients (4.2%) had findings that were further characterized or were observed only in the delayed phase. Most were incidental findings that could have been confirmed at noninvasive follow-up imaging, such as sonography or unenhanced CT or MRI. The most common findings were liver hemangioma (n = 12), adrenal adenoma (n = 12), and parapelvic renal cysts (n = 6). The most important finding was detection of a renal mass in one patient (0.1%). The mass was seen only on the delayed phase images but was difficult to appreciate in the portal venous phase. In the other 958 patients (95.8%), delayed imaging was of no benefit. In addition, use of the delayed phase resulted in a mean 59.5% increase in effective radiation dose."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Contrast Media",
+        "Female",
+        "Humans",
+        "Incidental Findings",
+        "Iohexol",
+        "Male",
+        "Middle Aged",
+        "Pelvis",
+        "Radiation Dosage",
+        "Radiography, Abdominal",
+        "Retrospective Studies",
+        "Time Factors",
+        "Tomography, X-Ray Computed",
+        "Triiodobenzoic Acids"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Delayed phase imaging",
+          "Incidental findings",
+          "Sonography",
+          "No added clinical value"
+        ],
+        [
+          "Delayed phase imaging",
+          "Increased effective radiation dose",
+          "Radiation dosage concerns",
+          "Cost‑benefit analysis",
+          "Not justified"
+        ],
+        [
+          "Delayed phase imaging",
+          "Detection of renal mass",
+          "Early cancer detection",
+          "Benefit may outweigh radiation"
+        ],
+        [
+          "Adult",
+          "Age (average 60)",
+          "Radiation sensitivity",
+          "Increased risk",
+          "Questionable benefit"
+        ],
+        [
+          "Contrast Media (Iohexol)",
+          "Delayed phase enhancement",
+          "Lesion characterization",
+          "Management impact",
+          "Limited benefit"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:56.928Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24476003",
+      "global_index": 770,
+      "question": "Is nasogastric decompression useful in prevention of leaks after laparoscopic sleeve gastrectomy?",
+      "contexts": [
+        "Although its excellent results, laparoscopic sleeve gastrectomy (LSG) presents major complications ranging from 0% to 29%. Among them, the staple line leak presents an incidence varying from 0% to 7%. Many trials debated about different solutions in order to reduce leaks' incidence. No author has investigated the role of gastric decompression in the prevention of this complication. Aim of our work is to evaluate if this procedure can play a role in avoiding the occurrence of staple line leaks after LSG.",
+        "Between January 2008 and November 2012, 145 patients were prospectively and randomly included in the study. Seventy patients composed the group A, whose operations were completed with placement of nasogastric tube; the other 75 patients were included in the group B, in which no nasogastric tube was placed.",
+        "No statistical differences were observed between group A and group B regarding gender distribution, age, weight, and BMI. No intraoperative complications and no conversion occurred in both groups. Intraoperative blood loss (50.1 ± 42.3 vs. 52.5 ± 37.6 ml, respectively) and operative time (65.4 ± 25.5 vs. 62.6 ± 27.8 min, respectively) were comparable between the two groups (p: NS). One staple line leak (1.4%) occurred on 6th postoperative day in group A patients. No leak was observed in group B patients. Postoperative hospital stay was significantly longer in group A vs. group B patients (7.6 ± 3.4 vs. 6.2 ± 3.1 days, respectively, p: 0.04)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Bariatric Surgery",
+        "Female",
+        "Gastrectomy",
+        "Humans",
+        "Intubation, Gastrointestinal",
+        "Male",
+        "Middle Aged",
+        "Obesity, Morbid",
+        "Postoperative Complications",
+        "Prospective Studies",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Nasogastric Decompression",
+          "Reduced Intragastric Pressure",
+          "Decreased Staple Line Tension",
+          "Lower Leak Risk"
+        ],
+        [
+          "Laparoscopic Sleeve Gastrectomy",
+          "Staple Line Formation",
+          "Leak",
+          "Prolonged Hospital Stay"
+        ],
+        [
+          "Prospective Randomized Study",
+          "Group A (NG tube) vs Group B (No NG tube)",
+          "Leak Incidence Comparison",
+          "No Significant Difference"
+        ],
+        [
+          "Obesity",
+          "Bariatric Surgery (LSG)",
+          "Postoperative Complications",
+          "Staple Line Leak",
+          "Increased Morbidity"
+        ],
+        [
+          "Absence of Nasogastric Tube",
+          "Early Oral Intake",
+          "Shorter Hospital Stay",
+          "Faster Recovery"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T18:52:35.872Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24481006",
+      "global_index": 771,
+      "question": "Should cavitation in proximal surfaces be reported in cone beam computed tomography examination?",
+      "contexts": [
+        "79 adjacent proximal surfaces without restorations in permanent teeth were examined. Patients suspected to have carious lesions after a visual clinical and a bitewing examination participated in a CBCT examination (Kodak 9000 3D, 5 × 3.7 cm field of view, voxel size 0.07 mm). Ethical approval and informed consent were obtained according to the Helsinki Declaration. Radiographic assessment recording lesions with or without cavitation was performed by two observers in bitewings and CBCT sections. Orthodontic separators were placed interdentally between two lesion-suspected surfaces. The separator was removed after 3 days and the surfaces recorded as cavitated (yes/no), i.e. validated clinically. Differences between the two radiographic modalities (sensitivity, specificity and overall accuracy) were estimated by analyzing the binary data in a generalized linear model.",
+        "For both observers, sensitivity was significantly higher for CBCT than for bitewings (average difference 33%, p<0.001) while specificity was not significantly different between the methods (p = 0.19). The overall accuracy was also significantly higher for CBCT (p<0.001)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Bicuspid",
+        "Cone-Beam Computed Tomography",
+        "Dental Caries",
+        "Female",
+        "Humans",
+        "Image Processing, Computer-Assisted",
+        "Linear Models",
+        "Male",
+        "Middle Aged",
+        "Molar",
+        "Observer Variation",
+        "Physical Examination",
+        "Radiography, Bitewing",
+        "Reproducibility of Results",
+        "Sensitivity and Specificity",
+        "Tooth Crown",
+        "Tooth Discoloration",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Cone-Beam Computed Tomography",
+          "Increased Sensitivity",
+          "Better Detection of Cavitation",
+          "Recommendation to Report Cavitated Surfaces"
+        ],
+        [
+          "Bitewing Radiography",
+          "Lower Sensitivity",
+          "Missed Cavitation",
+          "Need for CBCT Confirmation",
+          "Reporting Decision"
+        ],
+        [
+          "Observer Variation",
+          "Radiographic Modality Comparison",
+          "CBCT Superior Specificity",
+          "Confidence in Reporting Cavitation"
+        ],
+        [
+          "Orthodontic Separator Validation",
+          "Clinical Confirmation of Cavitation",
+          "Gold Standard",
+          "Aligns with CBCT Findings",
+          "Supports Reporting"
+        ],
+        [
+          "Dental Caries",
+          "Proximal Surface Lesion",
+          "CBCT Image Processing",
+          "Binary Recording (cavitated yes/no)",
+          "Reporting Improves Accuracy"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:52:42.860Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24487044",
+      "global_index": 772,
+      "question": "Pharmacologic regimens for knee osteoarthritis prevention: can they be cost-effective?",
+      "contexts": [
+        "We sought to determine the target populations and drug efficacy, toxicity, cost, and initiation age thresholds under which a pharmacologic regimen for knee osteoarthritis (OA) prevention could be cost-effective.",
+        "We used the Osteoarthritis Policy (OAPol) Model, a validated state-transition simulation model of knee OA, to evaluate the cost-effectiveness of using disease-modifying OA drugs (DMOADs) as prophylaxis for the disease. We assessed four cohorts at varying risk for developing OA: (1) no risk factors, (2) obese, (3) history of knee injury, and (4) high-risk (obese with history of knee injury). The base case DMOAD was initiated at age 50 with 40% efficacy in the first year, 5% failure per subsequent year, 0.22% major toxicity, and annual cost of $1,000. Outcomes included costs, quality-adjusted life expectancy (QALE), and incremental cost-effectiveness ratios (ICERs). Key parameters were varied in sensitivity analyses.",
+        "For the high-risk cohort, base case prophylaxis increased quality-adjusted life-years (QALYs) by 0.04 and lifetime costs by $4,600, and produced an ICER of $118,000 per QALY gained. ICERs>$150,000/QALY were observed when comparing the base case DMOAD to the standard of care in the knee injury only cohort; for the obese only and no risk factors cohorts, the base case DMOAD was less cost-effective than the standard of care. Regimens priced at $3,000 per year and higher demonstrated ICERs above cost-effectiveness thresholds consistent with current US standards."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Computer Simulation",
+        "Cost-Benefit Analysis",
+        "Female",
+        "Humans",
+        "Knee Injuries",
+        "Male",
+        "Middle Aged",
+        "Obesity",
+        "Osteoarthritis, Knee",
+        "Quality-Adjusted Life Years",
+        "Risk Factors",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Obesity",
+          "Increased Knee OA Risk",
+          "Disease‑Modifying OA Drug (DMOAD) Prophylaxis",
+          "Incremental Cost‑Effectiveness Ratio (ICER)"
+        ],
+        [
+          "Knee Injuries",
+          "Higher Incidence of Knee Osteoarthritis",
+          "Initiation Age 50",
+          "Quality‑Adjusted Life Years (QALYs) Gained"
+        ],
+        [
+          "Age 80",
+          "Elevated Treatment Costs",
+          "Quality‑Adjusted Life Years (QALYs)",
+          "Cost‑Benefit Analysis"
+        ],
+        [
+          "DMOAD Efficacy 40%",
+          "Delayed OA Onset",
+          "Lifetime Cost Increase",
+          "ICER > $150,000/QALY"
+        ],
+        [
+          "High‑Risk Cohort (Obese + Knee Injury)",
+          "DMOAD Annual Cost $1,000",
+          "QALY Gain 0.04",
+          "ICER $118,000 per QALY"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:52:52.452Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24495711",
+      "global_index": 773,
+      "question": "Is crime associated with over-the-counter pharmacy syringe sales?",
+      "contexts": [
+        "More than 50,000 new HIV infections occur annually in the United States. Injection drug users represent twelve percent of incident HIV infections each year. Pharmacy sales of over-the-counter (OTC) syringes have helped prevent HIV transmission among injection drug users in many states throughout the United States. However, concerns exist among some law enforcement officials, policymakers, pharmacists, and community members about potential links between OTC syringe sales and crime.",
+        "We used a geographic information system and novel spatial and longitudinal analyses to determine whether implementation of pharmacy-based OTC syringe sales were associated with reported crime between January 2006 and December 2008 in Los Angeles Police Department Reporting Districts. We assessed reported crime pre- and post-OTC syringe sales initiation as well as longitudinal associations between crime and OTC syringe-selling pharmacies.",
+        "By December 2008, 9.3% (94/1010) of Los Angeles Police Department Reporting Districts had at least one OTC syringe-selling pharmacy. Overall reported crime counts and reported crime rates decreased between 2006 and 2008 in all 1010 Reporting Districts. Using generalized estimating equations and adjusting for potential confounders, reported crime rates were negatively associated with OTC syringe sales (adjusted rate ratio: 0.89; 95% confidence interval: 0.81, 0.99)."
+      ],
+      "mesh_terms": [
+        "Commerce",
+        "Crime",
+        "Drug Users",
+        "Geographic Information Systems",
+        "Los Angeles",
+        "Models, Statistical",
+        "Pharmacies",
+        "Syringes"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Pharmacies",
+          "Over-the-counter Syringe Sales",
+          "Injection Drug Users",
+          "Reported Crime Rates",
+          "Negative Association"
+        ],
+        [
+          "Geographic Information Systems",
+          "Spatial Analysis",
+          "Los Angeles Police Department Reporting Districts",
+          "Crime Rate Trends",
+          "OTC Syringe Selling Pharmacies"
+        ],
+        [
+          "Crime",
+          "Law Enforcement Concerns",
+          "OTC Syringe Sales",
+          "Statistical Models",
+          "Adjusted Rate Ratio (0.89)"
+        ],
+        [
+          "Drug Users",
+          "HIV Transmission Risk",
+          "OTC Syringe Availability",
+          "Reduced Needle Sharing",
+          "Decreased Crime"
+        ],
+        [
+          "Commerce",
+          "Pharmacy Sales Data",
+          "Generalized Estimating Equations",
+          "Crime Rate Decrease",
+          "Evidence Against Positive Association"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:01.081Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24507422",
+      "global_index": 774,
+      "question": "Can shape analysis differentiate free-floating internal carotid artery thrombus from atherosclerotic plaque in patients evaluated with CTA for stroke or transient ischemic attack?",
+      "contexts": [
+        "Patients presenting with transient ischemic attack or stroke may have symptom-related lesions on acute computed tomography angiography (CTA) such as free-floating intraluminal thrombus (FFT). It is difficult to distinguish FFT from carotid plaque, but the distinction is critical as management differs. By contouring the shape of these vascular lesions (\"virtual endarterectomy\"), advanced morphometric analysis can be performed. The objective of our study is to determine whether quantitative shape analysis can accurately differentiate FFT from atherosclerotic plaque.",
+        "We collected 23 consecutive cases of suspected carotid FFT seen on CTA (13 men, 65 ± 10 years; 10 women, 65.5 ± 8.8 years). True-positive FFT cases (FFT+) were defined as filling defects resolving with anticoagulant therapy versus false-positives (FFT-), which remained unchanged. Lesion volumes were extracted from CTA images and quantitative shape descriptors were computed. The five most discriminative features were used to construct receiver operator characteristic (ROC) curves and to generate three machine-learning classifiers. Average classification accuracy was determined by cross-validation.",
+        "Follow-up imaging confirmed sixteen FFT+ and seven FFT- cases. Five shape descriptors delineated FFT+ from FFT- cases. The logistic regression model produced from combining all five shape features demonstrated a sensitivity of 87.5% and a specificity of 71.4% with an area under the ROC curve = 0.85 ± 0.09. Average accuracy for each classifier ranged from 65.2%-76.4%."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Carotid Artery Thrombosis",
+        "Carotid Stenosis",
+        "Cerebral Angiography",
+        "Diagnosis, Differential",
+        "Female",
+        "Humans",
+        "Ischemic Attack, Transient",
+        "Male",
+        "Pattern Recognition, Automated",
+        "Radiographic Image Interpretation, Computer-Assisted",
+        "Reproducibility of Results",
+        "Sensitivity and Specificity",
+        "Stroke",
+        "Tomography, X-Ray Computed"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Computed Tomography Angiography",
+          "Contouring",
+          "Quantitative shape descriptors",
+          "Differentiation of FFT vs plaque",
+          "Sensitivity 87.5%"
+        ],
+        [
+          "Carotid artery thrombosis",
+          "Free‑floating thrombus",
+          "Anticoagulant therapy",
+          "Resolution on follow‑up CTA",
+          "FFT+"
+        ],
+        [
+          "Atherosclerotic plaque",
+          "Carotid stenosis",
+          "CTA lesion appearance",
+          "False‑positive FFT",
+          "FFT-"
+        ],
+        [
+          "Machine learning",
+          "Logistic regression model",
+          "ROC curve",
+          "AUC 0.85",
+          "Diagnostic accuracy"
+        ],
+        [
+          "Pattern recognition",
+          "Automated radiographic image interpretation",
+          "Reproducibility of results",
+          "Clinical management decision"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:05.566Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24516646",
+      "global_index": 775,
+      "question": "Is the determination of specific IgE against components using ISAC 112 a reproducible technique?",
+      "contexts": [
+        "The ImmunoCAP ISAC 112 is a fluoro-immunoassay that allows detection of specific IgE to 112 molecular components from 51 allergenic sources. We studied the reliability of this technique intra- and inter- assay, as well as inter-batch- and inter-laboratory-assay.",
+        "Twenty samples were studied, nineteen sera from polysensitized allergic patients, and the technique calibrator provided by the manufacturer (CTR02). We measured the sIgE from CTR02 and three patients' sera ten times in the same and in different assays. Furthermore, all samples were tested in two laboratories and with two batches of ISAC kit. To evaluate the accuracy of ISAC 112, we contrasted the determinations of CTR02 calibrator with their expected values by T Student test. To analyse the precision, we calculated the coefficient of variation (CV) of the 15 allergens that generate the calibration curve, and to analyse the repeatability and the reproducibility, we calculated the intraclass coefficient correlation (ICC) to each allergen.",
+        "The results obtained for CTR02 were similar to those expected in 7 of 15 allergens that generate the calibration curve, whereas in 8 allergens the results showed significant differences. The mean CV obtained in the CTR02 determinations was of 9.4%, and the variability of sera from patients was of 22.9%. The agreement in the intra- and inter-assay analysis was very good to 94 allergens and good to one. In the inter-batch analyse, we obtained a very good agreement to 82 allergens, good to 14, moderate to 5 allergens, poor to one, and bad to 1 allergen. In the inter-laboratory analyse, we obtained a very good agreement to 73 allergens, good to 22, moderate to 6 and poor to two allergens."
+      ],
+      "mesh_terms": [
+        "Calibration",
+        "Fluoroimmunoassay",
+        "Humans",
+        "Immunoglobulin E",
+        "Reproducibility of Results"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Fluoroimmunoassay",
+          "Specific IgE detection",
+          "ISAC 112",
+          "Intraclass correlation",
+          "Reproducibility of Results"
+        ],
+        [
+          "Calibration",
+          "CTR02 calibrator",
+          "Coefficient of Variation",
+          "Inter-batch variability",
+          "Reproducibility of Results"
+        ],
+        [
+          "Polysensitized patients",
+          "Serum samples",
+          "Intra-assay repeatability",
+          "Good agreement",
+          "Reproducibility of Results"
+        ],
+        [
+          "Immunoglobulin E",
+          "Molecular components",
+          "ISAC 112",
+          "Inter-laboratory analysis",
+          "Reproducibility of Results"
+        ],
+        [
+          "Calibration curve",
+          "15 allergens",
+          "T Student test",
+          "Accuracy assessment",
+          "Reproducibility of Results"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:14.788Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24519615",
+      "global_index": 776,
+      "question": "Does patella position influence ligament balancing in total knee arthroplasty?",
+      "contexts": [
+        "In vivo comparative gap measurements were performed in three different patella positions (reduced, subluxated and everted) using offset-type-force-controlled-spreader-system.",
+        "Prospectively, 50 knees were operated by total knee arthroplasty using a navigation-assisted gap-balancing technique. The offset-type-force-controlled-spreader-system was used for gap measurements. This commercially available instrument allows controllable tension in patella-reduced position. The mediolateral gaps of knee extension (0°) and flexion (90°) angle were recorded in three different patella positions; reduced, subluxated and everted. Any gap differences of more than 3 mm were considered as a meaningful difference. Correlation between the difference with the demographic data, preoperative radiologic alignment and intraoperative data was analysed. For statistical analysis, ANOVA and Pearson's correlation test were used.",
+        "The gaps in patella eversion demonstrated smaller gaps both in knee extension and flexion position compared to the gaps of patella reduction position. The amount of decreased gaps was more definite in knee flexion position. Statistically significant difference was observed for the lateral gap of patella eversion compared to gap of patella reduction in knee flexion position (p<0.05). There were notable cases of variability in knee flexion position. Significant portion of 12 (24 %) knees of patella subluxation and 33 (66 %) knees of patella evertion demonstrated either increased or decreased gaps in knee flexion position compared to the gaps of patella reduction position."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Arthroplasty, Replacement, Knee",
+        "Body Weights and Measures",
+        "Female",
+        "Genu Varum",
+        "Humans",
+        "Knee Joint",
+        "Male",
+        "Osteoarthritis, Knee",
+        "Patella",
+        "Patellar Ligament",
+        "Range of Motion, Articular",
+        "Surgery, Computer-Assisted"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Patella position",
+          "Medioloateral gap measurement",
+          "Gap difference >3 mm",
+          "Ligament balancing",
+          "Total knee arthroplasty"
+        ],
+        [
+          "Patella eversion",
+          "Decreased flexion gap",
+          "Improved ligament tension",
+          "Arthroplasty, Replacement, Knee outcome"
+        ],
+        [
+          "Patella subluxation",
+          "Variable flexion gap",
+          "Intraoperative adjustment",
+          "Navigation-assisted gap balancing",
+          "Knee Joint"
+        ],
+        [
+          "Offset-type-force-controlled spreader",
+          "Controlled tension in reduced patella",
+          "Baseline gap measurement",
+          "Comparison with eversion/subluxation",
+          "Influence on ligament balancing"
+        ],
+        [
+          "Genu varum (preoperative alignment)",
+          "Patellar tracking alteration",
+          "Patella position during surgery",
+          "Gap variability",
+          "Decision on ligament release"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:26.060Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24577079",
+      "global_index": 777,
+      "question": "Does strategy training reduce age-related deficits in working memory?",
+      "contexts": [
+        "Older adults typically perform worse on measures of working memory (WM) than do young adults; however, age-related differences in WM performance might be reduced if older adults use effective encoding strategies.",
+        "The purpose of the current experiment was to evaluate WM performance after training individuals to use effective encoding strategies.",
+        "Participants in the training group (older adults: n = 39; young adults: n = 41) were taught about various verbal encoding strategies and their differential effectiveness and were trained to use interactive imagery and sentence generation on a list-learning task. Participants in the control group (older: n = 37; young: n = 38) completed an equally engaging filler task. All participants completed a pre- and post-training reading span task, which included self-reported strategy use, as well as two transfer tasks that differed in the affordance to use the trained strategies - a paired-associate recall task and the self-ordered pointing task.",
+        "Both young and older adults were able to use the target strategies on the WM task and showed gains in WM performance after training. The age-related WM deficit was not greatly affected, however, and the training gains did not transfer to the other cognitive tasks. In fact, participants attempted to adapt the trained strategies for a paired-associate recall task, but the increased strategy use did not benefit their performance."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aging",
+        "Cognition",
+        "Female",
+        "Humans",
+        "Learning",
+        "Male",
+        "Memory, Short-Term",
+        "Mental Recall",
+        "Middle Aged",
+        "Reading",
+        "Task Performance and Analysis",
+        "Transfer (Psychology)",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Aging",
+          "Working Memory Deficit",
+          "Encoding Strategies",
+          "Strategy Training",
+          "WM Performance Gain"
+        ],
+        [
+          "Strategy Training",
+          "Interactive Imagery",
+          "Sentence Generation",
+          "Reading Span Task",
+          "Increased Strategy Use",
+          "No Reduction in Age-related WM Deficit"
+        ],
+        [
+          "Older Adults",
+          "Training Group",
+          "Verbal Encoding Strategies",
+          "Transfer Tasks",
+          "No Transfer",
+          "Persistent Deficit"
+        ],
+        [
+          "Cognitive Aging",
+          "Short-Term Memory",
+          "Learning",
+          "Task Performance and Analysis",
+          "Limited Effect on Age-related Deficit"
+        ],
+        [
+          "Transfer (Psychology)",
+          "Paired-Associate Recall",
+          "Strategy Adaptation",
+          "No Performance Benefit",
+          "Age-related WM Deficit Remains"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:36.620Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24591144",
+      "global_index": 778,
+      "question": "Are the elderly with oropharyngeal carcinoma undertreated?",
+      "contexts": [
+        "To determine if elderly patients with oropharyngeal squamous cell carcinoma (OPSCC) are receiving less treatment and to evaluate the benefit of aggressive therapy in this population.",
+        "Retrospective analysis of a large population database.",
+        "Patients in the Surveillance, Epidemiology, and End Results database with OPSCC diagnosed from 2004 to 2009 were included. The patients were categorized into age groups 45 to 54, 55 to 64, 65 to 74, 75 to 84, and 85 years and older, then further categorized by treatment status. Kaplan-Meier analysis of disease-specific survival (DSS) for late-stage (III and IV) OPSCC was performed for all age and treatment categories, followed by a multivariate cox regression of treatment status, tumor site, race, stage, and sex per age group.",
+        "A total of 14,909 patients with OPSCC were identified. In our demographic data, we observed a significant increase in the number of patients who did not receive treatment (surgery, radiation, or combined therapy) after age 55. Kaplan-Meier analysis showed that age groups 65 to 74 and 75 to 84 had substantial benefits in DSS with surgery, radiation, or combined therapy. Multivariable analysis did not demonstrate any statistically significant difference in the hazard ratios for combined treatment among age groups 45 to 54, 55 to 64, 65 to 74, and 75 to 84."
+      ],
+      "mesh_terms": [
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Carcinoma, Squamous Cell",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Oropharyngeal Neoplasms",
+        "Retrospective Studies",
+        "Vulnerable Populations"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Age Factors",
+          "Increased Non‑Treatment Rate",
+          "Oropharyngeal Squamous Cell Carcinoma",
+          "Reduced Disease‑Specific Survival"
+        ],
+        [
+          "Retrospective Studies",
+          "SEER Database",
+          "Treatment Status (Surgery/Radiation/Combined)",
+          "Hazard Ratio Similarity Across Age Groups"
+        ],
+        [
+          "Aged",
+          "Vulnerable Populations",
+          "Aggressive Therapy",
+          "Disease‑Specific Survival Improvement",
+          "Treatment Recommendation"
+        ],
+        [
+          "Oropharyngeal Neoplasms",
+          "Late‑Stage (III/IV)",
+          "Multivariate Cox Regression",
+          "No Significant Hazard Ratio Difference",
+          "Suggests Undertreatment Not Justified"
+        ],
+        [
+          "Elderly (75‑84)",
+          "Combined Therapy",
+          "Substantial Disease‑Specific Survival Benefit",
+          "Consideration of Treatment Intensity",
+          "Personalized Care"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:51.786Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24599411",
+      "global_index": 779,
+      "question": "Is gastric cancer different in Korea and the United States?",
+      "contexts": [
+        "To compare the characteristics and prognoses of gastric cancers by tumor location in Korean and U.S. subjects after curative-intent (R0) resection for gastric cancer (GC).",
+        "Data were collected for all patients who had undergone R0 resection at one U.S. institution (n = 567) and one South Korean institution (n = 1,620). Patients with gastroesophageal junction tumors or neoadjuvant therapy were excluded. Patient, surgical, and pathologic variables were compared by tumor location. Factors associated with disease-specific survival (DSS) were determined via multivariate analysis.",
+        "In the Korean cohort, significantly more upper third GC (UTG) patients had undifferentiated, diffuse type, and advanced stage cancers compared to lower third GC (LTG) and middle third GC (MTG) patients. In the U.S. cohort, however, T stage was relatively evenly distributed among UTG, MTG, and LTG patients. The independent predictors of DSS in the Korean cohort were T stage, tumor size, retrieved and positive lymph node counts, and age, but in the U.S. cohort, the only independent predictors were T stage and positive lymph node count. Tumor size significantly affected DSS of Korean UTG patients but not U.S. UTG patients."
+      ],
+      "mesh_terms": [
+        "Adenocarcinoma",
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Staging",
+        "Nomograms",
+        "Prognosis",
+        "Republic of Korea",
+        "Retrospective Studies",
+        "Stomach Neoplasms",
+        "Survival Rate",
+        "Tomography, X-Ray Computed",
+        "United States",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Gastric cancer",
+          "Upper third tumor location",
+          "Diffuse undifferentiated histology",
+          "Advanced stage",
+          "Disease-specific survival (Korean cohort)"
+        ],
+        [
+          "Republic of Korea",
+          "Higher proportion of undifferentiated diffuse GC",
+          "Tumor size impact",
+          "Prognostic predictor",
+          "Survival rate"
+        ],
+        [
+          "United States",
+          "Even T stage distribution across tumor locations",
+          "Positive lymph node count",
+          "Independent predictor of DSS",
+          "Survival outcome"
+        ],
+        [
+          "R0 resection",
+          "Curative-intent surgery",
+          "Retrieved lymph node count",
+          "Multivariate analysis",
+          "Prognosis"
+        ],
+        [
+          "Nomograms",
+          "Stomach neoplasms",
+          "Age (Aged)"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:56.124Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24606627",
+      "global_index": 780,
+      "question": "The objective structured clinical examination: can physician-examiners participate from a distance?",
+      "contexts": [
+        "Currently, a 'pedagogical gap' exists in distributed medical education in that distance educators teach medical students but typically do not have the opportunity to assess them in large-scale examinations such as the objective structured clinical examination (OSCE). We developed a remote examiner OSCE (reOSCE) that was integrated into a traditional OSCE to establish whether remote examination technology may be used to bridge this gap. The purpose of this study was to explore whether remote physician-examiners can replace on-site physician-examiners in an OSCE, and to determine the feasibility of this new examination method.",
+        "Forty Year 3 medical students were randomised into six reOSCE stations that were incorporated into two tracks of a 10-station traditional OSCE. For the reOSCE stations, student performance was assessed by both a local examiner (LE) in the room and a remote examiner (RE) who viewed the OSCE encounters from a distance. The primary endpoint was the correlation of scores between LEs and REs across all reOSCE stations. The secondary endpoint was a post-OSCE survey of both REs and students.",
+        "Statistically significant correlations were found between LE and RE checklist scores for history taking (r = 0.64-r = 0.80), physical examination (r = 0.41-r = 0.54), and management stations (r = 0.78). Correlations between LE and RE global ratings were more varied (r = 0.21-r = 0.77). Correlations on three of the six stations reached significance. Qualitative analysis of feedback from REs and students showed high acceptance of the reOSCE despite technological issues."
+      ],
+      "mesh_terms": [
+        "Attitude of Health Personnel",
+        "Checklist",
+        "Clinical Competence",
+        "Education, Medical",
+        "Educational Measurement",
+        "Educational Technology",
+        "Faculty, Medical",
+        "Feasibility Studies",
+        "Female",
+        "Humans",
+        "Male",
+        "Medical History Taking",
+        "Physical Examination",
+        "Remote Consultation",
+        "Reproducibility of Results",
+        "Students, Medical"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Remote Consultation",
+          "Educational Technology",
+          "Feasibility Studies",
+          "Correlation of Scores",
+          "Remote Examiner Participation"
+        ],
+        [
+          "Clinical Competence",
+          "Checklist",
+          "Reproducibility of Results",
+          "Remote Examiner",
+          "OSCE Validity"
+        ],
+        [
+          "Faculty",
+          "Attitude of Health Personnel",
+          "Acceptance",
+          "Post‑OSCE Survey",
+          "Implementation of reOSCE"
+        ],
+        [
+          "Medical History Taking",
+          "Checklist Scores",
+          "Correlation (r=0.64‑0.80)",
+          "Remote Examiner Equivalence",
+          "Student Assessment"
+        ],
+        [
+          "Physical Examination",
+          "Global Ratings",
+          "Variability (r=0.21‑0.77)",
+          "Technological Issues",
+          "Feasibility of Distance Examiners"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:09.529Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24614789",
+      "global_index": 781,
+      "question": "Is lumbar drainage of postoperative cerebrospinal fluid fistula after spine surgery effective?",
+      "contexts": [
+        "Postoperative CSF fistulas were described in 16 of 198 patients (8%) who underwent spine surgery between 2009 and 2010. The choice of the therapeutic strategy was based on the clinical condition of the patients, taking into account the possibility to maintain the prone position continuously and the risk of morbidity due to prolonged bed rest. Six patients were treated conservatively (position prone for three weeks), ten patients were treated by positioning an external CSF lumbar drainage for ten days. The mean follow-up period was ten months.",
+        "All patients healed their wound properly and no adverse events were recorded. Patients treated conservatively were cured in a mean period of 30 days, while patients treated with CSF drainage were cured in a mean period of 10 days."
+      ],
+      "mesh_terms": [
+        "Cerebrospinal Fluid Rhinorrhea",
+        "Drainage",
+        "Dura Mater",
+        "Female",
+        "Fistula",
+        "Humans",
+        "Male",
+        "Postoperative Complications",
+        "Retrospective Studies",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Postoperative CSF fistula",
+          "External lumbar CSF drainage",
+          "Reduced CSF pressure",
+          "Faster wound healing"
+        ],
+        [
+          "Postoperative CSF fistula",
+          "Prone positioning",
+          "Prolonged bed rest",
+          "Delayed closure",
+          "Longer cure time"
+        ],
+        [
+          "Lumbar drainage",
+          "Ten‑day duration",
+          "No adverse events",
+          "Improved treatment outcome"
+        ],
+        [
+          "Conservative treatment",
+          "Three‑week prone position",
+          "Mean cure 30 days",
+          "Comparable safety"
+        ],
+        [
+          "Postoperative complications",
+          "CSF leak",
+          "Drainage vs conservative",
+          "Treatment outcome (cure 10 days vs 30 days)"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:17.764Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24614851",
+      "global_index": 782,
+      "question": "Prognostic factors for cervical spondylotic amyotrophy: are signs of spinal cord involvement associated with the neurological prognosis?",
+      "contexts": [
+        "The purpose of this study was to clarify the prognostic factors for cervical spondylotic amyotrophy (CSA).",
+        "The authors retrospectively reviewed the medical records of 47 consecutive patients with CSA in whom the presence/absence of the pyramidal tract sign was noted. We analyzed whether the age, sex, presence of diabetes mellitus, medication (vitamin B12), type of the most atrophic and impaired muscle, the muscle strength at the presentation, the presence of the pyramidal tract sign, magnetic resonance imaging (MRI) findings, including the presence and number of T2 high signal intensity areas (T2 HIA) in the spinal cord and the conversion to surgery were associated with the recovery of muscle strength in the patients. In addition, we also investigated whether the duration of symptoms before surgery and the type of surgery were associated with the recovery of muscle strength in patients who required conversion to surgical treatment.",
+        "The presence of T2 HIA on MRI (P=0.002), the number of T2 HIA on MRI (P=0.002) and conversion to surgery (P=0.015) were found to be significantly associated with a poorer recovery at the observational final follow-up. Further, the presence of the pyramidal tract sign (P=0.043) was significantly associated with a poor recovery at the final follow-up after surgery."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Diabetes Mellitus",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Middle Aged",
+        "Muscle Strength",
+        "Muscle, Skeletal",
+        "Nervous System Diseases",
+        "Pyramidal Tracts",
+        "Retrospective Studies",
+        "Spinal Cord Injuries",
+        "Spondylosis",
+        "Statistics, Nonparametric"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Pyramidal tract sign",
+          "Spinal cord involvement",
+          "Poor muscle strength recovery",
+          "Final follow‑up outcome"
+        ],
+        [
+          "Magnetic Resonance Imaging",
+          "T2 high signal intensity",
+          "Number of lesions",
+          "Predictor of poor prognosis"
+        ],
+        [
+          "Diabetes Mellitus",
+          "Reduced nerve regeneration",
+          "Lower baseline muscle strength",
+          "Diminished recovery"
+        ],
+        [
+          "Aged",
+          "Advanced spondylosis",
+          "Higher likelihood of T2 HIA",
+          "Conversion to surgery",
+          "Worse outcome"
+        ],
+        [
+          "Vitamin B12 medication",
+          "Neuroprotective hypothesis",
+          "No significant association in statistical analysis",
+          "Not a prognostic factor"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:22.345Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24622801",
+      "global_index": 783,
+      "question": "Does implant coating with antibacterial-loaded hydrogel reduce bacterial colonization and biofilm formation in vitro?",
+      "contexts": [
+        "Implant-related infections represent one of the most severe complications in orthopaedics. A fast-resorbable, antibacterial-loaded hydrogel may reduce or prevent bacterial colonization and biofilm formation of implanted biomaterials.QUESTIONS/",
+        "We asked: (1) Is a fast-resorbable hydrogel able to deliver antibacterial compounds in vitro? (2) Can a hydrogel (alone or antibacterial-loaded) coating on implants reduce bacterial colonization? And (3) is intraoperative coating feasible and resistant to press-fit implant insertion?",
+        "We tested the ability of Disposable Antibacterial Coating (DAC) hydrogel (Novagenit Srl, Mezzolombardo, Italy) to deliver antibacterial agents using spectrophotometry and a microbiologic assay. Antibacterial and antibiofilm activity were determined by broth microdilution and a crystal violet assay, respectively. Coating resistance to press-fit insertion was tested in rabbit tibias and human femurs.",
+        "Complete release of all tested antibacterial compounds was observed in less than 96 hours. Bactericidal and antibiofilm effect of DAC hydrogel in combination with various antibacterials was shown in vitro. Approximately 80% of the hydrogel coating was retrieved on the implant after press-fit insertion."
+      ],
+      "mesh_terms": [
+        "Absorbable Implants",
+        "Animals",
+        "Anti-Bacterial Agents",
+        "Biofilms",
+        "Coated Materials, Biocompatible",
+        "Drug Carriers",
+        "Drug Delivery Systems",
+        "Feasibility Studies",
+        "Femur",
+        "Humans",
+        "Hydrogel, Polyethylene Glycol Dimethacrylate",
+        "In Vitro Techniques",
+        "Microbial Sensitivity Tests",
+        "Prosthesis-Related Infections",
+        "Rabbits",
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Tibia"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Hydrogel coating",
+          "Antibacterial‑loaded",
+          "Rapid release (< 96 h)",
+          "Iniminates Staphylococcus aureus colonization",
+          "Bioair‑ reduction in inv vitro"
+        ],
+        [
+          "Disposable Ant antibacterial Co (DAC) Hydrogel",
+          "Spectrophometric assay",
+          "Confirmatory release of drug",
+          "Brok‑micro dilution bactericial activity",
+          "↓ biofilm formation"
+        ],
+        [
+          "Fast‑resorbable hydrogel",
+          "Applied to implant surface",
+          "Press‑fit insertion",
+          "~80 % coating retained",
+          "Susten‑ antibacterial activity",
+          "Reduced Staphylococcus epidermidis colon"
+        ],
+        [
+          "Antibacterial‑loaded hydrogel",
+          "Drug drug carrier system",
+          "Sustains therapeutic concentration",
+          "In‑‑ micro (bro‑d) assay",
+          "Binders anti‑ bio‑film effect"
+        ],
+        [
+          "Hydrogel coating",
+          "Feasibility study (in rabbits tib​ia & human fem ur)",
+          "Co coating remains after implant insertion",
+          "Antimicrobial‑ effect persists",
+          "Lower of prost‑‑related infection in vitro"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:33.621Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24625433",
+      "global_index": 784,
+      "question": "Are high flow nasal cannulae noisier than bubble CPAP for preterm infants?",
+      "contexts": [
+        "Noise exposure in the neonatal intensive care unit is believed to be a risk factor for hearing loss in preterm neonates. Continuous positive airway pressure (CPAP) devices exceed recommended noise levels. High flow nasal cannulae (HFNC) are an increasingly popular alternative to CPAP for treating preterm infants, but there are no in vivo studies assessing noise production by HFNC.",
+        "To study whether HFNC are noisier than bubble CPAP (BCPAP) for preterm infants.",
+        "An observational study of preterm infants receiving HFNC or BCPAP. Noise levels within the external auditory meatus (EAM) were measured using a microphone probe tube connected to a calibrated digital dosimeter. Noise was measured across a range of frequencies and reported as decibels A-weighted (dBA).",
+        "A total of 21 HFNC and 13 BCPAP noise measurements were performed in 21 infants. HFNC gas flows were 2-5 L/min, and BCPAP gas flows were 6-10 L/min with set pressures of 5-7 cm of water. There was no evidence of a difference in average noise levels measured at the EAM: mean difference (95% CI) of -1.6 (-4.0 to 0.9) dBA for HFNC compared to BCPAP. At low frequency (500 Hz), HFNC was mean (95% CI) 3.0 (0.3 to 5.7) dBA quieter than BCPAP. Noise increased with increasing BCPAP gas flow (p=0.007), but not with increasing set pressure. There was a trend to noise increasing with increasing HFNC gas flows."
+      ],
+      "mesh_terms": [
+        "Catheters",
+        "Continuous Positive Airway Pressure",
+        "Environmental Monitoring",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Premature",
+        "Infant, Premature, Diseases",
+        "Intensive Care Units, Neonatal",
+        "Nasal Cavity",
+        "Noise",
+        "Noninvasive Ventilation",
+        "Terminology as Topic"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "High flow nasal cannulae",
+          "Gas flow rate (2‑5 L/min)",
+          "Noise level in external auditory meatus",
+          "dBA measurement",
+          "No significant increase vs bubble CPAP"
+        ],
+        [
+          "Bubble CPAP",
+          "Set pressure (5‑7 cm H₂O)",
+          "Noise generation at low frequency (500 Hz)",
+          "dBA difference",
+          "Slightly louder than HFNC"
+        ],
+        [
+          "Preterm infant",
+          "Exposure to NICU noise",
+          "Risk of hearing loss",
+          "A‑weighted decibel threshold",
+          "Importance of device noise comparison"
+        ],
+        [
+          "Noninvasive ventilation",
+          "HFNC vs BCPAP",
+          "Observational study design",
+          "Statistical analysis (mean difference, 95 % CI)",
+          "Conclusion: HFNC not noisier"
+        ],
+        [
+          "Neonatal intensive care unit",
+          "Environmental monitoring",
+          "Microphone probe tube in external auditory canal",
+          "Frequency‑specific noise assessment",
+          "Clinical implication for device selection"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:39.840Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24630333",
+      "global_index": 785,
+      "question": "Comparing femoral version after intramedullary nailing performed by trauma-trained and non-trauma trained surgeons: is there a difference?",
+      "contexts": [
+        "As with some procedures, trauma fellowship training and greater surgeon experience may result in better outcomes following intramedullary nailing (IMN) of diaphyseal femur fractures. However, surgeons with such training and experience may not always be available to all patients. The purpose of this study is to determine whether trauma training affects the post-operative difference in femoral version (DFV) following IMN.",
+        "Between 2000 and 2009, 417 consecutive patients with diaphyseal femur fractures (AO/OTA 32A-C) were treated via IMN. Inclusion criteria for this study included complete baseline and demographic documentation as well as pre-operative films for fracture classification and post-operative CT scanogram (per institutional protocol) for version and length measurement of both the nailed and uninjured femurs. Exclusion criteria included bilateral injuries, multiple ipsilateral lower extremity fractures, previous injury, and previous deformity. Of the initial 417 subjects, 355 patients met our inclusion criteria. Other data included in our analysis were age, sex, injury mechanism, open vs. closed fracture, daytime vs. nighttime surgery, mechanism of injury, and AO and Winquist classifications. Post-operative femoral version of both lower extremities was measured on CT scanogram by an orthopaedic trauma fellowship trained surgeon. Standard univariate and multivariate analyses were performed to determine statistically significant risk factors for malrotation between the two cohorts.",
+        "Overall, 80.3% (288/355) of all fractures were fixed by trauma-trained surgeons. The mean post-operative DFV was 8.7° in these patients, compared to 10.7° in those treated by surgeons of other subspecialties. This difference was not statistically significant when accounting for other factors in a multivariate model (p>0.05). The same statistical trend was true when analyzing outcomes of only the more severe Winquist type III and IV fractures. Additionally, surgeon experience was not significantly predictive of post-operative version for either trauma or non-trauma surgeons (p>0.05 for both)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Clinical Competence",
+        "Fellowships and Scholarships",
+        "Female",
+        "Femoral Fractures",
+        "Fracture Fixation, Intramedullary",
+        "Humans",
+        "Male",
+        "Orthopedics",
+        "Postoperative Complications",
+        "Range of Motion, Articular",
+        "Retrospective Studies",
+        "Specialties, Surgical",
+        "Surgeons",
+        "Tomography, X-Ray Computed",
+        "Traumatology",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Trauma Fellowship Training",
+          "Clinical Competence",
+          "Intramedullary Nailing Technique",
+          "Postoperative Femoral Version"
+        ],
+        [
+          "Diaphyseal Femur Fracture",
+          "Winquist Type III/IV Severity",
+          "Surgeon Subspecialty (Trauma vs Non‑Trauma)",
+          "Risk of Malrotation"
+        ],
+        [
+          "Post‑operative CT Scanogram",
+          "Measurement of Femoral Version",
+          "Comparison of Nailed vs Uninjured Femur",
+          "Treatment Outcome Assessment"
+        ],
+        [
+          "Surgeon Experience (Years)",
+          "Learning Curve",
+          "Accuracy of Intramedullary Nail Insertion",
+          "Post‑operative Rotation Difference"
+        ],
+        [
+          "Daytime vs Nighttime Surgery",
+          "Surgeon Fatigue",
+          "Intra‑operative Alignment Control",
+          "Post‑operative Femoral Version Variation"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:49.066Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24652474",
+      "global_index": 786,
+      "question": "Clinical identifiers for early-stage primary/idiopathic adhesive capsulitis: are we seeing the real picture?",
+      "contexts": [
+        "Adhesive capsulitis is often difficult to diagnose in its early stage and to differentiate from other common shoulder disorders.",
+        "The aim of this study was to validate any or all of the 8 clinical identifiers of early-stage primary/idiopathic adhesive capsulitis established in an earlier Delphi study.",
+        "This was a cross-sectional study.",
+        "Sixty-four patients diagnosed with early-stage adhesive capsulitis by a physical therapist or medical practitioner were included in the study. Eight active and 8 passive shoulder movements and visual analog scale pain scores for each movement were recorded prior to and immediately following an intra-articular injection of corticosteroid and local anesthetic. Using the local anesthetic as the reference standard, pain relief of ≥70% for passive external rotation was deemed a positive anesthetic response (PAR).",
+        "Sixteen participants (25%) demonstrated a PAR. Univariate logistic regression identified that of the proposed identifiers, global loss of passive range of movement (odds ratio [OR]=0.26, P=.03), pain at the end of range of all measured active movements (OR=0.06, P=.02), and global loss of passive glenohumeral movements (OR=0.23, P=.02) were associated with a PAR. Following stepwise removal of the variables, pain at the end of range of all measured active movements remained the only identifier but was associated with reduced odds of a PAR.",
+        "The lack of a recognized reference standard for diagnosing early-stage adhesive capsulitis remains problematic in all related research."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Anesthetics, Local",
+        "Arthralgia",
+        "Bursitis",
+        "Cross-Sectional Studies",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Movement",
+        "Pain Measurement",
+        "Range of Motion, Articular",
+        "Rotation",
+        "Shoulder Joint"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Early-stage adhesive capsulitis",
+          "Global loss of passive range of motion",
+          "Pain at end of active range",
+          "Reduced odds of positive anesthetic response"
+        ],
+        [
+          "Intra-articular injection",
+          "Local anesthetic",
+          "Positive anesthetic response (≥70% pain relief)",
+          "Reference standard for diagnosis"
+        ],
+        [
+          "Passive external rotation",
+          "Visual analog scale pain score",
+          "≥70% pain relief",
+          "Identifier validation"
+        ],
+        [
+          "Cross-Sectional Study",
+          "Univariate logistic regression",
+          "Odds ratio for pain at end of range",
+          "Clinical identifier significance"
+        ],
+        [
+          "Adult",
+          "Middle Aged",
+          "Shoulder Joint",
+          "Articular rotation",
+          "Restricted movement",
+          "Diagnostic challenge"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:57.691Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24666444",
+      "global_index": 787,
+      "question": "Is there any evidence of a \"July effect\" in patients undergoing major cancer surgery?",
+      "contexts": [
+        "The \"July effect\" refers to the phenomenon of adverse impacts on patient care arising from the changeover in medical staff that takes place during this month at academic medical centres in North America. There has been some evidence supporting the presence of the July effect, including data from surgical specialties. Uniformity of care, regardless of time of year, is required for patients undergoing major cancer surgery. We therefore sought to perform a population-level assessment for the presence of a July effect in this field.",
+        "We used the Nationwide Inpatient Sample to abstract data on patients undergoing 1 of 8 major cancer surgeries at academic medical centres between Jan. 1, 1999, and Dec. 30, 2009. The primary outcomes examined were postoperative complications and in-hospital mortality. Univariate analyses and subsequently multivariate analyses, controlling for patient and hospital characteristics, were performed to identify whether the time of surgery was an independent predictor of outcome after major cancer surgery.",
+        "On univariate analysis, the overall postoperative complication rate, as well as genitourinary and hematologic complications specifically, was higher in July than the rest of the year. However, on multivariate analysis, only hematologic complications were significantly higher in July, with no difference in overall postoperative complication rate or in-hospital mortality for all 8 surgeries considered separately or together."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Female",
+        "Hospital Mortality",
+        "Hospitalization",
+        "Hospitals, Teaching",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasms",
+        "North America",
+        "Periodicity",
+        "Personnel Staffing and Scheduling",
+        "Postoperative Complications",
+        "Retrospective Studies",
+        "Risk Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "July effect",
+          "Personnel Staffing and Scheduling",
+          "Teaching Hospitals",
+          "Postoperative Complications",
+          "In-hospital Mortality"
+        ],
+        [
+          "Major Cancer Surgery",
+          "Nationwide Inpatient Sample",
+          "Univariate Analysis",
+          "Higher July Complication Rate",
+          "Multivariate Analysis",
+          "No Overall Difference"
+        ],
+        [
+          "Academic Medical Centres",
+          "Staff Turnover in July",
+          "Risk Factors",
+          "Hematologic Complications",
+          "Significant Increase"
+        ],
+        [
+          "Retrospective Studies",
+          "Patient Characteristics",
+          "Multivariate Analysis",
+          "Adjusted Outcomes",
+          "No July Effect on Mortality"
+        ],
+        [
+          "Surgical Specialty",
+          "Uniformity of Care",
+          "Periodicity",
+          "July vs Rest of Year",
+          "Overall Complication Rate",
+          "Not Significant"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:09.630Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24669960",
+      "global_index": 788,
+      "question": "Does the sex of acute stroke patients influence the effectiveness of rt-PA?",
+      "contexts": [
+        "Women have been reported to show more frequent recanalization and better recovery after intravenous (IV) recombinant tissue plasminogen activator (rt-PA) treatment for acute stroke compared with men. To investigate this we studied a series of stroke patients receiving IV rt-PA and undergoing acute transcranial doppler (TCD) examination.",
+        "Acute stroke patients received IV rt-PA and had acute TCD examination within 4 hours of symptom onset at 4 major stroke centers. TCD findings were interpreted using the Thrombolysis in Brain Ischemia (TIBI) flow grading system. The recanalization rates, and poor 3-month outcomes (modified Rankin scale>2) of men and women were compared using the chi-square test. Multiple regression analysis was used to assess sex as a predictor of recanalization and poor 3-month outcome after controlling for age, baseline NIH Stroke Scale (NIHSS), time to treatment, hypertension, and blood glucose.",
+        "369 patients had TCD examinations before or during IV rt-PA treatment. The 199 (53.9%) men and 170 (46.1%) women had mean ages of 67 ± 13 and 70 ± 14 years, respectively. The sexes did not differ significantly in baseline stroke severity, time to TCD examination, or time to thrombolysis. Of the men, 68 (34.2%) had complete recanalization, 58 (29.1%) had partial recanalization, and 73 (36.6%) had no recanalization. Of the women, 53 (31.2%) had complete recanalization, 46 (27%) had partial recanalization, and 71 (41.8%) had no recanalization (p = 0.6). Multiple regression analyses showed no difference between the sexes in recanalization rate, time to recanalization, or clinical outcome at 3 months."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Female",
+        "Fibrinolytic Agents",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Recombinant Proteins",
+        "Sex Factors",
+        "Stroke",
+        "Tissue Plasminogen Activator",
+        "Ultrasonography, Doppler, Transcranial"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Sex Factors",
+          "Transcranial Doppler",
+          "TIBI Flow Grading",
+          "Recanalization",
+          "Modified Rankin Scale Outcome"
+        ],
+        [
+          "Female",
+          "Baseline NIH Stroke Scale",
+          "Time to rt-PA Administration",
+          "Recanalization Rate"
+        ],
+        [
+          "Male",
+          "Aged",
+          "Hypertension",
+          "Multivariate Regression",
+          "Sex Predictor (non‑significant)"
+        ],
+        [
+          "Acute Stroke",
+          "Tissue Plasminogen Activator",
+          "Fibrinolytic Agents",
+          "Recanalization",
+          "Clinical Recovery"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:17.706Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24671913",
+      "global_index": 789,
+      "question": "Does SYNTAX score predict in-hospital outcomes in patients with ST elevation myocardial infarction undergoing primary percutaneous coronary intervention?",
+      "contexts": [
+        "SYNTAX score (SxS) has been demonstrated to predict long-term outcomes in stable patients with coronary artery disease. But its prognostic value for patients with acute coronary syndrome remains unknown.AIM: To evaluate whether SxS could predict in-hospital outcomes for patients admitted with ST elevation myocardial infarction (STEMI) who undergo primary percutaneous coronary intervention (pPCI).",
+        "The study included 538 patients with STEMI who underwent pPCI between January 2010 and December 2012. The patients were divided into two groups: low SxS (<22) and high SxS (>22). The SxS of all patients was calculated from aninitial angiogram and TIMI flow grade of infarct related artery was calculated after pPCI. Left ventricular systolic functions of the patients were evaluated with an echocardiogram in the following week. The rates of reinfarction and mortality during hospitalisation were obtained from the medical records of our hospital.",
+        "The high SxS group had more no-reflow (41% and 25.1%, p<0.001, respectively), lower ejection fraction (38.2 ± 7.5% and 44.6 ± 8.8%, p<0.001, respectively), and greater rates of re-infarction (9.5% and 7.3%, p = 0.037, respectively) and mortality (0.9% and 0.2%, p = 0.021, respectively) during hospitalisation compared to the low SxS group. On multivariate logistic regression analysis including clinical variables, SxS was an independent predictor of no-reflow (OR 1.081, 95% CI 1.032-1.133, p = 0.001)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Female",
+        "Hospital Mortality",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Myocardial Infarction",
+        "Percutaneous Coronary Intervention",
+        "Poland",
+        "Prognosis",
+        "Risk Assessment",
+        "Risk Factors",
+        "Severity of Illness Index",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "SYNTAX score",
+          "Lesion Complexity",
+          "No-reflow Phenomenon",
+          "Hospital Mortality"
+        ],
+        [
+          "Primary Percutaneous Coronary Intervention",
+          "TIMI Flow Grade",
+          "Reperfusion Success",
+          "Hospital Outcomes"
+        ],
+        [
+          "High SYNTAX score",
+          "Reduced Left Ventricular Ejection Fraction",
+          "Reinfarction",
+          "Hospital Mortality"
+        ],
+        [
+          "Risk Assessment",
+          "SYNTAX score",
+          "Independent Predictor",
+          "No-reflow (OR 1.081)"
+        ],
+        [
+          "Acute ST Elevation Myocardial Infarction",
+          "SYNTAX score Stratification (low vs high)",
+          "Prognosis",
+          "Treatment Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:28.912Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24684514",
+      "global_index": 790,
+      "question": "Should all patients be optimized to the same preoperative hemoglobin level to avoid transfusion in primary knee arthroplasty?",
+      "contexts": [
+        "Optimization of the preoperative hemoglobin (Hb) level is an effective way to reduce allogeneic transfusion in total knee arthroplasty (TKA) though the procedure is expensive, requires close monitoring and is often inconvenient for patients with reduced mobility. Our aim was to investigate the value of preoperative Hb levels to predict transfusion and thereby tailoring Hb optimization to patient characteristics.",
+        "All consecutive patients who undergone primary TKA in our center over 2 years, and received tranexamic acid intraoperatively, were reviewed. The adjusted association between preoperative Hb levels and transfusion was assessed by multivariate logistic regression, and the estimated probability of transfusion for individual patients was derived from the logistic model.",
+        "Out of the 784 patients who meet the inclusion criteria, risk of transfusion was associated with poorer performance status, as measured by the America Association of Anestesiology (ASA) score III/IV (OR: 3·3, P < 0·001) and lower preoperative Hb level (OR 3·8 for each g/dl below 13 g/dl; P < 0·001). According to the Hb level, the estimated probability of transfusion was 0·03 (range: 0·03-0·64) for ASA I/II patients and 0·10 (range: 0·10-0·84) for ASA III/IV."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Antifibrinolytic Agents",
+        "Arthroplasty, Replacement, Knee",
+        "Blood Transfusion",
+        "Female",
+        "Hemoglobins",
+        "Humans",
+        "Joint Diseases",
+        "Male",
+        "Middle Aged",
+        "Practice Guidelines as Topic",
+        "Preoperative Care",
+        "Retrospective Studies",
+        "Risk",
+        "Tranexamic Acid"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Preoperative Hemoglobin",
+          "Transfusion Risk",
+          "Primary Knee Arthroplasty"
+        ],
+        [
+          "ASA Score III/IV",
+          "Increased Transfusion Odds",
+          "Hemoglobin Optimization",
+          "Tailored Patient Management"
+        ],
+        [
+          "Tranexamic Acid",
+          "Reduced Intraoperative Blood Loss",
+          "Lower Transfusion Requirement",
+          "Influence on Preoperative Hb Threshold"
+        ],
+        [
+          "Adult",
+          "Age‑related Hemoglobin Decline",
+          "Higher Transfusion Probability",
+          "Consideration of Different Target Hb Levels"
+        ],
+        [
+          "Practice Guidelines",
+          "Standardized Hb Target",
+          "May Not Account for Patient‑Specific Risk",
+          "Recommendation for Individualized Optimization"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:38.209Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24695920",
+      "global_index": 791,
+      "question": "Does anterior laxity of the uninjured knee influence clinical outcomes of ACL reconstruction?",
+      "contexts": [
+        "The purpose of this study was to evaluate the association between the postoperative outcomes of anterior cruciate ligament (ACL) reconstruction and the anterior laxity of the uninjured knee.",
+        "We retrospectively reviewed 163 patients who had undergone unilateral ACL reconstruction from January 2002 to August 2009. Patients were divided into three groups according to the anterior laxity of the contralateral, normal knee in 30° of knee flexion as measured with a KT2000 arthrometer exerting a force of 134 N:<5 mm for Group 1, 5 to 7.5 mm for Group 2, and>7.5 mm for Group 3. Anterior laxity of the uninjured knee was assessed preoperatively, and anterior laxity of the reconstructed knee was assessed at twenty-four months postoperatively. Anterior stability of the knee was also assessed with use of the Lachman and pivot-shift tests. Functional outcomes were assessed with the Lysholm score and the International Knee Documentation Committee (IKDC) score.",
+        "The three groups differed significantly with respect to the postoperative side-to-side difference in anterior laxity (p = 0.015), Lysholm score (p<0.001), and IKDC subjective score (p<0.001). The mean side-to-side difference in anterior laxity of the reconstructed knee was 2.1 ± 1.3 mm in Group 1, 2.2 ± 1.3 mm in Group 2, and 2.9 ± 1.4 mm in Group 3. The postoperative Lysholm score was 91.8 ± 4.5 in Group 1, 90.3 ± 5.5 in Group 2, and 85.4 ± 6.6 in Group 3. The postoperative IKDC subjective score was 89.3 ± 6.4 in Group 1, 87.9 ± 6.0 in Group 2, and 82.6 ± 8.2 in Group 3. Post hoc testing showed that Group 3 had significantly greater anterior laxity (p ≤ 0.039) and lower functional scores (p ≤ 0.001) compared with Groups 1 and 2."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Anterior Cruciate Ligament Reconstruction",
+        "Arthrometry, Articular",
+        "Female",
+        "Health Status Indicators",
+        "Humans",
+        "Joint Instability",
+        "Knee Injuries",
+        "Knee Joint",
+        "Male",
+        "Middle Aged",
+        "Observer Variation",
+        "Postoperative Period",
+        "Range of Motion, Articular",
+        "Recovery of Function",
+        "Retrospective Studies",
+        "Treatment Outcome",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Anterior laxity of uninjured knee",
+          "Larger postoperative side-to-side difference",
+          "Lower Lysholm score",
+          "Inferior functional outcome"
+        ],
+        [
+          "Contralateral knee laxity (KT2000 measurement)",
+          "Group 3 classification (>7.5 mm)",
+          "Higher postoperative anterior laxity",
+          "Decreased IKDC subjective score",
+          "Poor treatment outcome"
+        ],
+        [
+          "Preoperative joint instability",
+          "Increased postoperative laxity (pivot‑shift positive)",
+          "Reduced range of motion",
+          "Delayed recovery of function"
+        ],
+        [
+          "Retrospective study design",
+          "Observer variation in arthrometry",
+          "Misclassification of laxity groups",
+          "Potential bias in reported outcome differences"
+        ],
+        [
+          "Young Adult",
+          "Greater baseline laxity variability",
+          "Individualized graft tensioning",
+          "Optimized postoperative stability",
+          "Improved clinical outcomes"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:52.651Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24698298",
+      "global_index": 792,
+      "question": "MR arthrography of the shoulder: do we need local anesthesia?",
+      "contexts": [
+        "To assess pain intensity with and without subcutaneous local anesthesia prior to intraarticular administration of contrast medium for magnetic resonance arthrography (MRa) of the shoulder.",
+        "This single-center study was conducted after an IRB waiver of authorization, between January 2010 and December 2012. All patients provided written, informed consent for the procedure. Our prospectively populated institutional database was searched, based on our inclusion criteria. There were 249 outpatients (178 men and 71 women; mean age, 44.4 years ± 14.6; range, 15-79) who underwent MRa and were enrolled in this study. Patients were excluded if they had received surgery of the shoulder before MRa, had undergone repeated MRa of the same shoulder, and/or had undergone MRa of both shoulders on the same day. Patients were randomly assigned into one of three groups. Patients in group A (n=61) received skin infiltration with local anesthesia. Patients in control group B (n=92) and group C (n=96) did not receive local anesthesia. Pain levels were immediately assessed after the injection for MRa using a horizontal visual analog scale (VAS) that ranged from 0 to 10. To compare the pain scores of the three groups for male and female patients, a two-way analysis of variance was used. A p-value equal to or less than 0.05 was considered to indicate a significant result.",
+        "Patients who received local anesthesia (group A) showed a mean pain level on the VAS of 2.6 ± 2.3. In patients who did not receive local anesthetics (groups B and C), a mean pain level on the VAS of 2.6 ± 2.2 and 2.7 ± 2.4 were detected, respectively. Between the three groups, no statistically significant difference in pain intensity was detected (p=.960). There were significant differences in subjective pain perception between men and women (p=.009). Moreover, the sex difference in all three groups was equal (p=.934)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Anesthetics, Local",
+        "Contrast Media",
+        "Female",
+        "Humans",
+        "Injections, Intra-Articular",
+        "Lidocaine",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Meglumine",
+        "Middle Aged",
+        "Organometallic Compounds",
+        "Pain Measurement",
+        "Shoulder Pain",
+        "Treatment Outcome",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Intra-Articular Injection",
+          "Contrast Media (Meglumine)",
+          "Needle Insertion Pain",
+          "Local Anesthetics (Lidocaine)",
+          "Decreased VAS Score"
+        ],
+        [
+          "Shoulder Pain",
+          "Magnetic Resonance Arthrography",
+          "Pain Measurement (VAS)",
+          "No Significant Difference with/without Anesthesia",
+          "Local Anesthesia Unnecessary"
+        ],
+        [
+          "Male vs Female",
+          "Pain Perception Differences",
+          "VAS Pain Scores",
+          "Two-way ANOVA",
+          "Influences Anesthesia Decision"
+        ],
+        [
+          "Lidocaine",
+          "Potential Adverse Effects",
+          "Risk-Benefit Evaluation",
+          "Clinical Practice Guideline",
+          "Omit Routine Local Anesthesia"
+        ],
+        [
+          "Adult Outpatients",
+          "Procedural Comfort",
+          "Patient Reported Outcome",
+          "Treatment Outcome",
+          "Optional Local Anesthesia"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:02.790Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24739448",
+      "global_index": 793,
+      "question": "Have antiepileptic drug prescription claims changed following the FDA suicidality warning?",
+      "contexts": [
+        "In January 2008, the Food and Drug Administration (FDA) communicated concerns and, in May 2009, issued a warning about an increased risk of suicidality for all antiepileptic drugs (AEDs). This research evaluated the association between the FDA suicidality communications and the AED prescription claims among members with epilepsy and/or psychiatric disorder.",
+        "A longitudinal interrupted time-series design was utilized to evaluate Oklahoma Medicaid claims data from January 2006 through December 2009. The study included 9289 continuously eligible members with prevalent diagnoses of epilepsy and/or psychiatric disorder and at least one AED prescription claim. Trends, expressed as monthly changes in the log odds of AED prescription claims, were compared across three time periods: before (January 2006 to January 2008), during (February 2008 to May 2009), and after (June 2009 to December 2009) the FDA warning.",
+        "Before the FDA warning period, a significant upward trend of AED prescription claims of 0.01% per month (99% CI: 0.008% to 0.013%, p<0.0001) was estimated. In comparison to the prewarning period, no significant change in trend was detected during (-20.0%, 99% CI: -70.0% to 30.0%, p=0.34) or after (80.0%, 99% CI: -20.0% to 200.0%, p=0.03) the FDA warning period. After stratification, no diagnostic group (i.e., epilepsy alone, epilepsy and comorbid psychiatric disorder, and psychiatric disorder alone) experienced a significant change in trend during the entire study period (p>0.01)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Anticonvulsants",
+        "Child",
+        "Child, Preschool",
+        "Drug Prescriptions",
+        "Epilepsy",
+        "Humans",
+        "Infant",
+        "Interrupted Time Series Analysis",
+        "Medicaid",
+        "Middle Aged",
+        "Suicide",
+        "United States",
+        "United States Food and Drug Administration",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "FDA warning",
+          "Suicidality risk of antiepileptic drugs",
+          "Prescriber caution",
+          "AED prescription claims trend"
+        ],
+        [
+          "Interrupted Time Series Analysis",
+          "Monthly log odds of AED claims",
+          "Pre‑warning upward trend",
+          "No significant change during/after warning"
+        ],
+        [
+          "Medicaid population",
+          "Epilepsy diagnosis",
+          "AED prescription claim",
+          "Trend comparison across time periods",
+          "No significant change"
+        ],
+        [
+          "Psychiatric disorder comorbidity",
+          "Higher baseline AED use",
+          "FDA suicidality communication",
+          "Potential reduction in claims",
+          "Observed unchanged trend"
+        ],
+        [
+          "Adolescent",
+          "Adult",
+          "Young Adult",
+          "Stratified prescribing patterns",
+          "FDA warning impact",
+          "No diagnostic group showed significant change"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:13.304Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24747511",
+      "global_index": 794,
+      "question": "Updating emotional content in working memory: a depression-specific deficit?",
+      "contexts": [
+        "Interference from irrelevant negative material might be a key mechanism underlying intrusive ruminative thoughts in depression. Considering commonalities between depression and social anxiety and the presence of similar intrusive thoughts in social anxiety, the current study was designed to assess whether interference from irrelevant material in working memory is specific to depression or is also present in social anxiety disorder.",
+        "To examine the effects of irrelevant emotional material on working memory performance, participants memorized two lists of words on each trial and were subsequently instructed to ignore one of the lists. Participants were then asked to indicate whether a probe word belonged to the relevant list or not.",
+        "Compared to control and social anxiety groups, the depression groups (both pure and comorbid with social anxiety disorder) exhibited greater difficulties removing irrelevant emotional material from working memory (i.e., greater intrusion effects). Greater intrusion effects were also associated with increased rumination.",
+        "Although we included three clinical groups (depression, social anxiety, and the comorbid groups), the results are based on a relatively small number of participants."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Depressive Disorder, Major",
+        "Emotions",
+        "Female",
+        "Humans",
+        "Male",
+        "Memory, Short-Term",
+        "Middle Aged",
+        "Neuropsychological Tests",
+        "Reaction Time"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Depressive Disorder",
+          "Memory, Short-Term",
+          "Intrusion Effect",
+          "Rumination"
+        ],
+        [
+          "Social Anxiety Disorder",
+          "Working Memory",
+          "Interference from Irrelevant Emotional Material",
+          "Minimal Intrusion Effect"
+        ],
+        [
+          "Depressive Disorder",
+          "Comoridity with Social Disorder",
+          "Working Memory",
+          "Greater Intrusion Effect"
+        ],
+        [
+          "Female",
+          "Depressive Disorder",
+          "Rumination",
+          "Intrusion Effects in Working Memory"
+        ],
+        [
+          "Adults",
+          "Depressive Disorder",
+          "Reaction Time",
+          "Slower Performance",
+          "Intrusion Effects"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:24.258Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24748473",
+      "global_index": 795,
+      "question": "Are there risk factors that increase the rate of staple line leakage in patients undergoing primary sleeve gastrectomy for morbid obesity?",
+      "contexts": [
+        "Laparoscopic sleeve gastrectomy (LSG) is currently being performed with increasing frequency worldwide. It offers an excellent weight loss and resolution of comorbidities in the short term with a very low incidence of complications. However, the ever present risk of a staple line leak is still a major concern.",
+        "Since 2005, data from obese patients that undergo bariatric procedures in Germany are prospectively registered in an online database and analyzed at the Institute of Quality Assurance in Surgical Medicine. For the current analysis, all patients that had undergone primary sleeve gastrectomy for morbid obesity within a 7-year period were considered.",
+        "Using the GBSR, data from 5.400 LSGs were considered for analysis. Staple line leak rate decreased during the study period from 6.5 to 1.4 %. Male gender, higher BMI, concomitant sleep apnea, conversion to laparotomy, longer operation time, use of both buttresses and oversewing, and the occurrence of intraoperative complications were associated with a significantly higher leakage rate. On multivariate analysis, operation time and year of procedure only had a significant impact on staple line leak rate."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Bariatric Surgery",
+        "Body Mass Index",
+        "Comorbidity",
+        "Female",
+        "Gastrectomy",
+        "Germany",
+        "Humans",
+        "Intraoperative Complications",
+        "Laparoscopy",
+        "Male",
+        "Middle Aged",
+        "Obesity, Morbid",
+        "Operative Time",
+        "Postoperative Complications",
+        "Risk Factors",
+        "Surgical Stapling",
+        "Weight Loss",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Male gender",
+          "Higher BMI",
+          "Longer operative time",
+          "Increased staple line leak"
+        ],
+        [
+          "Concomitant sleep apnea",
+          "Intraoperative complications",
+          "Conversion to laparotomy",
+          "Higher leak rate"
+        ],
+        [
+          "Use of buttresses and oversewing",
+          "Prolonged operative time",
+          "Higher staple line leakage"
+        ],
+        [
+          "Early year of procedure",
+          "Learning curve",
+          "Longer operative time",
+          "Higher leak incidence"
+        ],
+        [
+          "Morbid obesity",
+          "Elevated intra‑abdominal pressure",
+          "Stress on staple line",
+          "Staple line leak"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:29.984Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24751724",
+      "global_index": 796,
+      "question": "Does ethnicity affect where people with cancer die?",
+      "contexts": [
+        "Ageing is a growing issue for people from UK black, Asian and minority ethnic (BAME) groups. The health experiences of these groups are recognised as a 'tracer' to measure success in end of life patient-preferred outcomes that includes place of death (PoD).AIM: To examine patterns in PoD among BAME groups who died of cancer.",
+        "Mortality data for 93,375 cancer deaths of those aged ≥65 years in London from 2001-2010 were obtained from the UK Office for National Statistics (ONS). Decedent's country of birth was used as a proxy for ethnicity. Linear regression examined trends in place of death across the eight ethnic groups and Poisson regression examined the association between country of birth and place of death.",
+        "76% decedents were born in the UK, followed by Ireland (5.9%), Europe(5.4%) and Caribbean(4.3%). Most deaths(52.5%) occurred in hospital, followed by home(18.7%). During the study period, deaths in hospital declined with an increase in home deaths; trend for time analysis for those born in UK(0.50%/yr[0.36-0.64%]p<0.001), Europe (1.00%/yr[0.64-1.30%]p<0.001), Asia(1.09%/yr[0.94-1.20%]p<0.001) and Caribbean(1.03%/yr[0.72-1.30%]p<0.001). However, time consistent gaps across the geographical groups remained. Following adjustment hospital deaths were more likely for those born in Asia(Proportion ratio(PR)1.12[95%CI1.08-1.15]p<0.001) and Africa(PR 1.11[95%CI1.07-1.16]p<0.001). Hospice deaths were less likely for those born in Asia(PR 0.73 [0.68-0.80] p<0.001), Africa (PR 0.83[95%CI0.74-0.93]p<0.001), and 'other' geographical regions (PR0.90[95% 0.82-0.98]p<0.001). Home deaths were less likely for those born in the Caribbean(PR0.91[95%CI 0.85-0.98]p<0.001)."
+      ],
+      "mesh_terms": [
+        "Demography",
+        "Ethnic Groups",
+        "Female",
+        "Hospice Care",
+        "Humans",
+        "London",
+        "Male",
+        "Neoplasms",
+        "Parturition",
+        "Regression Analysis",
+        "Terminal Care"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ethnic Groups",
+          "Country of Birth (proxy)",
+          "Hospital Deaths ↑",
+          "Proportion Ratio (PR) >1"
+        ],
+        [
+          "Neoplasms",
+          "Older Adults (≥65)",
+          "Place of Death",
+          "Home Deaths ↓ (Caribbean‑born)"
+        ],
+        [
+          "Demography",
+          "BAME groups",
+          "Linear Regression",
+          "Decline in Hospital deaths over time"
+        ],
+        [
+          "Hospice Care",
+          "Asian ethnicity",
+          "Reduced hospice utilization",
+          "Proportion Ratio (PR) 0.73"
+        ],
+        [
+          "London",
+          "Cancer Mortality Data",
+          "Poisson Regression",
+          "Ethnicity associated with place of death"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:39.236Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24783217",
+      "global_index": 797,
+      "question": "Can ki-67 play a role in prediction of breast cancer patients' response to neoadjuvant chemotherapy?",
+      "contexts": [
+        "Currently the choice of breast cancer therapy is based on prognostic factors. The proliferation marker Ki-67 is used increasingly to determine the method of therapy. The current study analyses the predictive value of Ki-67 in foreseeing breast cancer patients' responses to neoadjuvant chemotherapy.",
+        "This study includes patients with invasive breast cancer treated between 2008 and 2013. The clinical response was assessed by correlating Ki-67 to histological examination, mammography, and ultrasonography findings.",
+        "The average Ki-67 value in our patients collectively (n = 77) is 34.9 ± 24.6%. The average Ki-67 value is the highest with 37.4 ± 24.0% in patients with a pCR. The Ki-67 values do not differ significantly among the 3 groups: pCR versus partial pathological response versus stable disease/progress (P = 0.896). However, Ki-67 values of patients with luminal, Her2 enriched, and basal-like cancers differed significantly from each other. Furthermore, within the group of luminal tumors Ki-67 values of patients with versus without pCR also differed significantly."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Breast Neoplasms",
+        "Female",
+        "Humans",
+        "Ki-67 Antigen",
+        "Middle Aged",
+        "Neoadjuvant Therapy",
+        "Receptor, ErbB-2",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Ki-67 Antigen",
+          "Proliferation Marker",
+          "Predictive Value",
+          "Neoadjuvant Chemotherapy Response"
+        ],
+        [
+          "Breast Neoplasms",
+          "Luminal Subtype",
+          "Ki-67 Level",
+          "Pathologic Complete Response (pCR)"
+        ],
+        [
+          "Ki-67 Antigen",
+          "Correlation",
+          "Mammography Findings",
+          "Clinical Response Assessment",
+          "Neoadjuvant Therapy"
+        ],
+        [
+          "Retrospective Studies",
+          "Adult Female Cohort",
+          "Ki-67 Distribution",
+          "Statistical Comparison",
+          "Predictive Significance"
+        ],
+        [
+          "HER2 Enriched Tumors",
+          "High Ki-67",
+          "Increased Chemosensitivity",
+          "Neoadjuvant Chemotherapy",
+          "Improved pCR Rates"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:46.099Z",
+      "processed_at": "2026-01-27T18-49-50"
+    },
+    {
+      "pmid": "24785562",
+      "global_index": 798,
+      "question": "Is dexamethasone an effective alternative to oral prednisone in the treatment of pediatric asthma exacerbations?",
+      "contexts": [
+        "A short course of systemic corticosteroids is an important therapy in the treatment of pediatric asthma exacerbations. Although a 5-day course of oral prednisone or prednisolone has become the most commonly used regimen, dexamethasone has also been used for a shorter duration (1-2 days) with potential for improvement in compliance and palatability. We reviewed the literature to determine if there is sufficient evidence that dexamethasone can be used as an effective alternative in the treatment of pediatric asthma exacerbations in the inpatient setting.",
+        "A Medline search was conducted on the use of dexamethasone in the treatment of asthma exacerbations in children. The studies selected were clinical trials comparing the efficacy of dexamethasone with prednisone. Meta-analysis was performed examining physician revisitation rates and symptomatic return to baseline.",
+        "Six completed pediatric clinical trials met the inclusion criteria. All of the pediatric trials found that prednisone is not superior to dexamethasone in treating mild to moderate asthma exacerbations. Meta-analysis demonstrated homogeneity between the dexamethasone and prednisone groups when examining symptomatic return to baseline and unplanned physician revisits after the initial emergency department encounter. Some studies found potential additional benefits of dexamethasone, including improved compliance and less vomiting."
+      ],
+      "mesh_terms": [
+        "Administration, Oral",
+        "Anti-Inflammatory Agents",
+        "Asthma",
+        "Child",
+        "Dexamethasone",
+        "Disease Progression",
+        "Glucocorticoids",
+        "Humans",
+        "Prednisone",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Dexamethasone",
+          "Shorter Course (1‑2 days)",
+          "Improved Compliance",
+          "Equivalent Symptomatic Return to Baseline"
+        ],
+        [
+          "Prednisone",
+          "5‑day Oral Regimen",
+          "Higher Vomiting Incidence",
+          "Reduced Palatability",
+          "Preference for Dexamethasone"
+        ],
+        [
+          "Asthma Exacerbation (Child)",
+          "Systemic Glucocorticoids",
+          "Meta‑analysis Comparison",
+          "No Superiority of Prednisone over Dexamethasone",
+          "Treatment Outcome Equality"
+        ],
+        [
+          "Oral Administration",
+          "Anti‑Inflammatory Agents",
+          "Dexamethasone",
+          "Reduced Unplanned Physician Revisits",
+          "Effective Alternative"
+        ],
+        [
+          "Disease Progression",
+          "Unplanned Physician Revisits",
+          "Dexamethasone",
+          "Similar Treatment Outcome",
+          "Viable Alternative to Prednisone"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:55.026Z",
+      "processed_at": "2026-01-27T18-49-50"
+    }
+  ]
+}

@@ -1,0 +1,1699 @@
+{
+  "metadata": {
+    "checkpoint": 25,
+    "total": 140,
+    "successful": 25,
+    "failed": 0
+  },
+  "results": [
+    {
+      "pmid": "22428608",
+      "global_index": 624,
+      "question": "Would corrected QT dispersion predict left ventricular hypertrophy in hypertensive patients?",
+      "contexts": [
+        "We explored whether QT corrected dispersion (QTcD) can identify left ventricular hypertrophy (LVH) in hypertensives.",
+        "We enrolled 100 hypertensive patients (study group) and 30 normotensive subjects (control group). Echocardiography was performed to measure left ventricular mass and left ventricular mass index. Electrocardiogram was performed to measure QTcD.",
+        "LVH was present in 42 patients (42%) of the study group, none among controls. Hypertensive patients had significantly greater indices of LVH and QTcD compared with controls (p<0.001 for all). Similarly, among hypertensive patients, those with LVH had a significantly greater QTcD compared with those without (p<0.001). Pearson's correlation coefficient test demonstrated strongly positive correlations between QTcD and the indices of LVH (p<0.001 for all). Analysis of the receiver operating characteristic curves identified 60 ms as the optimal cut-off value of QTcD that best predicts LVH in hypertensives. Using this value, QTcD was able to predict LVH with a sensitivity of 92.9% and specificity 98.2%."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Cross-Sectional Studies",
+        "Echocardiography",
+        "Electrocardiography",
+        "Female",
+        "Humans",
+        "Hypertension",
+        "Hypertrophy, Left Ventricular",
+        "Male",
+        "Middle Aged",
+        "Myocardial Contraction",
+        "Predictive Value of Tests",
+        "Risk Factors",
+        "Sensitivity and Specificity",
+        "Statistics, Nonparametric"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Hypertension",
+          "Left Ventricular Hypertrophy",
+          "QT corrected dispersion",
+          "Predictive Value of Tests"
+        ],
+        [
+          "Electrocardiography",
+          "QTcD measurement",
+          "Receiver Operating Characteristic curve",
+          "Sensitivity and Specificity"
+        ],
+        [
+          "Echocardiography",
+          "Left ventricular mass index",
+          "LVH detection",
+          "Cross-Sectional Studies"
+        ],
+        [
+          "Risk Factors",
+          "Hypertension",
+          "Myocardial Contraction",
+          "QTc dispersion"
+        ],
+        [
+          "Adult",
+          "Hypertensive patients",
+          "QTcD > 60 ms",
+          "High sensitivity for LVH prediction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:41.708Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22440363",
+      "global_index": 625,
+      "question": "Mitral replacement or repair for functional mitral regurgitation in dilated and ischemic cardiomyopathy: is it really the same?",
+      "contexts": [
+        "This was a study to compare the results of mitral valve (MV) repair and MV replacement for the treatment of functional mitral regurgitation (MR) in advanced dilated and ischemic cardiomyopathy (DCM).",
+        "One-hundred and thirty-two patients with severe functional MR and systolic dysfunction (mean ejection fraction 0.32 ± 0.078) underwent mitral surgery in the same time frame. The decision to replace rather than repair the MV was taken when 1 or more echocardiographic predictors of repair failure were identified at the preoperative echocardiogram. Eighty-five patients (64.4%) received MV repair and 47 patients (35.6%) received MV replacement. Preoperative characteristics were comparable between the 2 groups. Only ejection fraction was significantly lower in the MV repair group (0.308 ± 0.077 vs 0.336 ± 0.076, p = 0.04).",
+        "Hospital mortality was 2.3% for MV repair and 12.5% for MV replacement (p = 0.03). Actuarial survival at 2.5 years was 92 ± 3.2% for MV repair and 73 ± 7.9% for MV replacement (p = 0.02). At a mean follow-up of 2.3 years (median, 1.6 years), in the MV repair group LVEF significantly increased (from 0.308 ± 0.077 to 0.382 ± 0.095, p<0.0001) and LV dimensions significantly decreased (p = 0.0001). On the other hand, in the MV replacement group LVEF did not significantly change (from 0.336 ± 0.076 to 0.31 ± 0.11, p = 0.56) and the reduction of LV dimensions was not significant. Mitral valve replacement was identified as the only predictor of hospital (odds ratio, 6; 95% confidence interval, 1.1 to 31; p = 0.03) and overall mortality (hazard ratio, 3.1; 95% confidence interval, 1.1 to 8.9; p = 0.02)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Cardiomyopathy, Dilated",
+        "Echocardiography",
+        "Female",
+        "Heart Valve Prosthesis Implantation",
+        "Hospital Mortality",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Mitral Valve",
+        "Mitral Valve Insufficiency",
+        "Myocardial Ischemia",
+        "Retrospective Studies",
+        "Ventricular Function, Left"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Functional Mitral Regurgitation",
+          "Echocardiographic predictors of repair failure",
+          "Mitral Valve Replacement",
+          "Increased Hospital Mortality"
+        ],
+        [
+          "Dilated Cardiomyopathy",
+          "Left Ventricular Dilation",
+          "Mitral Valve Repair",
+          "Improvement in LVEF",
+          "Better 2.5‑year Survival"
+        ],
+        [
+          "Ischemic Cardiomyopathy",
+          "Myocardial Ischemia",
+          "Limited LV functional reserve",
+          "Mitral Valve Replacement",
+          "No Significant LVEF Change"
+        ],
+        [
+          "Mitral Valve Repair",
+          "Reduction in LV dimensions",
+          "Reverse remodeling",
+          "Lower Hazard Ratio for Overall Mortality"
+        ],
+        [
+          "Lower Preoperative EF",
+          "Mitral Valve Repair",
+          "Increase in EF post‑op",
+          "Decreased Overall Mortality"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:44.505Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22449464",
+      "global_index": 626,
+      "question": "Do general practice selection scores predict success at MRCGP?",
+      "contexts": [
+        "Selection into general practice training is undertaken using a competency based approach. The clear advantage of this approach over traditional methods has been demonstrated through evaluation of its validity and reliability. However, the relationship between selection  and performance in the Royal College of General Practitioner examinations (MRCGP) has yet to be explored. The MRCGP comprises of an applied knowledge test (AKT), a clinical skills assessment (CSA) and workplace-based assessments (WPBA).AIM: To explore the predictive validity of general  practice selection scores using the AKT and CSA elements of the MRCGP as a final outcome measure.",
+        "This study carried out a retrospective analysis of 101 trainees from the Wales Deanery who were successfully selected on to general practice training in 2007. Selection data consisted  of an overall selection score as well as scores from each individual stage of selection. Correlation was used to explore associations between selection scores and examination scores.",
+        "The score for overall performance at selection achieved statistically significant correlation  with examination performance (r = 0.491 for the AKT and r = 0.526 for the CSA, P<0.01)."
+      ],
+      "mesh_terms": [
+        "Achievement",
+        "Clinical Competence",
+        "Female",
+        "General Practice",
+        "Humans",
+        "Internship and Residency",
+        "Male",
+        "Retrospective Studies",
+        "School Admission Criteria",
+        "United Kingdom"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "General Practice Selection Scores",
+          "Predictive Validity",
+          "AKT",
+          "Clinical Competence"
+        ],
+        [
+          "School Admission Criteria",
+          "Selection Scores",
+          "Retrospective Studies",
+          "Correlation",
+          "MRCGP Examination Performance"
+        ],
+        [
+          "Internship and Residency",
+          "Clinical Competence",
+          "CSA",
+          "Achievement",
+          "MRCGP Success"
+        ],
+        [
+          "United Kingdom",
+          "Wales Deanery",
+          "Overall Selection Score",
+          "CSA Correlation",
+          "r = 0.526"
+        ],
+        [
+          "Female",
+          "Male",
+          "General Practice",
+          "Selection Process",
+          "AKT Correlation"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:47.069Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22453060",
+      "global_index": 627,
+      "question": "Does a 4 diagram manual enable laypersons to operate the Laryngeal Mask Supreme®?",
+      "contexts": [
+        "Bystander resuscitation plays an important role in lifesaving cardiopulmonary resuscitation (CPR). A significant reduction in the \"no-flow-time\", quantitatively better chest compressions and an improved quality of ventilation can be demonstrated during CPR using supraglottic airway devices (SADs). Previous studies have demonstrated the ability of inexperienced persons to operate SADs after brief instruction. The aim of this pilot study was to determine whether an instruction manual consisting of four diagrams enables laypersons to operate a Laryngeal Mask Supreme® (LMAS) in the manikin.",
+        "An instruction manual of four illustrations with speech bubbles displaying the correct use of the LMAS was designed. Laypersons were handed a bag containing a LMAS, a bag mask valve device (BMV), a syringe prefilled with air and the instruction sheet, and were asked to perform and ventilate the manikin as displayed. Time to ventilation was recorded and degree of success evaluated.",
+        "A total of 150 laypersons took part. Overall 145 participants (96.7%) inserted the LMAS in the manikin in the right direction. The device was inserted inverted or twisted in 13 (8.7%) attempts. Eight (5.3%) individuals recognized this and corrected the position. Within the first 2 minutes 119 (79.3%) applicants were able to insert the LMAS and provide tidal volumes greater than 150 ml (estimated dead space). Time to insertion and first ventilation was 83.2 ± 29 s. No significant difference related to previous BLS training (P = 0.85), technical education (P = 0.07) or gender could be demonstrated (P = 0.25)."
+      ],
+      "mesh_terms": [
+        "Cardiopulmonary Resuscitation",
+        "Female",
+        "First Aid",
+        "Germany",
+        "Humans",
+        "Laryngeal Masks",
+        "Male",
+        "Manikins",
+        "Manuals as Topic",
+        "Pilot Projects",
+        "Program Evaluation",
+        "Resuscitation",
+        "Volunteers",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Manuals as Topic",
+          "Instruction Manual (Four Diagrams)",
+          "Layperson Comprehension",
+          "LMAS Successful Insertion"
+        ],
+        [
+          "Pilot Projects",
+          "Program Evaluation",
+          "Time to First Ventilation",
+          "Assessment of Manual Effectiveness"
+        ],
+        [
+          "Bystander Resuscitation",
+          "First Aid",
+          "Volunteers",
+          "Use of Laryngeal Masks",
+          "LMAS Operation"
+        ],
+        [
+          "Manikins",
+          "Simulation Training",
+          "Detection of Inverted Insertion",
+          "Self‑Correction by Participant"
+        ],
+        [
+          "Resuscitation",
+          "Cardiopulmonary Resuscitation",
+          "Supraglottic Airway Device",
+          "Reduced No‑Flow Time",
+          "Better Ventilation after Manual Guidance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:49.714Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22491528",
+      "global_index": 628,
+      "question": "Combining process indicators to evaluate quality of care for surgical patients with colorectal cancer: are scores consistent with short-term outcome?",
+      "contexts": [
+        "To determine if composite measures based on process indicators are consistent with short-term outcome indicators in surgical colorectal cancer care.",
+        "Longitudinal analysis of consistency between composite measures based on process indicators and outcome indicators for 85 Dutch hospitals.",
+        "The Dutch Surgical Colorectal Audit database, the Netherlands.",
+        "4732 elective patients with colon carcinoma and 2239 with rectum carcinoma treated in 85 hospitals were included in the analyses.",
+        "All available process indicators were aggregated into five different composite measures. The association of the different composite measures with risk-adjusted postoperative mortality and morbidity was analysed at the patient and hospital level.",
+        "At the patient level, only one of the composite measures was negatively associated with morbidity for rectum carcinoma. At the hospital level, a strong negative association was found between composite measures and hospital mortality and morbidity rates for rectum carcinoma (p<0.05), and hospital morbidity rates for colon carcinoma."
+      ],
+      "mesh_terms": [
+        "Colorectal Neoplasms",
+        "Databases, Factual",
+        "Female",
+        "Hospitals, Public",
+        "Humans",
+        "Longitudinal Studies",
+        "Male",
+        "Netherlands",
+        "Outcome Assessment (Health Care)",
+        "Quality Assurance, Health Care",
+        "Quality Indicators, Health Care",
+        "Surgical Procedures, Operative"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Process indicators",
+          "Composite measure",
+          "Risk-adjusted postoperative mortality",
+          "Consistency with short-term outcome"
+        ],
+        [
+          "Quality Assurance",
+          "Hospital-level analysis",
+          "Mortality rates for rectum carcinoma",
+          "Negative association"
+        ],
+        [
+          "Surgical Procedures",
+          "Colorectal Neoplasms",
+          "Composite process score",
+          "Patient-level morbidity",
+          "Limited correlation"
+        ],
+        [
+          "Dutch Surgical Colorectal Audit",
+          "Data collection",
+          "Composite scores",
+          "Hospital morbidity for colon carcinoma",
+          "Strong negative correlation"
+        ],
+        [
+          "Outcome Assessment (Health Care)",
+          "Short-term outcome",
+          "Mortality & morbidity",
+          "Evaluation of composite scores",
+          "Clinical relevance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:52.596Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22497340",
+      "global_index": 629,
+      "question": "Is horizontal semicircular canal ocular reflex influenced by otolith organs input?",
+      "contexts": [
+        "To clarify whether horizontal canal ocular reflex is influenced by otolith organs input.",
+        "The subjects were seven healthy humans. The right ear was stimulated using ice-water. Each subject was kept in a left-ear-down position for 20 s and then repositioned to a prone position, a right-ear-down position and a supine position with 20 s intervals. Nystagmus was analysed using three-dimensional video-oculography.",
+        "Eye movements in the supine position and the prone position were not in a symmetric fashion. Nystagmus in the left-ear-down position and the right-ear-down position were not symmetric either. These phenomena indicate that the axis of the eyeball rotation was affected by the shift of the direction of gravity exerted on the head."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Head Movements",
+        "Humans",
+        "Male",
+        "Nystagmus, Physiologic",
+        "Otolithic Membrane",
+        "Physical Stimulation",
+        "Prone Position",
+        "Reference Values",
+        "Reflex, Vestibulo-Ocular",
+        "Semicircular Canals",
+        "Supine Position",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Horizontal semicircular canal",
+          "Vestibulo-Ocular reflex",
+          "Nystagmus",
+          "Otolith organ input"
+        ],
+        [
+          "Otolithic membrane",
+          "Gravity sensing",
+          "Head position (prone)",
+          "Axis of eyeball rotation",
+          "Horizontal canal ocular reflex"
+        ],
+        [
+          "Ice-water stimulation",
+          "Right ear",
+          "Semicircular canal activation",
+          "Asymmetric nystagmus",
+          "Indication of otolith influence"
+        ],
+        [
+          "Adult",
+          "Physical stimulation",
+          "Otolith organs",
+          "Shift of gravity direction",
+          "Asymmetric eye movements"
+        ],
+        [
+          "Reference values",
+          "Physiologic response",
+          "3D video‑oculography",
+          "Nystagmus analysis",
+          "Assessment of canal‑otolith interaction"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:55.646Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22504515",
+      "global_index": 630,
+      "question": "Endovenous laser ablation in the treatment of small saphenous varicose veins: does site of access influence early outcomes?",
+      "contexts": [
+        "The study was performed to evaluate the clinical and technical efficacy of endovenous laser ablation (EVLA) of small saphenous varicosities, particularly in relation to the site of endovenous access.",
+        "Totally 59 patients with unilateral saphenopopliteal junction incompetence and small saphenous vein reflux underwent EVLA (810 nm, 14 W diode laser) with ambulatory phlebectomies. Small saphenous vein access was gained at the lowest site of truncal reflux. Patients were divided into 2 groups: access gained above mid-calf (AMC, n = 33) and below mid-calf (BMC, n = 26) levels. Outcomes included Venous Clinical Severity Scores (VCSS), Aberdeen Varicose Vein Questionnaire (AVVQ), patient satisfaction, complications, and recurrence rates.",
+        "Both groups demonstrated significant improvement in VCSS, AVVQ, generic quality of life Short Form 36, and EuroQol scores (P<.05) up to 1 year. No differences were seen between AMC and BMC groups for complications (phlebitis: 2 [6%] and 1 [3.8%], P>.05; paresthesia: 2 [6%] and 5 [19%], P = .223) and recurrence (3 [9%] and 1 [3.8%], P = .623), respectively."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Ambulatory Surgical Procedures",
+        "Chi-Square Distribution",
+        "Endovascular Procedures",
+        "England",
+        "Female",
+        "Humans",
+        "Laser Therapy",
+        "Lasers, Semiconductor",
+        "Male",
+        "Middle Aged",
+        "Paresthesia",
+        "Patient Satisfaction",
+        "Peripheral Nerve Injuries",
+        "Phlebitis",
+        "Prospective Studies",
+        "Quality of Life",
+        "Recurrence",
+        "Risk Assessment",
+        "Risk Factors",
+        "Saphenous Vein",
+        "Severity of Illness Index",
+        "Surveys and Questionnaires",
+        "Time Factors",
+        "Treatment Outcome",
+        "Varicose Veins"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Small saphenous vein access",
+          "above mid-calf (AMC)",
+          "Venous Clinical Severity Scores improvement",
+          "Patient satisfaction"
+        ],
+        [
+          "Below mid-calf (BMC)",
+          "reduced paresthesia",
+          "peripheral nerve injury ↓",
+          "improved Quality of Life"
+        ],
+        [
+          "Endovenous laser ablation",
+          "810 nm diode laser",
+          "vein wall coagulation",
+          "decreased recurrence"
+        ],
+        [
+          "Ambulatory phlebectomies + EVLA",
+          "combined treatment efficacy",
+          "Aberdeen Varicose Vein Questionnaire improvement",
+          "higher patient satisfaction"
+        ],
+        [
+          "Prospective study",
+          "chi‑square distribution analysis",
+          "recurrence comparison AMC vs BMC",
+          "no significant difference"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:48:58.751Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22513023",
+      "global_index": 631,
+      "question": "Do Indigenous Australians age prematurely?",
+      "contexts": [
+        "To assess whether Indigenous Australians age prematurely compared with other Australians, as implied by Australian Government aged care policy, which uses age 50 years and over for population-based planning for Indigenous people compared with 70 years for non-indigenous people.",
+        "Cross-sectional analysis of aged care assessment, hospital and health survey data comparing Indigenous and non-indigenous age-specific prevalence of health conditions. Analysis of life tables for Indigenous and non-indigenous populations comparing life expectancy at different ages.",
+        "At age 63 for women and age 65 for men, Indigenous people had the same life expectancy as non-indigenous people at age 70. There is no consistent pattern of a 20-year lead in age-specific prevalence of age-associated conditions for Indigenous compared with other Australians. There is high prevalence from middle-age onwards of some conditions, particularly diabetes (type unspecified), but there is little or no lead for others."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Australia",
+        "Cross-Sectional Studies",
+        "Geriatric Assessment",
+        "Geriatric Nursing",
+        "Health Policy",
+        "Health Status Indicators",
+        "Humans",
+        "Life Expectancy",
+        "Life Tables",
+        "Middle Aged",
+        "Oceanic Ancestry Group"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Oceanic Ancestry Group",
+          "Life Expectancy",
+          "Life Tables",
+          "Age 63 women / Age 65 men",
+          "Age 70 non‑indigenous",
+          "No premature aging"
+        ],
+        [
+          "Age‑specific prevalence",
+          "Diabetes",
+          "Middle Aged",
+          "Indigenous Australians",
+          "Health Status Indicators",
+          "Early disease burden but not uniform"
+        ],
+        [
+          "Cross‑Sectional Studies",
+          "Geriatric Assessment",
+          "Health Conditions",
+          "Indigenous vs non‑indigenous comparison",
+          "No consistent 20‑year lead",
+          "Premature aging unsupported"
+        ],
+        [
+          "Australian Government aged care policy",
+          "Age 50 threshold for Indigenous",
+          "Age 70 threshold for non‑indigenous",
+          "Life Expectancy data",
+          "Policy overestimates premature aging"
+        ],
+        [
+          "Health Status Indicators",
+          "Aged",
+          "Adult",
+          "Life Expectancy",
+          "Life Tables",
+          "Similar functional age at older chronological age"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:49:08.638Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22519710",
+      "global_index": 632,
+      "question": "Will clinical studies elucidate the connection between the length of storage of transfused red blood cells and clinical outcomes?",
+      "contexts": [
+        "The temporal pattern of the biologic mechanism linking red blood cell (RBC) storage duration with clinical outcomes is yet unknown. This study investigates how such a temporal pattern can affect the power of randomized controlled trials (RCT) to detect a relevant clinical outcome mediated by the transfusion of stored RBCs.",
+        "This study was a computer simulation of four RCTs, each using a specific categorization of the RBC storage time. The trial's endpoint was evaluated assuming five hypothetical temporal patterns for the biologic mechanism linking RBC storage duration with clinical outcomes.",
+        "Power of RCTs to unveil a significant association between RBC storage duration and clinical outcomes was critically dependent on a complex interaction among three factors: 1) the way the RBC storage time is categorized in the trial design, 2) the temporal pattern assumed for the RBC storage lesion, and 3) the age distribution of RBCs in the inventory from which they are picked up for transfusion. For most combinations of these factors, the power of RCTs to detect a significant treatment effect was below 80%. All the four simulated RCTs had a very low power to disclose a harmful clinical effect confined to last week of the maximum 42-day shelf life of stored RBCs."
+      ],
+      "mesh_terms": [
+        "Blood Preservation",
+        "Computer Simulation",
+        "Erythrocyte Transfusion",
+        "Erythrocytes",
+        "Humans",
+        "Randomized Controlled Trials as Topic",
+        "Time Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Computer Simulation",
+          "Randomized Controlled Trials as Topic",
+          "Power to Detect Effect",
+          "Clinical Outcomes"
+        ],
+        [
+          "Blood Preservation",
+          "RBC Storage Duration",
+          "Storage Lesion",
+          "Erythrocyte Transfusion",
+          "Clinical Outcomes"
+        ],
+        [
+          "Time Factors",
+          "Categorization of Storage Time",
+          "Age Distribution of Inventory",
+          "Study Power <80%",
+          "Inconclusive Findings"
+        ],
+        [
+          "Erythrocytes",
+          "Storage Lesion in Last Week",
+          "Harmful Clinical Effect",
+          "Low Power in RCTs"
+        ],
+        [
+          "Humans",
+          "Erythrocyte Transfusion",
+          "Temporal Pattern of Mechanism",
+          "Required Sample Size",
+          "Detectable Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:15.245Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22521460",
+      "global_index": 633,
+      "question": "Does route of delivery affect maternal and perinatal outcome in women with eclampsia?",
+      "contexts": [
+        "The route of delivery in eclampsia is controversial. We hypothesized that adverse maternal and perinatal outcomes may not be improved by early cesarean delivery.",
+        "This was a randomized controlled exploratory trial carried out in a rural teaching institution. In all, 200 eclampsia cases, carrying ≥34 weeks, were allocated to either cesarean or vaginal delivery. Composite maternal and perinatal event rates (death and severe morbidity) were compared by intention-to-treat principle.",
+        "Groups were comparable at baseline with respect to age and key clinical parameters. Maternal event rate was similar: 10.89% in the cesarean arm vs 7.07% for vaginal delivery (relative risk, 1.54; 95% confidence interval, 0.62-3.81). Although the neonatal event rate was less in cesarean delivery-9.90% vs 19.19% (relative risk, 0.52; 95% confidence interval, 0.25-1.05)-the difference was not significant statistically."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Anticonvulsants",
+        "Antihypertensive Agents",
+        "Apgar Score",
+        "Cesarean Section",
+        "Critical Care",
+        "Eclampsia",
+        "Female",
+        "Humans",
+        "Infant, Newborn",
+        "Intention to Treat Analysis",
+        "Labetalol",
+        "Magnesium Sulfate",
+        "Outcome Assessment (Health Care)",
+        "Perinatal Mortality",
+        "Pilot Projects",
+        "Pregnancy",
+        "Pregnancy Outcome",
+        "Time Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Route of Delivery",
+          "Cesarean Section",
+          "Maternal Event Rate",
+          "Composite Maternal Outcome"
+        ],
+        [
+          "Route of Delivery",
+          "Vaginal Delivery",
+          "Neonatal Event Rate",
+          "Perinatal Mortality"
+        ],
+        [
+          "Eclampsia",
+          "Magnesium Sulfate",
+          "Antihypertensive Agents",
+          "Labetalol",
+          "Maternal Outcome"
+        ],
+        [
+          "Randomized Controlled Trial",
+          "Intention to Treat Analysis",
+          "Relative Risk",
+          "Statistical Significance"
+        ],
+        [
+          "Early Cesarean Delivery",
+          "Apgar Score",
+          "Infant",
+          "Perinatal Mortality"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:22.602Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22522271",
+      "global_index": 634,
+      "question": "Is late-night salivary cortisol a better screening test for possible cortisol excess than standard screening tests in obese patients with Type 2 diabetes?",
+      "contexts": [
+        "Forty obese patients with T2DM without clinical features of Cushing's syndrome were recruited. Plasma, urinary and salivary cortisol were measured directly by an enzyme-linked immunosorbent assay using monoclonal antibodies. The specificities of the three tests using various cutoffs were calculated and compared, employing the assumption that none of the patients had hypercortisolism.",
+        "The patients had a mean age and BMI of 56 years (range 31-75) and 37 kg/m² (31-56) respectively. All 40 provided late-night salivary cortisol samples. Thirty-eight patients completed all three tests. Two patients only completed two screening tests. The specificities of late-night salivary cortisol (cutoff 10 nmol/L), 24hr UFC (400 nmol) and 1mg DST (50 nmol/L) were 70% (95% CI 53-83%), 90% (76-97%) and 72% (55-85%) respectively. The specificity of late-night salivary cortisol was significantly less than 24 hr UFC (P=0.039) but not 1mg DST (P>0.99)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Cushing Syndrome",
+        "Diabetes Mellitus, Type 2",
+        "Female",
+        "Humans",
+        "Hydrocortisone",
+        "Male",
+        "Middle Aged",
+        "Obesity",
+        "Saliva",
+        "Time Factors",
+        "Urinalysis"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Obesity",
+          "Altered HPA Axis",
+          "Elevated Late-Night Salivary Cortisol",
+          "Reduced Specificity"
+        ],
+        [
+          "Type 2 Diabetes",
+          "Standard Screening Tests (24 hr UFC, 1 mg DST)",
+          "Higher Specificity",
+          "Better Detection of Cortisol Excess"
+        ],
+        [
+          "Late-Night Salivary Cortisol",
+          "ELISA Measurement",
+          "Cutoff 10 nmol/L",
+          "Specificity 70%"
+        ],
+        [
+          "24 hr Urinary Free Cortisol",
+          "Cutoff 400 nmol",
+          "Specificity 90%",
+          "Superior to Salivary Test"
+        ],
+        [
+          "No Clinical Cushingoid Features",
+          "Assumed Absence of Hypercortisolism",
+          "Comparative Specificity Analysis",
+          "Salivary Test Not Superior"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:29.220Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22532370",
+      "global_index": 635,
+      "question": "Are increased carotid artery pulsatility and resistance indexes early signs of vascular abnormalities in young obese males?",
+      "contexts": [
+        "To provide insight into the factors by which obesity in itself may directly lead to early arterial damage, we aimed to determine early sonographic markers of obesity-related vascular dysfunction in young obese males.",
+        "Thirty-five young obese males and 23 age-matched healthy male volunteers were recruited into the study. Common carotid artery pulsatility index and resistance index were calculated from blood flow velocities curves obtained by pulsed Doppler ultrasonography.",
+        "The mean pulsatility index, resistance index, body mass index, waist circumference, systolic and diastolic blood pressure, homeostasis model assessment for insulin resistance, plasma fasting glucose, insulin, C-peptide, triglycerides, low-density lipoprotein cholesterol, and high-sensitivity C-reactive protein were statistically higher in obese subjects than in healthy controls."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Blood Flow Velocity",
+        "Blood Glucose",
+        "Blood Pressure",
+        "Body Mass Index",
+        "C-Peptide",
+        "C-Reactive Protein",
+        "Carotid Arteries",
+        "Case-Control Studies",
+        "Humans",
+        "Insulin",
+        "Insulin Resistance",
+        "Lipoproteins, LDL",
+        "Male",
+        "Obesity",
+        "Pulsatile Flow",
+        "Statistics, Nonparametric",
+        "Triglycerides",
+        "Ultrasonography, Doppler, Pulsed",
+        "Vascular Resistance",
+        "Waist Circumference"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Obesity",
+          "Body Mass Index",
+          "Blood Pressure",
+          "Carotid Pulsatility Index",
+          "Early Vascular Abnormality"
+        ],
+        [
+          "Obesity",
+          "Insulin Resistance",
+          "Endothelial Dysfunction",
+          "Vascular Resistance",
+          "Carotid Resistance Index",
+          "Early Vascular Abnormality"
+        ],
+        [
+          "Obesity",
+          "Low-density Lipoprotein",
+          "Atherosclerotic Changes",
+          "Carotid Pulsatility Index",
+          "Early Vascular Abnormality"
+        ],
+        [
+          "Obesity",
+          "High-sensitivity C-Reactive Protein",
+          "Systemic Inflammation",
+          "Vascular Stiffness",
+          "Carotid Resistance Index",
+          "Early Vascular Abnormality"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:36.577Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22534881",
+      "global_index": 636,
+      "question": "Does the radiographic transition zone correlate with the level of aganglionosis on the specimen in Hirschsprung's disease?",
+      "contexts": [
+        "The correlation between radiographic transition zone on contrast enema in Hirschsprung's disease and the total length of aganglionosis is known to be inaccurate. The aim of our study was to analyse this correlation more precisely to improve preoperative planning of the corrective surgery.",
+        "From 1998 to 2009, 79 patients were operated on for Hirschsprung's disease. All available preoperative contrast enemas (n = 61) had been single blind reviewed by the same radiologist who defined the radiographic transition zone when present in vertebral level. Four groups were determined (rectal, rectosigmoid, long segment, and absence of transition zone) and by Kappa coefficient of agreement correlated to the length of aganglionosis in the pathological report.",
+        "Radiological findings were concordant with the specimen in pathology in 8 cases of 19 in rectal form (42 %), in 20 cases of 35 in rectosigmoid form (57 %), in all 6 cases of long-segment form (100 %), in the 2 cases of total colonic form (100 %) with a global agreement of 58.1 %, κ = 0.39 CI [0.24; 0.57]."
+      ],
+      "mesh_terms": [
+        "Female",
+        "Hirschsprung Disease",
+        "Humans",
+        "Infant",
+        "Infant, Newborn",
+        "Male",
+        "Radiography",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Radiography",
+          "Contrast Enema",
+          "Radiographic Transition Zone",
+          "Vertebral Level",
+          "Correlation with Pathology",
+          "Aganglionosis Length"
+        ],
+        [
+          "Hirschsprung Disease",
+          "Aganglionosis",
+          "Specimen Pathology Report",
+          "Length of Aganglionosis",
+          "Surgical Planning",
+          "Accurate Transition Zone Assessment"
+        ],
+        [
+          "Retrospective Study",
+          "Single Blind Review",
+          "Kappa Coefficient",
+          "Agreement Rate",
+          "Radiographic vs Pathology Concordance"
+        ],
+        [
+          "Infant",
+          "Hirschsprung Disease",
+          "Rectosigmoid Form",
+          "Radiographic Transition Zone Detection",
+          "57% Concordance"
+        ],
+        [
+          "Long‑Segment Hirschsprung",
+          "100% Radiographic‑Pathology Agreement",
+          "Pre‑operative Decision",
+          "Improved Surgical Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:43.976Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22537902",
+      "global_index": 637,
+      "question": "Colorectal cancer with synchronous liver metastases: does global management at the same centre improve results?",
+      "contexts": [
+        "Synchronous liver metastases (SLM) occur in 20% of colorectal cancers (CRC). Resection of SLM and CLC can be undertaken at different centres (separate management, SM) or at the same centre (global management, GM).",
+        "Retrospective study of SLM and CRC resections carried out during 01/2000 - 12/2006 by SM or GM, using a combined or delayed strategy.",
+        "Morphologic characteristics and type of CRC and SLM resection were similar for the GM (n = 45) or SM (n = 66) groups. In patients with delayed liver resection (62 SM, 17 GM), chemotherapy prior to liver surgery was used in 92% and 38% of SM and GM patients (P<0.0001) and the median delay between procedures was 212 and 182 days, respectively (P = 0.04). First step of liver resection was more often performed during colorectal surgery in the GM group (62 vs. 6% for SM, P<0.0001) and the mean number of procedures (CRC+SLM) was lower (1.6 vs. 2.3, P = 0.003). Three-month mortality was 3% for GM and 0% for SM (n.s.). Overall survival rates were 67% and 51% for SM and GM at 3 years (n.s.), and 35 and 31% at 5 years (n.s.). Disease-free survival to 5 years was higher in SM patients (14% vs. 11%, P = 0.009)."
+      ],
+      "mesh_terms": [
+        "Colorectal Neoplasms",
+        "Combined Modality Therapy",
+        "Female",
+        "Humans",
+        "Liver Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Retrospective Studies",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Global management",
+          "Reduced number of procedures (CRC+SLM)",
+          "Lower mean procedures (1.6)",
+          "Higher disease‑free survival"
+        ],
+        [
+          "Separate management",
+          "Increased pre‑operative chemotherapy (92%)",
+          "Extended interval to liver surgery (212 days)",
+          "Comparable 3‑year overall survival"
+        ],
+        [
+          "Combined modality therapy",
+          "Simultaneous liver resection during colorectal surgery",
+          "Fewer total procedures (1.6)",
+          "Lower 3‑month mortality"
+        ],
+        [
+          "Retrospective study",
+          "GM vs SM comparison",
+          "No significant difference in overall survival",
+          "SM shows higher disease‑free survival (P = 0.009)"
+        ],
+        [
+          "Treatment outcome",
+          "Disease‑free survival",
+          "Significant improvement with SM (P = 0.009)",
+          "Supports separate management for better long‑term control"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:49:52.229Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22540518",
+      "global_index": 638,
+      "question": "Is micro-computed tomography reliable to determine the microstructure of the maxillary alveolar bone?",
+      "contexts": [
+        "To analyze the reliability of micro-computed tomography (micro-CT) to assess bone density and the microstructure of the maxillary bones at the alveolar process in human clinics by direct comparison with conventional stereologic-based histomorphometry.",
+        "Analysis of osseous microstructural variables including bone volumetric density (BV/TV) of 39 biopsies from the maxillary alveolar bone was performed by micro-CT. Conventional stereologic-based histomorphometry of 10 bone biopsies was performed by optic microscopy (OM) and low-vacuum surface electronic microscopy (SEM). Percentages of bone between micro-CT and conventional stereologic-based histomorphometry were compared.",
+        "Significant positive correlations were observed between BV/TV and the percentage of bone (%Bone) analyzed by SEM (r = 0.933, P < 0.001), by toluidine blue staining OM (r = 0.950, P < 0.001) and by dark field OM (r = 0.667, P = 0.05). The high positive correlation coefficient between BV/TV and trabecular thickness illustrates that a value of BV/TV upper than 50% squares with a bone presenting most of their trabecules thicker than 0.2 mm. The high negative correlation between BV/TV and trabecular separation shows that values of BV/TV upper than 50% squares with a bone presenting most of their trabecules separated less than 0.3 mm each other."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Alveolar Process",
+        "Biopsy",
+        "Bone Density",
+        "Coloring Agents",
+        "Dental Implantation, Endosseous",
+        "Female",
+        "Humans",
+        "Image Processing, Computer-Assisted",
+        "Male",
+        "Maxilla",
+        "Microscopy",
+        "Microscopy, Electron",
+        "Middle Aged",
+        "Reproducibility of Results",
+        "Spectrometry, X-Ray Emission",
+        "Tolonium Chloride",
+        "X-Ray Microtomography",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "X-Ray Microtomography",
+          "Bone volumetric density (BV/TV)",
+          "Correlation with SEM bone percentage",
+          "Reliability of micro-CT"
+        ],
+        [
+          "Maxillary alveolar bone",
+          "Biopsy",
+          "Conventional stereologic-based histomorphometry",
+          "Comparison with micro-CT",
+          "Validation of micro-CT"
+        ],
+        [
+          "Bone microstructure",
+          "Trabecular thickness",
+          "BV/TV > 50%",
+          "Predictive of thick trabeculae",
+          "micro-CT accuracy"
+        ],
+        [
+          "Image Processing",
+          "Computer-Assisted analysis",
+          "Micro-CT data",
+          "Reproducibility of results",
+          "Confidence in measurement"
+        ],
+        [
+          "Dental Implantation planning",
+          "Assessment of bone density",
+          "Micro-CT evaluation",
+          "Clinical decision making",
+          "Reliability confirmation"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:00.078Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22564465",
+      "global_index": 639,
+      "question": "Mammographic screening in Sami speaking municipalities and a control group. Are early outcome measures influenced by ethnicity?",
+      "contexts": [
+        "Female citizens of Sami (the indigenous people of Norway) municipalities in northern Norway have a low risk of breast cancer. The objective of this study was to describe the attendance rate and outcome of the Norwegian Breast Cancer Screening Program (NBCSP) in the Sami-speaking municipalities and a control group.",
+        "A retrospective registry-based study.",
+        "The 8 municipalities included in the administration area of the Sami language law (Sami) were matched with a control group of 11 municipalities (non-Sami). Population data were accessed from Statistics Norway. Data regarding invitations and outcome in the NBCSP during the period 2001-2010 was derived from the Cancer Registry of Norway (CRN). The NBCSP targets women aged 50-69 years. Rates and percentages were compared using chi-square test with a p-value<0.05 as statistical significant.",
+        "The attendance rate in the NBCSP was 78% in the Sami and 75% in the non-Sami population (p<0.01). The recall rates were 2.4 and 3.3% in the Sami and non-Sami population, respectively (p<0.01). The rate of invasive screen detected cancer was not significantly lower in the Sami group (p=0.14). The percentage of all breast cancers detected in the NBCSP among the Sami (67%) was lower compared with the non-Sami population (86%, p=0.06)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Breast Neoplasms",
+        "Cohort Studies",
+        "Ethnic Groups",
+        "Female",
+        "Humans",
+        "Mammography",
+        "Middle Aged",
+        "Norway",
+        "Population Groups",
+        "Registries",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Sami ethnicity",
+          "Mammography attendance",
+          "Recall rate",
+          "Screen-detected invasive cancer",
+          "Early outcome measures"
+        ],
+        [
+          "Ethnic groups",
+          "Population registries",
+          "Cohort study design",
+          "Comparison of NBCSP outcomes",
+          "Influence on early outcomes"
+        ],
+        [
+          "Norway",
+          "Sami-speaking municipalities",
+          "Lower breast cancer risk",
+          "Screening attendance",
+          "Percentage of cancers detected by NBCSP",
+          "Ethnicity effect"
+        ],
+        [
+          "Age 50-69 women",
+          "Mammography",
+          "Recall",
+          "False-positive rate",
+          "Statistical significance (p<0.01)",
+          "Ethnic difference"
+        ],
+        [
+          "Retrospective registry study",
+          "Cancer Registry of Norway data",
+          "Attendance rates (78% vs 75%)",
+          "p-value <0.01",
+          "Indication of ethnicity influence"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:08.557Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22617083",
+      "global_index": 640,
+      "question": "Does age moderate the effect of personality disorder on coping style in psychiatric inpatients?",
+      "contexts": [
+        "To examine age-related differences in the relationship between personality and coping strategies in an Australian population of psychiatric inpatients.",
+        "Consenting eligible adults (N=238) from 18-100 years of age consecutively admitted to inpatient psychiatry units were assessed using the SCID I and II, the Coping Orientations to Problems Experienced Scale (COPE), the Brief Psychiatric Rating Scale (BPRS), the Global Assessment of Functioning Scale (GAF), the Social and Occupational Functioning Assessment Scale (SOFAS), the 12 Item Short-Form Heath Survey (SF12), the Sarason Social Support Questionnaire, and the NEO Five Factor Inventory (NEO-FFI) (cognitively impaired, and non-English speaking patients were excluded).",
+        "Older adults reported less symptomatology than younger patients and younger patients described more personality dysfunction than older patients. As assessed by the COPE, older adults reported lower levels of dysfunctional coping strategies than younger adults. Personality traits, social supports, gender, and age predicted coping strategies, while Axis I diagnosis, education, personality disorder, and symptom severity were not significant predictors of coping strategies."
+      ],
+      "mesh_terms": [
+        "Adaptation, Psychological",
+        "Adolescent",
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Aging",
+        "Australia",
+        "Female",
+        "Hospitals, Psychiatric",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Multivariate Analysis",
+        "Personality Disorders",
+        "Prospective Studies",
+        "Regression Analysis",
+        "Sex Factors",
+        "Social Support"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Age Factors",
+          "Moderation Analysis",
+          "Personality Disorder",
+          "Coping Style"
+        ],
+        [
+          "Older Adults",
+          "Lower Dysfunctional Coping",
+          "Social Support",
+          "Adaptive Coping"
+        ],
+        [
+          "Personality Traits",
+          "Predict Coping Strategies",
+          "Regression Analysis",
+          "Age as Moderator"
+        ],
+        [
+          "Psychiatric Inpatients",
+          "Axis I Diagnosis",
+          "Not Predictive",
+          "Coping Style"
+        ],
+        [
+          "Gender",
+          "Sex Factors",
+          "Predict Coping Strategies",
+          "Interaction with Age",
+          "Coping Style"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:15.206Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22644412",
+      "global_index": 641,
+      "question": "Hepatic arterial embolization for unresectable hepatocellular carcinomas: do technical factors affect prognosis?",
+      "contexts": [
+        "To evaluate retrospectively whether technical factors of hepatic arterial embolization affect the prognosis of patients with hepatocellular carcinoma (HCC).",
+        "Inclusion criteria of this study were the following: (1) patients received embolization as the initial treatment during 2003-2004, (2) Child A or B liver profile, (3) five or fewer HCCs with maximum diameter of 7 cm or smaller, and (4) no extrahepatic metastasis. Patient data were gathered from 43 centers. Prognostic factors were evaluated using univariate and multivariate analyses.",
+        "Eight hundred fifteen patients were enrolled. The 1-, 3-, 5-, and 7-year overall survival rates were 92.0 % (95 % CI 90.1-93.9), 62.9 % (95 % CI 59.3-66.6), 39.0 % (95 % CI 35.1-43.0), and 26.7 % (95 % CI 22.6-30.8) in all patients. Univariate analysis showed a Child-Pugh class-A, alpha-fetoprotein level lower than 100 ng/ml, tumor size of 3 cm or smaller, tumor number of 3 or fewer, one-lobe tumor distribution, nodular tumor type, within the Milan criteria, stage I or II, no portal venous invasion, use of iodized oil, and selective embolization were significantly better prognostic factors. In the multivariate Cox model, the benefit to survival of selective embolization remained significant (hazard ratio 0.68; 95 % CI 0.48-0.97; p = 0.033)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Carcinoma, Hepatocellular",
+        "Chemoembolization, Therapeutic",
+        "Disease Progression",
+        "Female",
+        "Hepatic Artery",
+        "Humans",
+        "Iodized Oil",
+        "Liver Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Prognosis",
+        "Proportional Hazards Models",
+        "Retrospective Studies",
+        "Survival Rate",
+        "alpha-Fetoproteins"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Selective embolization",
+          "Targeted tumor ischemia",
+          "Decreased tumor progression",
+          "Improved survival rate"
+        ],
+        [
+          "Use of iodized oil",
+          "Enhanced embolic agent retention",
+          "Greater tumor necrosis",
+          "Lower alpha‑fetoprotein levels",
+          "Favorable prognosis"
+        ],
+        [
+          "Non‑selective embolization",
+          "Larger liver parenchyma ischemia",
+          "Increased Child‑Pugh B decompensation",
+          "Worse overall survival"
+        ],
+        [
+          "Tumor size ≤3 cm",
+          "Easier complete embolization",
+          "Higher likelihood of complete necrosis",
+          "Higher 5‑year survival"
+        ],
+        [
+          "Portal venous invasion",
+          "Reduced efficacy of selective embolization",
+          "Higher hazard ratio",
+          "Poor prognosis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:23.411Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22656647",
+      "global_index": 642,
+      "question": "Are acceptance rates of a national preventive home visit programme for older people socially imbalanced?",
+      "contexts": [
+        "Preventive home visits are offered to community dwelling older people in Denmark aimed at maintaining their functional ability for as long as possible, but only two thirds of older people accept the offer from the municipalities. The purpose of this study is to investigate 1) whether socioeconomic status was associated with acceptance of preventive home visits among older people and 2) whether municipality invitational procedures for the preventive home visits modified the association.",
+        "The study population included 1,023 community dwelling 80-year-old individuals from the Danish intervention study on preventive home visits. Information on preventive home visit acceptance rates was obtained from questionnaires. Socioeconomic status was measured by financial assets obtained from national registry data, and invitational procedures were identified through the municipalities. Logistic regression analyses were used, adjusted by gender.",
+        "Older persons with high financial assets accepted preventive home visits more frequently than persons with low assets (adjusted OR = 1.5 (CI95%: 1.1-2.0)). However, the association was attenuated when adjusted by the invitational procedures. The odds ratio for accepting preventive home visits was larger among persons with low financial assets invited by a letter with a proposed date than among persons with high financial assets invited by other procedures, though these estimates had wide confidence intervals."
+      ],
+      "mesh_terms": [
+        "Aged, 80 and over",
+        "Cross-Sectional Studies",
+        "Denmark",
+        "Female",
+        "Financing, Personal",
+        "Geriatric Assessment",
+        "Health Services for the Aged",
+        "Healthcare Disparities",
+        "Home Care Services",
+        "House Calls",
+        "Humans",
+        "Logistic Models",
+        "Male",
+        "Patient Acceptance of Health Care",
+        "Physicians, Family",
+        "Prevalence",
+        "Preventive Health Services",
+        "Program Evaluation",
+        "Residence Characteristics",
+        "Sex Distribution",
+        "Social Class",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Socioeconomic Status",
+          "Financial Assets",
+          "Acceptance of Preventive Home Visits",
+          "Social Class"
+        ],
+        [
+          "Invitational Procedures",
+          "Letter Invitation",
+          "Acceptance of Preventive Home Visits",
+          "Attenuated Socioeconomic Association"
+        ],
+        [
+          "Age 80 and over",
+          "Geriatric Assessment",
+          "Preventive Home Visits",
+          "Functional Ability Maintenance"
+        ],
+        [
+          "Gender",
+          "Patient Acceptance of Health Care",
+          "Logistic Models",
+          "Adjusted Odds Ratio"
+        ],
+        [
+          "Municipality",
+          "Home Care Services",
+          "Healthcare Disparities",
+          "Preventive Health Services"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:31.336Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22658587",
+      "global_index": 643,
+      "question": "Affect-regulated exercise intensity: does training at an intensity that feels 'good' improve physical health?",
+      "contexts": [
+        "Affect-regulated exercise to feel 'good' can be used to control exercise intensity amongst both active and sedentary individuals and should support exercise adherence. It is not known, however, whether affect-regulated exercise training can lead to physical health gains. The aim of this study was to examine if affect-regulated exercise to feel 'good' leads to improved fitness over the course of an 8-week training programme.",
+        "A repeated measures design (pretest-posttest) with independent groups (training and control).",
+        "20 sedentary females completed a submaximal graded exercise test and were then allocated to either a training group or control group. The training group completed two supervised sessions and one unsupervised session per week for 8 weeks. Exercise intensity was affect-regulated to feel 'good'. Following the 8 weeks of training, both groups completed a second submaximal graded exercise test.",
+        "Repeated measures analyses of variance indicated a significant increase in the time to reach ventilatory threshold in the training group (318 ± 23.7s) compared to control (248 ± 16.9s). Overall compliance to training was high (>92%). Participants in the training group exercised at intensities that would be classified as being in the lower range of the recommended guidelines (≈ 50% V˙O(2) max) for cardiovascular health."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Affect",
+        "Exercise",
+        "Female",
+        "Heart Rate",
+        "Humans",
+        "Middle Aged",
+        "Oxygen Consumption",
+        "Physical Fitness",
+        "Sedentary Lifestyle",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Affect",
+          "Exercise Adherence",
+          "Training Volume",
+          "Increased Ventilatory Threshold",
+          "Improved Physical Fitness"
+        ],
+        [
+          "Sedentary Lifestyle",
+          "Affect-Regulated Exercise",
+          "Lower Perceived Exertion",
+          "Higher Compliance",
+          "Greater Cardiovascular Stimulus",
+          "Enhanced Oxygen Consumption"
+        ],
+        [
+          "Female",
+          "Submaximal Graded Exercise Test",
+          "Baseline VO₂max",
+          "Affect-Regulated Training (~50% VO₂max)",
+          "Time to Ventilatory Threshold ↑",
+          "Cardiovascular Health Improvement"
+        ],
+        [
+          "Middle Aged",
+          "Heart Rate Monitoring",
+          "Affective Feedback",
+          "Exercise Intensity Adjustment",
+          "Sustainable Training Intensity",
+          "Physical Fitness Gains"
+        ],
+        [
+          "Physical Fitness",
+          "Ventilatory Threshold",
+          "Oxygen Consumption",
+          "Affect-Regulated Exercise",
+          "Positive Affective State",
+          "Long‑term Exercise Adoption"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:38.374Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22668712",
+      "global_index": 644,
+      "question": "Internal derangement of the temporomandibular joint: is there still a place for ultrasound?",
+      "contexts": [
+        "The aim of this study was to assess the diagnostic value of articular sounds, standardized clinical examination, and standardized articular ultrasound in the detection of internal derangements of the temporomandibular joint.",
+        "Forty patients and 20 asymptomatic volunteers underwent a standardized interview, physical examination, and static and dynamic articular ultrasound. Sensitivity, specificity, and predictive values were calculated using magnetic resonance as the reference test.",
+        "A total of 120 temporomandibular joints were examined. Based on our findings, the presence of articular sounds and physical signs are often insufficient to detect disk displacement. Imaging by static and dynamic high-resolution ultrasound demonstrates considerably lower sensitivity when compared with magnetic resonance. Some of the technical difficulties resulted from a limited access because of the presence of surrounding bone structures."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Case-Control Studies",
+        "Female",
+        "Humans",
+        "Joint Dislocations",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Reference Standards",
+        "Sensitivity and Specificity",
+        "Statistics, Nonparametric",
+        "Surveys and Questionnaires",
+        "Temporomandibular Joint Disc",
+        "Temporomandibular Joint Disorders",
+        "Ultrasonography",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Internal derangement of temporomandibular joint",
+          "Articular sounds",
+          "Clinical examination",
+          "Low sensitivity for disc displacement"
+        ],
+        [
+          "Ultrasonography",
+          "Static and dynamic imaging",
+          "Limited bone window",
+          "Reduced diagnostic accuracy compared with Magnetic Resonance Imaging"
+        ],
+        [
+          "Magnetic Resonance Imaging",
+          "Reference standard",
+          "Sensitivity and Specificity calculation",
+          "Evaluation of ultrasound performance"
+        ],
+        [
+          "Prospective study design",
+          "Standardized interview",
+          "Data collection on articular sounds",
+          "Assessment of predictive values"
+        ],
+        [
+          "Temporomandibular Joint Disc displacement",
+          "High-resolution ultrasound",
+          "Technical difficulties",
+          "Need for alternative imaging modality"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:46.059Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22668852",
+      "global_index": 645,
+      "question": "Do African American women require fewer calories to maintain weight?",
+      "contexts": [
+        "The high prevalence of obesity in African American (AA) women may result, in part, from a lower resting metabolic rate (RMR) than non-AA women. If true, AA women should require fewer calories than non-AA women to maintain weight. Our objective was to determine in the setting of a controlled feeding study, if AA women required fewer calories than non-AA women to maintain weight.",
+        "This analysis includes 206 women (73% AA), aged 22-75 years, who participated in the Dietary Approaches to Stop Hypertension (DASH) trial-a multicenter, randomized, controlled, feeding study comparing the effects of 3 dietary patterns on blood pressure in individuals with prehypertension or stage 1 hypertension. After a 3-week run-in, participants were randomized to 1 of 3 dietary patterns for 8 weeks. Calorie intake was adjusted during feeding to maintain stable weight. The primary outcome of this analysis was average daily calorie (kcal) intake during feeding.",
+        "AA women had higher baseline weight and body mass index than non-AA women (78.4 vs 72.4 kg, P<.01; 29.0 vs 27.6 kg/m(2), P<.05, respectively). During intervention feeding, mean (SD) kcal was 2168 (293) in AA women and 2073 (284) in non-AA women. Mean intake was 94.7 kcal higher in AA women than in non-AA women (P<.05). After adjustment for potential confounders, there was no difference in caloric intake between AA and non-AA women (Δ = -2.8 kcal, P = .95)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "African Americans",
+        "Aged",
+        "Basal Metabolism",
+        "Blood Pressure",
+        "Body Composition",
+        "Body Mass Index",
+        "Body Weight",
+        "Diet",
+        "Energy Intake",
+        "Female",
+        "Humans",
+        "Hypertension",
+        "Middle Aged",
+        "Obesity",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "African Americans",
+          "Basal Metabolism",
+          "Energy Intake",
+          "Weight Maintenance"
+        ],
+        [
+          "Body Mass Index",
+          "Body Weight",
+          "Energy Requirement",
+          "Calorie Intake"
+        ],
+        [
+          "Controlled Feeding Study",
+          "Adjusted Calorie Intake",
+          "No Difference After Adjustment",
+          "Same Calorie Requirement"
+        ],
+        [
+          "Obesity Prevalence",
+          "Lower Resting Metabolic Rate",
+          "Measured Resting Metabolic Rate",
+          "No Significant Caloric Difference"
+        ],
+        [
+          "DASH Trial",
+          "Dietary Intervention",
+          "Calorie Monitoring",
+          "Comparison of African American vs non‑African American Women",
+          "Similar Caloric Needs"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:54.084Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22680064",
+      "global_index": 646,
+      "question": "Can third trimester ultrasound predict the presentation of the first twin at delivery?",
+      "contexts": [
+        "To determine the ability of early sonogram to predict the presentation of twin A at birth.",
+        "A retrospective cohort study was conducted on all twin pregnancies evaluated at our Fetal Evaluation Unit from 2007 to 2009. Sonogram records were reviewed for the presentation of twin A at seven gestational age intervals and inpatient medical records were reviewed for the presentation of twin A at delivery. The positive predictive value, sensitivity, and specificity of presentation as determined by ultrasound, at each gestational age interval, for the same presentation at delivery were calculated.",
+        "Two hundred and thirty-eight twin pregnancies met inclusion criteria. A total of 896 ultrasounds were reviewed. The positive predictive value of cephalic presentation of twin A as determined by ultrasound for the persistence of cephalic presentation at delivery reached 95% after 28 weeks gestation. The positive predictive value for noncephalic presentation as established by sonogram for noncephalic at delivery was>90% after 32 weeks gestation."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Birth Order",
+        "Birth Weight",
+        "Cohort Studies",
+        "Delivery, Obstetric",
+        "Female",
+        "Humans",
+        "Infant, Newborn",
+        "Labor Presentation",
+        "Predictive Value of Tests",
+        "Pregnancy",
+        "Pregnancy Trimester, Third",
+        "Pregnancy, Twin",
+        "Retrospective Studies",
+        "Twins",
+        "Ultrasonography, Prenatal"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Third Trimester",
+          "Ultrasonography",
+          "Twin A Presentation",
+          "Predictive Value of Tests"
+        ],
+        [
+          "Cohort Studies",
+          "Retrospective Study Design",
+          "Sensitivity & Specificity",
+          "Accuracy of Presentation Prediction"
+        ],
+        [
+          "Pregnancy Trimester",
+          "28 weeks gestation",
+          "Cephalic Presentation on Sonogram",
+          "95% Positive Predictive Value"
+        ],
+        [
+          "Twin",
+          "Noncephalic Presentation",
+          "32 weeks gestation",
+          ">90% Positive Predictive Value"
+        ],
+        [
+          "Prenatal",
+          "Ultrasonography",
+          "Labor Presentation",
+          "Delivery Management Decisions"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:01.099Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22683044",
+      "global_index": 647,
+      "question": "Does open access publishing increase the impact of scientific articles?",
+      "contexts": [
+        "Some studies suggest that open access articles are more often cited than non-open access articles. However, the relationship between open access and citations count in a discipline such as intensive care medicine has not been studied to date. The present article analyzes the effect of open access publishing of scientific articles in intensive care medicine journals in terms of citations count.",
+        "We evaluated a total of 161 articles (76% being non-open access articles) published in Intensive Care Medicine in the year 2008. Citation data were compared between the two groups up until April 30, 2011. Potentially confounding variables for citation counts were adjusted for in a linear multiple regression model.",
+        "The median number (interquartile range) of citations of non-open access articles was 8 (4-12) versus 9 (6-18) in the case of open access articles (p=0.084). In the highest citation range (>8), the citation count was 13 (10-16) and 18 (13-21) (p=0.008), respectively. The mean follow-up was 37.5 ± 3 months in both groups. In the 30-35 months after publication, the average number (mean ± standard deviation) of citations per article per month of non-open access articles was 0.28 ± 0.6 versus 0.38 ± 0.7 in the case of open access articles (p=0.043). Independent factors for citation advantage were the Hirsch index of the first signing author (β=0.207; p=0.015) and open access status (β=3.618; p=0.006)."
+      ],
+      "mesh_terms": [
+        "Access to Information",
+        "Critical Care",
+        "Journal Impact Factor",
+        "Periodicals as Topic",
+        "Publishing"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Access to Information",
+          "Open Access Publishing",
+          "Increased Citation Count",
+          "Higher Journal Impact Factor"
+        ],
+        [
+          "Publishing",
+          "Periodicals as Topic",
+          "Open Access Status",
+          "Citation Advantage",
+          "Research Visibility"
+        ],
+        [
+          "Intensive Care Medicine",
+          "Open Access Articles",
+          "Median Citations ↑",
+          "Statistical Significance",
+          "Perceived Impact"
+        ],
+        [
+          "Hirsch index of First Author",
+          "Open Access Status",
+          "β Coefficient (3.618)",
+          "Independent Predictor of Citations"
+        ],
+        [
+          "Open Access Publishing",
+          "Reduced Access Barriers",
+          "Wider Readership",
+          "More Citations",
+          "Enhanced Article Impact"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:09.217Z",
+      "processed_at": "2026-01-27T18-48-40"
+    },
+    {
+      "pmid": "22694248",
+      "global_index": 648,
+      "question": "Is there a model to teach and practice retroperitoneoscopic nephrectomy?",
+      "contexts": [
+        "Although the retroperitoneal approach has been the preferred choice for open urological procedures, retroperitoneoscopy is not the preferred approach for laparoscopy. This study aims to develop a training model for retroperitoneoscopy and to establish an experimental learning curve.",
+        "Fifteen piglets were operated on to develop a standard retroperitoneoscopic nephrectomy (RPN) training model. All procedures were performed with three ports. Intraoperative data (side, operative time, blood loss, peritoneal opening) were recorded. Animals were divided into groups A, the first eight, and B, the last seven cases. Data were statistically analyzed.",
+        "We performed fifteen RPNs. The operative time varied from 15 to 50 minutes (median 30 minutes). Blood loss varied from 5 to 100 mL (median 20 mL). We experienced five peritoneal openings; we had two surgical vascular complications managed laparoscopically. There was statistical difference between groups A and B for peritoneal opening (p = 0.025), operative time (p = 0.0037), and blood loss (p = 0.026).",
+        "RPN in a porcine model could simulate the whole procedure, from creating the space to nephrectomy completion. Experimental learning curve was eight cases, after statistical data analysis."
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Blood Loss, Surgical",
+        "Feasibility Studies",
+        "Laparoscopy",
+        "Models, Animal",
+        "Nephrectomy",
+        "Operative Time",
+        "Retroperitoneal Space",
+        "Swine"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Swine",
+          "Retroperitoneoscopic nephrectomy",
+          "Training model",
+          "Learning curve",
+          "Operative time improvement"
+        ],
+        [
+          "Retroperitoneal space",
+          "Laparoscopy",
+          "Feasibility studies",
+          "Animal model",
+          "Surgical skill acquisition"
+        ],
+        [
+          "Blood loss",
+          "Operative time",
+          "Peritoneal opening",
+          "Statistical analysis",
+          "Validation of model"
+        ],
+        [
+          "Models",
+          "Animal",
+          "Porcine",
+          "Retroperitoneoscopy",
+          "Practice of nephrectomy"
+        ],
+        [
+          "Feasibility Studies",
+          "Retroperitoneoscopic nephrectomy",
+          "Porcine model",
+          "Experimental learning curve",
+          "Teaching tool"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:15.955Z",
+      "processed_at": "2026-01-27T18-48-40"
+    }
+  ]
+}

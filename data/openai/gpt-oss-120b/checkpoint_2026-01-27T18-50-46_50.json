@@ -1,0 +1,3396 @@
+{
+  "metadata": {
+    "checkpoint": 50,
+    "total": 125,
+    "successful": 50,
+    "failed": 0
+  },
+  "results": [
+    {
+      "pmid": "25859857",
+      "global_index": 875,
+      "question": "Could the extent of lymphadenectomy be modified by neoadjuvant chemotherapy in cervical cancer?",
+      "contexts": [
+        "The effect of neoadjuvant chemotherapy (NACT) on topographical distribution patterns of lymph node metastasis in cervical cancer was unknown.",
+        "Patients with FIGO stage IB1-IIB who underwent radical surgery with or without NACT were enrolled (3527 patients). A matched-case comparison design was used to compare the effects of NACT on lymph node metastasis.",
+        "We analyzed groups of 167 and 140 patients who were diagnosed with lymph node metastasis in the matched primary surgery group and NACT group, respectively, and no significant difference was observed (p = 0.081). The incidence of lymph node metastasis was significantly decreased in the NACT-responsive group compared to the non-responsive group (18.4% vs. 38.6%, P<0.001). The metastatic rates for every lymph node group also declined in the NACT-responsive group except for the deep inguinal and the para-aortic lymph node groups. Clinical response, deep stromal, parametrial and lymph vascular invasions were independent risk factors for lymph node metastasis in the NACT group. Furthermore, deep stromal invasion and lymph vascular invasion, but not the response to NACT, were independently associated with upper LNM. The number of lymph nodes involved, response to NACT, tumor histology and a positive vaginal margin were independent prognostic factors affecting DFS or OS rates in node-positive patients treated with NACT plus radical surgery."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Female",
+        "Humans",
+        "Lymph Node Excision",
+        "Lymph Nodes",
+        "Lymphatic Metastasis",
+        "Middle Aged",
+        "Neoadjuvant Therapy",
+        "Neoplasm Staging",
+        "Retrospective Studies",
+        "Risk Factors",
+        "Treatment Outcome",
+        "Uterine Cervical Neoplasms",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Neoadjuvant Therapy",
+          "Decreased Lymphatic Metastasis",
+          "Reduced Need for Lymph Node Excision",
+          "Modified Extent of Lymphadenectomy"
+        ],
+        [
+          "Clinical Response to NACT",
+          "Deep Stromal Invasion",
+          "Predictive of Upper Lymph Node Metastasis",
+          "Guides Extent of Lymphadenectomy"
+        ],
+        [
+          "FIGO Stage IB1‑IIB",
+          "Antineoplastic Combined Chemotherapy Protocols",
+          "Altered Topographical Distribution of Lymph Nodes Metastasis",
+          "Adjusted Lymph Node Excision Strategy"
+        ],
+        [
+          "Non‑responsive NACT Group",
+          "Higher Incidence of Lymph Node Metastasis",
+          "Increased Number of Involved Lymph Nodes",
+          "Necessitates More Extensive Lymphadenectomy"
+        ],
+        [
+          "Retrospective Study",
+          "Identification of Risk Factors (Lymph Vascular Invasion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:49.784Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25885219",
+      "global_index": 876,
+      "question": "Maternal creatine homeostasis is altered during gestation in the spiny mouse: is this a metabolic adaptation to pregnancy?",
+      "contexts": [
+        "Pregnancy induces adaptations in maternal metabolism to meet the increased need for nutrients by the placenta and fetus. Creatine is an important intracellular metabolite obtained from the diet and also synthesised endogenously. Experimental evidence suggests that the fetus relies on a maternal supply of creatine for much of gestation. However, the impact of pregnancy on maternal creatine homeostasis is unclear. We hypothesise that alteration of maternal creatine homeostasis occurs during pregnancy to ensure adequate levels of this essential substrate are available for maternal tissues, the placenta and fetus. This study aimed to describe maternal creatine homeostasis from mid to late gestation in the precocial spiny mouse.",
+        "Plasma creatine concentration and urinary excretion were measured from mid to late gestation in pregnant (n = 8) and age-matched virgin female spiny mice (n = 6). At term, body composition and organ weights were assessed and tissue total creatine content determined. mRNA expression of the creatine synthesising enzymes arginine:glycine amidinotransferase (AGAT) and guanidinoacetate methyltransferase (GAMT), and the creatine transporter (CrT1) were assessed by RT-qPCR. Protein expression of AGAT and GAMT was also assessed by western blot analysis.",
+        "Plasma creatine and renal creatine excretion decreased significantly from mid to late gestation (P<0.001, P<0.05, respectively). Pregnancy resulted in increased lean tissue (P<0.01), kidney (P<0.01), liver (P<0.01) and heart (P<0.05) mass at term. CrT1 expression was increased in the heart (P<0.05) and skeletal muscle (P<0.05) at term compared to non-pregnant tissues, and creatine content of the heart (P<0.05) and kidney (P<0.001) were also increased at this time. CrT1 mRNA expression was down-regulated in the liver (<0.01) and brain (<0.01) of pregnant spiny mice at term. Renal AGAT mRNA (P<0.01) and protein (P<0.05) expression were both significantly up-regulated at term, with decreased expression of AGAT mRNA (<0.01) and GAMT protein (<0.05) observed in the term pregnant heart. Brain AGAT (<0.01) and GAMT (<0.001) mRNA expression were also decreased at term."
+      ],
+      "mesh_terms": [
+        "Amidinotransferases",
+        "Animals",
+        "Blotting, Western",
+        "Creatine",
+        "Female",
+        "Gene Expression Regulation",
+        "Guanidinoacetate N-Methyltransferase",
+        "Homeostasis",
+        "Membrane Transport Proteins",
+        "Murinae",
+        "Pregnancy",
+        "RNA, Messenger",
+        "Reverse Transcriptase Polymerase Chain Reaction"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Pregnancy",
+          "Increased maternal tissue mass",
+          "Up‑regulation of CrT1 in heart and skeletal muscle",
+          "Elevated tissue creatine content",
+          "Enhanced maternal/fetal energy reserve"
+        ],
+        [
+          "Renal AGAT mRNA ↑",
+          "Increased renal creatine synthesis",
+          "Plasma creatine ↓",
+          "Conservation of creatine for fetal use"
+        ],
+        [
+          "Plasma creatine ↓",
+          "Renal creatine excretion ↓",
+          "Down‑regulation of hepatic CrT1",
+          "Shift of creatine from circulation to maternal organs"
+        ],
+        [
+          "Gene expression of AGAT ↑ in kidney",
+          "AGAT protein ↑",
+          "Greater endogenous creatine production",
+          "Metabolic adaptation to pregnancy demand"
+        ],
+        [
+          "Liver CrT1 mRNA ↓",
+          "Brain AGAT/GAMT mRNA ↓",
+          "Reduced brain creatine synthesis",
+          "Redistribution of creatine to high‑demand organs (heart, kidney)"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:50:58.838Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25887165",
+      "global_index": 877,
+      "question": "Does Sensation Return to the Nasal Tip After Microfat Grafting?",
+      "contexts": [
+        "Patients usually complain about numbness in the nasal tip after microfat injections. The present study evaluated the severity of the numbness in the nasal tip after the procedure.",
+        "To address the research question, a prospective study of young women was designed and performed at the Beijing Anzhen Hospital. Time was the primary predictor variable. The nasal tip sensation, which was evaluated using objective and subjective assessments, was used as the primary outcome variable. The McNemar-Bowker test (time vs nasal tip sensation) was used to detect statistical significance.",
+        "A total of 30 young women (age 20.04 ± 3.63 years) were recruited for the present study. The preoperative mean touch threshold value was 3.60 units. One week after the injection, the women experienced a decrease in the touch threshold value by 2.50 units. However, the sensation recovered gradually during the follow-up period (1.51 units at week 2, 2.39 units at week 4, 3.01 units at week 8, and 3.35 units at week 12). Significant differences were detected between multiple different measurement points (P<.05). The percentage of those experiencing paresthesia after the microfat injections also gradually diminished to none."
+      ],
+      "mesh_terms": [
+        "Abdominal Fat",
+        "Adipose Tissue",
+        "Adult",
+        "Cohort Studies",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Hypesthesia",
+        "Middle Aged",
+        "Nose",
+        "Postoperative Complications",
+        "Prospective Studies",
+        "Recovery of Function",
+        "Rhinoplasty",
+        "Sensory Thresholds",
+        "Touch",
+        "Transplant Donor Site",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Microfat grafting",
+          "Hypesthesia",
+          "Sensory Thresholds",
+          "Recovery of Function"
+        ],
+        [
+          "Abdominal Fat",
+          "Transplant Donor Site",
+          "Postoperative Complications",
+          "Nasal Tip Numbness",
+          "Gradual Sensation Return"
+        ],
+        [
+          "Prospective Studies",
+          "Young Adult Female",
+          "Follow-Up Studies",
+          "Touch",
+          "Sensory Thresholds",
+          "Increment Over 12 Weeks"
+        ],
+        [
+          "Rhinoplasty",
+          "Nasal Tip",
+          "Microfat Injection",
+          "Paresthesia",
+          "None at 12 Weeks"
+        ],
+        [
+          "Cohort Studies",
+          "Adults",
+          "Recovery of Function",
+          "Sensation Return",
+          "Clinical Significance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:51:13.192Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25891436",
+      "global_index": 878,
+      "question": "Is serum total bilirubin useful to differentiate cardioembolic stroke from other stroke subtypes?",
+      "contexts": [
+        "Previous studies have reported that the total bilirubin (TB) level is associated with coronary artery disease, heart failure and atrial fibrillation. These heart diseases can produce cardiogenic cerebral embolism and cause cardioembolic stroke. However, whether the serum TB could be a biomarker to differentiate cardioembolic stroke from other stroke subtypes is unclear.",
+        "Our study consisted of 628 consecutive patients with ischaemic stroke. Various clinical and laboratory variables of the patients were analysed according to serum TB quartiles and stroke subtypes.",
+        "The higher TB quartile group was associated with atrial fibrillation, larger left atrium diameter, lower left ventricular fractional shortening and cardioembolic stroke (P<0.001, P = 0.001, P = 0.033, P<0.001, respectively). Furthermore, serum TB was a statistically significant independent predictor of cardioembolic stroke in a multivariable setting (Continuous, per unit increase OR = 1.091, 95%CI: 1.023-1.164, P = 0.008)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Atrial Fibrillation",
+        "Bilirubin",
+        "Biomarkers",
+        "Brain Ischemia",
+        "Diagnosis, Differential",
+        "Feasibility Studies",
+        "Female",
+        "Humans",
+        "Intracranial Embolism",
+        "Male",
+        "Middle Aged",
+        "Stroke"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Serum Total Bilirubin",
+          "Atrial Fibrillation",
+          "Cardioembolic Stroke",
+          "Stroke Subtype Differentiation"
+        ],
+        [
+          "Bilirubin",
+          "Biomarker",
+          "Multivariate Logistic Regression",
+          "Independent Predictor",
+          "Cardioembolic Stroke"
+        ],
+        [
+          "Coronary Artery Disease",
+          "Elevated Bilirubin",
+          "Cardiac Structural Changes",
+          "Left Atrium Enlargement",
+          "Cardioembolic Embolism"
+        ],
+        [
+          "Ischemic Stroke",
+          "Stroke Subtype Classification",
+          "Cardioembolic vs Non‑cardioembolic",
+          "Serum Bilirubin Levels"
+        ],
+        [
+          "Total Bilirubin Quartiles",
+          "Higher Quartile Association",
+          "Larger Left Atrium Diameter",
+          "Increased Cardioembolic Stroke Risk",
+          "Diagnostic Utility"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:20.389Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25940336",
+      "global_index": 879,
+      "question": "Does Residency Selection Criteria Predict Performance in Orthopaedic Surgery Residency?",
+      "contexts": [
+        "More than 1000 candidates applied for orthopaedic residency positions in 2014, and the competition is intense; approximately one-third of the candidates failed to secure a position in the match. However, the criteria used in the selection process often are subjective and studies have differed in terms of which criteria predict either objective measures or subjective ratings of resident performance by faculty.QUESTIONS/",
+        "Do preresidency selection factors serve as predictors of success in residency? Specifically, we asked which preresidency selection factors are associated or correlated with (1) objective measures of resident knowledge and performance; and (2) subjective ratings by faculty.",
+        "Charts of 60 orthopaedic residents from our institution were reviewed. Preresidency selection criteria examined included United States Medical Licensing Examination (USMLE) Step 1 and Step 2 scores, Medical College Admission Test (MCAT) scores, number of clinical clerkship honors, number of letters of recommendation, number of away rotations, Alpha Omega Alpha (AOA) honor medical society membership, fourth-year subinternship at our institution, and number of publications. Resident performance was assessed using objective measures including American Board of Orthopaedic Surgery (ABOS) Part I scores and Orthopaedics In-Training Exam (OITE) scores and subjective ratings by faculty including global evaluation scores and faculty rankings of residents. We tested associations between preresidency criteria and the subsequent objective and subjective metrics using linear correlation analysis and Mann-Whitney tests when appropriate.",
+        "Objective measures of resident performance namely, ABOS Part I scores, had a moderate linear correlation with the USMLE Step 2 scores (r = 0.55, p<0.001) and number of clinical honors received in medical school (r = 0.45, p<0.001). OITE scores had a weak linear correlation with the number of clinical honors (r = 0.35, p = 0.009) and USMLE Step 2 scores (r = 0.29, p = 0.02). With regards to subjective outcomes, AOA membership was associated with higher scores on the global evaluation (p = 0.005). AOA membership also correlated with higher global evaluation scores (r = 0.60, p = 0.005) with the strongest correlation existing between AOA membership and the \"interpersonal and communication skills\" subsection of the global evaluations."
+      ],
+      "mesh_terms": [
+        "Clinical Clerkship",
+        "Clinical Competence",
+        "College Admission Test",
+        "Committee Membership",
+        "Curriculum",
+        "Education, Medical, Graduate",
+        "Educational Status",
+        "Female",
+        "Humans",
+        "Internship and Residency",
+        "Linear Models",
+        "Male",
+        "New Jersey",
+        "Orthopedic Procedures",
+        "Personnel Selection",
+        "Retrospective Studies",
+        "Societies, Medical",
+        "Teaching"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "USMLE Step 2 scores",
+          "ABOS Part I scores",
+          "Objective resident performance",
+          "Predictive validity of selection criteria"
+        ],
+        [
+          "Clinical clerkship honors",
+          "OITE scores",
+          "Clinical competence",
+          "Orthopaedic residency success"
+        ],
+        [
+          "AOA membership",
+          "Global faculty evaluation",
+          "Interpersonal and communication skills",
+          "Subjective performance rating"
+        ],
+        [
+          "Personnel selection",
+          "Linear models",
+          "Correlation analysis",
+          "Predictive relationship between preresidency factors and resident outcomes"
+        ],
+        [
+          "Number of publications",
+          "Resident scholarly activity",
+          "Orthopaedic procedures competence",
+          "Overall residency performance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:29.167Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25957366",
+      "global_index": 880,
+      "question": "Prompting Primary Care Providers about Increased Patient Risk As a Result of Family History: Does It Work?",
+      "contexts": [
+        "Electronic health records have the potential to facilitate family history use by primary care physicians (PCPs) to provide personalized care. The objective of this study was to determine whether automated, at-the-visit tailored prompts about family history risk change PCP behavior.",
+        "Automated, tailored prompts highlighting familial risk for heart disease, stroke, diabetes, and breast, colorectal, or ovarian cancer were implemented during 2011 to 2012. Medical records of a cohort of community-based primary care patients, aged 35 to 65 years, who previously participated in our Family Healthware study and had a moderate or strong familial risk for any of the 6 diseases were subsequently reviewed. The main outcome measures were PCP response to the prompts, adding family history risk to problem summary lists, and patient screening status for each disease.",
+        "The 492 eligible patients had 847 visits during the study period; 152 visits had no documentation of response to a family history prompt. Of the remaining 695 visits, physician responses were reviewed family history (n = 372, 53.5%), discussed family history (n = 159, 22.9%), not addressed (n = 155, 22.3%), and reviewed family history and ordered tests/referrals (n = 5, 0.7%). There was no significant change in problem summary list documentation of risk status or screening interventions for any of the 6 diseases."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Electronic Health Records",
+        "Female",
+        "Genetic Predisposition to Disease",
+        "Heredity",
+        "Humans",
+        "Male",
+        "Medical History Taking",
+        "Middle Aged",
+        "Practice Patterns, Physicians'",
+        "Primary Health Care",
+        "Prospective Studies",
+        "Reminder Systems",
+        "Risk Assessment",
+        "Risk Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Electronic Health Records",
+          "Reminder Systems",
+          "Tailored Prompts",
+          "Physician Review of Family History",
+          "Documentation in Problem Summary List"
+        ],
+        [
+          "Genetic Predisposition to Disease",
+          "Risk Assessment",
+          "Primary Care Provider Prompt",
+          "Discussion with Patient",
+          "Screening Orders"
+        ],
+        [
+          "Primary Health Care",
+          "Practice Patterns",
+          "Automated Prompts",
+          "No Change in Screening Interventions",
+          "Outcome Assessment"
+        ],
+        [
+          "Family History",
+          "Risk Factors",
+          "Heart Disease",
+          "Physician Review",
+          "No Referral"
+        ],
+        [
+          "Prospective Studies",
+          "Community-Based Primary Care Cohort",
+          "Moderate Familial Risk",
+          "Visit-Level Prompt",
+          "Low Test Ordering Frequency"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:37.255Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25981682",
+      "global_index": 881,
+      "question": "Preparing patients at high risk of falls for discharge home after rehabilitation: Do we meet the guidelines?",
+      "contexts": [
+        "Medical records of 121 people who received inpatient rehabilitation were retrospectively screened; records of 50 people discharged home and at high falls risk (fall in last 12 months, fall preceding/during admission) were audited. Data extracted included falls risk identification during rehabilitation and in discharge documentation; falls risk factors assessed; and fall prevention strategies implemented.",
+        "Discharge documentation correctly identified falls risk for just nine of the 50 people. Patients at high falls risk had a median of 8.0 (interquartile range 6-10) of 17 risk factors. There was limited evidence of assessment for osteoporosis (n = 8), footwear (n = 4) and visual assessment in the previous 2 years (n = 1). Patients received a median of 6.5 (interquartile range 5-9) out of 16 possible strategies. Common strategies were mobility (n = 48), strength (n = 44) and Personal Activity of Daily Living training (n = 43). For 12 risk factors, if the factor was present, there was evidence of a strategy in more than 80% of records."
+      ],
+      "mesh_terms": [
+        "Accidental Falls",
+        "Aged",
+        "Aged, 80 and over",
+        "Australia",
+        "Female",
+        "Guideline Adherence",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Patient Discharge",
+        "Patient Handoff",
+        "Practice Guidelines as Topic",
+        "Rehabilitation",
+        "Retrospective Studies",
+        "Risk Assessment"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "High Falls Risk",
+          "Falls Risk Identification",
+          "Discharge Documentation",
+          "Guideline Adherence"
+        ],
+        [
+          "Rehabilitation",
+          "Risk Assessment",
+          "Fall Prevention Strategies",
+          "Patient Discharge"
+        ],
+        [
+          "Accidental Falls",
+          "Osteoporosis",
+          "Osteoporosis Assessment",
+          "Strength Training"
+        ],
+        [
+          "Practice Guidelines as Topic",
+          "Guideline Adherence",
+          "Audit of Records",
+          "Compliance Gap"
+        ],
+        [
+          "Patient Handoff",
+          "Documentation of Falls Risk",
+          "Mobility Training",
+          "Reduced Readmission"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:43.866Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25982163",
+      "global_index": 882,
+      "question": "Appendectomy timing: Will delayed surgery increase the complications?",
+      "contexts": [
+        "This study investigated whether the time from emergency room registration to appendectomy (ETA) would affect the incidence of perforation and postoperative complications in patients with acute appendicitis.",
+        "Patients who underwent an appendectomy at the Ren-Ai branch of Taipei City Hospital between January 2010 and October 2012 were retrospectively reviewed. Their demographics, white blood cell count, C-reactive protein, body temperature, computed tomography scan usage, operation method, pathology report, postoperative complication, length of hospital stay, and ETA were abstracted. Multivariate analysis was performed to search the predictors, including ETA, of outcomes for the perforation and postoperative complication rates.",
+        "A total of 236 patients were included in the study. Perforation occurred in 12.7% (30/236) and postoperative complications developed in 24.1% (57/236) of these patients. There were 121 patients with ETA<8 hours, 88 patients with ETA of 8-24 hours, and 27 patients with ETA>24 hours; patients with ETA>24 hours had significantly longer hospital stay. Univariate analysis showed that perforated patients were significantly older, and had higher C-reactive protein level, longer hospital stay, and higher complication rate. Patients who developed postoperative complications were significantly older, and had higher neutrophil count, less use of computed tomography, and higher open appendectomy rate. After multivariate analysis, age ≥55 years was the only predictor for perforation [odds ratio (OR) = 3.65; 95% confidence interval (CI), 1.54-8.68]; for postoperative complications, age ≥55 years (OR = 1.65; 95% CI, 1.84-3.25), perforated appendicitis (OR = 3.17; 95% CI, 1.28-7.85), and open appendectomy (OR = 3.21; 95% CI, 1.36-7.58) were associated. ETA was not a significant predictor in both analyses."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Appendectomy",
+        "C-Reactive Protein",
+        "Female",
+        "Humans",
+        "Length of Stay",
+        "Male",
+        "Middle Aged",
+        "Postoperative Complications",
+        "Retrospective Studies",
+        "Time Factors"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "ETA > 24 hours",
+          "Longer Hospital Stay",
+          "Higher Postoperative Complications"
+        ],
+        [
+          "Age ≥ 55 years",
+          "Increased Perforation Risk",
+          "Higher Postoperative Complication Rate"
+        ],
+        [
+          "Open Appendectomy",
+          "Greater Surgical Trauma",
+          "Higher Postoperative Complications"
+        ],
+        [
+          "Elevated C‑Reactive Protein",
+          "Severe Inflammation",
+          "Perforated Appendicitis",
+          "Higher Complication Risk"
+        ],
+        [
+          "Computed Tomography Use",
+          "Early Diagnosis",
+          "Reduced ETA",
+          "No Increase in Complications"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:51.339Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25985014",
+      "global_index": 883,
+      "question": "Is ganglionated plexi ablation during Maze IV procedure beneficial for postoperative long-term stable sinus rhythm?",
+      "contexts": [
+        "We investigated the role of surgical ablation targeting the autonomous nervous system during a Cox-Maze IV procedure in the maintenance of sinus rhythm at long-term follow-up.",
+        "The patient population consisted of 519 subjects with persistent or long-standing persistent atrial fibrillation (AF) undergoing radiofrequency Maze IV during open heart surgery between January 2006 and July 2013 at three institutions without (Group 1) or with (Group 2) ganglionated plexi (GP) ablation. Recurrence of atrial fibrillation off-antiarrhythmic drugs was the primary outcome. Predictors of AF recurrence were evaluated by means of competing risk regression. Median follow-up was 36.7 months.",
+        "The percentage of patients in normal sinus rhythm (NSR) off-antiarrhythmic drugs did not differ between groups (Group 1-75.5%, Group 2-67.8%, p = 0.08). Duration of AF ≥ 38 months (p = 0.01), left atrial diameter ≥ 54 mm (0.001), left atrial area ≥ 33 cm(2) (p = 0.005), absence of connecting lesions (p= 0.04), and absence of right atrial ablation (p<0.001) were independently associated with high incidence of AF recurrence. In contrast the absence of GP ablation was not a significant factor (p = 0.12)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Atrial Fibrillation",
+        "Autonomic Denervation",
+        "Autonomic Nervous System",
+        "Catheter Ablation",
+        "Female",
+        "Heart Rate",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Pericardium",
+        "Postoperative Period",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Maze IV Procedure",
+          "Ganglionated Plexi Ablation",
+          "Autonomic Denervation",
+          "Reduction of AF Triggers",
+          "Sinus Rhythm Maintenance"
+        ],
+        [
+          "Persistent Atrial Fibrillation",
+          "Left Atrial Diameter ≥ 54 mm",
+          "Maze IV Lesion Set",
+          "Absence of GP Ablation",
+          "Similar NSR Rates"
+        ],
+        [
+          "Retrospective Study",
+          "Competing Risk Regression",
+          "GP Ablation Not Significant (p = 0.12)",
+          "No Impact on Long‑term NSR",
+          "Conclusion: Not Beneficial"
+        ],
+        [
+          "Autonomic Nervous System",
+          "Ganglionated Plexi",
+          "Ablation",
+          "Modulation of Heart Rate Variability",
+          "Potential Rhythm Stabilization"
+        ],
+        [
+          "Postoperative Period",
+          "Discontinuation of Antiarrhythmic Drugs",
+          "AF Recurrence",
+          "Predictors: AF duration ≥38 months, LA area ≥33 cm²",
+          "GP Ablation Not Independent Predictor"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:51:59.670Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25986020",
+      "global_index": 884,
+      "question": "Is zero central line-associated bloodstream infection rate sustainable?",
+      "contexts": [
+        "Adoption and implementation of evidence-based measures for catheter care leads to reductions in central line-associated bloodstream infection (CLABSI) rates in the NICU. The purpose of this study is to evaluate whether this rate reduction is sustainable for at least 1 year and to identify key determinants of this sustainability at the NICU of the Floating Hospital for Children at Tufts Medical Center.",
+        "We reviewed the incidence of CLABSIs in the NICU temporally to the implementation of new practice policies and procedures, from July 2008 to December 2013.",
+        "Adoption of standardized care practices, including bundles and checklists, was associated with a significant reduction of the CLABSI rate to zero for>370 consecutive days in our NICU in 2012. Overall, our CLABSI rates decreased from 4.1 per 1000 line days in 2009 (13 infections; 3163 line days) to 0.94 in 2013 (2 infections; 2115 line days), which represents a 77% reduction over a 5-year period. In the first quarter of 2013, there was a brief increase in CLABSI rate to 3.3 per 1000 line days; after a series of interventions, the CLABSI rate was maintained at zero for>600 days. Ongoing training, surveillance, and vigilance with catheter insertion and maintenance practices and improved documentation were identified as key drivers for success."
+      ],
+      "mesh_terms": [
+        "Bacteremia",
+        "Catheter-Related Infections",
+        "Catheterization, Central Venous",
+        "Guideline Adherence",
+        "Humans",
+        "Infant, Newborn",
+        "Time Factors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Standardized bundles",
+          "Catheter insertion technique",
+          "Catheter-related infections",
+          "Zero CLABSI rate"
+        ],
+        [
+          "Ongoing training",
+          "Guideline adherence",
+          "Catheter maintenance",
+          "Sustained zero CLABSI"
+        ],
+        [
+          "Surveillance",
+          "Early detection of breaches",
+          "Prompt interventions",
+          "Zero CLABSI maintenance"
+        ],
+        [
+          "Improved documentation",
+          "Line‑day tracking",
+          "Accurate CLABSI rate calculation",
+          "Demonstrated sustainability"
+        ],
+        [
+          "Time factors",
+          "Quality improvement cycles",
+          "Long‑term zero CLABSI feasibility",
+          "Sustainable outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:52:08.831Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "25987398",
+      "global_index": 885,
+      "question": "The influence of atmospheric pressure on aortic aneurysm rupture--is the diameter of the aneurysm important?",
+      "contexts": [
+        "The rate of aortic aneurysm rupture correlates with the aneurysm's diameter, and a higher rate of rupture is observed in patients with larger aneurysms. According to the literature, contradictory results concerning the relationship between atmospheric pressure and aneurysm size have been reported.AIM: In this paper, we assessed the influence of changes in atmospheric pressure on abdominal aneurysm ruptures in relationship to the aneurysm's size.",
+        "The records of 223 patients with ruptured abdominal aneurysms were evaluated. All of the patients had been admitted to the department in the period 1997-2007 from the Silesia region. The atmospheric pressures on the day of the rupture and on the days both before the rupture and between the rupture events were compared. The size of the aneurysm was also considered in the analysis.",
+        "There were no statistically significant differences in pressure between the days of rupture and the remainder of the days within an analysed period. The highest frequency of the admission of patients with a ruptured aortic aneurysm was observed during periods of winter and spring, when the highest mean values of atmospheric pressure were observed; however, this observation was not statistically confirmed. A statistically non-significant trend towards the higher rupture of large aneurysms (>7 cm) was observed in the cases where the pressure increased between the day before the rupture and the day of the rupture. This trend was particularly pronounced in patients suffering from hypertension (p = 0.1)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Aortic Aneurysm, Abdominal",
+        "Aortic Rupture",
+        "Atmospheric Pressure",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Poland",
+        "Retrospective Studies",
+        "Seasons"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Aortic Aneurysm",
+          "Diameter >7 cm",
+          "Rupture Risk ↑",
+          "Atmospheric Pressure Increase",
+          "Trend toward Higher Rupture"
+        ],
+        [
+          "Atmospheric Pressure",
+          "Seasonal Peaks (Winter/Spring)",
+          "Higher Mean Pressure",
+          "No Significant Rupture Difference",
+          "Diameter not a modifier"
+        ],
+        [
+          "Hypertension",
+          "Vessel Wall Stress",
+          "Large Aneurysm (>7 cm)",
+          "Pressure Rise between days",
+          "p = 0.1 trend"
+        ],
+        [
+          "Retrospective Studies",
+          "223 Patients (Poland)",
+          "Analysis of Pressure vs Rupture",
+          "No Statistically Significant Association",
+          "Diameter remains primary factor"
+        ],
+        [
+          "Age (Middle Aged / Aged)",
+          "Higher prevalence of large Aortic Aneurysm",
+          "Increased Rupture Independent of Pressure",
+          "Emphasizes diameter importance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:52:24.809Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26037986",
+      "global_index": 886,
+      "question": "30-Day and 1-year mortality in emergency general surgery laparotomies: an area of concern and need for improvement?",
+      "contexts": [
+        "Emergency surgery is associated with poorer outcomes and higher mortality with recent studies suggesting the 30-day mortality to be 14-15%. The aim of this study was to analyse the 30-day mortality, age-related 30-day mortality and 1-year mortality following emergency laparotomy. We hope this will encourage prospective data collection, improvement of care and initiate strategies to establish best practice in this area.",
+        "This was a retrospective study of patients who underwent emergency laparotomy from June 2010 to May 2012. The primary end point of the study was 30-day mortality, age-related 30-day mortality and 1-year all-cause mortality.",
+        "477 laparotomies were performed in 446 patients. 57% were aged<70 and 43% aged>70 years. 30-day mortality was 12, 4% in those aged<70 years and 22% in those>70 years (p<0.001). 1-year mortality was 25, 15% in those aged under 70 years and 38% in those aged>70 years (p<0.001)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Aged, 80 and over",
+        "Cause of Death",
+        "Cohort Studies",
+        "Emergency Treatment",
+        "Female",
+        "General Surgery",
+        "Humans",
+        "Incidence",
+        "Laparotomy",
+        "Male",
+        "Middle Aged",
+        "Needs Assessment",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Time Factors",
+        "United Kingdom"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Emergency Treatment",
+          "Laparotomy",
+          "30-Day Mortality",
+          "Age Factors",
+          "Higher Mortality in Aged >70"
+        ],
+        [
+          "Retrospective Studies",
+          "Cohort Studies",
+          "Risk Assessment",
+          "Needs Assessment",
+          "Prospective Data Collection",
+          "Care Improvement"
+        ],
+        [
+          "United Kingdom",
+          "Incidence",
+          "Emergency General Surgery",
+          "1-Year Mortality",
+          "Cause of Death"
+        ],
+        [
+          "Adult",
+          "Middle Aged",
+          "30-Day Mortality",
+          "Time Factors",
+          "Outcome Measurement"
+        ],
+        [
+          "General Surgery",
+          "Laparotomy",
+          "Age Factors",
+          "Aged, 80 and over",
+          "1-Year Mortality",
+          "Increased Risk"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:52:31.610Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26044262",
+      "global_index": 887,
+      "question": "Are income-related differences in active travel associated with physical environmental characteristics?",
+      "contexts": [
+        "Rates of active travel vary by socio-economic position, with higher rates generally observed among less affluent populations. Aspects of both social and built environments have been shown to affect active travel, but little research has explored the influence of physical environmental characteristics, and less has examined whether physical environment affects socio-economic inequality in active travel. This study explored income-related differences in active travel in relation to multiple physical environmental characteristics including air pollution, climate and levels of green space, in urban areas across England. We hypothesised that any gradient in the relationship between income and active travel would be least pronounced in the least physically environmentally-deprived areas where higher income populations may be more likely to choose active transport as a means of travel.",
+        "Adults aged 16+ living in urban areas (n = 20,146) were selected from the 2002 and 2003 waves of the UK National Travel Survey. The mode of all short non-recreational trips undertaken by the sample was identified (n = 205,673). Three-level binary logistic regression models were used to explore how associations between the trip being active (by bike/walking) and three income groups, varied by level of multiple physical environmental deprivation.",
+        "Likelihood of making an active trip among the lowest income group appeared unaffected by physical environmental deprivation; 15.4% of their non-recreational trips were active in both the least and most environmentally-deprived areas. The income-related gradient in making active trips remained steep in the least environmentally-deprived areas because those in the highest income groups were markedly less likely to choose active travel when physical environment was 'good', compared to those on the lowest incomes (OR = 0.44, 95% CI = 0.22 to 0.89)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Air Pollution",
+        "Climate",
+        "England",
+        "Environment",
+        "Female",
+        "Humans",
+        "Income",
+        "Male",
+        "Middle Aged",
+        "Motor Activity",
+        "Poverty",
+        "Socioeconomic Factors",
+        "Surveys and Questionnaires",
+        "Travel",
+        "Urban Population",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Income",
+          "Physical Environmental Deprivation",
+          "Motor Activity",
+          "Socioeconomic Factors"
+        ],
+        [
+          "Air Pollution",
+          "Health Concerns",
+          "Motor Activity",
+          "Income-Related Differences"
+        ],
+        [
+          "Environment",
+          "Green Space",
+          "Motor Activity",
+          "Income Gradient"
+        ],
+        [
+          "Climate",
+          "Outdoor Comfort",
+          "Motor Activity",
+          "Urban Population"
+        ],
+        [
+          "Socioeconomic Factors",
+          "Access to Private Vehicle",
+          "Travel Mode Choice",
+          "Motor Activity"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:52:54.547Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26063028",
+      "global_index": 888,
+      "question": "Esophagogastric devascularization without splenectomy in portal hypertension: safe and effective?",
+      "contexts": [
+        "Esophagogastric variceal hemorrhage is a life-threatening complication of portal hypertension. In this study, we compared the therapeutic effect of a novel surgical procedure, esophagogastric devascularization without splenectomy (EDWS), with the widely used modified esophagogastric devascularization (MED) with splenectomy for the treatment of portal hypertension.",
+        "Fifty-five patients with portal hypertension were included in this retrospective study. Among them, 27 patients underwent EDWS, and the other 28 patients underwent MED. Patients' characteristics, perioperative parameters and long-term follow-up were analyzed.",
+        "The portal venous pressure was decreased by 20% postoperatively in both groups. The morbidity rate of portal venous system thrombosis in the EDWS group was significantly lower than that in the MED group (P=0.032). The 1- and 3-year recurrence rates of esophagogastric variceal hemorrhage were 0% and 4.5% in the EDWS group, and 0% and 8.7% in the MED group, respectively (P=0.631)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Disease-Free Survival",
+        "Esophageal and Gastric Varices",
+        "Female",
+        "Gastrointestinal Hemorrhage",
+        "Hemostatic Techniques",
+        "Humans",
+        "Hypertension, Portal",
+        "Male",
+        "Middle Aged",
+        "Recurrence",
+        "Retrospective Studies",
+        "Splenectomy",
+        "Time Factors",
+        "Treatment Outcome",
+        "Vascular Surgical Procedures",
+        "Venous Pressure",
+        "Venous Thrombosis"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Portal Hypertension",
+          "Esophagogastric Varices",
+          "Esophagogastric Devascularization without Splenectomy",
+          "Decrease in Portal Venous Pressure",
+          "Low Thrombosis Morbidity",
+          "Safe Procedure"
+        ],
+        [
+          "Modified Esophagogastric Devascularization with Splenectomy",
+          "Splenectomy",
+          "Higher Portal Venous System Thrombosis",
+          "Increased Morbidity",
+          "Less Safe Compared to EDWS"
+        ],
+        [
+          "Devascularization Procedure",
+          "Hemostatic Techniques"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:03.928Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26079501",
+      "global_index": 889,
+      "question": "Does base deficit predict mortality in patients with severe traumatic brain injury?",
+      "contexts": [
+        "Base Deficit (BD) is a marker of tissue hypoxia in polytrauma patients. It guides resuscitative measures, and predicts outcomes, complications and mortality. The aim of this study was to examine the presence of BD in patients with isolated severe traumatic brain injury (TBI), and to assess if it correlates with the outcomes in these patients.",
+        "This was a retrospective observational study. All patients over the age of 16 years presenting to Aga Khan University Hospital from 2009 to 2013 with isolated TBI, were included. Data was extracted from 2009 to 2013. Glasgow Outcome Scale (GOS) of 4 and 5 at last follow up was categorized as favorable outcome. Data was analyzed using SPSS version 19 and receiver operative curve (ROC) was generated for BD as a predictor of mortality and unfavorable outcome.",
+        "One hundred and eight patients were analyzed. Ninety-eight (90.7%) were males. Mean age was 36.69 ± 17.65. Eighty-eight (81.5%) patients had BD, while 20 (18.5%) patients had base excess. 62 (58.5%) of the patients had unfavorable outcomes. BD on admission had a statistically significant negative correlation with Glasgow Coma Scale (GCS) on presentation (r = -0.239, p = 0.025) and Revised Trauma Score (RTS) (r = -0.214, p = 0.046). However, there was no statistically significant difference in means of BD between survivors and non survivors. Area under receiver operator curve (ROC) for BD as a predictor of mortality statistically non-significant."
+      ],
+      "mesh_terms": [
+        "Acid-Base Imbalance",
+        "Adult",
+        "Biomarkers",
+        "Brain Injuries",
+        "Female",
+        "Glasgow Coma Scale",
+        "Humans",
+        "Hypoxia",
+        "Male",
+        "Middle Aged",
+        "Prognosis",
+        "Retrospective Studies",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Base Deficit",
+          "Acid-Base Imbalance",
+          "Tissue Hypoxia",
+          "Mortality in Severe Traumatic Brain Injury"
+        ],
+        [
+          "Severe Traumatic Brain Injury",
+          "Glasgow Coma Scale",
+          "Negative Correlation with Base Deficit",
+          "Unfavorable Outcome"
+        ],
+        [
+          "Retrospective Observational Study",
+          "Receiver Operating Characteristic Curve",
+          "Base Deficit as Predictor",
+          "Statistically Non‑significant",
+          "Mortality Prediction"
+        ],
+        [
+          "Revised Trauma Score",
+          "Base Deficit",
+          "Correlation with Injury Severity",
+          "Prognosis in TBI"
+        ],
+        [
+          "Biomarkers",
+          "Base Deficit",
+          "Clinical Resuscitation Decisions",
+          "Influence on Survival",
+          "Mortality"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:53:15.030Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26085176",
+      "global_index": 890,
+      "question": "MR Diagnosis of Bone Metastases at 1.5 T and 3 T: Can STIR Imaging Be Omitted?",
+      "contexts": [
+        "To date, no prospective comparative study of the diagnostic value of STIR versus T1-weighted (T1w) sequences at both 1.5 T and 3 T has been performed with special focus on the detectability of bone metastases.",
+        "212 oncological patients had a whole-body MRI at 1.5 T and/or at 3 T. The standard protocol comprised STIR and T1w sequences. All patients who showed typical signs of bone metastases were included in the study. Evaluation of the images was performed by the calculation of the number of metastases by three independent readers and by visual assessment on a 4-point scale.",
+        "86 patients fulfilled the inclusion criteria. The total number of metastases was significantly higher on T1w than on STIR images at both field strengths (p<0.05). T1w revealed a sensitivity of 99.72% (3 T) and 100.00% (1.5 T) versus STIR with 70.99 % (3 T) and 79.34 % (1.5 T). In 53% (38/72) of all patients, STIR detected fewer bone metastases in comparison with T1w at 3 T. At 1.5 T, STIR showed inferior results in 37.5 % (18/48) of all patients. Qualitative analysis indicated a significantly better lesion conspicuity, lesion delineation and an improved image quality on T1w compared to STIR imaging at both field strengths (p<0.05) with similar results for T1w at 1.5 T and 3 T, but inferior results for STIR especially at 3 T."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Bone Neoplasms",
+        "Bone and Bones",
+        "Female",
+        "Humans",
+        "Image Enhancement",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Middle Aged",
+        "Prospective Studies",
+        "Sensitivity and Specificity",
+        "Spinal Neoplasms",
+        "Spine",
+        "Whole Body Imaging"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Whole Body Imaging",
+          "Magnetic Resonance Imaging",
+          "T1-weighted sequences",
+          "Higher Sensitivity for Bone Metastases",
+          "Consider Omission of STIR"
+        ],
+        [
+          "STIR",
+          "Lower Sensitivity at 3 T",
+          "Missed Bone Metastases",
+          "Inferior Lesion Conspicuity",
+          "Redundant with T1w"
+        ],
+        [
+          "Prospective Studies",
+          "Field Strength Comparison (1.5 T vs 3 T)",
+          "Consistent T1w Superiority",
+          "Field‑independent Diagnostic Value",
+          "STIR optional"
+        ],
+        [
+          "Bone Metastases",
+          "Lesion Delineation",
+          "T1-weighted",
+          "Improved Image Quality",
+          "Supports STIR Omission"
+        ],
+        [
+          "Sensitivity and Specificity",
+          "T1w 99‑100%",
+          "STIR 71‑79%",
+          "Diagnostic Accuracy Gap",
+          "Omit STIR"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:53:33.092Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26104852",
+      "global_index": 891,
+      "question": "Can echocardiography and ECG discriminate hereditary transthyretin V30M amyloidosis from hypertrophic cardiomyopathy?",
+      "contexts": [
+        "Hereditary transthyretin (ATTR) amyloidosis with increased left ventricular wall thickness could easily be misdiagnosed by echocardiography as hypertrophic cardiomyopathy (HCM). Our aim was to create a diagnostic tool based on echocardiography and ECG that could optimise identification of ATTR amyloidosis.",
+        "Data were analysed from 33 patients with biopsy proven ATTR amyloidosis and 30 patients with diagnosed HCM. Conventional features from ECG were acquired as well as two dimensional and Doppler echocardiography, speckle tracking derived strain and tissue characterisation analysis. Classification trees were used to select the most important variables for differentiation between ATTR amyloidosis and HCM.",
+        "The best classification was obtained using both ECG and echocardiographic features, where a QRS voltage>30 mm was diagnostic for HCM, whereas in patients with QRS voltage<30 mm, an interventricular septal/posterior wall thickness ratio (IVSt/PWt)>1.6 was consistent with HCM and a ratio<1.6 supported the diagnosis of ATTR amyloidosis. This classification presented both high sensitivity (0.939) and specificity (0.833)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Amino Acid Substitution",
+        "Amyloidosis",
+        "Biopsy",
+        "Cardiomyopathy, Hypertrophic",
+        "Diagnosis, Differential",
+        "Echocardiography, Doppler",
+        "Electrocardiography",
+        "Female",
+        "Gene Expression",
+        "Heart Ventricles",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Mutation",
+        "Myocardium",
+        "Prealbumin"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Electrocardiography",
+          "QRS voltage <30 mm",
+          "Low voltage",
+          "ATTR amyloidosis"
+        ],
+        [
+          "Echocardiography",
+          "Interventricular septal/posterior wall thickness ratio <1.6",
+          "Relative posterior wall prominence",
+          "ATTR amyloidosis"
+        ],
+        [
+          "Speckle tracking echocardiography",
+          "Global longitudinal strain",
+          "Apical sparing pattern",
+          "Differentiates ATTR amyloidosis from HCM"
+        ],
+        [
+          "Tissue characterization (echocardiography)",
+          "Increased myocardial echogenicity",
+          "Amyloid infiltration",
+          "Distinguishes from HCM"
+        ],
+        [
+          "Classification tree analysis",
+          "Combined ECG low voltage + echocardiographic IVS/PW ratio",
+          "High sensitivity & specificity",
+          "Accurate discrimination between ATTR amyloidosis and HCM"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:53:56.773Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26113007",
+      "global_index": 892,
+      "question": "Is arch form influenced by sagittal molar relationship or Bolton tooth-size discrepancy?",
+      "contexts": [
+        "Orthodontic patients show high prevalence of tooth-size discrepancy. This study investigates the possible association between arch form, clinically significant tooth-size discrepancy, and sagittal molar relationship.",
+        "Pretreatment orthodontic casts of 230 Saudi patients were classified into one of three arch form types (tapered, ovoid, and square) using digitally scanned images of the mandibular arches. Bolton ratio was calculated, sagittal molar relationship was defined according to Angle classification, and correlations were analyzed using ANOVA, chi-square, and t-tests.",
+        "No single arch form was significantly more common than the others. Furthermore, no association was observed between the presence of significant Bolton discrepancy and the sagittal molar relationship or arch form. Overall Bolton discrepancy is significantly more prevalent in males."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Child",
+        "Computer-Aided Design",
+        "Dental Arch",
+        "Dental Models",
+        "Female",
+        "Humans",
+        "Image Processing, Computer-Assisted",
+        "Male",
+        "Malocclusion, Angle Class I",
+        "Malocclusion, Angle Class II",
+        "Malocclusion, Angle Class III",
+        "Mandible",
+        "Molar",
+        "Odontometry",
+        "Optical Imaging",
+        "Saudi Arabia",
+        "Tooth",
+        "Tooth Crown",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Sagittal molar relationship",
+          "Angle classification",
+          "Malocclusion",
+          "Arch form"
+        ],
+        [
+          "Bolton tooth-size discrepancy",
+          "Odontometry",
+          "Dental arch",
+          "Arch form"
+        ],
+        [
+          "Male",
+          "Higher Bolton discrepancy prevalence",
+          "Tooth-size mismatch",
+          "No effect on arch form"
+        ],
+        [
+          "Mandible",
+          "Image Processing",
+          "Arch form classification",
+          "No association with sagittal molar relationship"
+        ],
+        [
+          "Orthodontic patients",
+          "High prevalence of tooth-size discrepancy",
+          "Bolton ratio calculation",
+          "Lack of correlation with arch form"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:03.798Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26126304",
+      "global_index": 893,
+      "question": "Estradiol and Antagonist Pretreatment Prior to Microdose Leuprolide in in Vitro Fertilization. Does It Improve IVF Outcomes in Poor Responders as Compared to Oral Contraceptive Pill?",
+      "contexts": [
+        "To compare in vitro fertilization (IVF) outcomes in low responders stimulated with microdose leuprolide protocol (ML) following pretreatment with either oral contraceptive pill (OCP) or luteal estradiol (E2) + GnRH antagonist (E2 + antag) for follicular synchronization prior to controlled ovarian hyperstimulation (COH).",
+        "This was a retrospective study of 130 women, who were poor responders, undergoing IVF with either OCP/ML or E2+ antag/ML protocols. The main outcome measures were ongoing pregnancy rates, number of oocytes retrieved, and cancellation rate.",
+        "Both groups were similar in baseline characteristics. There were no significant differences in gonadotropin requirement, cancellation rate, and number of embryos transferred. Ongoing pregnancy rates (40% vs. 15%) were significantly higher in the OCP/ML group. Trends toward greater number of oocytes retrieved (7.7 ± 3.4 vs. 5.9 ± 4.2) and improved implantation rates (20% vs. 12%) were also noted, but these did not reach statistical significance."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Contraceptives, Oral, Hormonal",
+        "Estradiol",
+        "Estrogens",
+        "Female",
+        "Fertility Agents, Female",
+        "Fertilization in Vitro",
+        "Gonadotropin-Releasing Hormone",
+        "Hormone Antagonists",
+        "Humans",
+        "Leuprolide",
+        "Oocyte Retrieval",
+        "Pregnancy",
+        "Pregnancy Rate",
+        "Premedication",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Oral Contraceptive Pill",
+          "Follicular Synchronization",
+          "Microdose Leuprolide",
+          "Oocyte Retrieval",
+          "Ongoing Pregnancy Rate"
+        ],
+        [
+          "Estradiol + GnRH Antagonist",
+          "Suppression of Endogenous GnRH",
+          "Microdose Leuprolide",
+          "Smaller Follicular Cohort",
+          "Lower Pregnancy Rate"
+        ],
+        [
+          "Poor Responder",
+          "Need for Controlled Ovarian Hyperstimulation",
+          "Pretreatment Choice (OCP vs E2+Antag)",
+          "Cancellation Rate"
+        ],
+        [
+          "Retrospective Study",
+          "Comparison of OCP/ML vs E2+Antag/ML",
+          "Gonadotropin Requirement",
+          "No Significant Difference"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:18.568Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26133538",
+      "global_index": 894,
+      "question": "Does oral α-galactosidase relieve irritable bowel symptoms?",
+      "contexts": [
+        "Abdominal bloating is reported by a majority of irritable bowel syndrome (IBS) patients. Excess colonic fermentation may cause gaseous symptoms. Several foodstuffs contain oligosaccharides with an α-galactosidic linkage that is resistant to mammalian hydrolases. Assisted hydrolysis by exogenous α-galactosidase enzyme (AG) could offer a way of controlling IBS symptoms by reducing colonic fermentation and gas production. The aim of this study was to assess the effect of AG on symptom severity and quality of life in IBS patients with abdominal bloating or flatulence.",
+        "A total of 125 subjects with IBS received AG or placebo at meals for 12 weeks. IBS-Symptom Severity Score (IBS-SSS) and quality of life (QoL) were assessed at baseline, during the treatment and at 4-week follow-up.",
+        "AG showed a trend toward a more prominent decrease in IBS-SSS. The responder rate at week 16 was higher for the AG group. No difference was detected in QoL between AG and placebo groups. A total of 25 patients (18 in AG group and 7 in placebo group, p = 0.016) withdrew from the study. Abdominal pain and diarrhea were more often reported as reason for withdrawal in AG group."
+      ],
+      "mesh_terms": [
+        "Abdominal Pain",
+        "Administration, Oral",
+        "Adult",
+        "Diarrhea",
+        "Female",
+        "Finland",
+        "Flatulence",
+        "Gastrointestinal Agents",
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Male",
+        "Middle Aged",
+        "Quality of Life",
+        "Severity of Illness Index",
+        "Treatment Outcome",
+        "alpha-Galactosidase"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "α-Galactosidase",
+          "Hydrolysis of α-galactosidic oligosaccharides",
+          "Reduced colonic fermentation",
+          "Decreased flatulence",
+          "Relief of IBS symptoms"
+        ],
+        [
+          "Irritable Bowel Syndrome",
+          "Abdominal bloating",
+          "Excess colonic fermentation",
+          "Oral α-Galactosidase",
+          "Decreased gas production"
+        ],
+        [
+          "Gastrointestinal Agents",
+          "α-Galactosidase",
+          "Treatment Outcome (IBS-SSS improvement)",
+          "Quality of Life unchanged"
+        ],
+        [
+          "α-Galactosidase",
+          "Adverse effects (abdominal pain, diarrhea)",
+          "Higher withdrawal rate",
+          "Limited evidence for symptom relief"
+        ],
+        [
+          "Oral administration",
+          "α-Galactosidase",
+          "Trend"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 3,
+      "timestamp": "2026-01-27T18:54:48.638Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26134053",
+      "global_index": 895,
+      "question": "Outcome Feedback within Emergency Medicine Training Programs: An Opportunity to Apply the Theory of Deliberate Practice?",
+      "contexts": [
+        "Outcome feedback is the process of learning patient outcomes after their care within the emergency department. We conducted a national survey of Canadian Royal College emergency medicine (EM) residents and program directors to determine the extent to which active outcome feedback and follow-up occurred. We also compared the perceived educational value of outcome feedback between residents and program directors.",
+        "We distributed surveys to all Royal College-accredited adult and pediatric EM training programs using a modified Dillman method. We analyzed the data using student's t-test for continuous variables and Fisher's exact test for categorical variables.",
+        "We received 210 completed surveys from 260 eligible residents (80.8%) and 21 of 24 program directors (87.5%) (overall 81.3%). Mandatory active outcome feedback was not present in any EM training program for admitted or discharged patients (0/21). Follow-up was performed electively by 89.4% of residents for patients admitted to the hospital, and by 44.2% of residents for patients discharged home. A majority of residents (76.9%) believed that patient follow-up should be mandatory compared to 42.9% of program directors (p=0.002). The perceived educational value of outcome feedback was 5.8/7 for residents and 5.1/7 for program directors (difference 0.7; p=0.002) based on a seven-point Likert scale (1=not important; 7=very important)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Canada",
+        "Child",
+        "Clinical Competence",
+        "Curriculum",
+        "Emergency Medicine",
+        "Female",
+        "Humans",
+        "Internship and Residency",
+        "Male",
+        "Models, Educational",
+        "Surveys and Questionnaires"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Outcome feedback",
+          "Clinical competence",
+          "Deliberate practice",
+          "Emergency Medicine residency curriculum"
+        ],
+        [
+          "Resident surveys",
+          "Perceived educational value",
+          "Likert scale rating",
+          "Comparison with program directors"
+        ],
+        [
+          "Mandatory active outcome feedback",
+          "Absence in programs",
+          "Elective follow-up for admitted patients",
+          "Gap in curriculum design"
+        ],
+        [
+          "Patient follow-up",
+          "Discharged home patients",
+          "Low resident follow-up rate",
+          "Need for systematic outcome feedback"
+        ],
+        [
+          "Educational models",
+          "Deliberate practice theory",
+          "Application in EM training",
+          "Improved clinical competence"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:54:55.494Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26163474",
+      "global_index": 896,
+      "question": "Is there a connection between sublingual varices and hypertension?",
+      "contexts": [
+        "Sublingual varices have earlier been related to ageing, smoking and cardiovascular disease. The aim of this study was to investigate whether sublingual varices are related to presence of hypertension.",
+        "In an observational clinical study among 431 dental patients tongue status and blood pressure were documented. Digital photographs of the lateral borders of the tongue for grading of sublingual varices were taken, and blood pressure was measured. Those patients without previous diagnosis of hypertension and with a noted blood pressure ≥ 140 mmHg and/or ≥ 90 mmHg at the dental clinic performed complementary home blood pressure during one week. Those with an average home blood pressure ≥ 135 mmHg and/or ≥ 85 mmHg were referred to the primary health care centre, where three office blood pressure measurements were taken with one week intervals. Two independent blinded observers studied the photographs of the tongues. Each photograph was graded as none/few (grade 0) or medium/severe (grade 1) presence of sublingual varices. Pearson's Chi-square test, Student's t-test, and multiple regression analysis were applied. Power calculation stipulated a study population of 323 patients.",
+        "An association between sublingual varices and hypertension was found (OR = 2.25, p<0.002). Mean systolic blood pressure was 123 and 132 mmHg in patients with grade 0 and grade 1 sublingual varices, respectively (p<0.0001, CI 95 %). Mean diastolic blood pressure was 80 and 83 mmHg in patients with grade 0 and grade 1 sublingual varices, respectively (p<0.005, CI 95 %). Sublingual varices indicate hypertension with a positive predictive value of 0.5 and a negative predictive value of 0.80."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Angina Pectoris",
+        "Atrial Fibrillation",
+        "Blood Pressure",
+        "Female",
+        "Humans",
+        "Hypertension",
+        "Image Processing, Computer-Assisted",
+        "Male",
+        "Middle Aged",
+        "Myocardial Infarction",
+        "Myocardial Ischemia",
+        "Photography",
+        "Predictive Value of Tests",
+        "Sensitivity and Specificity",
+        "Smoking",
+        "Stroke",
+        "Tongue",
+        "Varicose Veins"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Sublingual varices",
+          "Hypertension",
+          "Increased systolic blood pressure",
+          "Odds ratio 2.25"
+        ],
+        [
+          "Aging",
+          "Sublingual varices",
+          "Vascular changes",
+          "Hypertension association"
+        ],
+        [
+          "Smoking",
+          "Endothelial damage",
+          "Sublingual varices",
+          "Hypertension risk",
+          "Primary care referral"
+        ],
+        [
+          "Dental examination",
+          "Tongue photography",
+          "Grading of sublingual varices",
+          "Predictive value",
+          "Hypertension detection"
+        ],
+        [
+          "Multiple regression analysis",
+          "Sublingual varices grade",
+          "Blood pressure measurement",
+          "Positive predictive value 0.5",
+          "Clinical decision making"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:11.038Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26175531",
+      "global_index": 897,
+      "question": "Is Aspiration Thrombectomy Beneficial in Patients Undergoing Primary Percutaneous Coronary Intervention?",
+      "contexts": [
+        "It is unclear whether intravenous glycoprotein IIb/IIIa inhibitors or ischemic time might modify any clinical benefits observed with aspiration thrombectomy before primary percutaneous coronary intervention (PCI) in patients with ST-segment-elevation myocardial infarction.",
+        "Electronic databases were searched for trials that randomized ST-segment-elevation myocardial infarction patients to aspiration thrombectomy before PCI versus conventional PCI. Summary estimates were constructed using a DerSimonian-Laird model. Seventeen trials with 20 960 patients were available for analysis. When compared with conventional PCI, aspiration thrombectomy was not associated with a significant reduction in the risk of mortality 2.8% versus 3.2% (risk ratio [RR], 0.89; 95% confidence interval [CI], 0.76-1.04; P=0.13), reinfarction 1.3% versus 1.4% (RR, 0.93; 95% CI, 0.73-1.17; P=0.52), the combined outcome of mortality or reinfarction 4.1% versus 4.6% (RR, 0.90; 95% CI, 0.79-1.02; P=0.11), or stent thrombosis 0.9% versus 1.2% (RR, 0.82; 95% CI, 0.62-1.08; P=0.15). Aspiration thrombectomy was associated with a nonsignificant increase in the risk of stroke 0.6% versus 0.4% (RR, 1.45; 95% CI, 0.96-2.21; P=0.08). Meta-regression analysis did not identify a difference for the log RR of mortality, reinfarction, and the combined outcome of mortality or reinfarction with intravenous glycoprotein IIb/IIIa inhibitors (P=0.17, 0.70, and 0.50, respectively) or with ischemic time (P=0.29, 0.66, and 0.58, respectively)."
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Mortality",
+        "Myocardial Infarction",
+        "Percutaneous Coronary Intervention",
+        "Platelet Glycoprotein GPIIb-IIIa Complex",
+        "Randomized Controlled Trials as Topic",
+        "Recurrence",
+        "Regression Analysis",
+        "Stroke",
+        "Stroke Volume",
+        "Thrombectomy"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Aspiration thrombectomy",
+          "Primary percutaneous coronary intervention",
+          "Mortality (RR 0.89)",
+          "No significant reduction"
+        ],
+        [
+          "Intravenous glycoprotein IIb/IIIa inhibitors",
+          "Platelet glycoprotein GPIIb-IIIa complex",
+          "Inhibition of platelet aggregation",
+          "No effect on thrombectomy mortality benefit (meta‑regression)"
+        ],
+        [
+          "Ischemic time",
+          "Myocardial infarction size",
+          "Potential modifier of aspiration thrombectomy benefit",
+          "Meta‑regression shows no interaction"
+        ],
+        [
+          "Aspiration thrombectomy",
+          "Stroke incidence",
+          "Nonsignificant increase (RR 1.45)",
+          "Safety concern"
+        ],
+        [
+          "Randomized controlled trials",
+          "17 trials, 20 960 patients",
+          "DerSimonian‑Laird meta‑analysis",
+          "Combined mortality or reinfarction outcome",
+          "No significant benefit"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:16.647Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26194560",
+      "global_index": 898,
+      "question": "Does cup-cage reconstruction with oversized cups provide initial stability in THA for osteoporotic acetabular fractures?",
+      "contexts": [
+        "The incidence of acetabular fractures in osteoporotic patients is increasing. Immediate total hip arthroplasty (THA) has potential advantages, but achieving acetabular component stability is challenging and, at early followup, reported revision rates for loosening are high.QUESTIONS/",
+        "This study measured acetabular component stability and the initial surface contact achieved between the acetabular component and unfractured region of the pelvis after THA using an oversized acetabular component and cup-cage reconstruction.",
+        "Between November 2011 and November 2013, we treated 40 acute acetabular fractures in patients older than 70 years of age. Of these, 12 (30%) underwent immediate THA using an oversized acetabular component with screws inserted only into the ilium and a cup-cage construct. Postoperatively all patients were mobilized without weightbearing restrictions. Indications for immediate THA after acetabular fractures were displaced articular comminution deemed unreducible. Eleven of the 12 were prospectively studied to evaluate the initial stability of the reconstructions using radiostereometric analysis. One of the patients died of a pulmonary embolism after surgery, and the remaining 10 (median age, 81 years; range, 72-86 years) were studied. Of these, five were analyzed at 1 year and five were analyzed at 2 years. Acetabular component migration was defined as acceptable if less than the limits for primary THA that predict later loosening (1.76 mm of proximal migration and 2.53° of sagittal rotation). The contact surface between the acetabular component and ilium in direct continuity with the sacroiliac joint, and the ischium and pubis in direct continuity with the symphysis pubis, was measured on postoperative CT scans.",
+        "At 1 year the median proximal migration was 0.83 mm (range, 0.09-5.13 mm) and sagittal rotation was 1.3° (range, 0.1°-7.4°). Three of the 10 components had migration above the suggested limits for primary THA at 1 year postoperatively. The contact surface achieved at surgery between the acetabular component and pelvis ranged from 11 to 17 cm(2) (15%-27% of each component)."
+      ],
+      "mesh_terms": [
+        "Acetabulum",
+        "Aged",
+        "Aged, 80 and over",
+        "Arthroplasty, Replacement, Hip",
+        "Biomechanical Phenomena",
+        "Bone Density",
+        "Female",
+        "Hip Fractures",
+        "Hip Prosthesis",
+        "Humans",
+        "Joint Instability",
+        "Male",
+        "Osteoporotic Fractures",
+        "Prospective Studies",
+        "Prosthesis Design",
+        "Prosthesis Failure",
+        "Radiography",
+        "Risk Factors",
+        "Time Factors",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Osteoporotic Acetabular Fracture",
+          "Reduced Bone Density",
+          "Oversized Acetabular Cup",
+          "Increased Contact Surface",
+          "Initial Stability"
+        ],
+        [
+          "Cup‑Cage Reconstruction",
+          "Iliac Screw Fixation",
+          "Limited Fixation in Fragile Pelvis",
+          "Decreased Proximal Migration",
+          "Acceptable Early Stability"
+        ],
+        [
+          "Immediate Total Hip Arthroplasty",
+          "High Risk of Prosthesis Failure in Elderly",
+          "Oversized Cup with Cage",
+          "Biomechanical Support",
+          "Lower Sagittal Rotation at 1 Year"
+        ],
+        [
+          "Radiostereometric Analysis",
+          "Measurement of Component Migration",
+          "Values < 1.76 mm Proximal Migration",
+          "Predicts Reduced Loosening",
+          "Positive Treatment Outcome"
+        ],
+        [
+          "Contact Surface 11‑17 cm² (15‑27% of Cup)",
+          "Improved Load Distribution",
+          "Decreased Joint Instability",
+          "Reduced Revision Rate",
+          "Favorable Long‑Term Outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:29.185Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26200172",
+      "global_index": 899,
+      "question": "Can biofeedback training of psychophysiological responses enhance athletes' sport performance?",
+      "contexts": [
+        "In recent years, biofeedback has become increasingly popular for its proven success in peak performance training - the psychophysiological preparation of athletes for high-stakes sport competitions, such as the Olympic games. The aim of this research was to test whether an 8-week period of exposure to biofeedback training could improve the psychophysiological control over competitive anxiety and enhance athletic performance in participating subjects.",
+        "Participants of this study were highly competent athletes, each training in different sport disciplines. The experimental group consisted of 18 athletes (4 women, 14 men), whereas the Control group had 21 athletes (4 women, 17 men). All athletes were between 16 and 34 years old. The biofeedback device, Nexus 10, was used to detect and measure the psychophysiological responses of athletes. Athletes from both groups (control and experimental) were subjected to stress tests at the beginning of the study and once again at its conclusion. In between, the experimental group received training in biofeedback techniques. We then calculated the overall percentage of athletes in the experimental group compared with those in the control group who were able to control respiration, skin conductance, heart rate, blood flow amplitude, heart rate variability, and heart respiration coherence. One year following completion of the initial study, we questioned athletes from the experimental group, to determine whether they continued to use these skills and if they could detect any subsequent enhancement in their athletic performance.",
+        "We demonstrated that a greater number of participants in the experimental group were able to successfully control their psychophysiological parameters, in comparison to their peers in the control group. Significant results (p<0.05) were noted in regulation of GSR following short stress test conditions (p = 0.037), in regulation of HR after exposure to STROOP stressor (p = 0.037), in regulation of GSR following the Math and GSR stressors (p = 0.033, p = 0.409) and in achieving HR - breathing coherence following the math stressor (p = 0.042)."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Anxiety",
+        "Athletic Performance",
+        "Biofeedback, Psychology",
+        "Competitive Behavior",
+        "Exercise Test",
+        "Female",
+        "Galvanic Skin Response",
+        "Heart Rate",
+        "Humans",
+        "Male",
+        "Respiration",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Biofeedback",
+          "Competitive Anxiety",
+          "Galvanic Skin Response",
+          "Athletic Performance"
+        ],
+        [
+          "Biofeedback Training",
+          "Heart Rate Variability",
+          "Autonomic Balance",
+          "Sport Performance"
+        ],
+        [
+          "Respiration Control",
+          "Heart‑Respiration Coherence",
+          "Oxygen Utilization",
+          "Athletic Performance"
+        ],
+        [
+          "Biofeedback",
+          "Skill Retention (1 Year)",
+          "Psychophysiological Regulation",
+          "Sustained Performance"
+        ],
+        [
+          "Psychological Preparation",
+          "Stress Test Performance",
+          "Stroop Reactivity Reduction",
+          "Competitive Behavior",
+          "Athletic Performance"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:42.029Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26209118",
+      "global_index": 900,
+      "question": "Utility of unenhanced fat-suppressed T1-weighted MRI in children with sickle cell disease -- can it differentiate bone infarcts from acute osteomyelitis?",
+      "contexts": [
+        "Children with sickle cell disease (SCD) are at risk of bone infarcts and acute osteomyelitis. The clinical differentiation between a bone infarct and acute osteomyelitis is a diagnostic challenge. Unenhanced T1-W fat-saturated MR images have been proposed as a potential tool to differentiate bone infarcts from osteomyelitis.",
+        "To evaluate the reliability of unenhanced T1-W fat-saturated MRI for differentiation between bone infarcts and acute osteomyelitis in children with SCD.",
+        "We retrospectively reviewed the records of 31 children (20 boys, 11 girls; mean age 10.6 years, range 1.1-17.9 years) with SCD and acute bone pain who underwent MR imaging including unenhanced T1-W fat-saturated images from 2005 to 2010. Complete clinical charts were reviewed by a pediatric hematologist with training in infectious diseases to determine a clinical standard to define the presence or absence of osteomyelitis. A pediatric radiologist reviewed all MR imaging and was blinded to clinical information. Based on the signal intensity in T1-W fat-saturated images, the children were further classified as positive for osteomyelitis (low bone marrow signal intensity) or positive for bone infarct (high bone marrow signal intensity).",
+        "Based on the clinical standard, 5 children were classified as positive for osteomyelitis and 26 children as positive for bone infarct (negative for osteomyelitis). The bone marrow signal intensity on T1-W fat-saturated imaging was not significant for the differentiation between bone infarct and osteomyelitis (P = 0.56). None of the additional evaluated imaging parameters on unenhanced MRI proved reliable in differentiating these diagnoses."
+      ],
+      "mesh_terms": [
+        "Acute Disease",
+        "Adolescent",
+        "Anemia, Sickle Cell",
+        "Bone and Bones",
+        "Child",
+        "Child, Preschool",
+        "Diagnosis, Differential",
+        "Female",
+        "Humans",
+        "Infant",
+        "Magnetic Resonance Imaging",
+        "Male",
+        "Osteomyelitis",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Sickle Cell Disease",
+          "Bone Infarct",
+          "High bone marrow signal on unenhanced T1‑W fat‑suppressed MRI",
+          "Misclassification as non‑osteomyelitis"
+        ],
+        [
+          "Acute Osteomyelitis",
+          "Low bone marrow signal on T1‑W fat‑suppressed MRI",
+          "Expected positive indicator",
+          "Overlaps with infarct signal",
+          "Inconclusive differentiation"
+        ],
+        [
+          "Unenhanced T1‑W Fat‑suppressed MRI",
+          "Signal intensity assessment",
+          "Statistical analysis (P = 0.56)",
+          "No significant differentiation between bone infarct and osteomyelitis"
+        ],
+        [
+          "Retrospective Study",
+          "Clinical standard by pediatric hematologist",
+          "Diagnosis of bone infarct vs osteomyelitis",
+          "Comparison with MRI findings",
+          "Low diagnostic reliability"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:50.770Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26215326",
+      "global_index": 901,
+      "question": "Does the clinical presentation of a prior preterm birth predict risk in a subsequent pregnancy?",
+      "contexts": [
+        "The objective of the study was to determine whether risk of recurrent preterm birth differs based on the clinical presentation of a prior spontaneous preterm birth (SPTB): advanced cervical dilatation (ACD), preterm premature rupture of membranes (PPROM), or preterm labor (PTL).",
+        "This retrospective cohort study included singleton pregnancies from 2009 to 2014 complicated by a history of prior SPTB. Women were categorized based on the clinical presentation of their prior preterm delivery as having ACD, PPROM, or PTL. Risks for sonographic short cervical length and recurrent SPTB were compared between women based on the clinical presentation of their prior preterm birth. Log-linear regression was used to control for confounders.",
+        "Of 522 patients included in this study, 96 (18.4%) had prior ACD, 246 (47.1%) had prior PPROM, and 180 (34.5%) had prior PTL. Recurrent PTB occurred in 55.2% of patients with a history of ACD compared with 27.2% of those with PPROM and 32.2% with PTL (P = .001). The mean gestational age at delivery was significantly lower for those with a history of ACD (34.0 weeks) compared with women with prior PPROM (37.2 weeks) or PTL (37.0 weeks) (P = .001). The lowest mean cervical length prior to 24 weeks was significantly shorter in patients with a history of advanced cervical dilation when compared with the other clinical presentations."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Female",
+        "Fetal Membranes, Premature Rupture",
+        "Gestational Age",
+        "Humans",
+        "Labor Stage, First",
+        "Pregnancy",
+        "Pregnancy Outcome",
+        "Premature Birth",
+        "Recurrence",
+        "Retrospective Studies",
+        "Risk Assessment"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Advanced cervical dilatation",
+          "Short cervical length before 24 weeks",
+          "Higher recurrent spontaneous preterm birth",
+          "Increased pregnancy risk"
+        ],
+        [
+          "Preterm premature rupture of membranes",
+          "Longer gestational age at delivery",
+          "Lower recurrent preterm birth rate",
+          "Reduced risk in subsequent pregnancy"
+        ],
+        [
+          "Clinical presentation of prior preterm birth",
+          "Log-linear regression",
+          "Adjusted risk assessment",
+          "Prediction of recurrence"
+        ],
+        [
+          "Prior preterm labor",
+          "Moderate recurrence rate",
+          "Similar gestational age to PPROM",
+          "Comparable risk of subsequent preterm birth"
+        ],
+        [
+          "Retrospective cohort study",
+          "Singleton pregnancies",
+          "Comparison of cervical length",
+          "Association with recurrent preterm birth risk"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:55:59.018Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26222664",
+      "global_index": 902,
+      "question": "The Deformity Angular Ratio: Does It Correlate With High-Risk Cases for Potential Spinal Cord Monitoring Alerts in Pediatric 3-Column Thoracic Spinal Deformity Corrective Surgery?",
+      "contexts": [
+        "A retrospective analysis.",
+        "The purpose of this study was to determine whether the deformity angular ratio (DAR) can reliably assess the neurological risks of patients undergoing deformity correction.",
+        "Identifying high-risk patients and procedures can help ensure that appropriate measures are taken to minimize neurological complications during spinal deformity corrections. Subjectively, surgeons look at radiographs and evaluate the riskiness of the procedure. However, 2 curves of similar magnitude and location can have significantly different risks of neurological deficit during surgery. Whether the curve spans many levels or just a few can significantly influence surgical strategies. Lenke et al have proposed the DAR, which is a measure of curve magnitude per level of deformity.",
+        "The data from 35 pediatric spinal deformity correction procedures with thoracic 3-column osteotomies were reviewed. Measurements from preoperative radiographs were used to calculate the DAR. Binary logistic regression was used to model the relationship between DARs (independent variables) and presence or absence of an intraoperative alert (dependent variable).",
+        "In patients undergoing 3-column osteotomies, sagittal curve magnitude and total curve magnitude were associated with increased incidence of transcranial motor evoked potential changes. Total DAR greater than 45° per level and sagittal DAR greater than 22° per level were associated with a 75% incidence of a motor evoked potential alert, with the incidence increasing to 90% with sagittal DAR of 28° per level."
+      ],
+      "mesh_terms": [
+        "Electromyography",
+        "Evoked Potentials, Motor",
+        "Evoked Potentials, Somatosensory",
+        "Humans",
+        "Intraoperative Neurophysiological Monitoring",
+        "Kyphosis",
+        "Osteotomy",
+        "Radiography",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Spinal Cord Injuries",
+        "Spinal Curvatures",
+        "Spine"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Deformity Angular Ratio",
+          "Sagittal DAR",
+          "Motor Evoked Potential alert",
+          "Intraoperative Neurophysiological Monitoring",
+          "Spinal Cord Injuries"
+        ],
+        [
+          "Radiography",
+          "Curve magnitude measurement",
+          "Total DAR calculation",
+          "Binary logistic regression",
+          "Intraoperative alert prediction"
+        ],
+        [
+          "Thoracic 3-Column Osteotomy",
+          "Increased sagittal curvature per level",
+          "Sagittal DAR",
+          "Motor Evoked Potentials",
+          "Intraoperative monitoring"
+        ],
+        [
+          "Kyphosis",
+          "Sagittal spinal curvature",
+          "Total DAR >45° per level",
+          "75% incidence of MEP alert",
+          "Surgical risk assessment"
+        ],
+        [
+          "Spinal Curvatures",
+          "Deformity Angular Ratio",
+          "Risk Assessment",
+          "Evoked Potentials",
+          "Alert management"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:10.171Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26237424",
+      "global_index": 903,
+      "question": "Does patient-prosthesis mismatch after aortic valve replacement affect survival and quality of life in elderly patients?",
+      "contexts": [
+        "To evaluate the impact of patient-prosthesis mismatch (PPM) on survival, functional status, and quality of life (QoL) after aortic valve replacement (AVR) with small prosthesis size in elderly patients.",
+        "Between January 2005 and December 2013, 152 patients with pure aortic stenosis, aged at least 75 years, underwent AVR, with a 19 or 21 mm prosthetic heart valve. PPM was defined as an indexed effective orifice area less than 0.85 cm/m. Median age was 82 years (range 75-93 years). Mean follow-up was 56 months (range 1-82 months) and was 98% complete. Late survival rate, New York Heart Association functional class, and QoL (RAND SF-36) were assessed.",
+        "Overall, PPM was found in 78 patients (53.8%). Among them, 42 patients (29%) had an indexed effective orifice area less than 0.75 cm/m and 17 less than 0.65 cm/m (11.7%). Overall survival at 5 years was 78 ± 4.5% and was not influenced by PPM (P = NS). The mean New York Heart Association class for long-term survivors with PPM improved from 3.0 to 1.7 (P < 0.001). QoL (physical functioning 45.18 ± 11.35, energy/fatigue 49.36 ± 8.64, emotional well being 58.84 ± 15.44, social functioning 61.29 ± 6.15) was similar to that of no-PPM patients (P = NS)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Aortic Valve",
+        "Aortic Valve Stenosis",
+        "Female",
+        "Follow-Up Studies",
+        "Heart Valve Prosthesis",
+        "Heart Valve Prosthesis Implantation",
+        "Humans",
+        "Italy",
+        "Male",
+        "Quality of Life",
+        "Ventricular Remodeling"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Patient‑-prorosthesis mismatch",
+          "Indexed effective orifice area < 0.75 cm²)/m²",
+          "Elevated transaval gradient",
+          "Increased left‑ventricular afterload",
+          "Potential of reduced survival"
+        ],
+        [
+          "Small prosthetic valve (19 mm/21 mm)",
+          "Limited effective Orifice",
+          "Patient‑‑pro mismatch",
+          "No significant difference in 5‑‑‑ survival rates (P = NS)"
+        ],
+        [
+          "Aged (≥75 years)",
+          "Reduced cardiac reserve",
+          "Patient‑‑pro mismatch impact on functional class",
+          "NYHA class improves similarly (1.7 vs )",
+          "Comparable quality‑of‑‑ life ( ( RAND‑SF‑36))"
+        ],
+        [
+          "Follow‑‑‑ studies",
+          "Long‑‑ term follow (median = 56 months)",
+          "Assessment of QoL (physical, social, emotional)",
+          "Similar QoL scores in mismatch vs. no‑‑mismatch",
+          "No effect on survival"
+        ],
+        [
+          "Heart‑ valve prosthesis implantation",
+          "Indexed effective or"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:22.686Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26285789",
+      "global_index": 904,
+      "question": "Does Molecular Genotype Provide Useful Information in the Management of Radioiodine Refractory Thyroid Cancers?",
+      "contexts": [
+        "Whether mutation status should be used to guide therapy is an important issue in many cancers. We correlated mutation profile in radioiodine-refractory (RAIR) metastatic thyroid cancers (TCs) with patient outcome and response to tyrosine kinase inhibitors (TKIs), and discussed the results with other published data.",
+        "Outcome in 82 consecutive patients with metastatic RAIR thyroid carcinoma prospectively tested for BRAF, RAS and PI3KCA mutations was retrospectively analyzed, including 55 patients treated with multikinase inhibitors.",
+        "Papillary thyroid carcinomas (PTCs) were the most frequent histological subtype (54.9 %), followed by poorly differentiated thyroid carcinoma [PDTC] (30.5 %) and follicular thyroid carcinoma [FTC](14.6 %). A genetic mutation was identified in 23 patients (28 %) and BRAF was the most frequently mutated gene (23 %). Median progression-free survival (PFS) on first-line TKI treatment was 14.6 months (95% CI 9.9-18.4). BRAF mutation positively influenced median PFS, both in the entire TKI-treated cohort (median PFS 34.7 months versus 11.6 months; hazard ratio [HR] 0.29; 95% CI 0.09-0.98; p = 0.03) and in the TKI-treated PTC cohort (n = 22) [log-rank p = 0.086; HR 2.95; 95 % CI 0.81-10.70). However, in TKI-treated patients, PDTC histologic subtype was the only independent prognostic factor for PFS identified in the multivariate analysis (HR 2.36; 95% CI 1.01-5.54; p = 0.048)."
+      ],
+      "mesh_terms": [
+        "Adenocarcinoma",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Biomarkers, Tumor",
+        "Carcinoma, Papillary",
+        "Disease Management",
+        "Female",
+        "Follow-Up Studies",
+        "Genotype",
+        "Humans",
+        "Iodine Radioisotopes",
+        "Male",
+        "Middle Aged",
+        "Molecular Targeted Therapy",
+        "Mutation",
+        "Neoplasm Staging",
+        "Prognosis",
+        "Prospective Studies",
+        "Radiation Tolerance",
+        "Retrospective Studies",
+        "Survival Rate",
+        "Thyroid Neoplasms"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Molecular Genotype",
+          "BRAF Mutation",
+          "Tyrosine Kinase Inhibitor Response",
+          "Prolonged Progression-Free Survival"
+        ],
+        [
+          "Radioiodine Refractory Thyroid Cancer",
+          "Poorly Differentiated Thyroid Carcinoma",
+          "Independent Prognostic Factor",
+          "Survival Rate"
+        ],
+        [
+          "Mutation Profiling",
+          "Identification of BRAF/RAS/PI3KCA",
+          "Personalized Molecular Targeted Therapy",
+          "Disease Management"
+        ],
+        [
+          "Genetic Mutation",
+          "Biomarker",
+          "Selection of Multikinase Inhibitors",
+          "Treatment Efficacy"
+        ],
+        [
+          "Genotype",
+          "Prognosis",
+          "Multivariate Analysis",
+          "Histologic Subtype (PDTC) as Independent Factor"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:30.906Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26298839",
+      "global_index": 905,
+      "question": "Is Acupuncture Efficacious for Treating Phonotraumatic Vocal Pathologies?",
+      "contexts": [
+        "To investigate the effectiveness of acupuncture in treating phonotraumatic vocal fold lesions.STUDY DESIGN/",
+        "A total of 123 dysphonic individuals with benign vocal pathologies were recruited. They were given either genuine acupuncture (n = 40), sham acupuncture (n = 44), or no treatment (n = 39) for 6 weeks (two 30-minute sessions/wk). The genuine acupuncture group received needles puncturing nine voice-related acupoints for 30 minutes, two times a week for 6 weeks, whereas the sham acupuncture group received blunted needles stimulating the skin surface of the nine acupoints for the same frequency and duration. The no-treatment group did not receive any intervention but attended just the assessment sessions. One-hundred seventeen subjects completed the study (genuine acupuncture = 40; sham acupuncture = 43; and no treatment = 34), but only 84 of them had a complete set of vocal functions and quality of life measures (genuine acupuncture = 29; sham acupuncture = 33; and no-treatment = 22) and 42 of them with a complete set of endoscopic data (genuine acupuncture = 16; sham acupuncture = 15; and no treatment = 11).",
+        "Significant improvement in vocal function, as indicated by the maximum fundamental frequency produced, and also perceived quality of life, were found in both the genuine and sham acupuncture groups, but not in the no-treatment group. Structural (morphological) improvements were, however, only noticed in the genuine acupuncture group, which demonstrated a significant reduction in the size of the vocal fold lesions."
+      ],
+      "mesh_terms": [
+        "Acoustics",
+        "Acupuncture Therapy",
+        "Adult",
+        "Dysphonia",
+        "Female",
+        "Hong Kong",
+        "Humans",
+        "Laryngoscopy",
+        "Male",
+        "Middle Aged",
+        "Quality of Life",
+        "Recovery of Function",
+        "Speech Production Measurement",
+        "Stroboscopy",
+        "Surveys and Questionnaires",
+        "Time Factors",
+        "Treatment Outcome",
+        "Video Recording",
+        "Vocal Cords",
+        "Voice Quality",
+        "Wound Healing",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Acupuncture Therapy",
+          "Needle Puncture of Voice-related Acupoints",
+          "Reduction in Vocal Fold Lesion Size",
+          "Structural Improvement",
+          "Voice Quality"
+        ],
+        [
+          "Sham Acupuncture",
+          "Skin Surface Stimulation",
+          "Placebo Effect",
+          "Increase in Maximum Fundamental Frequency",
+          "Vocal Function"
+        ],
+        [
+          "Phonotraumatic Vocal Pathologies",
+          "Dysphonia",
+          "Acoustic Measures",
+          "Quality of Life Surveys",
+          "Perceived Improvement"
+        ],
+        [
+          "No Treatment",
+          "Lack of Intervention",
+          "No Change in Vocal Function",
+          "No Reduction in Lesion Size",
+          "No Improvement in Quality of Life"
+        ],
+        [
+          "Genuine Acupuncture",
+          "Wound Healing",
+          "Recovery of Function",
+          "Decrease in Lesion Size",
+          "Stroboscopy Findings"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 2,
+      "timestamp": "2026-01-27T18:56:47.264Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26304701",
+      "global_index": 906,
+      "question": "Can nurse-led preoperative education reduce anxiety and postoperative complications of patients undergoing cardiac surgery?",
+      "contexts": [
+        "The effect of preoperative education on anxiety and postoperative outcomes of cardiac surgery patients remains unclear.AIM: The aim of the study was to estimate the effectiveness of a nurse-led preoperative education on anxiety and postoperative outcomes.",
+        "A randomised controlled study was designed. All the patients who were admitted for elective cardiac surgery in a general hospital in Athens with knowledge of the Greek language were eligible to take part in the study. Patients in the intervention group received preoperative education by specially trained nurses. The control group received the standard information by the ward personnel. Measurements of anxiety were conducted on admission-A, before surgery-B and before discharge-C by the state-trait anxiety inventory.",
+        "The sample consisted of 395 patients (intervention group: 205, control group: 190). The state anxiety on the day before surgery decreased only in the intervention group (34.0 (8.4) versus 36.9 (10.7); P=0.001). The mean decrease in state score during the follow-up period was greater in the intervention group (P=0.001). No significant difference was found in the length of stay or readmission. Lower proportions of chest infection were found in the intervention group (10 (5.3) versus 1 (0.5); P=0.004). Multivariate linear regression revealed that education and score in trait anxiety scale on admission are independent predictors of a reduction in state anxiety."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Anxiety Disorders",
+        "Cardiac Surgical Procedures",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Nurse-Patient Relations",
+        "Patient Education as Topic",
+        "Postoperative Complications",
+        "Preoperative Care",
+        "Preoperative Period"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Nurse-Patient Relations",
+          "Patient Education as Topic",
+          "Preoperative Care",
+          "Reduced State Anxiety",
+          "Lower Chest Infection",
+          "Decreased Postoperative Complications"
+        ],
+        [
+          "Cardiac Surgical Procedures",
+          "Preoperative Period",
+          "Nurse-led Education",
+          "Decrease in Trait Anxiety",
+          "Improved Immune Response",
+          "Fewer Postoperative Complications"
+        ],
+        [
+          "Adult",
+          "Preoperative Care",
+          "State Anxiety Measurement",
+          "Nurse-led Education",
+          "Reduction in State Anxiety",
+          "Enhanced Recovery"
+        ],
+        [
+          "Middle Aged",
+          "Cardiac Surgical Procedures",
+          "Standard Information",
+          "Higher State Anxiety",
+          "Increased Chest Infection",
+          "Higher Postoperative Complications"
+        ],
+        [
+          "Preoperative Education",
+          "Multivariate Linear Regression (education as independent predictor)",
+          "Reduced State Anxiety",
+          "Shorter Length of Stay",
+          "Decreased Readmission"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:51.294Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26348845",
+      "global_index": 907,
+      "question": "Pap smears with glandular cell abnormalities: Are they detected by rapid prescreening?",
+      "contexts": [
+        "Rapid prescreening (RPS) is one of the quality assurance (QA) methods used in gynecologic cytology. The efficacy of RPS has been previously studied but mostly with respect to squamous lesions; in fact, there has been no study so far specifically looking at the sensitivity of RPS for detecting glandular cell abnormalities.",
+        "A total of 80,565 Papanicolaou (Pap) smears underwent RPS during a 25-month period. A sample was designated as \"review for abnormality\" (R) if any abnormal cells (at the threshold of atypical squamous cells of undetermined significance/atypical glandular cells [AGC]) were thought to be present or was designated as negative (N) if none were detected. Each sample then underwent full screening (FS) and was designated as either R or N and also given a cytologic interpretation.",
+        "The final cytologic interpretation was a glandular cell abnormality (≥AGC) in 107 samples (0.13%); 39 of these (36.4%) were flagged as R on RPS. Twenty-four patients (33.8%) out of 71 who had histologic follow-up were found to harbor a high-grade squamous intraepithelial lesion or carcinoma; 13 of those 24 Pap smears (54.2%) had been flagged as R on RPS. Notably, 11 AGC cases were picked up by RPS only and not by FS and represented false-negative cases; 2 of these showed endometrial adenocarcinoma on histologic follow-up."
+      ],
+      "mesh_terms": [
+        "Adenocarcinoma",
+        "Adult",
+        "Aged",
+        "Aged, 80 and over",
+        "Female",
+        "Humans",
+        "Mass Screening",
+        "Middle Aged",
+        "Papanicolaou Test",
+        "Sensitivity and Specificity",
+        "Uterine Cervical Neoplasms",
+        "Vaginal Smears",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Rapid prescreening",
+          "Sensitivity and Specificity",
+          "Glandular cell abnormalities",
+          "Detection rate"
+        ],
+        [
+          "Papanicolaou Test",
+          "Atypical glandular cells (AGC)",
+          "RPS flagged as R",
+          "False‑negative cases",
+          "Endometrial adenocarcinoma"
+        ],
+        [
+          "Mass Screening",
+          "Adult Female",
+          "Uterine Cervical Neoplasms",
+          "Glandular cell abnormalities",
+          "Histologic follow‑up",
+          "High‑grade lesion identification"
+        ],
+        [
+          "Vaginal Smears",
+          "Rapid prescreening",
+          "Review for abnormality (R)",
+          "Missed by Full screening (FS)",
+          "Undetected AGC"
+        ],
+        [
+          "Middle Aged",
+          "Uterine Cervical Neoplasms",
+          "Glandular cell abnormalities",
+          "Sensitivity of RPS (36.4%)",
+          "Clinical implication"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:56:59.371Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26363639",
+      "global_index": 908,
+      "question": "Is aerobic workload positively related to ambulatory blood pressure?",
+      "contexts": [
+        "Cardiovascular disease is prevalent among workers with high levels of occupational physical activity. The increased risk may be due to a high relative aerobic workload, possibly leading to increased blood pressure. However, studies investigating the relation between relative aerobic workload and ambulatory blood pressure (ABP) are lacking. The aim was to explore the relationship between objectively measured relative aerobic workload and ABP.",
+        "A total of 116 cleaners aged 18-65 years were included after informed consent was obtained. A portable device (Spacelabs 90217) was mounted for 24-h measurements of ABP, and an Actiheart was mounted for 24-h heart rate measurements to calculate relative aerobic workload as percentage of relative heart rate reserve. A repeated-measure multi-adjusted mixed model was applied for analysis.",
+        "A fully adjusted mixed model of measurements throughout the day showed significant positive relations (p<0.001): a 1% increase in mean relative aerobic workload was associated with an increase of 0.42 ± 0.05 mmHg (95% CI 0.32-0.52 mmHg) in systolic ABP and 0.30 ± 0.04 mmHg (95% CI 0.22-0.38 mmHg) in diastolic ABP. Correlations between relative aerobic workload and ABP were significant."
+      ],
+      "mesh_terms": [
+        "Adolescent",
+        "Adult",
+        "Aged",
+        "Blood Pressure",
+        "Blood Pressure Monitoring, Ambulatory",
+        "Cross-Sectional Studies",
+        "Exercise",
+        "Female",
+        "Heart Rate",
+        "Humans",
+        "Hypertension",
+        "Male",
+        "Middle Aged",
+        "Workload",
+        "Young Adult"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Aerobic Workload",
+          "Relative Heart Rate Reserve",
+          "Relative Aerobic Workload (%)",
+          "Increase in Systolic Ambulatory Blood Pressure"
+        ],
+        [
+          "Occupational Physical Activity",
+          "High Relative Aerobic Workload",
+          "Elevated Ambulatory Blood Pressure",
+          "Hypertension Risk"
+        ],
+        [
+          "Actiheart Device",
+          "24‑h Heart Rate Measurement",
+          "Calculation of Relative Aerobic Workload",
+          "Positive Correlation with Ambulatory Blood Pressure"
+        ],
+        [
+          "Cross‑Sectional Study",
+          "Mixed‑Model Analysis",
+          "Significant Positive Relation (p<0.001)",
+          "Blood Pressure Rise per 1% Workload Increase"
+        ],
+        [
+          "Adult Workers",
+          "Variation in Workload Tolerance",
+          "Differential Impact on Ambulatory Blood Pressure",
+          "Implications for Cardiovascular Disease Prevalence"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:06.184Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26370095",
+      "global_index": 909,
+      "question": "Are financial incentives cost-effective to support smoking cessation during pregnancy?",
+      "contexts": [
+        "To investigate the cost-effectiveness of up to £400 worth of financial incentives for smoking cessation in pregnancy as an adjunct to routine health care.",
+        "Cost-effectiveness analysis based on a Phase II randomized controlled trial (RCT) and a cost-utility analysis using a life-time Markov model.",
+        "The RCT was undertaken in Glasgow, Scotland. The economic analysis was undertaken from the UK National Health Service (NHS) perspective.",
+        "A total of 612 pregnant women randomized to receive usual cessation support plus or minus financial incentives of up to £400 vouchers (US $609), contingent upon smoking cessation.",
+        "Comparison of usual support and incentive interventions in terms of cotinine-validated quitters, quality-adjusted life years (QALYs) and direct costs to the NHS.",
+        "The incremental cost per quitter at 34-38 weeks pregnant was £1127 ($1716).This is similar to the standard look-up value derived from Stapleton&West's published ICER tables, £1390 per quitter, by looking up the Cessation in Pregnancy Incentives Trial (CIPT) incremental cost (£157) and incremental 6-month quit outcome (0.14). The life-time model resulted in an incremental cost of £17 [95% confidence interval (CI) = -£93, £107] and a gain of 0.04 QALYs (95% CI = -0.058, 0.145), giving an ICER of £482/QALY ($734/QALY). Probabilistic sensitivity analysis indicates uncertainty in these results, particularly regarding relapse after birth. The expected value of perfect information was £30 million (at a willingness to pay of £30 000/QALY), so given current uncertainty, additional research is potentially worthwhile."
+      ],
+      "mesh_terms": [
+        "Cost-Benefit Analysis",
+        "Female",
+        "Health Promotion",
+        "Humans",
+        "Markov Chains",
+        "Motivation",
+        "Pregnancy",
+        "Pregnancy Complications",
+        "Prenatal Care",
+        "Quality-Adjusted Life Years",
+        "Scotland",
+        "Smoking",
+        "Smoking Cessation",
+        "Smoking Prevention"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Financial incentives",
+          "Smoking cessation",
+          "Quitters",
+          "Incremental cost per quitter"
+        ],
+        [
+          "Smoking cessation",
+          "Reduced pregnancy complications",
+          "Quality-Adjusted Life Years",
+          "Cost-Utility Analysis"
+        ],
+        [
+          "Markov model",
+          "Lifetime horizon",
+          "QALYs gained",
+          "ICER (£482/QALY)",
+          "Cost-effectiveness decision"
+        ],
+        [
+          "Health promotion",
+          "Motivation",
+          "Financial incentives",
+          "Increased quit rates"
+        ],
+        [
+          "NHS perspective",
+          "Direct healthcare costs",
+          "Cost-Benefit Analysis",
+          "Expected value of perfect information",
+          "Further research needed"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:13.914Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26383908",
+      "global_index": 910,
+      "question": "Does concept mapping enhance learning outcome of nursing students?",
+      "contexts": [
+        "This quasi-experimental study was conducted using a crossover design among two groups of total 64 nursing students. Participants were asked to create concept maps (group A) or were evaluated with the traditional method of quiz (group B) for eight weeks and then take a cumulative test (no. 1). Consequently, subjects used the alternate method for another eight weeks and then take the second cumulative test (no. 2).",
+        "The results of this study showed that the mean scores for cumulative tests (both no. 1 and no. 2) was higher in the group that engaged in map construction compared to the group that only take the quizzes. In addition, there was a gradual increase in the mean scores of developed map during the eight sessions of intervention."
+      ],
+      "mesh_terms": [
+        "Concept Formation",
+        "Humans",
+        "Learning",
+        "Students, Nursing"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Concept Mapping",
+          "Concept Formation",
+          "Learning",
+          "Improved Test Scores"
+        ],
+        [
+          "Nursing Students",
+          "Humans",
+          "Cumulative Test",
+          "Higher Scores"
+        ],
+        [
+          "Traditional Quiz",
+          "Limited Retrieval Practice",
+          "Lower Learning",
+          "Reduced Scores"
+        ],
+        [
+          "Map Construction",
+          "Gradual Skill Development",
+          "Increased Mean Scores",
+          "Enhanced Learning Outcome"
+        ],
+        [
+          "Crossover Design",
+          "Alternating Interventions",
+          "Within‑Subject Comparison",
+          "Evidence for Concept Mapping Benefit"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:19.327Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26399179",
+      "global_index": 911,
+      "question": "Eyelid-parotid metastasis: do we screen for coexisting masses?",
+      "contexts": [
+        "To report three cases illustrating that it is not unusual for a primary eyelid tumour to metastasise to the parotid gland and vice versa.",
+        "Two patients with malignant parotid tumours underwent radical parotidectomy and presented subsequently with eyelid lesions. Biopsy showed that both eyelid lesions were histologically similar to the primary parotid tumour. A third patient was noted to have ipsilateral upper eyelid and parotid gland tumours. Histology and immunocytochemistry were used to differentiate the primary tumour and the metastasis."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Breast Neoplasms",
+        "Carcinoma, Squamous Cell",
+        "Chemoradiotherapy",
+        "Diagnosis, Differential",
+        "Eyelid Neoplasms",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Staging",
+        "Parotid Neoplasms",
+        "Reconstructive Surgical Procedures",
+        "Surgical Procedures, Operative"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Eyelid Neoplasms",
+          "Metastasis to Parotid Gland",
+          "Parotid Imaging",
+          "Screening for Coexisting Masses"
+        ],
+        [
+          "Parotid Neoplasms",
+          "Radical Parotidectomy",
+          "Post‑operative Eyelid Lesion",
+          "Biopsy",
+          "Histology matches Primary",
+          "Indicates Metastasis",
+          "Prompt Screening for Additional Sites"
+        ],
+        [
+          "Diagnosis",
+          "Differential of Eyelid Lesion",
+          "Immunocytochemistry",
+          "Distinguish Primary vs Metastatic",
+          "Determines Staging",
+          "Guides Screening Strategy"
+        ],
+        [
+          "Breast Neoplasms",
+          "Squamous Cell Carcinoma",
+          "Potential Hematogenous Spread",
+          "Ey"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:25.536Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26418441",
+      "global_index": 912,
+      "question": "Can we ease the financial burden of colonoscopy?",
+      "contexts": [
+        "Polyps identified at colonoscopy are predominantly diminutive (<5 mm) with a small risk (>1%) of high-grade dysplasia or carcinoma; however, the cost of histological assessment is substantial.AIM: The aim of this study was to determine whether prediction of colonoscopy surveillance intervals based on real-time endoscopic assessment of polyp histology is accurate and cost effective.",
+        "A prospective cohort study was conducted across a tertiary care and private community hospital. Ninety-four patients underwent colonoscopy and polypectomy of diminutive (≤5 mm) polyps from October 2012 to July 2013, yielding a total of 159 polyps. Polyps were examined and classified according to the Sano-Emura classification system. The endoscopic assessment (optical diagnosis) of polyp histology was used to predict appropriate colonoscopy surveillance intervals. The main outcome measure was the accuracy of optical diagnosis of diminutive colonic polyps against the gold standard of histological assessment.",
+        "Optical diagnosis was correct in 105/108 (97.2%) adenomas. This yielded a sensitivity, specificity and positive and negative predictive values (with 95%CI) of 97.2% (92.1-99.4%), 78.4% (64.7-88.7%), 90.5% (83.7-95.2%) and 93% (80.9-98.5%) respectively. Ninety-two (98%) patients were correctly triaged to their repeat surveillance colonoscopy. Based on these findings, a cut and discard approach would have resulted in a saving of $319.77 per patient."
+      ],
+      "mesh_terms": [
+        "Adenomatous Polyps",
+        "Adult",
+        "Aged",
+        "Australia",
+        "Colonic Neoplasms",
+        "Colonoscopy",
+        "Cost-Benefit Analysis",
+        "Early Detection of Cancer",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Predictive Value of Tests",
+        "Prospective Studies",
+        "Sensitivity and Specificity"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Diminutive Polyps",
+          "Optical Diagnosis (Sano-Emura classification)",
+          "High Sensitivity & Specificity",
+          "Accurate Surveillance Interval Prediction",
+          "Cost Savings"
+        ],
+        [
+          "Histological Assessment",
+          "High Cost",
+          "Cut-and-Discard Approach",
+          "Reduced Pathology Expenses",
+          "Lower Patient Financial Burden"
+        ],
+        [
+          "Colonoscopy",
+          "Polypectomy",
+          "Real-time Endoscopic Assessment",
+          "Predictive Value of Tests",
+          "Appropriate Surveillance",
+          "Early Detection of Cancer"
+        ],
+        [
+          "Cost-Benefit Analysis",
+          "Sensitivity & Specificity Data",
+          "Savings per Patient",
+          "Feasibility of Optical Diagnosis",
+          "Policy Implementation"
+        ],
+        [
+          "Adult",
+          "Middle Aged",
+          "Adenomatous Polyps",
+          "Optical Diagnosis",
+          "Correct Triage to Surveillance",
+          "Decreased Colonoscopy Frequency",
+          "Economic Benefit"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:33.297Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26418796",
+      "global_index": 913,
+      "question": "Do Wound Cultures Give Information About the Microbiology of Blood Cultures in Severe Burn Patients?",
+      "contexts": [
+        "Blood stream infection (BSI) and the subsequent development of sepsis are among the most common infection complications occurring in severe burn patients. This study was designed to evaluate the relationship between the burn wound flora and BSI pathogens.",
+        "Documentation of all bacterial and fungal wound and blood isolates from severe burn patients hospitalized in the burn unit and intensive care unit was obtained from medical records retrieved retrospectively from a computerized, hospital-wide database over a 13-year period. All data were recorded in relation to the Ryan score.",
+        "Of 195 severe burn patients, 88 had at least 1 BSI episode. Transmission of the same pathogen from wound to blood was documented in 30% of the patients, with a rising BSI frequency as the Ryan score increased. There were a total of 263 bacteremic episodes in 88 study patients, 44% of blood isolates were documented previously in wound cultures, and transmission of the same pathogen from wound to blood was noted in 65% of bacteremic patients."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Anti-Bacterial Agents",
+        "Bacteremia",
+        "Burn Units",
+        "Burns",
+        "Chi-Square Distribution",
+        "Cohort Studies",
+        "Confidence Intervals",
+        "Databases, Factual",
+        "Female",
+        "Fungemia",
+        "Humans",
+        "Injury Severity Score",
+        "Israel",
+        "Male",
+        "Microbial Sensitivity Tests",
+        "Middle Aged",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Severity of Illness Index",
+        "Wound Infection"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Wound infection",
+          "Wound cultures",
+          "Same pathogen transmission",
+          "Bloodstream infection"
+        ],
+        [
+          "Severe burns",
+          "Ryan score",
+          "BSI frequency",
+          "Blood cultures"
+        ],
+        [
+          "Retrospective study",
+          "Database",
+          "Chi-square distribution",
+          "Association of wound and blood isolates"
+        ],
+        [
+          "Burn unit",
+          "Risk assessment",
+          "Microbial sensitivity tests",
+          "Empiric antibiotic selection"
+        ],
+        [
+          "Bacteremia",
+          "Blood cultures",
+          "Microbial sensitivity tests",
+          "Confidence intervals",
+          "Concordance with wound cultures"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:40.178Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26419377",
+      "global_index": 914,
+      "question": "Are pelvic anatomical structures in danger during arthroscopic acetabular labral repair?",
+      "contexts": [
+        "The purpose of this study was to evaluate safe depth for suture anchor insertion during acetabular labral repair and to determine the neighbouring structures at risk during drilling and anchor insertion.",
+        "Ten human cadaveric hips (six males and four females) were obtained. Acetabular labral surface was prepared and marked for right hips as 12, 1 and 3 o'clock positions, for left hips 12, 11 and 9 o'clock positions. Those were defined as anterior, anterior-superior and superior zones, respectively. These labral positions were drilled at defined zones. After measurements, depth of the bone at 10° and 20° drill angles on zones was compared statistically.",
+        "Acetabular bone widths at investigated labral insertion points did not statistically differ. A total of 14 injuries in 60 penetrations occurred (23.3 %) with free drill penetrations, and no injuries occurred with stopped drill penetrations. The bone depth was gradually decreasing from 10° to 20° drill angles and from anterior to superior inserting zones without significant importance. The risk of perforation to the pelvic cavity started with 20 mm drill depth, and the mean depth for all insertions was calculated as 31.7 mm (SD 2.6)."
+      ],
+      "mesh_terms": [
+        "Acetabulum",
+        "Arthroscopy",
+        "Cadaver",
+        "Cartilage, Articular",
+        "Female",
+        "Hip Joint",
+        "Humans",
+        "Male",
+        "Pelvis",
+        "Postoperative Complications",
+        "Safety",
+        "Suture Anchors"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Arthroscopy",
+          "Acetabular labral repair",
+          "Suture Anchors",
+          "Drill depth",
+          "Pelvic cavity",
+          "Injury risk"
+        ],
+        [
+          "Acetabulum",
+          "Bone width",
+          "Drill angle",
+          "Perforation",
+          "Pelvic structures"
+        ],
+        [
+          "Cadaver study",
+          "Measurement of drill depth",
+          "20 mm threshold",
+          "Safety",
+          "No pelvic injury with stopped drill"
+        ],
+        [
+          "Postoperative Complications",
+          "Free drill penetration",
+          "Pelvic cavity",
+          "Potential damage",
+          "Safety concerns"
+        ],
+        [
+          "Hip Joint",
+          "Anterior‑superior zone",
+          "Drill angle",
+          "Bone depth reduction",
+          "Increased risk to Pelvis"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:46.945Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26449554",
+      "global_index": 915,
+      "question": "Does either obesity or OSA severity influence the response of autotitrating CPAP machines in very obese subjects?",
+      "contexts": [
+        "The pressures delivered by autotitrating continuous positive airways pressure (CPAP) devices not only treat obstructive sleep apnoea (OSA) effectively but also give potentially interesting physiological information about the forces impinging on the pharynx. In earlier work from this unit, we used correlations between autoCPAP pressure and both OSA severity and obesity, to construct an algorithm to estimate the fixed CPAP pressure a patient required for subsequent clinical use. We wished to discover if these relationships could be reliably extended to a much more obese group.",
+        "We performed a prospective cohort study in an obese population. Measurements of obesity were made, OSA severity was recorded, and the 95th centile autoCPAP pressure was recorded during 1 week of autoCPAP. Spearman's rank correlation was performed between measurements of obesity and autoCPAP pressure, and between OSA severity and autoCPAP pressure.",
+        "Fifty-four obese individuals (median body mass index (BMI) 43.0 kg/m(2)), 52 % of whom had OSA (apnoea-hypopnoea index (AHI) ≥ 15), had a median 95th centile autoCPAP pressure of 11.8 cmH2O. We found no significant correlation between autoCPAP pressure and neck circumference, waist circumference or BMI. There was a moderate correlation between autoCPAP pressure and OSA severity (AHI r = 0.34, p = 0.02; oxygen desaturation index (ODI) r = 0.48, p < 0.001)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Body Mass Index",
+        "Cohort Studies",
+        "Continuous Positive Airway Pressure",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Obesity, Morbid",
+        "Pharynx",
+        "Polysomnography",
+        "Prospective Studies",
+        "Sleep Apnea, Obstructive",
+        "Statistics as Topic",
+        "Therapy, Computer-Assisted",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Obesity",
+          "Body Mass Index",
+          "AutoCPAP pressure"
+        ],
+        [
+          "OSA severity",
+          "Apnea-Hypopnea Index",
+          "AutoCPAP pressure"
+        ],
+        [
+          "Prospective cohort study",
+          "Waist circumference",
+          "Spearman's rank correlation",
+          "AutoCPAP pressure"
+        ],
+        [
+          "Neck circumference",
+          "Pharynx",
+          "AutoCPAP pressure"
+        ],
+        [
+          "AutoCPAP pressure",
+          "95th centile pressure",
+          "Algorithm",
+          "Fixed CPAP pressure",
+          "Treatment outcome"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:57:54.619Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26452334",
+      "global_index": 916,
+      "question": "Measurement of head and neck paragangliomas: is volumetric analysis worth the effort?",
+      "contexts": [
+        "The aim of this study was to assess the reproducibility of different measurement methods and define the most workable technique for measuring head and neck paragangliomas, to determine the best method for evaluating tumour growth. The evaluation of tumour growth is vital for a 'wait-and-scan' policy, a management strategy that became increasingly important.",
+        "Method comparison study.",
+        "Thirty tumours, including carotid body, vagal body, jugulotympanic tumours and conglomerates of multiple tumours, were measured in duplicate, using linear dimensions, manual area tracing and an automated segmentation method.",
+        "Reproducibility was assessed using the Bland-Altman method.",
+        "The smallest detectable difference using the linear dimension method was 11% for carotid body and 27% for vagal body tumours, compared with 17% and 20% for the manual area tracing method. Due to the irregular shape of paragangliomas in the temporal bone and conglomerates, the manual area tracing method showed better results in these tumours (26% and 8% versus 54% and 47%). The linear dimension method was significantly faster (median 4.27 versus 18.46 minutes, P<0.001). The automatic segmentation method yielded smallest detectable differences between 39% and 75%, and although fast (2.19 ± 1.49 minutes), it failed technically."
+      ],
+      "mesh_terms": [
+        "Female",
+        "Head and Neck Neoplasms",
+        "Humans",
+        "Image Interpretation, Computer-Assisted",
+        "Magnetic Resonance Angiography",
+        "Male",
+        "Paraganglioma",
+        "Reproducibility of Results",
+        "Tumor Burden"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Head and Neck Paraganglioma",
+          "Tumor Burden",
+          "Linear Dimension Method",
+          "Smallest Detectable Difference",
+          "Decision on Wait‑and‑Scan Policy"
+        ],
+        [
+          "Paraganglioma",
+          "Irregular Shape",
+          "Manual Area Tracing",
+          "Better Reproducibility",
+          "Feasibility of Volumetric Analysis"
+        ],
+        [
+          "Magnetic Resonance Angiography",
+          "Computer‑Assisted Image Interpretation",
+          "Automated Segmentation",
+          "Fast Measurement",
+          "High Variability",
+          "Questionable Worth"
+        ],
+        [
+          "Reproducibility of Results",
+          "Bland‑Altman Analysis",
+          "Linear vs Manual vs Automatic Methods",
+          "Time Consumption",
+          "Clinical Workflow Impact"
+        ],
+        [
+          "Head and Neck Neoplasms",
+          "Measurement of Tumor Growth",
+          "Volumetric (Area/Segmentation) vs Linear",
+          "Trade‑off Between Accuracy and Speed",
+          "Recommendation for Clinical Practice"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:01.827Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26460153",
+      "global_index": 917,
+      "question": "Cardiac reoperations in octogenarians: Do they really benefit?",
+      "contexts": [
+        "We retrospectively identified 84 consecutive patients aged ≥80 years, who underwent a cardiac reoperation at the department for Cardiothoracic Surgery in the Heart&Vessel Center Bad Bevensen between January 2007 and 2013. Demographic profiles as well as operative data were analyzed, and the patients were prospectively followed. Patient's functional status and quality of life were assessed with the Barthel Index, New York Heart Association class and the short form-12 questionnaire.",
+        "The mean age of the study group (61 men, 23 women) was 81.9 ± 1.9 years. Most redo-procedures were carried out after primary coronary artery bypass grafting (65%), primary aortic valve replacement (21%) and primary mitral valve replacement (6%). The most frequent actual surgical procedures were combined coronary artery bypass grafting and aortic valve replacement (26%), isolated coronary artery bypass grafting (19%), and isolated aortic valve replacement (19%). The mean length of hospital stay was 17 ± 15 days. In-hospital mortality counted for 32.1%. During follow up (29 ± 20 months) a further 19.0% of the patients died. The Barthel Index of the survivors was 89 ± 17 and their mean New York Heart Association class was 2 ± 1. A total of 93% of the patients were living at home. Summary scores of physical and mental health of the short form-12 questionnaire equalled those of an age- and sex-matched normative population."
+      ],
+      "mesh_terms": [
+        "Age Factors",
+        "Aged, 80 and over",
+        "Cardiovascular Surgical Procedures",
+        "Cause of Death",
+        "Cohort Studies",
+        "Female",
+        "Frail Elderly",
+        "Geriatric Assessment",
+        "Hospital Mortality",
+        "Humans",
+        "Kaplan-Meier Estimate",
+        "Male",
+        "Prognosis",
+        "Quality of Life",
+        "Reoperation",
+        "Retrospective Studies",
+        "Risk Assessment",
+        "Sex Factors",
+        "Survival Analysis",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Age Factors",
+          "Frail Elderly",
+          "Hospital Mortality",
+          "In‑hospital mortality 32%",
+          "Survival Analysis"
+        ],
+        [
+          "Primary Coronary Artery Bypass Grafting",
+          "Reoperation",
+          "Combined CABG + AVR",
+          "Barthel Index",
+          "Quality of Life comparable to normative"
+        ],
+        [
+          "Risk Assessment",
+          "Kaplan‑Meier Estimate",
+          "29‑month follow‑up survival",
+          "19% late mortality",
+          "Prognosis"
+        ],
+        [
+          "Geriatric Assessment",
+          "NYHA class",
+          "Physical health (SF‑12)",
+          "Living at home",
+          "Treatment Outcome"
+        ],
+        [
+          "Sex Factors",
+          "Procedure type distribution",
+          "Hospital stay length",
+          "Post‑operative complications",
+          "Cause of Death"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:09.524Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26471488",
+      "global_index": 918,
+      "question": "Does Mammographic Density have an Impact on the Margin Re-excision Rate After Breast-Conserving Surgery?",
+      "contexts": [
+        "Limited and conflicting data exist on an association between mammographic density (MD) and re-excision rates after breast-conserving surgery (BCS). Additionally, the correlation of MD with resection of unnecessary margins during initial BCS is unknown.",
+        "All women with a diagnosis of breast cancer from 2003 to 2012 and enrolled in a larger study on MD were evaluated. Operative and pathology reports were reviewed to determine margin resection and involvement. Mammographic density was determined both by breast imaging-reporting and data system (BI-RADS) classification and by an automated software program (Volpara Solutions). Additional margins were deemed unnecessary if the lumpectomy specimen margin was free of invasive tumor [≥2 mm for ductal carcinoma in situ (DCIS)] or if further re-excision was needed.",
+        "Of 655 patients, 398 (60.8%) had BCS, whereas 226 (34.5%) underwent initial mastectomy. The women with denser breasts (BI-RADS 3 or 4) underwent initial mastectomy more frequently than the women with less dense breasts (40.0 vs. 30.5%, respectively; p = 0.0118). Of the patients with BCS, 166 (41.7%) required separate re-excision. Additional margins were taken during BCS in 192 (48.2%) patients, with 151 (78.6%) proving to be unnecessary. In the bivariable analysis, the patients with denser breasts according to BI-RADS classification and volumetric density showed a trend toward requiring more frequent re-excision, but this association was not seen in the multivariable analysis. The rate of unnecessary margins did not differ by breast density. In the multivariate analysis, the re-excision rates increased with DCIS (p<0.0003) and decreased with resection of additional margins (p = 0.0043)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Biomarkers, Tumor",
+        "Breast Density",
+        "Breast Neoplasms",
+        "Carcinoma, Ductal, Breast",
+        "Carcinoma, Intraductal, Noninfiltrating",
+        "Female",
+        "Follow-Up Studies",
+        "Humans",
+        "Immunoenzyme Techniques",
+        "Mammary Glands, Human",
+        "Mastectomy, Segmental",
+        "Middle Aged",
+        "Neoplasm Invasiveness",
+        "Neoplasm Staging",
+        "Prognosis",
+        "Receptor, ErbB-2",
+        "Receptors, Estrogen",
+        "Receptors, Progesterone",
+        "Retrospective Studies"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Mammographic Density",
+          "BI-RADS Classification",
+          "Choice of Initial Surgery (Mastectomy vs BCS)",
+          "Margin Re-excision Rate"
+        ],
+        [
+          "Dense Breasts",
+          "Increased Likelihood of Initial Mastectomy",
+          "Fewer BCS Cases",
+          "Lower Observed Re-excision Rate in BCS Cohort"
+        ],
+        [
+          "Breast Density (Volpara Volumetric)",
+          "Trend Toward Higher Re-excision in Bivariable Analysis",
+          "No Independent Effect in Multivariable Analysis",
+          "Impact Uncertain"
+        ],
+        [
+          "Ductal Carcinoma In Situ (DCIS)",
+          "Requirement for ≥2 mm Margin",
+          "Higher Re-excision Rate",
+          "Confounds Association with Breast Density"
+        ],
+        [
+          "Additional Margins Taken During BCS",
+          "Majority Unnecessary",
+          "Decreased Need for Re-excision",
+          "Mitigates Potential Effect of Mammographic Density"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:18.542Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26485091",
+      "global_index": 919,
+      "question": "Does the use of atypical antipsychotics as adjunctive therapy in depression result in cost savings?",
+      "contexts": [
+        "Several atypical antipsychotics (AAPs) are used as second-line agents for treatment resistant depression. AAPs can be expensive compared to other treatment options and can cause several side effects.",
+        "To estimate healthcare costs and utilization of AAPs compared to other second-line agents.",
+        "Observational study using Medicaid claims data (2006-2011). Subjects were depression-diagnosed adult members with at least two prescriptions of antidepressant medications followed by a second-line agent. Gamma generalized linear models (GLM) produced estimates of the difference in mean expenditures among treatment groups after adjusting for individual baseline characteristics using propensity scores. Negative binomial models produced estimates of the difference in number of hospitalizations and emergency department (ED) visits.",
+        "A total of 3910 members received second-line treatment. Treatment groups were AAPs (n = 2211), augmentation agents other than AAPs (n = 1008), and antidepressant switching (n = 691). AAPs resulted in higher mean adjusted pharmacy costs and higher mean adjusted total mental health-related costs. Mean adjusted total healthcare costs and number of inpatient and ED visits were not different among treatments."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Antipsychotic Agents",
+        "Cost Savings",
+        "Depressive Disorder",
+        "Drug Therapy, Combination",
+        "Female",
+        "Health Expenditures",
+        "Humans",
+        "Male",
+        "Medicaid",
+        "Middle Aged",
+        "United States",
+        "Young Adult"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Depressive Disorder",
+          "Atypical Antipsychotics (adjunctive)",
+          "Higher Pharmacy Costs",
+          "Similar Total Healthcare Costs",
+          "No Cost Savings"
+        ],
+        [
+          "Treatment-Resistant Depression",
+          "Second-line AAPs",
+          "Reduced Inpatient Admissions",
+          "Potential Decrease in Hospital Costs",
+          "Cost Savings"
+        ],
+        [
+          "Medicaid Population",
+          "Propensity Score–Adjusted GLM",
+          "AAPs vs Other Augmentation",
+          "Higher Mental Health–Related Expenditures",
+          "No Cost Savings"
+        ],
+        [
+          "Atypical Antipsychotics",
+          "Metabolic Side Effects",
+          "Additional Monitoring",
+          "Increased Outpatient Visits",
+          "Higher Non‑mental Health Costs",
+          "Offsets Savings"
+        ],
+        [
+          "Combination Therapy",
+          "Antidepressant Switching vs Augmentation",
+          "Similar Emergency Department Visits",
+          "No Difference in Total Costs",
+          "No Cost Savings"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:25.639Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26505821",
+      "global_index": 920,
+      "question": "Are Biochemical Markers of Bone Turnover Representative of Bone Histomorphometry in 370 Postmenopausal Women?",
+      "contexts": [
+        "The levels of bone formation and resorption can be assessed at the tissue level by bone histomorphometry on transiliac bone biopsies. Systemic biochemical markers of bone turnover reflect the overall bone formation and resorption at the level of the entire skeleton but cannot discriminate the different skeletal compartments.",
+        "Our aim was to investigate the correlations between the serum biochemical markers of formation and resorption with histomorphometric parameters.",
+        "We performed post hoc analysis of a previous clinical study.",
+        "Patients were selected from the general population.",
+        "A total of 371 untreated postmenopausal osteoporotic women aged 50 to 84 years with a lumbar T-score ≤ -2.5 SD or ≤ -1 SD with at least one osteoporotic fracture.",
+        "Transiliac bone biopsies were obtained after a double tetracycline labeling, and blood samples were collected.",
+        "The static and dynamic parameters of formation and bone resorption were measured by histomorphometry. Serum biochemical markers of formation (bone alkaline phosphatase [ALP]; procollagen type I N-terminal propeptide [PINP]) and resorption (C-terminal crosslinking telopeptide of collagen type 1 [sCTX]) were assessed.",
+        "The mean values of biochemical markers were: bone ALP, 15.0 ± 5.2 ng/mL; PINP, 56.2 ± 21.9 μg/mL; and sCTX, 0.58 ± 0.26 ng/mL. Bone ALP and PINP were significantly correlated with both the static and dynamic parameters of formation (0.21 ≤ r' ≤ 0.36; 0.01 ≥ P ≥ .0001). sCTX was significantly correlated with all resorption parameters (0.18 ≤ r' ≤ 0.24; 0.02 ≥ P ≥ .0001)."
+      ],
+      "mesh_terms": [
+        "Aged",
+        "Aged, 80 and over",
+        "Alkaline Phosphatase",
+        "Biomarkers",
+        "Bone Remodeling",
+        "Bone Resorption",
+        "Bone and Bones",
+        "Collagen Type II",
+        "Female",
+        "Humans",
+        "Ilium",
+        "Kidney Function Tests",
+        "Middle Aged",
+        "Osteogenesis",
+        "Osteoporosis",
+        "Osteoporotic Fractures",
+        "Peptide Fragments",
+        "Postmenopause",
+        "Procollagen"
+      ],
+      "ground_truth": "maybe",
+      "reasoning_paths": [
+        [
+          "Postmenopausal Women",
+          "Osteoporosis",
+          "Bone Alkaline Phosphatase (ALP)",
+          "Correlation with Histomorphometric Formation Parameters"
+        ],
+        [
+          "sCTX",
+          "Serum Bone Resorption Marker",
+          "Correlation with Histomorphometric Resorption Parameters",
+          "Validation of Systemic Marker"
+        ],
+        [
+          "Systemic Biochemical Markers",
+          "Reflect Whole‑Skeleton Turnover",
+          "Cannot Discriminate Skeletal Compartments",
+          "Iliac Crest Histomorphometry",
+          "Site‑Specific Bone Turnover Assessment"
+        ],
+        [
+          "Age 80 and over",
+          "Increased Bone Resorption",
+          "Elevated sCTX",
+          "Higher Correlation Coefficient (r' 0.18‑0.24)"
+        ],
+        [
+          "Question",
+          "Analysis",
+          "Evidence",
+          "Conclusion"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:34.970Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26516021",
+      "global_index": 921,
+      "question": "Does evidence-based practice improve patient outcomes?",
+      "contexts": [
+        "Evidence-based practice (EBP) is widely promoted, but does EBP produce better patient outcomes? We report a natural experiment when part of the internal medicine service in a hospital was reorganized in 2003 to form an EBP unit, the rest of the service remaining unchanged. The units attended similar patients until 2012 permitting comparisons of outcomes and activity.",
+        "We used routinely collected statistics (2004-11) to compare the two different methods of practice and test whether patients being seen by the EBP unit differed from standard practice (SP) patients. Data were available by doctor and year. To check for differences between the EBP and SP doctors prior to reorganization, we used statistics from 2000 to 2003. We looked for changes in patient outcomes or activity following reorganization and whether the EBP unit was achieving significantly different results from SP. Data across the periods were combined and tested using Mann-Whitney test.",
+        "No statistically significant differences in outcomes were detected between the EBP and the SP doctors prior to reorganization. Following the unit's establishment, the mortality of patients being treated by EBP doctors compared with their previous performance dropped from 7.4% to 6.3% (P < 0.02) and length of stay from 9.15 to 6.01 days (P = 0.002). No statistically significant improvements were seen in SP physicians' performance. No differences in the proportion of patients admitted or their complexity between the services were detected. Despite this, EBP patients had a clinically significantly lower risk of death 6.27% versus 7.75% (P < 0.001) and a shorter length of stay 6.01 versus 8.46 days (P < 0.001) than SP patients. Readmission rates were similar: 14.4% (EBP); 14.5% (SP). EBP doctors attended twice as many patients/doctor as SP doctors."
+      ],
+      "mesh_terms": [
+        "Evidence-Based Medicine",
+        "Hospital Administration",
+        "Hospital Bed Capacity",
+        "Humans",
+        "Internal Medicine",
+        "Length of Stay",
+        "Patient Readmission",
+        "Practice Patterns, Physicians'",
+        "Spain",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Evidence-Based Medicine",
+          "Practice Patterns",
+          "Mortality Reduction",
+          "Treatment Outcome"
+        ],
+        [
+          "Internal Medicine",
+          "Reorganization into EBP Unit",
+          "Shorter Length of Stay",
+          "Hospital Bed Capacity"
+        ],
+        [
+          "Physicians",
+          "Evidence-Based Practice",
+          "Lower Risk of Death",
+          "Patient Outcomes"
+        ],
+        [
+          "Hospital Administration",
+          "Implementation of EBP",
+          "Twice as Many Patients per Doctor",
+          "Readmission Rate Stability"
+        ],
+        [
+          "Spain",
+          "Comparative Study (EBP vs Standard Practice)",
+          "Statistically Significant Mortality Decrease",
+          "Evidence-Based Practice Improves Outcomes"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:42.764Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26518378",
+      "global_index": 922,
+      "question": "Are Reviewers' Scores Influenced by Citations to Their Own Work?",
+      "contexts": [
+        "Academic medical researchers are judged by how often their publications are cited in the literature. When serving as journal reviewers, they may be more favorably disposed to manuscripts that cite their work. We investigate whether manuscripts that contain a citation to the reviewer's work receive higher evaluations than those that do not and whether peer reviewers encourage authors to cite that reviewer's work.",
+        "We analyzed all research manuscripts submitted in 2012 to Annals of Emergency Medicine to determine whether they contained citations to each reviewer's work. To determine whether citation affected reviewer scores, we obtained each reviewer's score of the manuscript's overall desirability (1=worst to 5=best) and used descriptive statistics and regression modeling to compare scores of cited and noncited reviewers. We also enumerated how often reviewers suggested that authors add citations to the reviewer's work or other work.",
+        "There were 395 manuscripts and 999 corresponding reviews with an manuscript desirability score. The 83 reviews by cited reviewers (8.3%) had a mean score of 2.8 (SD 1.4); the 916 reviews by noncited reviewers (91.7%), 2.5 (1.2; Δ=0.3; 95% confidence interval [CI] 0 to 0.6). The mean score in the 117 reviews of the noncited reviewers of the 57 manuscripts that had both cited and noncited reviewers was 2.9 (SD 1.2) compared with 2.9 (SD 1.1) for the 68 reviews by cited reviewers (Δ=0; 95% CI -0.3 to 0.4). In the final ordinal regression model, the unadjusted OR for the manuscript desirability score was 1.6 (95% CI 1.0 to 2.7); when adjusting for the manuscripts' mean desirability score, it was 1.4 (95% CI 0.8 to 2.2), demonstrating that manuscript quality was a confounder. Authors were asked to add a citation to the reviewer's work in 28 reviews (3%) but to others' work in 98 (10%)."
+      ],
+      "mesh_terms": [
+        "Authorship",
+        "Biomedical Research",
+        "Emergency Medicine",
+        "Humans",
+        "Manuscripts, Medical as Topic",
+        "Peer Review, Research",
+        "Periodicals as Topic",
+        "Publishing"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Peer Review",
+          "Reviewer Self‑Citation",
+          "Manuscript Desirability Score",
+          "Potential Bias"
+        ],
+        [
+          "Manuscripts",
+          "Citations to Reviewer’s Work",
+          "Reviewer Score ↑",
+          "Adjusted Regression Model",
+          "Confounding by Manuscript Quality"
+        ],
+        [
+          "Authorship",
+          "Publication Metrics",
+          "Incentive to Cite Own Work",
+          "Reviewer Recommendation",
+          "Added Citations"
+        ],
+        [
+          "Biomedical Research",
+          "Emergency Medicine Journal",
+          "Peer Review Process",
+          "Reviewer Suggestion to Cite",
+          "Publication Decision"
+        ],
+        [
+          "Publishing",
+          "Periodicals as Topic",
+          "Reviewer Scores",
+          "Statistical Comparison (cited vs noncited)",
+          "Interpretation of OR"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:58:51.534Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26536001",
+      "global_index": 923,
+      "question": "Is There an Additional Value of Using Somatostatin Receptor Subtype 2a Immunohistochemistry Compared to Somatostatin Receptor Scintigraphy Uptake in Predicting Gastroenteropancreatic Neuroendocrine Tumor Response?",
+      "contexts": [
+        "It is unknown whether tumoral somatostatin receptor subtype 2a (sst2a) immunohistochemistry (IHC) has additional value compared to somatostatin receptor scintigraphy (SRS) uptake using OctreoScan® in predicting response to peptide receptor radiotherapy using 177Lu-octreotate (PRRT) in patients with gastroenteropancreatic neuroendocrine tumors (GEP-NETs). The aims of this study were: (1) to establish the percentage of sst2a immunopositivity in GEP-NET samples of PRRT-treated patients, (2) to determine the relationship between best GEP-NET response using RECIST 1.0 criteria 1 year after PRRT and tumoral sst2a IHC, and (3) to compare characteristics of patients with sst2a IHC-negative and -positive tumors.",
+        "All 73 consecutive patients were selected for PRRT based on a positive SRS. Radiological response was scored according to RECIST 1.0 criteria. sst2a status was detected on tumor samples by IHC.",
+        "In total, 93% of GEP-NET samples showed sst2a IHC positivity. No statistically significant relationship was observed between in vitro sst2a expression and in vivo best GEP-NET response 1 year after PRRT (p = 0.47). Sex, primary tumor site, disease stage, ENETS TNM classification, Ki-67 index, highest serum chromogranin-A level, and highest neuron-specific enolase level were not significantly different between patients with negative and positive sst2a tumoral IHC with the exception of age at diagnosis (p = 0.007)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Antineoplastic Agents",
+        "Female",
+        "Gene Expression Regulation, Neoplastic",
+        "Humans",
+        "Immunohistochemistry",
+        "Intestinal Neoplasms",
+        "Male",
+        "Middle Aged",
+        "Neuroendocrine Tumors",
+        "Octreotide",
+        "Pancreatic Neoplasms",
+        "Radionuclide Imaging",
+        "Receptors, Somatostatin",
+        "Stomach Neoplasms",
+        "Treatment Outcome"
+      ],
+      "ground_truth": "no",
+      "reasoning_paths": [
+        [
+          "Somatostatin Receptor Scintigraphy (SRS) Uptake",
+          "In Vivo Receptor Visualization",
+          "Selection for 177Lu‑octreotate PRRT",
+          "RECIST 1.0 Response Assessment"
+        ],
+        [
+          "sst2a Immunohistochemistry",
+          "In Vitro Receptor Expression Level",
+          "Correlation with SRS Uptake",
+          "Predictive Value for PRRT Outcome"
+        ],
+        [
+          "Age at Diagnosis",
+          "Variation in sst2a IHC Positivity",
+          "Potential Confounding of PRRT Response Prediction",
+          "Interpretation of Treatment Outcome"
+        ],
+        [
+          "Ki‑67 Index",
+          "Tumor Proliferation Rate",
+          "Influence on PRRT Efficacy",
+          "No Association with sst2a IHC Status"
+        ],
+        [
+          "Gastroenteropancreatic Neuroendocrine Tumor",
+          "Somatostatin Receptor Subtype 2a",
+          "Target for Octreotide‑Based Radionuclide Imaging",
+          "Basis for PRRT Eligibility"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:59:00.523Z",
+      "processed_at": "2026-01-27T18-50-46"
+    },
+    {
+      "pmid": "26548832",
+      "global_index": 924,
+      "question": "Assessing Patient Reported Outcomes Measures via Phone Interviews Versus Patient Self-Survey in the Clinic: Are We Measuring the Same Thing?",
+      "contexts": [
+        "Longitudinally following patients requires a full-time employee (FTE)-dependent data inflow infrastructure. There are efforts to capture patient-reported outcomes (PROs) by the use of non-FTE-dependent methodologies. In this study, we set out to assess the reliability of PRO data captured via FTE-dependent compared with non-FTE-dependent methodologies.",
+        "A total of 119 adult patients (65 men) who underwent 1-and 2-level lumbar fusions at Duke University Medical Center were enrolled in this prospective study. Enrollment criteria included available demographic, clinical, and PRO data. All patients completed 2 sets of questionnaires--the first a phone interviews and the second a self-survey. There was at least a 2-week period between the phone interviews and self-survey. Questionnaires included the Oswestry Disability Index (ODI), the visual analog scale for back pain (VAS-BP), and the visual analog scale for leg pain (VAS-LP). Repeated-measures analysis of variance was used to compare the reliability of baseline PRO data captured.",
+        "A total of 39.49% of patients were smokers, 21.00% had diabetes, and 11.76% had coronary artery disease; 26.89% reported history of anxiety disorder, and 28.57% reported history of depression. A total of 97.47% of patients had a high-school diploma or General Education Development, and 49.57% attained a 4-year college degree or postgraduate degree. We observed a high correlation between baseline PRO data captured between FTE-dependent versus non-FTE dependent methodologies (ODI: r = -0.89, VAS-BP: r = 0.74, VAS-LP: r = 0.70). There was no difference in PROs of baseline pain and functional disability between FTE-dependent and non-FTE-dependent methodologies: baseline ODI (FTE-dependent: 47.73 ± 16.77 [mean ± SD] vs. non-FTE-dependent: 45.81 ± 12.11, P = 0.39), VAS-LP (FTE-dependent: 6.13 ± 2.78 vs. non-FTE-dependent: 6.46 ± 2.79, P = 0.36) and VAS-BP (FTE-dependent: 6.33 ± 2.90 vs. non-FTE-dependent: 6.53 ± 2.48, P = 0.57)."
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Disability Evaluation",
+        "Female",
+        "Health Personnel",
+        "Humans",
+        "Lumbosacral Region",
+        "Male",
+        "Middle Aged",
+        "Pain",
+        "Pain Measurement",
+        "Patient Outcome Assessment",
+        "Prospective Studies",
+        "Reproducibility of Results",
+        "Risk Factors",
+        "Socioeconomic Factors",
+        "Spinal Fusion",
+        "Surveys and Questionnaires",
+        "Telephone"
+      ],
+      "ground_truth": "yes",
+      "reasoning_paths": [
+        [
+          "Telephone",
+          "Patient Outcome Assessment",
+          "Surveys and Questionnaires",
+          "Reproducibility of Results"
+        ],
+        [
+          "Oswestry Disability Index",
+          "Patient Outcome Assessment",
+          "Reproducibility of Results",
+          "Prospective Studies"
+        ],
+        [
+          "Visual Analog Scale",
+          "Pain",
+          "Lumbar Fusion",
+          "Functional Disability",
+          "Patient Reported Outcomes"
+        ],
+        [
+          "Non-FTE-dependent methodology",
+          "Telephone",
+          "Baseline PRO Data",
+          "No Significant Difference",
+          "Same Measurement"
+        ],
+        [
+          "FTE-dependent methodology",
+          "In-Person Survey",
+          "Baseline ODI",
+          "High Correlation",
+          "Measuring Same Thing"
+        ]
+      ],
+      "num_paths": 5,
+      "generation_success": true,
+      "generation_attempts": 1,
+      "timestamp": "2026-01-27T18:59:09.689Z",
+      "processed_at": "2026-01-27T18-50-46"
+    }
+  ]
+}
